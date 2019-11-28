@@ -1,0 +1,5 @@
+<map id="getLastRun" name="getLastRun">
+<area shape="rect" id="node1" title="Get last task run." alt="" coords="118,31,207,56"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a643e50b0eab988f3a398f68cc7055a78" title="Check if it&#39;s time to launch cron." alt="" coords="10,5,65,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a658defb34762c8f40085aec87e16ba1a" title="Get cron data in array." alt="" coords="5,55,70,80"/>
+</map>

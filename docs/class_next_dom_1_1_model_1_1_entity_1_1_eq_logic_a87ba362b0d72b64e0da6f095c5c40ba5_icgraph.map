@@ -1,0 +1,4 @@
+<map id="getAllAttributes" name="getAllAttributes">
+<area shape="rect" id="node1" title="Get all attributes of the object (used for cast)" alt="" coords="178,5,289,31"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac53d45ecb60d18d33a9ab86c097d187d" title="Cast from a raw eqLogic." alt="" coords="5,5,130,31"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="apiModeResult" name="apiModeResult">
+<area shape="rect" id="node1" title="Test if api are are enabled." alt="" coords="5,105,116,131"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="164,36,398,75"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#a312fc0263dc44172280853528d00654d" title="Get server IP from PHP server data." alt="" coords="172,99,390,137"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#a080fa08bcd8f63f218f5606369387e34" title=" " alt="" coords="172,161,390,200"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="446,5,681,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="470,68,658,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="729,68,917,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="965,68,1153,107"/>
+</map>

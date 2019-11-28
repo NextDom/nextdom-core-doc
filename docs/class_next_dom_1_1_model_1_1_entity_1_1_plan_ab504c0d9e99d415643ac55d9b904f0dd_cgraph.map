@@ -1,0 +1,12 @@
+<map id="preInsert" name="preInsert">
+<area shape="rect" id="node1" title=" " alt="" coords="5,129,79,155"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan.html#acefb736aa1fbe3315007c8701d6dfbfb" title=" " alt="" coords="224,5,286,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan.html#a10cecc873a9df6dfb9abee7707ba466a" title=" " alt="" coords="214,55,296,80"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan.html#a8e108607d735bab54ec369cab594ab9d" title=" " alt="" coords="207,104,304,129"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan.html#a0dcab5f7b59ee7a7567ba9cba223333f" title=" " alt="" coords="191,153,319,179"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_managers_1_1_plan_manager.html#a73bf6aeeb94b89ef64d8afa2c0ba351b" title=" " alt="" coords="127,203,383,241"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan.html#ac8237ffbe1c68be72068f374f7ab4161" title=" " alt="" coords="224,265,286,291"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4b821e14be0e43a27c7e7093d4d2237d" title="Get one object from database." alt="" coords="431,203,619,241"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="667,203,855,241"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="903,203,1091,241"/>
+</map>

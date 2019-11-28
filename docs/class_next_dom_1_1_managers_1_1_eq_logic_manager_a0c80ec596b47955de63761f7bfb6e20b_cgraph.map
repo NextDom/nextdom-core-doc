@@ -1,0 +1,6 @@
+<map id="allType" name="allType">
+<area shape="rect" id="node1" title="TODO: ???" alt="" coords="5,12,69,37"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#abf4092a262c5b6b639d7c501c1b79120" title="Get data from database." alt="" coords="117,5,305,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="353,5,541,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="589,5,777,44"/>
+</map>

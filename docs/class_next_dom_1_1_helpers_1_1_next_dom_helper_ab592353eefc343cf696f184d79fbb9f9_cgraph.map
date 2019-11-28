@@ -1,0 +1,15 @@
+<map id="startSystem" name="startSystem">
+<area shape="rect" id="node1" title="Start all cron tasks and scenarios." alt="" coords="5,85,97,111"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="1010,84,1245,123"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a2eb7fdd340eb5ab95e82b4500a9abbbf" title="Get temporary folder and creates it if not exists." alt="" coords="525,47,629,72"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a28bc8c5f706be1ed57bd99742193f44d" title="Save new configuration value in the database." alt="" coords="145,136,412,161"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#a116d3599268b4fb3d556a8851654235c" title="Start a service." alt="" coords="171,185,385,224"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="1293,107,1528,145"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="1316,192,1505,231"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="1576,192,1764,231"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1812,221,2000,260"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a01c203ce9e139c8217a39d446eca7ea3" title="Execute a query without result (DELETE, UPDATE, INSERT, etc.)" alt="" coords="742,256,962,281"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#aaa69e3f215a5e653f61ec2bb0d57d44e" title="Get configuration informations or global configuration." alt="" coords="517,97,637,123"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ac91a39d2fc0ff49855ad66b906d00bf0" title="Remove key from the database." alt="" coords="460,199,694,237"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#acda790553577ca5cef6f61bd79cc3f45" title="TODO: ???" alt="" coords="763,97,942,123"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="getSchedule" name="getSchedule">
+<area shape="rect" id="node1" title=" " alt="" coords="173,55,269,80"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a325ddec450eb6ce8971005282ae3fff8" title="Get date of the next task run." alt="" coords="5,5,125,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a643e50b0eab988f3a398f68cc7055a78" title="Check if it&#39;s time to launch cron." alt="" coords="38,55,93,80"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a680e55c05d9781a772524c546cac6293" title="Check if cron object is valid before save." alt="" coords="30,104,101,129"/>
+</map>

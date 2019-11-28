@@ -1,0 +1,5 @@
+<map id="getLogFileList" name="getLogFileList">
+<area shape="rect" id="node1" title="Get list of log files." alt="" coords="232,31,336,56"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_ajax_1_1_log_ajax.html#a635cee6ce0ca514b13a5e5a9030e5ca8" title=" " alt="" coords="5,5,184,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a9280da9ee07ad2c81ee06705c8ff76ec" title="Get list of log files." alt="" coords="72,55,117,80"/>
+</map>

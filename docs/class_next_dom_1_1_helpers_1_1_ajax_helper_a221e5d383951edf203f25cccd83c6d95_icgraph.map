@@ -1,0 +1,6 @@
+<map id="getResponse" name="getResponse">
+<area shape="rect" id="node1" title="Convert data to JSON response." alt="" coords="263,31,362,56"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_ajax_helper.html#a2c52ad1bb84258f55a36a4e145495e67" title="Send error." alt="" coords="155,5,205,31"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_ajax_helper.html#a11ebee032908f599b85037629ae0e342" title="Send answer." alt="" coords="145,55,215,80"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_ajax_helper.html#ac89b7952fdcfcc125b7e9b96bd8c7e73" title="Check ajax token validity." alt="" coords="5,5,97,31"/>
+</map>

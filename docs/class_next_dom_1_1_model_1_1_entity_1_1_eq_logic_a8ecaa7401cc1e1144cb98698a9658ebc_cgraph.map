@@ -1,0 +1,9 @@
+<map id="getObject" name="getObject">
+<area shape="rect" id="node1" title="Get attached object." alt="" coords="5,71,84,96"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a4f4b5d496f57ab62b86a3a95d2763afc" title="Get an object by with his id." alt="" coords="132,36,335,75"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a11031cf6fecc75036c3019e5927f7d16" title="Set attached object." alt="" coords="195,99,272,124"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="383,5,571,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4b821e14be0e43a27c7e7093d4d2237d" title="Get one object from database." alt="" coords="383,68,571,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="619,68,807,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="855,68,1044,107"/>
+</map>

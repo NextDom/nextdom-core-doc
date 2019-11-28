@@ -1,0 +1,15 @@
+<map id="setCronErrorOnException" name="setCronErrorOnException">
+<area shape="rect" id="node1" title="Set cron error on exception." alt="" coords="5,93,179,119"/>
+<area shape="rect" id="node2" href="$core_8php.html#a9c382c68c216e05493103f35a645f3ec" title="Translate a string (global function)" alt="" coords="325,5,364,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#ada013231ed32c57edca6885116d176c3" title="Log an error." alt="" coords="249,55,441,93"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a850c8747b69f08f09abbe6a411da9c80" title="Get exception message." alt="" coords="249,117,441,156"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ace8e646ad07ddadd65d783e56b7a24b1" title="Generate Key with letters and numbers." alt="" coords="227,180,462,219"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a4d086122826f89ccd612789af05ff0ba" title="Add a message to the log and ensure that there are never more than 1000 lines." alt="" coords="510,61,728,87"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_managers_1_1_message_manager.html#a3fb2dbd02fd3e3b3e6c49e9420fda03e" title=" " alt="" coords="776,23,974,61"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a59bc2904869e417bffca60916a5cde96" title="Get logger depends of target." alt="" coords="779,85,971,124"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="1022,85,1256,124"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="1304,53,1539,92"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="1328,116,1516,155"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="1587,116,1775,155"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1823,116,2011,155"/>
+</map>

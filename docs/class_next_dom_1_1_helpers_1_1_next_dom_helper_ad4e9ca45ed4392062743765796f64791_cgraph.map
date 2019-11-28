@@ -1,0 +1,14 @@
+<map id="getHardwareName" name="getHardwareName">
+<area shape="rect" id="node1" title="Get hostname." alt="" coords="5,223,139,248"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="1052,108,1287,147"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#a3a4126fcc0101a0700ad459c1b068416" title=" " alt="" coords="213,273,427,312"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a28bc8c5f706be1ed57bd99742193f44d" title="Save new configuration value in the database." alt="" coords="187,116,453,141"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="1335,141,1569,180"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="1358,56,1546,95"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="1617,56,1805,95"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1853,28,2042,67"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a01c203ce9e139c8217a39d446eca7ea3" title="Execute a query without result (DELETE, UPDATE, INSERT, etc.)" alt="" coords="784,5,1004,31"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#aaa69e3f215a5e653f61ec2bb0d57d44e" title="Get configuration informations or global configuration." alt="" coords="559,116,678,141"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ac91a39d2fc0ff49855ad66b906d00bf0" title="Remove key from the database." alt="" coords="501,53,736,92"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#acda790553577ca5cef6f61bd79cc3f45" title="TODO: ???" alt="" coords="804,115,984,140"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="byLogicalId" name="byLogicalId">
+<area shape="rect" id="node1" title="Get the bets from its logical identifier." alt="" coords="529,232,618,257"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_ajax_1_1_update_ajax.html#ab8f79025aae0d0b3b53ecf6921cbd460" title=" " alt="" coords="265,5,444,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a4b9f34774d9077fa3b90f0bafa80970f" title="TODO ???" alt="" coords="243,68,466,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#aa5e360f49dd61daca06ed4f1a1c1634f" title=" " alt="" coords="245,131,464,169"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_controller_1_1_tools_1_1_markets_1_1_market_jee_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render market page." alt="" coords="228,193,481,232"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#ab5019584a7fd1de86f069cbf20e5f06d" title=" " alt="" coords="268,256,441,295"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#a7cd313427ceea0f244c0337c562d2f0d" title="Obtenir les informations." alt="" coords="278,319,432,357"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_ajax_1_1_update_ajax.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="265,381,444,420"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_ajax_1_1_update_ajax.html#afc8a3c62679cf00ade9f15fb2a6d6132" title=" " alt="" coords="249,444,460,469"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_ajax_1_1_object_ajax.html#ab03d9e184bb9519ea5685789b92112c5" title=" " alt="" coords="5,68,180,107"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#aab416c70db3acdc92e2b4cfdaec89137" title="Obtenir l&#39;adresse des changelogs." alt="" coords="16,287,170,325"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#af38e13adb09ea1cfbea5e625458f3f3d" title="Obtenir l&#39;adresse de la documentation." alt="" coords="6,349,180,388"/>
+</map>

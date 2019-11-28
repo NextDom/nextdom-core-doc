@@ -1,0 +1,28 @@
+<map id="getRoomsSummary" name="getRoomsSummary">
+<area shape="rect" id="node1" title="Get HTML summary from list of rooms passed in argument separated by ;." alt="" coords="5,184,144,209"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_rest_1_1_room_rest.html#a814e8217867111837a28fe02601bb7b7" title="Get HTML room summary." alt="" coords="192,184,325,209"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a4f4b5d496f57ab62b86a3a95d2763afc" title="Get an object by with his id." alt="" coords="373,63,577,101"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#aa1eb6eeb80a044419601d0cd58ad8407" title="Get summary in HTML format." alt="" coords="379,265,571,304"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="625,5,813,44"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4b821e14be0e43a27c7e7093d4d2237d" title="Get one object from database." alt="" coords="1188,60,1376,99"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="2884,351,3072,389"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="3120,417,3308,456"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="2318,312,2553,351"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a76d9e5c745b6c0dea889eab3a7b1a1c4" title="Get cache information of this object." alt="" coords="642,175,796,213"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a12251d0c022e9e21c137a105ff683f13" title="Get object id." alt="" coords="912,237,1066,276"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a908dabcf682ac5336252ebd60f3bc86a" title="Get configuration information by key." alt="" coords="895,464,1082,503"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a15e34545103fe7539ff0b47ba62af788" title="Get display information by key." alt="" coords="642,467,796,505"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a783512ecb45e8e79f0aa5cfe01176d6f" title="Get summary of the object." alt="" coords="636,352,801,391"/>
+<area shape="rect" id="node25" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a2336c3996de8c321759974f6f501ece4" title="Store information of this object in cache." alt="" coords="642,237,796,276"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="2601,505,2836,544"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="2624,351,2812,389"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a0876e53f130e9430811a79e786c02e0c" title="Get stored object by key." alt="" coords="871,175,1106,213"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a50aa8a13306d0d908f9411f1c0fb18b0" title="Get cache system." alt="" coords="1165,229,1400,268"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a28bc8c5f706be1ed57bd99742193f44d" title="Save new configuration value in the database." alt="" coords="1448,408,1714,433"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a01c203ce9e139c8217a39d446eca7ea3" title="Execute a query without result (DELETE, UPDATE, INSERT, etc.)" alt="" coords="2048,452,2268,477"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#aaa69e3f215a5e653f61ec2bb0d57d44e" title="Get configuration informations or global configuration." alt="" coords="1767,287,1992,325"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ac91a39d2fc0ff49855ad66b906d00bf0" title="Remove key from the database." alt="" coords="1762,401,1997,440"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#acda790553577ca5cef6f61bd79cc3f45" title="TODO: ???" alt="" coords="2045,287,2270,325"/>
+<area shape="rect" id="node24" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ab787071715cf1fc7d3c63d4f021bd55d" title="TODO: Calcul les stats de quelquechose." alt="" coords="876,401,1101,440"/>
+<area shape="rect" id="node26" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#af7ddee5a83aa46d9f8e4b071e6d25335" title="Store object in cache." alt="" coords="861,300,1117,325"/>
+</map>

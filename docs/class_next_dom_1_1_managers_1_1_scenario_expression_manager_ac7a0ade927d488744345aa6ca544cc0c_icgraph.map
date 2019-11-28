@@ -1,0 +1,13 @@
+<map id="round" name="round">
+<area shape="rect" id="node1" title="Arrondir une valeur." alt="" coords="175,228,230,253"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#a759818fd117344b75b35c3b27e927a13" title="TODO: Fait une moyenne de quelque chose TODO: Mettre en place la gestion du nombre de paramètres vari..." alt="" coords="31,5,101,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#ad9c941b6ec32b761719c12190fe0884c" title="TODO: Calcule une moyenne de quelque chose entre deux dates." alt="" coords="5,55,127,80"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#a5897fd622e90a240ed0fffdc2a1a40b0" title="Obtenir un dégradé de couleur." alt="" coords="13,104,119,129"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#a923dcb9ea2d7a8bb6a140161676b0862" title="TODO: Dernier entre deux dates ???" alt="" coords="19,153,113,179"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#af3c70eea1b54b8fbdca52a3763bbbb07" title="Obtenir la valeur maximum sur une période TODO: de quelque chose." alt="" coords="43,203,89,228"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#a75cae63f49fd1c372b922652b1558dca" title="Obtenir la valeur maximum entre deux dates TODO: de quelque chose." alt="" coords="17,252,115,277"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#ae14b730fc121105869aaf499a691e6f9" title="Obtenir une valeur médiane TODO: De quoi ?" alt="" coords="34,301,99,327"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#ac0f2ba9faad443325eb24f846147cef3" title="Obtenir la valeur minimum sur une période TODO: ??? Toujours sur quoi ?" alt="" coords="45,351,87,376"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#ac0e202326c3b945d11944aaa58b00c2d" title="Obtenir la valeur minimum entre deux dates TODO: De quoi ?" alt="" coords="19,400,113,425"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#a98cd95ad9800779162f349fb782c0946" title="Obtenir une couleur aléatoire." alt="" coords="17,449,115,475"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="isConnected" name="isConnected">
+<area shape="rect" id="node1" title="Get the status of the user login." alt="" coords="691,137,787,163"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_router.html#ab1caaa52e9aef347cc17f725c89ac4b1" title="Display for a computer." alt="" coords="473,5,643,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#aef4c8e81ce6747538c52529ee21af0d6" title=" " alt="" coords="481,68,635,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a416125fcdbfed103d68318acceedb8ab" title="Test if user have right." alt="" coords="481,131,635,169"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_authentification_helper.html#a5c0bde7e6013dec4439e31270da08cbb" title="Test if the user is logged in and throws an exception if this is not the case." alt="" coords="492,415,624,440"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_ajax_1_1_user_ajax.html#aa311da27ba5706f5710cea7706c8eae1" title=" " alt="" coords="476,464,640,503"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_router.html#a2b8e3779f5bd8c38f70307574859bd36" title="Viewing the requested content." alt="" coords="220,12,425,37"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a95645a22e466607e1e3e79d3f92ab5cf" title=" " alt="" coords="245,64,399,103"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a289b24e29b2738c0905129d497712252" title="Prepare data for HTML view." alt="" coords="245,127,399,165"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#abaeadd74508bb9804a663e862055826a" title="Get HTML code depends of the view." alt="" coords="12,127,166,165"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#ad5710ede5e01969a4a0efe58030cc2f1" title=" " alt="" coords="227,189,418,228"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_ajax_1_1_base_ajax.html#a54111154223bed6fe504e5043435bf5a" title="Check access of the user." alt="" coords="239,252,406,291"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_ajax_1_1_user_ajax.html#a77dbe9ace501557090581e3c9816fc3a" title=" " alt="" coords="240,315,405,353"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_ajax_1_1_cmd_ajax.html#aa5bd8ce757ccf6109cdd9112d34c58a5" title="Upload file from dashboard." alt="" coords="240,377,405,416"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#aefab49eda699f0057de9db43b57bf7b7" title="Get documentation link." alt="" coords="227,440,418,479"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_ajax_1_1_user_ajax.html#aba371cfa2bf62f0ccf955023a3131cac" title=" " alt="" coords="240,503,405,541"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_ajax_1_1_user_ajax.html#a082405d89acd6835c3a7c7a08a7adbab" title=" " alt="" coords="240,565,405,604"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_ajax_1_1_user_ajax.html#a2aff0844db6d9b56e6ba96123e1dd11c" title=" " alt="" coords="240,628,405,667"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_ajax_1_1_user_ajax.html#a4a372f5c55cb4ef46660433095ac453b" title=" " alt="" coords="240,691,405,729"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_ajax_1_1_user_ajax.html#a58e1cba57728f56cec002b081de708d0" title=" " alt="" coords="240,753,405,792"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_ajax_1_1_base_ajax.html#a7d4ad4038b036a67eece619e6f88c89e" title="Start the process." alt="" coords="5,252,172,291"/>
+</map>

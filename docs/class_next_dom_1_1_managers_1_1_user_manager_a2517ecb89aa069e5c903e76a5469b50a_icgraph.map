@@ -1,0 +1,8 @@
+<map id="byLoginAndPassword" name="byLoginAndPassword">
+<area shape="rect" id="node1" title=" " alt="" coords="603,44,753,69"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_user_manager.html#a7ca248d8a27ef20f3eeeba0e7555887d" title="Retourne un object utilisateur (si les information de connection sont valide)" alt="" coords="487,44,555,69"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_rest_1_1_authenticator.html#a79ab4807afad2a280e596e028eb84fee" title="Check user credentials." alt="" coords="233,5,424,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_authentification_helper.html#ab5d8f8abbe3422ac38292af201e0636e" title=" " alt="" coords="218,68,439,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_ajax_1_1_user_ajax.html#aca31e48aee0d15b3f445e39f671eeadf" title=" " alt="" coords="5,36,170,75"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_ajax_1_1_user_ajax.html#aa311da27ba5706f5710cea7706c8eae1" title=" " alt="" coords="5,99,170,137"/>
+</map>

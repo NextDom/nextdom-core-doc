@@ -1,0 +1,35 @@
+<map id="preInstallUpdate" name="preInstallUpdate">
+<area shape="rect" id="node1" title="Lance la procédure de préinstallation d&#39;un objet." alt="" coords="5,281,124,307"/>
+<area shape="rect" id="node2" href="$namespace_next_dom.html#a9610e1f499e0995e17fa108053065d08" title="Translate a string." alt="" coords="551,179,646,204"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a91789c7b586cb81191308f244064eabf" title="Log an alert message." alt="" coords="207,83,399,121"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#ac088d49ec4671e62734f5ca4303ebe37" title="Get a plugin from his username." alt="" coords="172,232,434,257"/>
+<area shape="rect" id="node28" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#aa9f5e9a6dc60af0a3b5cfcba27780730" title=" " alt="" coords="256,281,349,307"/>
+<area shape="rect" id="node29" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a830b5c75df72b32396701bc563fbe3c7" title=" " alt="" coords="268,331,337,356"/>
+<area shape="rect" id="node30" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#ab6c43fe722c0b17bcad97b64dddc75c0" title="Get apache group id." alt="" coords="196,432,410,471"/>
+<area shape="rect" id="node31" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#af8edbc1b2262a37d02b96082d58817ff" title="Get apache user id name." alt="" coords="492,432,706,471"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a756453f5746332d01aae5d7f0a583df7" title="Traduction direct d&#39;une phrase." alt="" coords="804,113,989,152"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a4ac118d290a9e8bdce621a813fa058ad" title="Lance la traduction d&#39;un texte." alt="" coords="1103,51,1288,89"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#ae34010c132ac0dc3b0ab65beb42d4f7c" title="Obtenir les traductions pour la langue courante." alt="" coords="1381,79,1566,117"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#af66c7c22aba46f400b2e392f09fd48fb" title="Obtenir la langue configurée." alt="" coords="1941,44,2127,83"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a9f3573951dbcc095bcc364eed754da14" title="Charge les informations de traduction TODO: Même celles de tous les plugins." alt="" coords="1658,101,1844,140"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a0fd2914593a531e82e827b2c879da15c" title="Obtenir une des informations de la configuration liée à la traduction." alt="" coords="2201,44,2386,83"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a824e9e4c9274cab6f7acab17c8b945df" title="Get configuration by multiple keys." alt="" coords="2435,44,2670,83"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#afa4ed863a3f92d0912e6aeea99dc2d0e" title="Obtenir le chemin du fichier de traduction d&#39;une langue." alt="" coords="1935,107,2132,145"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a4d086122826f89ccd612789af05ff0ba" title="Add a message to the log and ensure that there are never more than 1000 lines." alt="" coords="490,57,707,83"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_managers_1_1_message_manager.html#a3fb2dbd02fd3e3b3e6c49e9420fda03e" title=" " alt="" coords="798,51,995,89"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a59bc2904869e417bffca60916a5cde96" title="Get logger depends of target." alt="" coords="1377,5,1569,44"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="1634,216,1869,255"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="1917,192,2151,231"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="1940,279,2128,317"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="2199,279,2387,317"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="2459,307,2647,345"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#adaeb1b5f42e059519a1f6e3bc66898a7" title=" " alt="" coords="482,228,715,267"/>
+<area shape="rect" id="node27" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#a0a6a5d269f82b5904cc600fa67c2df7a" title="Get the path of the info.json file from the plugin ID." alt="" coords="482,291,715,329"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a01c203ce9e139c8217a39d446eca7ea3" title="Execute a query without result (DELETE, UPDATE, INSERT, etc.)" alt="" coords="1363,343,1583,368"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a28bc8c5f706be1ed57bd99742193f44d" title="Save new configuration value in the database." alt="" coords="763,235,1030,260"/>
+<area shape="rect" id="node24" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#aaa69e3f215a5e653f61ec2bb0d57d44e" title="Get configuration informations or global configuration." alt="" coords="1083,216,1308,255"/>
+<area shape="rect" id="node26" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ac91a39d2fc0ff49855ad66b906d00bf0" title="Remove key from the database." alt="" coords="1078,279,1313,317"/>
+<area shape="rect" id="node25" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#acda790553577ca5cef6f61bd79cc3f45" title="TODO: ???" alt="" coords="1361,216,1586,255"/>
+<area shape="rect" id="node32" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#aca736b727d27e04d027ecfcc6b03c352" title="Get distribution name." alt="" coords="790,444,1004,483"/>
+<area shape="rect" id="node33" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#ac2ce88342a8b12d06048a2b1cd5add8f" title="Load system from /core/config/system_cmd.json if file exists." alt="" coords="1088,444,1302,483"/>
+</map>

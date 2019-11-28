@@ -1,0 +1,5 @@
+<map id="listGroup" name="listGroup">
+<area shape="rect" id="node1" title="Obtenir la liste des groupes de scénarios." alt="" coords="246,44,321,69"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#a2e80fd78f51963e41f0fadb130f5acd1" title=" " alt="" coords="7,5,196,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_controller_1_1_tools_1_1_scenario_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render scenario page." alt="" coords="5,68,198,107"/>
+</map>

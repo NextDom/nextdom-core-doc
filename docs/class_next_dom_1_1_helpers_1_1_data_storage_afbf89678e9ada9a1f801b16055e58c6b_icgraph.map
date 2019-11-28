@@ -1,0 +1,7 @@
+<map id="getRawData" name="getRawData">
+<area shape="rect" id="node1" title="Obtenir une données stockée brute." alt="" coords="459,31,553,56"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#a0ce52570f8dc11dc23302bcce1edab53" title="Obtenir des données JSON." alt="" coords="314,5,411,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#a75886ee90624d70b981314f153c12d04" title="Test si une donnée existe." alt="" coords="315,55,410,80"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#a409519f0d91d05580443b1c298503728" title="Stocke des données brutes." alt="" coords="161,55,266,80"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#aa60aaaea2dbc9f4206906795db32cd57" title="Stocke des données au format JSON." alt="" coords="5,55,113,80"/>
+</map>

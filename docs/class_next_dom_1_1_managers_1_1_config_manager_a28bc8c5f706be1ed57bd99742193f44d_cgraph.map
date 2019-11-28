@@ -1,0 +1,12 @@
+<map id="save" name="save">
+<area shape="rect" id="node1" title="Save new configuration value in the database." alt="" coords="5,85,55,111"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a01c203ce9e139c8217a39d446eca7ea3" title="Execute a query without result (DELETE, UPDATE, INSERT, etc.)" alt="" coords="379,5,598,31"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#aaa69e3f215a5e653f61ec2bb0d57d44e" title="Get configuration informations or global configuration." alt="" coords="103,107,328,145"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="769,144,930,169"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ac91a39d2fc0ff49855ad66b906d00bf0" title="Remove key from the database." alt="" coords="182,56,248,81"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1228,28,1416,67"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#acda790553577ca5cef6f61bd79cc3f45" title="TODO: ???" alt="" coords="376,107,601,145"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="649,113,707,139"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="755,56,943,95"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="991,56,1180,95"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="getRootObjects" name="getRootObjects">
+<area shape="rect" id="node1" title="Get root objects." alt="" coords="729,309,842,335"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a41ccd9d586f8d92f5811c166595d6d56" title="Build tree of all objects." alt="" coords="540,156,616,181"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_controller_1_1_pages_1_1_dash_board_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render dashboard." alt="" coords="213,243,427,281"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#af5a86a562ec9a405b33b3559f3b703ae" title=" " alt="" coords="505,309,651,335"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_rest_1_1_room_rest.html#ab8c130d70a56622c3cfc11ed5e1fe891" title="Get roots rooms." alt="" coords="490,359,665,397"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_helpers_1_1_prepare_view.html#a4d7a21c99039711fe2fd6d42f24178a0" title="Full process render page." alt="" coords="475,421,681,460"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_ajax_1_1_object_ajax.html#af9d14e4ae6227970ad603987781573ca" title=" " alt="" coords="224,5,416,31"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_controller_1_1_modals_1_1_object_summary.html#a5ba61361bf0695a285bbaefefc427191" title="Render object summary modal." alt="" coords="225,55,415,93"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_controller_1_1_tools_1_1_object_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render objects page." alt="" coords="231,117,409,156"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#af6d2c179966ebb0cfecfa239d615d81b" title="Get eqLogics attached to the object." alt="" coords="242,180,398,219"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#aab5190d80c0a837542a7b7cef70e8d9d" title="Get graph data." alt="" coords="5,180,165,219"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_rest_1_1_summary_rest.html#a4c5d2756693f3980317f9b2a34316a4d" title="Get tree of rooms from room defined by the user or root room." alt="" coords="222,305,418,344"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_rest_1_1_room_rest.html#a1287ad66926c40488911183ce0d6be61" title="Get tree of rooms from room defined by the user or root room." alt="" coords="233,368,407,407"/>
+</map>

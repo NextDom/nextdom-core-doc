@@ -1,0 +1,8 @@
+<map id="exception" name="exception">
+<area shape="rect" id="node1" title="Get exception message." alt="" coords="800,31,879,56"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a1364f59605e5bc5a436fb63eeb9020a8" title="Task started minutes." alt="" coords="497,5,752,31"/>
+<area shape="rect" id="node3" href="$namespace_next_dom.html#a65ee447ecc60b3ad72072d94f2884732" title="Set cron error on exception." alt="" coords="508,55,741,80"/>
+<area shape="rect" id="node4" href="$namespace_next_dom.html#a9c6c2537e54ee407d4036b45fab62e54" title="Start cron where the target is a global function." alt="" coords="226,29,449,55"/>
+<area shape="rect" id="node6" href="$namespace_next_dom.html#ac935f0c4bcd33a33cbe7654cfc638920" title="Start cron where the target is a class method." alt="" coords="229,79,446,104"/>
+<area shape="rect" id="node5" href="$namespace_next_dom.html#a6ab2a8e695b7f40bfedf70aebc62b3be" title="Start single cron job." alt="" coords="5,55,178,80"/>
+</map>

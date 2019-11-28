@@ -1,0 +1,19 @@
+<map id="get" name="get">
+<area shape="rect" id="node1" title="Render market page." alt="" coords="5,128,45,153"/>
+<area shape="rect" id="node2" href="$namespace_next_dom.html#a9610e1f499e0995e17fa108053065d08" title="Translate a string." alt="" coords="163,40,258,65"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_managers_1_1_message_manager.html#a3fb2dbd02fd3e3b3e6c49e9420fda03e" title=" " alt="" coords="112,89,309,128"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="93,152,328,191"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_helpers_1_1_render.html#ac93fbec81f07e5d15f80db907e63dc10" title="Get render instance." alt="" coords="124,215,298,253"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a756453f5746332d01aae5d7f0a583df7" title="Traduction direct d&#39;une phrase." alt="" coords="401,33,586,72"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a4ac118d290a9e8bdce621a813fa058ad" title="Lance la traduction d&#39;un texte." alt="" coords="660,5,845,44"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#ae34010c132ac0dc3b0ab65beb42d4f7c" title="Obtenir les traductions pour la langue courante." alt="" coords="896,35,1081,73"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#af66c7c22aba46f400b2e392f09fd48fb" title="Obtenir la langue configurée." alt="" coords="1370,5,1555,44"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a9f3573951dbcc095bcc364eed754da14" title="Charge les informations de traduction TODO: Même celles de tous les plugins." alt="" coords="1131,63,1316,101"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a0fd2914593a531e82e827b2c879da15c" title="Obtenir une des informations de la configuration liée à la traduction." alt="" coords="1609,5,1795,44"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a824e9e4c9274cab6f7acab17c8b945df" title="Get configuration by multiple keys." alt="" coords="1843,5,2078,44"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#afa4ed863a3f92d0912e6aeea99dc2d0e" title="Obtenir le chemin du fichier de traduction d&#39;une langue." alt="" coords="1364,68,1561,107"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="376,124,611,163"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="399,187,587,225"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="659,187,847,225"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="895,187,1083,225"/>
+</map>

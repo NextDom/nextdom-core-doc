@@ -1,0 +1,6 @@
+<map id="updateRepositories" name="updateRepositories">
+<area shape="rect" id="node1" title="Mettre à jour les dépôts." alt="" coords="5,68,142,93"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_market_1_1_market_item.html#a0d3866050d4e59e73454617252d69f10" title="Create an element from the data of a GitHub repository." alt="" coords="190,5,381,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_market_1_1_git_manager.html#a602e5996c7a80a3c8346326a465ebd1a" title="Obtenir la liste des dépots ignorés." alt="" coords="236,68,335,93"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_market_1_1_git_manager.html#a9b055d1a38012d7ddcaf7361037b9a2e" title="Sauvegarder la liste des dépôts ignorés." alt="" coords="231,117,339,143"/>
+</map>

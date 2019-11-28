@@ -1,0 +1,6 @@
+<map id="init" name="init">
+<area shape="rect" id="node1" title="Constructeur testant le statut de la connexion." alt="" coords="275,75,313,100"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_market_1_1_git_manager.html#a6b00239fa16dc78f3ba1bcc222e5e58a" title="Constructeur du gestionnaire Git." alt="" coords="19,5,213,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_market_1_1_next_dom_market.html#afc2fce8f243001962e868734f4c76654" title="Constructeur initialisant le gestionnaire de téléchargement." alt="" coords="5,68,227,107"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_ajax_1_1_next_dom_market_ajax.html#ac33ee765f5ad9f134540bac393721cfe" title="Obtenir une information." alt="" coords="13,131,219,169"/>
+</map>

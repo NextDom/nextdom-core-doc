@@ -1,0 +1,10 @@
+<map id="all" name="all">
+<area shape="rect" id="node1" title="Get all commands." alt="" coords="996,105,1035,131"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_interact_query_manager.html#a93648f7b85b9170b14fb8d3e2b18a683" title=" " alt="" coords="744,36,932,75"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_controller_1_1_modals_1_1_cmd_graph_select.html#a5ba61361bf0695a285bbaefefc427191" title="Render command graph select modal (scenario)" alt="" coords="739,99,936,137"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_controller_1_1_modals_1_1_cmd_configure_history.html#a5ba61361bf0695a285bbaefefc427191" title="Render command configure history modal (scenario)" alt="" coords="727,161,948,200"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_interact_query_manager.html#a13bb858a8d62a322484fe7dc83273226" title=" " alt="" coords="470,5,679,44"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_managers_1_1_interact_query_manager.html#a9d2da8fdfbd401b53c62215c154bf741" title=" " alt="" coords="480,68,669,107"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_managers_1_1_interact_query_manager.html#a08ab2e5dece751bbe437ee0d770e386e" title=" " alt="" coords="234,37,422,76"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_ajax_1_1_interact_ajax.html#a1909f4b7f8129c7790cb75de2ffbe1e4" title=" " alt="" coords="5,37,186,76"/>
+</map>

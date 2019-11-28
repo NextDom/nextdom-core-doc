@@ -1,0 +1,5 @@
+<map id="exists" name="exists">
+<area shape="rect" id="node1" title="Test if object exists." alt="" coords="247,40,303,65"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a4f7d62ae87281b7c23f1f5324a6c90cb" title="Execute a scenario." alt="" coords="5,5,199,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a4baf4277a319b31b0430833e78c2a160" title="Test if object exists." alt="" coords="78,68,127,93"/>
+</map>

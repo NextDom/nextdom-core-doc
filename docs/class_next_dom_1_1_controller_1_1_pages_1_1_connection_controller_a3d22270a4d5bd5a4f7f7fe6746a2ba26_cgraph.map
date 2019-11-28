@@ -1,0 +1,13 @@
+<map id="get" name="get">
+<area shape="rect" id="node1" title=" " alt="" coords="5,169,45,195"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="95,68,330,107"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_managers_1_1_update_manager.html#a1dde5494d9af957f34c7e7f479c948d5" title="Get updates by type." alt="" coords="93,131,332,169"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_render.html#ac93fbec81f07e5d15f80db907e63dc10" title="Get render instance." alt="" coords="126,193,300,232"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_client_helper.html#af18fc91684720f67c66e9c92a38f8bb8" title="Test si l&#39;utilisateur utilise un navigateur sur mobile." alt="" coords="111,256,315,295"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="380,5,615,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="404,68,592,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="663,131,851,169"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="899,131,1087,169"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="404,131,592,169"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a744d0039a3a1e249044fe38f7fa04189" title="Get objects from database." alt="" coords="404,193,592,232"/>
+</map>

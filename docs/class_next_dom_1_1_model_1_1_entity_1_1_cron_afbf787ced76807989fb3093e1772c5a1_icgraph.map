@@ -1,0 +1,11 @@
+<map id="getState" name="getState">
+<area shape="rect" id="node1" title="Get current state." alt="" coords="344,107,415,132"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a2aff0844db6d9b56e6ba96123e1dd11c" title="Refresh DB state of this cron." alt="" coords="119,5,182,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a777b3bdaee6d812a1994c79051178149" title="Check if this cron is currently running." alt="" coords="230,107,296,132"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a658defb34762c8f40085aec87e16ba1a" title="Get cron data in array." alt="" coords="231,156,295,181"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a8c8cc98835b4b7a3e7e18fdfb54631bb" title="Stop immediatly cron (this method must be only call by jeecron master)" alt="" coords="129,107,172,132"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#ad827bb380f83a35deaf24c68d33c41b1" title="Remove cron object from the database." alt="" coords="5,83,71,108"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#afa17e114d4ab7d7b7da271de70a14f66" title="Launch cron (this method must be only call by jeeCron master)" alt="" coords="18,132,59,157"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#af8fa59992209e36dccb3eefb0f75531f" title="Start cron task." alt="" coords="127,208,174,233"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a8b6fc76a620d7557d06e9a11a9ffb509" title="Stop task." alt="" coords="127,257,174,283"/>
+</map>

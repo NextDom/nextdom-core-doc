@@ -1,0 +1,15 @@
+<map id="backup_send" name="backup_send">
+<area shape="rect" id="node1" title="Send backup to the share." alt="" coords="5,161,106,187"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#aef6866d7f01a167db0f9a5b61ccb695d" title="Log an information." alt="" coords="154,68,346,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="922,97,1157,136"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_samba.html#afaa727b7193bab1ebb81870d7f6a0e26" title="Replace special characters by &#45;." alt="" coords="164,183,336,221"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_helpers_1_1_samba.html#a126f55f94925dfa7a72c8e397a457c0a" title="Create connection from config name." alt="" coords="164,245,336,284"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a4d086122826f89ccd612789af05ff0ba" title="Add a message to the log and ensure that there are never more than 1000 lines." alt="" coords="402,75,620,100"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_managers_1_1_message_manager.html#a3fb2dbd02fd3e3b3e6c49e9420fda03e" title=" " alt="" coords="677,5,874,44"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a59bc2904869e417bffca60916a5cde96" title="Get logger depends of target." alt="" coords="679,68,871,107"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="1205,65,1440,104"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="1228,128,1416,167"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="1488,128,1676,167"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1724,128,1912,167"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a824e9e4c9274cab6f7acab17c8b945df" title="Get configuration by multiple keys." alt="" coords="394,245,629,284"/>
+</map>

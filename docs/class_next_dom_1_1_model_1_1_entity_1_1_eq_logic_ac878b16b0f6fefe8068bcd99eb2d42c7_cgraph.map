@@ -1,0 +1,25 @@
+<map id="refreshWidget" name="refreshWidget">
+<area shape="rect" id="node1" title="Refresh widget if change occurs since la render." alt="" coords="5,255,110,280"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_event_manager.html#ab71f933452ed2857cb49dd168b333d6e" title="Add event in cache." alt="" coords="158,143,414,168"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac46804debcc8ebd94c2392cfe31ed604" title="Remove widget render in cache." alt="" coords="217,255,355,280"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a12251d0c022e9e21c137a105ff683f13" title="Get Id." alt="" coords="565,339,616,364"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a0876e53f130e9430811a79e786c02e0c" title="Get stored object by key." alt="" coords="473,164,707,203"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_managers_1_1_event_manager.html#aa673eeaf88ac5606b25e7ca424c71ec4" title="Get event cache file object." alt="" coords="768,13,999,52"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#af7ddee5a83aa46d9f8e4b071e6d25335" title="Store object in cache." alt="" coords="462,115,718,140"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a50aa8a13306d0d908f9411f1c0fb18b0" title="Get cache system." alt="" coords="766,163,1001,201"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="1919,56,2154,95"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a28bc8c5f706be1ed57bd99742193f44d" title="Save new configuration value in the database." alt="" coords="1049,177,1316,203"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="2202,85,2437,124"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="2226,233,2414,272"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="2485,233,2673,272"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="2721,263,2909,301"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a01c203ce9e139c8217a39d446eca7ea3" title="Execute a query without result (DELETE, UPDATE, INSERT, etc.)" alt="" coords="1649,297,1869,323"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#aaa69e3f215a5e653f61ec2bb0d57d44e" title="Get configuration informations or global configuration." alt="" coords="1368,171,1594,209"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ac91a39d2fc0ff49855ad66b906d00bf0" title="Remove key from the database." alt="" coords="1364,233,1598,272"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#acda790553577ca5cef6f61bd79cc3f45" title="TODO: ???" alt="" coords="1646,171,1871,209"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a2eb7fdd340eb5ab95e82b4500a9abbbf" title="Get temporary folder and creates it if not exists." alt="" coords="1070,5,1295,44"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_managers_1_1_user_manager.html#a211470a063d4e3972d3c2e4541c38707" title=" " alt="" coords="469,227,711,252"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_enums_1_1_enum.html#a285bc4ef74e770645b71635c6e8bde27" title=" " alt="" coords="510,276,670,315"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="790,277,978,316"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a744d0039a3a1e249044fe38f7fa04189" title="Get objects from database." alt="" coords="1088,284,1276,323"/>
+</map>

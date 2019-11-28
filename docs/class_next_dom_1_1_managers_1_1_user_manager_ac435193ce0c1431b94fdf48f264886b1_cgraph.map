@@ -1,0 +1,15 @@
+<map id="removeBanIp" name="removeBanIp">
+<area shape="rect" id="node1" title=" " alt="" coords="5,173,106,199"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a0876e53f130e9430811a79e786c02e0c" title="Get stored object by key." alt="" coords="154,167,389,205"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a50aa8a13306d0d908f9411f1c0fb18b0" title="Get cache system." alt="" coords="437,167,671,205"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="1590,112,1825,151"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a28bc8c5f706be1ed57bd99742193f44d" title="Save new configuration value in the database." alt="" coords="719,119,986,144"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="1873,141,2108,180"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="1896,56,2084,95"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="2156,56,2344,95"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="2392,28,2580,67"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a01c203ce9e139c8217a39d446eca7ea3" title="Execute a query without result (DELETE, UPDATE, INSERT, etc.)" alt="" coords="1319,5,1539,31"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#aaa69e3f215a5e653f61ec2bb0d57d44e" title="Get configuration informations or global configuration." alt="" coords="1039,112,1264,151"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ac91a39d2fc0ff49855ad66b906d00bf0" title="Remove key from the database." alt="" coords="1034,49,1269,88"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#acda790553577ca5cef6f61bd79cc3f45" title="TODO: ???" alt="" coords="1317,112,1542,151"/>
+</map>

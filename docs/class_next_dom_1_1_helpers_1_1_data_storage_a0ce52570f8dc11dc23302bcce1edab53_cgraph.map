@@ -1,0 +1,5 @@
+<map id="getJsonData" name="getJsonData">
+<area shape="rect" id="node1" title="Obtenir des données JSON." alt="" coords="5,12,102,37"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#afbf89678e9ada9a1f801b16055e58c6b" title="Obtenir une données stockée brute." alt="" coords="150,12,244,37"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="292,5,480,44"/>
+</map>

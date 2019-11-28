@@ -1,0 +1,6 @@
+<map id="vsystem" name="vsystem">
+<area shape="rect" id="node1" title=" " alt="" coords="597,44,667,69"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a5999d4424be1a18ba91f9d1450380377" title="Load given file in mysql database." alt="" coords="308,5,549,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#ad92f39000003bf9667e76cba86255d9b" title="Restore persisted cache." alt="" coords="311,68,546,107"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a1364f59605e5bc5a436fb63eeb9020a8" title="Task started minutes." alt="" coords="5,75,260,100"/>
+</map>

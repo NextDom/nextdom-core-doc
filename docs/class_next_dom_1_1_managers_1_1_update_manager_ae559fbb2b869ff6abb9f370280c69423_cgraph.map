@@ -1,0 +1,10 @@
+<map id="repoById" name="repoById">
+<area shape="rect" id="node1" title="Get a repo by its identifier." alt="" coords="5,44,80,69"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="460,37,695,76"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_managers_1_1_update_manager.html#a944d541ea7da1e7a3a614ff684b5cd96" title="Get the class of the repo by the name." alt="" coords="128,69,295,95"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="743,5,978,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="766,68,954,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="1026,68,1214,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1262,68,1450,107"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_update_manager.html#a374d97919101d5265deae63f1c60ae2b" title="List of repositories." alt="" coords="343,69,412,95"/>
+</map>

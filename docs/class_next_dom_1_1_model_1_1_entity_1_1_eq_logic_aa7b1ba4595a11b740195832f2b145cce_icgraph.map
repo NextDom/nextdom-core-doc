@@ -1,0 +1,7 @@
+<map id="getLinkToConfiguration" name="getLinkToConfiguration">
+<area shape="rect" id="node1" title="Get configuration URL." alt="" coords="265,55,423,80"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aa9af0e62b347831e6a437472a3532140" title="Get HTML code for battery widget." alt="" coords="113,5,217,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac8d70bd1c911c1397de766ca02149037" title="Get link data for graph representation." alt="" coords="119,55,211,80"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a289b24e29b2738c0905129d497712252" title="Prepare data for HTML view." alt="" coords="124,104,206,129"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#abaeadd74508bb9804a663e862055826a" title="Get HTML code depends of the view." alt="" coords="5,104,65,129"/>
+</map>

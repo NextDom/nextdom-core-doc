@@ -1,0 +1,6 @@
+<map id="isUpdateNeeded" name="isUpdateNeeded">
+<area shape="rect" id="node1" title="Test si une mise à jour de la liste des dépôts est nécessaire." alt="" coords="268,31,389,56"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_market_1_1_next_dom_market.html#a398f70403e8bb80789d1b9d048441305" title="Rafraichir une source GitHub." alt="" coords="116,5,220,31"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_market_1_1_next_dom_market.html#a4cf467d23db29b6bd8195fc4d619989d" title="Rafraichier une source JSON." alt="" coords="123,55,214,80"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_market_1_1_next_dom_market.html#a6ca3288cdb58dee2ddf5350d3b4995b0" title="Met à jour la liste des dépôts." alt="" coords="5,31,68,56"/>
+</map>

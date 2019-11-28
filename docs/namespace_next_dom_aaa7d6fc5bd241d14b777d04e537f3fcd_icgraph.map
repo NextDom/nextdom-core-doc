@@ -1,0 +1,6 @@
+<map id="setCronErrorAndDie" name="setCronErrorAndDie">
+<area shape="rect" id="node1" title="Set cron in error and stop the execution of the script." alt="" coords="379,31,520,56"/>
+<area shape="rect" id="node2" href="$namespace_next_dom.html#a9c6c2537e54ee407d4036b45fab62e54" title="Start cron where the target is a global function." alt="" coords="167,5,331,31"/>
+<area shape="rect" id="node4" href="$namespace_next_dom.html#ac935f0c4bcd33a33cbe7654cfc638920" title="Start cron where the target is a class method." alt="" coords="170,55,328,80"/>
+<area shape="rect" id="node3" href="$namespace_next_dom.html#a6ab2a8e695b7f40bfedf70aebc62b3be" title="Start single cron job." alt="" coords="5,31,119,56"/>
+</map>

@@ -1,0 +1,52 @@
+<map id="checkValueInConfiguration" name="checkValueInConfiguration">
+<area shape="rect" id="node1" title="TODO: ???" alt="" coords="1349,357,1529,383"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#aaa69e3f215a5e653f61ec2bb0d57d44e" title="Get configuration informations or global configuration." alt="" coords="1182,357,1301,383"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_controller_1_1_modals_1_1_eq_logic_configure.html#a5ba61361bf0695a285bbaefefc427191" title="Render eqLogic management modal." alt="" coords="900,5,1100,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_controller_1_1_tools_1_1_scenario_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render scenario page." alt="" coords="904,68,1097,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_controller_1_1_tools_1_1_plugin_list_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render plugin page." alt="" coords="901,131,1099,169"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_controller_1_1_modals_1_1_cmd_configure.html#a5ba61361bf0695a285bbaefefc427191" title="Render command configuration modal." alt="" coords="910,193,1090,232"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_controller_1_1_tools_1_1_interact_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render interact page." alt="" coords="908,256,1093,295"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_controller_1_1_pages_1_1_dash_board_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render dashboard." alt="" coords="894,319,1107,357"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_controller_1_1_params_1_1_profils_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render profils page." alt="" coords="904,381,1096,420"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a1e9fd08f7b6a6f416ede451b8ef7566d" title="Get widget background color." alt="" coords="901,496,1100,535"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a289b24e29b2738c0905129d497712252" title="Prepare data for HTML view." alt="" coords="622,181,776,220"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#ad6a7980e832ca964872fe29113ab1642" title=" " alt="" coords="904,559,1096,597"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a28bc8c5f706be1ed57bd99742193f44d" title="Save new configuration value in the database." alt="" coords="867,908,1134,933"/>
+<area shape="rect" id="node50" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#a654f359ea39c3a3b283ca0566b4321cb" title=" " alt="" coords="923,957,1077,996"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#abaeadd74508bb9804a663e862055826a" title="Get HTML code depends of the view." alt="" coords="324,181,478,220"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_ajax_1_1_config_ajax.html#a9f26444b8111ee7f9e37412d82f057e9" title=" " alt="" coords="612,419,787,457"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_managers_1_1_history_manager.html#a42d4d46101293706b8d6e84a17388fe1" title="Archive les données de history dans historyArch." alt="" coords="607,481,792,520"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a62b72d11c56585eee05c6c2b724658dd" title="Benchmark cache." alt="" coords="656,544,743,569"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_managers_1_1_update_manager.html#a27e4befa01dfcf6be0fa6ab666bf4ec2" title="Check all updates." alt="" coords="580,593,819,632"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#a03b9b278a7e23deb006cb67c1b0faeb5" title=" " alt="" coords="590,755,809,793"/>
+<area shape="rect" id="node25" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#a8512115f145796f02f0d55311d5f74a7" title="Get type of network access." alt="" coords="291,791,510,829"/>
+<area shape="rect" id="node27" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#af8625faaeeb79df492c9384f65f1ca82" title="Test le daemon TODO ??" alt="" coords="583,932,816,971"/>
+<area shape="rect" id="node28" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#aa66b693e807b7307d4a52b10b971b200" title="TODO Surement le mode de chargement du daemon au démarrage." alt="" coords="586,995,812,1033"/>
+<area shape="rect" id="node29" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#a43d410bdd594083c3ec5b5c0c7dd34d2" title="Démarre le daemon du plugin." alt="" coords="622,1057,776,1096"/>
+<area shape="rect" id="node30" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#ab6caeefd18672286789d7db7225b4c70" title="Procédure d&#39;installation des dépendances TODO: Corriger la faute." alt="" coords="311,1140,491,1179"/>
+<area shape="rect" id="node31" href="$class_next_dom_1_1_helpers_1_1_prepare_view.html#ae399532de712934f7ab857787594892e" title="Test if first use page must be showed." alt="" coords="596,1287,803,1325"/>
+<area shape="rect" id="node32" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#adaeb1b5f42e059519a1f6e3bc66898a7" title=" " alt="" coords="583,1349,816,1388"/>
+<area shape="rect" id="node34" href="$class_next_dom_1_1_ajax_1_1_config_ajax.html#ad83704ce84796466f651d53d10c4f17c" title=" " alt="" coords="612,1412,787,1451"/>
+<area shape="rect" id="node35" href="$class_next_dom_1_1_helpers_1_1_api.html#af8299f160d2acd05886b8a1ae55d6cb8" title="Get API key from core or plugin." alt="" coords="625,869,774,908"/>
+<area shape="rect" id="node38" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a50aa8a13306d0d908f9411f1c0fb18b0" title="Get cache system." alt="" coords="582,1475,817,1513"/>
+<area shape="rect" id="node39" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#a0f5b54f498219b0346e3d3472d96e626" title=" " alt="" coords="609,1172,790,1211"/>
+<area shape="rect" id="node40" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#aff6368038ab559ee1aeebd70ad19fe3b" title="Change l&#39;état d&#39;activation d&#39;un plugin." alt="" coords="324,1216,478,1255"/>
+<area shape="rect" id="node41" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a4e6a14dc83de8b8abecb771652e2a59e" title="Get hardware key." alt="" coords="639,1537,760,1563"/>
+<area shape="rect" id="node42" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ad4e9ca45ed4392062743765796f64791" title="Get hostname." alt="" coords="633,705,766,731"/>
+<area shape="rect" id="node43" href="$class_next_dom_1_1_helpers_1_1_migration_helper.html#af8dd107daec5031fc6faa19a46626694" title="Main migrate process." alt="" coords="607,1587,792,1625"/>
+<area shape="rect" id="node44" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a91b3ab1bc180913eed09d0ad20d64455" title=" " alt="" coords="605,1649,794,1688"/>
+<area shape="rect" id="node45" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#a1d262c0ffaa8da61918e07bacfcff7dd" title=" " alt="" coords="604,1712,795,1751"/>
+<area shape="rect" id="node46" href="$class_next_dom_1_1_ajax_1_1_network_ajax.html#ac451b296b469516b55a25817e988d216" title=" " alt="" coords="607,244,792,283"/>
+<area shape="rect" id="node47" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ab592353eefc343cf696f184d79fbb9f9" title="Start all cron tasks and scenarios." alt="" coords="654,656,745,681"/>
+<area shape="rect" id="node48" href="$class_next_dom_1_1_ajax_1_1_network_ajax.html#a4974e3a8b417be4a9830eacd01783c42" title=" " alt="" coords="607,307,792,345"/>
+<area shape="rect" id="node49" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ad686923149ee99c13b8895133dcc0d69" title="Stop all cron tasks and scenarios." alt="" coords="654,369,745,395"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_controller_1_1_modals_1_1_nextdom_benchmark.html#a5ba61361bf0695a285bbaefefc427191" title="Render nextdom benchmark modal." alt="" coords="293,504,508,543"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_ajax_1_1_update_ajax.html#ac82a83cca7cce0b9d155423411b9a7e7" title=" " alt="" coords="311,616,490,655"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ad4b79a129296151b4ad4145efba66f32" title="Task started every hours." alt="" coords="358,567,444,592"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a1364f59605e5bc5a436fb63eeb9020a8" title="Task started minutes." alt="" coords="377,679,424,704"/>
+<area shape="rect" id="node24" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#aac0504e133c88cf2a4ba19375868bc0a" title=" " alt="" coords="291,728,510,767"/>
+<area shape="rect" id="node26" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#a9fab9df6903e082f74bda9dfb680ab18" title=" " alt="" coords="5,820,222,859"/>
+<area shape="rect" id="node33" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#ac088d49ec4671e62734f5ca4303ebe37" title="Get a plugin from his username." alt="" coords="270,1356,532,1381"/>
+<area shape="rect" id="node36" href="$class_next_dom_1_1_helpers_1_1_api.html#a13490df2ae075ce0e9cce6c753e9e980" title="Get API access with key." alt="" coords="326,968,475,1007"/>
+<area shape="rect" id="node37" href="$class_next_dom_1_1_rest_1_1_authenticator.html#a911534bcc18dca5ddca9c016b41b59cc" title="Check API Key sended in URL (?apikey=MY_KEY) Consider connected like the first admin in database." alt="" coords="306,905,496,944"/>
+</map>

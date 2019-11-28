@@ -1,0 +1,6 @@
+<map id="nbNeedUpdate" name="nbNeedUpdate">
+<area shape="rect" id="node1" title="Get the number of pending updates." alt="" coords="5,12,116,37"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="164,5,352,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="400,5,588,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="636,5,825,44"/>
+</map>

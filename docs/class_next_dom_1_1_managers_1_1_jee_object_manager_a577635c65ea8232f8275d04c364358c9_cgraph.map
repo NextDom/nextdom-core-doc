@@ -1,0 +1,28 @@
+<map id="checkSummaryUpdate" name="checkSummaryUpdate">
+<area shape="rect" id="node1" title="TODO ???" alt="" coords="5,235,162,260"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_event_manager.html#abddd83bd4b54a0444c0d12291fc10c58" title="Add multiple events in cache." alt="" coords="210,95,472,120"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#af7ddee5a83aa46d9f8e4b071e6d25335" title="Store object in cache." alt="" coords="520,143,777,168"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_managers_1_1_eq_logic_manager.html#a4f4b5d496f57ab62b86a3a95d2763afc" title="Get eqLogic object with his id." alt="" coords="553,192,744,231"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_managers_1_1_eq_logic_manager.html#a579bb24d543b0b1968f013c2821a396e" title="Get all eqLogics filtered by logicalId (defined by plugin." alt="" coords="553,255,744,293"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#ad819e621ceeb55ce0a0920996126e95f" title="TODO: ???" alt="" coords="273,389,409,415"/>
+<area shape="rect" id="node26" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#aa65868da6133cd99b2a986786d1b3e97" title="Search object configuration TODO: ??" alt="" coords="578,317,719,343"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a0876e53f130e9430811a79e786c02e0c" title="Get stored object by key." alt="" coords="531,28,766,67"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_managers_1_1_event_manager.html#aa673eeaf88ac5606b25e7ca424c71ec4" title="Get event cache file object." alt="" coords="827,135,1057,173"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a50aa8a13306d0d908f9411f1c0fb18b0" title="Get cache system." alt="" coords="825,72,1059,111"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="1978,241,2213,280"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a28bc8c5f706be1ed57bd99742193f44d" title="Save new configuration value in the database." alt="" coords="1107,105,1374,131"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="2261,187,2496,225"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="2284,99,2472,137"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="2544,48,2732,87"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="2780,20,2968,59"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a01c203ce9e139c8217a39d446eca7ea3" title="Execute a query without result (DELETE, UPDATE, INSERT, etc.)" alt="" coords="1707,48,1927,73"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#aaa69e3f215a5e653f61ec2bb0d57d44e" title="Get configuration informations or global configuration." alt="" coords="1427,213,1652,252"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ac91a39d2fc0ff49855ad66b906d00bf0" title="Remove key from the database." alt="" coords="1422,99,1657,137"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#acda790553577ca5cef6f61bd79cc3f45" title="TODO: ???" alt="" coords="1705,213,1930,252"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a2eb7fdd340eb5ab95e82b4500a9abbbf" title="Get temporary folder and creates it if not exists." alt="" coords="1128,328,1353,367"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="848,264,1036,303"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4b821e14be0e43a27c7e7093d4d2237d" title="Get one object from database." alt="" coords="848,197,1036,236"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a744d0039a3a1e249044fe38f7fa04189" title="Get objects from database." alt="" coords="848,336,1036,375"/>
+<area shape="rect" id="node24" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a7685efdf9548037ab869887975d76099" title="Get all objects." alt="" coords="629,367,668,392"/>
+<area shape="rect" id="node25" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ab787071715cf1fc7d3c63d4f021bd55d" title="TODO: Calcul les stats de quelquechose." alt="" coords="536,468,761,507"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="replaceTag" name="replaceTag">
+<area shape="rect" id="node1" title="TODO: ????" alt="" coords="5,120,92,145"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#a24ab3cc750d92c289d28ee7f73319225" title="TODO:" alt="" coords="140,5,336,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#a757c4b564cabe60d09cc32168b41a38a" title="Search an expression by name and/or option." alt="" coords="384,39,634,77"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_cmd_manager.html#a1dbe21a991a604ea9ad8c0edeac3fb3a" title="Search in commands configuration." alt="" coords="397,101,621,140"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_eq_logic_manager.html#ad30f549274fcce78c44ee246733e0a8c" title="TODO: ???" alt="" coords="410,164,607,203"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#aa65868da6133cd99b2a986786d1b3e97" title="Search object configuration TODO: ??" alt="" coords="407,227,611,265"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="682,101,870,140"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a744d0039a3a1e249044fe38f7fa04189" title="Get objects from database." alt="" coords="682,164,870,203"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="918,164,1106,203"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1154,164,1342,203"/>
+</map>

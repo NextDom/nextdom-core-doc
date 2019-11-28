@@ -1,0 +1,9 @@
+<map id="emptyHistory" name="emptyHistory">
+<area shape="rect" id="node1" title=" " alt="" coords="5,61,104,87"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_history_manager.html#ad3bb7e6476d56bf26b3f56d5ce4d49cd" title=" " alt="" coords="152,27,338,65"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#a12251d0c022e9e21c137a105ff683f13" title=" " alt="" coords="220,89,270,115"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a01c203ce9e139c8217a39d446eca7ea3" title="Execute a query without result (DELETE, UPDATE, INSERT, etc.)" alt="" coords="622,5,842,31"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="386,55,574,93"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="890,27,1078,65"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="638,55,826,93"/>
+</map>

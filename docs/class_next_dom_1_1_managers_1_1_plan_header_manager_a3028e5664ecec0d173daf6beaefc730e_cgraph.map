@@ -1,0 +1,9 @@
+<map id="searchByUse" name="searchByUse">
+<area shape="rect" id="node1" title=" " alt="" coords="5,44,106,69"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_plan_manager.html#ada5dfb9d46eebb7f982cf9a77620d75e" title=" " alt="" coords="154,5,377,44"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_managers_1_1_plan_manager.html#ae0ed08b932c318440da773bd9503aab5" title=" " alt="" coords="154,68,377,107"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="425,5,613,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a744d0039a3a1e249044fe38f7fa04189" title="Get objects from database." alt="" coords="425,68,613,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="661,68,849,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="897,68,1085,107"/>
+</map>

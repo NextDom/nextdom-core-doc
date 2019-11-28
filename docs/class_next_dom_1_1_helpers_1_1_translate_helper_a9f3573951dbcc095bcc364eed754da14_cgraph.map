@@ -1,0 +1,7 @@
+<map id="loadTranslation" name="loadTranslation">
+<area shape="rect" id="node1" title="Charge les informations de traduction TODO: Même celles de tous les plugins." alt="" coords="5,37,117,63"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#af66c7c22aba46f400b2e392f09fd48fb" title="Obtenir la langue configurée." alt="" coords="193,12,292,37"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#afa4ed863a3f92d0912e6aeea99dc2d0e" title="Obtenir le chemin du fichier de traduction d&#39;une langue." alt="" coords="165,61,320,87"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a0fd2914593a531e82e827b2c879da15c" title="Obtenir une des informations de la configuration liée à la traduction." alt="" coords="368,12,446,37"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a824e9e4c9274cab6f7acab17c8b945df" title="Get configuration by multiple keys." alt="" coords="494,5,729,44"/>
+</map>

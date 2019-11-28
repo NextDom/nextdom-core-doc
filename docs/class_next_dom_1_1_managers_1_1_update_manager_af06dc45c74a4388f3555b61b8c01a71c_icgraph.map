@@ -1,0 +1,32 @@
+<map id="nbNeedUpdate" name="nbNeedUpdate">
+<area shape="rect" id="node1" title="Get the number of pending updates." alt="" coords="1097,400,1208,425"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_controller_1_1_tools_1_1_update_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render update page." alt="" coords="842,268,1025,307"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_controller_1_1_pages_1_1_administration_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render administration page." alt="" coords="818,331,1049,369"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_repo_1_1_repo_market.html#aefcc6f1e19821b00c0852134af360274" title=" " alt="" coords="839,393,1028,432"/>
+<area shape="rect" id="node27" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a04dab4a8cc8e0bf67559dd243f014c9b" title="Get system health Test all functionnalities." alt="" coords="821,612,1046,651"/>
+<area shape="rect" id="node30" href="$class_next_dom_1_1_ajax_1_1_update_ajax.html#a6bf1841a58bfeaa1c543c99ffbbbbb50" title=" " alt="" coords="844,675,1023,713"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_repo_1_1_repo_market.html#acd671c56e8e28667b846bb51187047e3" title=" " alt="" coords="563,229,752,268"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a80e21b85b4c1b79237951397c90a8217" title=" " alt="" coords="549,180,766,205"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a261dea581b58ed9df7684dc5b87ad61f" title=" " alt="" coords="563,644,752,683"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a24c9c2c12bb8743df23baf8aabae7d9c" title=" " alt="" coords="563,519,752,557"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_repo_1_1_repo_market.html#aa333a3ed65c1708466f807d71a85cf7d" title=" " alt="" coords="545,344,770,369"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a18481bd74e6bb395798e0e18d88ef1d0" title=" " alt="" coords="563,393,752,432"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_repo_1_1_repo_market.html#af4411ea468e0f3351771c3059e9e71df" title=" " alt="" coords="563,456,752,495"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a6e260d4fecc36f23b21f505799bb741f" title=" " alt="" coords="563,117,752,156"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_repo_1_1_repo_market.html#ad46927dcd61b0dbbefe2157e8cb4f2f9" title=" " alt="" coords="563,581,752,620"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a0a34d13365af24c2367765a42d7de901" title=" " alt="" coords="5,177,194,216"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_repo_1_1_repo_market.html#ae859f49123addda9ef540944f6640140" title=" " alt="" coords="563,707,752,745"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a2200a4c5cc2f6dfc5944a4d8ca5fb455" title=" " alt="" coords="563,5,752,44"/>
+<area shape="rect" id="node24" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a35d686b5e881742f0491d21c558c77d8" title=" " alt="" coords="550,68,764,93"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_controller_1_1_tools_1_1_markets_1_1_market_jee_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render market page." alt="" coords="243,180,496,219"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a85e974ec131eb58ae5e37b3e3d487a8f" title=" " alt="" coords="275,628,464,667"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_repo_1_1_repo_market.html#acdbf76156833b60000f837af173577d5" title=" " alt="" coords="5,628,194,667"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a2bb5bb8dcecc6fc7d0f232607f6c3317" title=" " alt="" coords="275,487,464,525"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_repo_1_1_repo_market.html#ac3d659ef5a7c41fbc0be0ccf982ac181" title=" " alt="" coords="275,549,464,588"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_managers_1_1_user_manager.html#a21fe28b39ee39f94faeca8fa1345cb26" title=" " alt="" coords="257,5,482,44"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_ajax_1_1_user_ajax.html#abaf8a09a37a9a527677a183607244b57" title=" " alt="" coords="18,5,182,44"/>
+<area shape="rect" id="node25" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a1364f59605e5bc5a436fb63eeb9020a8" title="Task started minutes." alt="" coords="242,68,497,93"/>
+<area shape="rect" id="node26" href="$class_next_dom_1_1_repo_1_1_repo_market.html#ad4b79a129296151b4ad4145efba66f32" title=" " alt="" coords="275,117,464,156"/>
+<area shape="rect" id="node28" href="$class_next_dom_1_1_controller_1_1_diagnostic_1_1_health_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render health page." alt="" coords="553,832,762,871"/>
+<area shape="rect" id="node29" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#a2374e9a58b0da4edd7fa14b83f9e7e41" title=" " alt="" coords="562,769,753,808"/>
+</map>

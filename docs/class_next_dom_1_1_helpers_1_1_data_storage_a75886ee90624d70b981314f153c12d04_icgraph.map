@@ -1,0 +1,5 @@
+<map id="isDataExists" name="isDataExists">
+<area shape="rect" id="node1" title="Test si une donnée existe." alt="" coords="314,5,409,31"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#a409519f0d91d05580443b1c298503728" title="Stocke des données brutes." alt="" coords="161,5,266,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#aa60aaaea2dbc9f4206906795db32cd57" title="Stocke des données au format JSON." alt="" coords="5,5,113,31"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="getHasDependency" name="getHasDependency">
+<area shape="rect" id="node1" title="Savoir si le plugin a des dépendances." alt="" coords="695,120,833,145"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#ab582f5abccca669beab3d4cdb03a6632" title="Obtenir les informations sur le daemon." alt="" coords="351,32,450,57"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#ab6caeefd18672286789d7db7225b4c70" title="Procédure d&#39;installation des dépendances TODO: Corriger la faute." alt="" coords="5,183,141,208"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#a0f5b54f498219b0346e3d3472d96e626" title=" " alt="" coords="510,120,647,145"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#a43d410bdd594083c3ec5b5c0c7dd34d2" title="Démarre le daemon du plugin." alt="" coords="22,5,125,31"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#a5fb9bcacf838dc5d773f1124fad006d9" title="Arrête le daemon du plugin." alt="" coords="189,31,291,56"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#aff6368038ab559ee1aeebd70ad19fe3b" title="Change l&#39;état d&#39;activation d&#39;un plugin." alt="" coords="28,81,119,107"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#a936f3f75f766437accc0202dc8e4980f" title="Obtenir des informations sur les dépendances TODO: Renommer." alt="" coords="339,81,462,107"/>
+</map>

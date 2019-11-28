@@ -1,0 +1,4 @@
+<map id="getRoomSummary" name="getRoomSummary">
+<area shape="rect" id="node1" title="Get HTML room summary." alt="" coords="192,5,325,31"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_rest_1_1_room_rest.html#a725bd170466af0e38d3d8a69361f3b14" title="Get HTML summary from list of rooms passed in argument separated by ;." alt="" coords="5,5,144,31"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="availableWidget" name="availableWidget">
+<area shape="rect" id="node1" title="Check if widget is available." alt="" coords="233,12,349,37"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_controller_1_1_modals_1_1_cmd_configure.html#a5ba61361bf0695a285bbaefefc427191" title="Render command configuration modal." alt="" coords="5,5,185,44"/>
+</map>

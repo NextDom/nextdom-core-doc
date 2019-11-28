@@ -1,0 +1,5 @@
+<map id="getLanguage" name="getLanguage">
+<area shape="rect" id="node1" title="Obtenir la langue configurée." alt="" coords="5,12,105,37"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a0fd2914593a531e82e827b2c879da15c" title="Obtenir une des informations de la configuration liée à la traduction." alt="" coords="153,12,231,37"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a824e9e4c9274cab6f7acab17c8b945df" title="Get configuration by multiple keys." alt="" coords="279,5,514,44"/>
+</map>

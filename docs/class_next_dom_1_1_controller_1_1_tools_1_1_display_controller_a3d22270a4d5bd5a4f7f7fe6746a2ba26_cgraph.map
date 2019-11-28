@@ -1,0 +1,10 @@
+<map id="get" name="get">
+<area shape="rect" id="node1" title="Render display page." alt="" coords="5,75,45,100"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a7685efdf9548037ab869887975d76099" title="Get all objects." alt="" coords="93,68,297,107"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_managers_1_1_eq_logic_manager.html#a3fd748562c66c2796a706de23513bad0" title="Get all eqLogics linked to object." alt="" coords="99,5,291,44"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_render.html#ac93fbec81f07e5d15f80db907e63dc10" title="Get render instance." alt="" coords="108,131,282,169"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="345,5,533,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a744d0039a3a1e249044fe38f7fa04189" title="Get objects from database." alt="" coords="345,68,533,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="581,68,769,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="817,68,1005,107"/>
+</map>

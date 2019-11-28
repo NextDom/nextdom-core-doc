@@ -1,0 +1,52 @@
+<map id="byId" name="byId">
+<area shape="rect" id="node1" title="Get scenario by his id." alt="" coords="846,865,893,891"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#a1227243837a6b5b7c687195ba3677cf1" title=" " alt="" coords="586,5,775,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#a7092970a3aadbf79b82e310d88d0c052" title="Obtenir un objet scenario." alt="" coords="646,68,716,93"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#afbe625d6fe4d03b578d15b4b87d69d75" title="Change scenario state." alt="" coords="586,117,775,156"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a2d964e881b99820bf727aa0c4bd96cd9" title="Remove old and unused item stored in cache." alt="" coords="563,180,798,219"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#a424f27d9b462c9830cc30ab985f34b31" title="Convert current scenario to template." alt="" coords="586,243,775,281"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#af2ee38d1ce36008491d935c9431afc7b" title=" " alt="" coords="570,305,791,331"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#aa4c2da5c3a4c637e5dcd904056c0d8bd" title="Fait dedans ??? TODO: Trouver un nom explicite." alt="" coords="657,355,704,380"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#a084c43379643c275d9f82dee57bdf1af" title=" " alt="" coords="586,404,775,443"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#aee9e0333233f370044f0b7459428e236" title=" " alt="" coords="584,467,778,519"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a06412eb3b5af8cd7d978ac6eab667fbf" title=" " alt="" coords="32,533,216,572"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_controller_1_1_modals_1_1_scenario_log_execution.html#a5ba61361bf0695a285bbaefefc427191" title="Render scenario log execution modal." alt="" coords="567,796,795,835"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_controller_1_1_modals_1_1_scenario_export.html#a5ba61361bf0695a285bbaefefc427191" title="Render scenario export modal." alt="" coords="588,859,773,897"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_controller_1_1_modals_1_1_scenario_template.html#a5ba61361bf0695a285bbaefefc427191" title="Render scenario template modal." alt="" coords="580,921,781,960"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_controller_1_1_modals_1_1_scenario_json_edit.html#a5ba61361bf0695a285bbaefefc427191" title="Render scenario json edit configure modal." alt="" coords="582,984,780,1023"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_controller_1_1_modals_1_1_object_display.html#a5ba61361bf0695a285bbaefefc427191" title="Render object display modal." alt="" coords="593,1047,769,1085"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#ac33ee765f5ad9f134540bac393721cfe" title=" " alt="" coords="18,596,229,621"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan3d.html#abea978f4dcd47c4289232744d3ed2f01" title=" " alt="" coords="604,1109,758,1148"/>
+<area shape="rect" id="node24" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan.html#abea978f4dcd47c4289232744d3ed2f01" title=" " alt="" coords="326,645,480,684"/>
+<area shape="rect" id="node26" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a8ffc5b7eb2ca633ca6d27b6d958361eb" title=" " alt="" coords="568,1172,793,1211"/>
+<area shape="rect" id="node27" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#a5aea6d3434a6ec8915f6998b6421977c" title="TODO ????" alt="" coords="292,708,514,747"/>
+<area shape="rect" id="node29" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#aac418304347fa04344fc85d46338d257" title="Obtenir l&#39;interval de temps depuis lequel le scénario s&#39;est exécuté" alt="" coords="572,1235,789,1287"/>
+<area shape="rect" id="node30" href="$class_next_dom_1_1_rest_1_1_scenario_rest.html#afff2a4382be0634471d8875405771701" title="Launch scenario." alt="" coords="585,1311,777,1349"/>
+<area shape="rect" id="node31" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="586,1373,775,1412"/>
+<area shape="rect" id="node32" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#afc8a3c62679cf00ade9f15fb2a6d6132" title="Save scenario." alt="" coords="570,1436,791,1461"/>
+<area shape="rect" id="node33" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#ae23aae6b3675fbf40118b23071a12984" title=" " alt="" coords="586,1485,775,1524"/>
+<area shape="rect" id="node34" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#a98b1e9d61e3ebcd4f65de8057f6d9049" title="Get a scenario from its expression TODO: Format ???" alt="" coords="583,1548,779,1587"/>
+<area shape="rect" id="node35" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#a8dc13f2d6610fa626694d66a964c2de5" title=" " alt="" coords="586,1611,775,1649"/>
+<area shape="rect" id="node36" href="$class_next_dom_1_1_rest_1_1_scenario_rest.html#aac58cbd0faf1954566998e51954c340a" title="Stop scenario." alt="" coords="571,1673,791,1699"/>
+<area shape="rect" id="node37" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#a5397e80991053d096763d01b1a8a6b42" title="TODO: Le CSS C&#39;est pour les faibles." alt="" coords="625,1723,736,1748"/>
+<area shape="rect" id="node39" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#a816fd0d968beb38c3fffe1cce71a0b58" title=" " alt="" coords="586,1772,775,1811"/>
+<area shape="rect" id="node40" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#a025557b47d455e60e720f101fefc3da8" title="/TODO: Fatigué d&#39;essayer de comprendre à quoi ça sert Méthode appelée de façon recursive" alt="" coords="615,747,747,772"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_ajax_1_1_cache_ajax.html#adb40b812890a8bc058bf6b7a0e1a54d9" title="Clean the cache." alt="" coords="316,149,490,188"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a1989af29d7a86630b94145e3be721810" title="Task started everyday." alt="" coords="290,212,515,251"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a8f2d1b2ce1cfb1e53182ffa23407c1f7" title=" " alt="" coords="306,465,500,517"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a4f7d62ae87281b7c23f1f5324a6c90cb" title="Execute a scenario." alt="" coords="27,471,221,509"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan3d.html#ab181fbf7d0aa5e43fee9340e89bac190" title=" " alt="" coords="326,1109,480,1148"/>
+<area shape="rect" id="node25" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan.html#ab181fbf7d0aa5e43fee9340e89bac190" title=" " alt="" coords="47,645,201,684"/>
+<area shape="rect" id="node28" href="$class_next_dom_1_1_controller_1_1_diagnostic_1_1_eq_analyze_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render eqLogic analyze page." alt="" coords="6,708,241,747"/>
+<area shape="rect" id="node38" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#a00af06ff710aee212aeca655eeb1166f" title=" " alt="" coords="307,1716,499,1755"/>
+<area shape="rect" id="node41" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a025557b47d455e60e720f101fefc3da8" title="TODO: ?? Ca fait plein de choses." alt="" coords="290,841,515,880"/>
+<area shape="rect" id="node42" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#a82e28d532f4bc7fb130c1347df26eb5a" title=" " alt="" coords="47,1107,201,1145"/>
+<area shape="rect" id="node43" href="$class_next_dom_1_1_ajax_1_1_listener_ajax.html#af9d14e4ae6227970ad603987781573ca" title=" " alt="" coords="24,1169,224,1195"/>
+<area shape="rect" id="node44" href="$class_next_dom_1_1_ajax_1_1_object_ajax.html#a7459b4cb91e395705363607595a00ae0" title=" " alt="" coords="22,1219,226,1244"/>
+<area shape="rect" id="node45" href="$class_next_dom_1_1_ajax_1_1_interact_ajax.html#a7459b4cb91e395705363607595a00ae0" title=" " alt="" coords="19,771,229,796"/>
+<area shape="rect" id="node46" href="$class_next_dom_1_1_ajax_1_1_cmd_ajax.html#a7459b4cb91e395705363607595a00ae0" title="Get command object by his id." alt="" coords="27,820,220,845"/>
+<area shape="rect" id="node47" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a5ba3160c0db6b7fbfb64ab0a078b7c7a" title=" " alt="" coords="47,869,201,908"/>
+<area shape="rect" id="node48" href="$class_next_dom_1_1_controller_1_1_modals_1_1_plan3d_header_configure.html#a5ba61361bf0695a285bbaefefc427191" title="Render plan 3d header configure modal." alt="" coords="5,932,242,971"/>
+<area shape="rect" id="node49" href="$class_next_dom_1_1_controller_1_1_modals_1_1_cmd_configure.html#a5ba61361bf0695a285bbaefefc427191" title="Render command configuration modal." alt="" coords="34,995,214,1033"/>
+<area shape="rect" id="node50" href="$class_next_dom_1_1_ajax_1_1_plan3d_ajax.html#ac33ee765f5ad9f134540bac393721cfe" title=" " alt="" coords="24,1057,224,1083"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="getSummary" name="getSummary">
+<area shape="rect" id="node1" title="Get summary of the object." alt="" coords="623,12,720,37"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#aa1eb6eeb80a044419601d0cd58ad8407" title="Get summary in HTML format." alt="" coords="451,12,575,37"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_rest_1_1_room_rest.html#a814e8217867111837a28fe02601bb7b7" title="Get HTML room summary." alt="" coords="228,5,403,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_rest_1_1_room_rest.html#a725bd170466af0e38d3d8a69361f3b14" title="Get HTML summary from list of rooms passed in argument separated by ;." alt="" coords="5,5,180,44"/>
+</map>

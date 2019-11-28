@@ -1,0 +1,4 @@
+<map id="getRoomTree" name="getRoomTree">
+<area shape="rect" id="node1" title="Get tree of rooms from specific room." alt="" coords="198,5,300,31"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_rest_1_1_summary_rest.html#a4c5d2756693f3980317f9b2a34316a4d" title="Get tree of rooms from room defined by the user or root room." alt="" coords="5,5,150,31"/>
+</map>

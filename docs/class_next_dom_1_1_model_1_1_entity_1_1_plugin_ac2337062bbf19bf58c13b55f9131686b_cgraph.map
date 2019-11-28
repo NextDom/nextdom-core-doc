@@ -1,0 +1,5 @@
+<map id="getLogList" name="getLogList">
+<area shape="rect" id="node1" title="Obtenir la liste des logs." alt="" coords="5,33,88,59"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#a12251d0c022e9e21c137a105ff683f13" title="Obtenir l&#39;identifiant." alt="" coords="207,5,258,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a7e0e52bdf0635af0118ce4c49c138616" title="Get target path log (usually /var/log/nextdom)" alt="" coords="136,55,328,93"/>
+</map>

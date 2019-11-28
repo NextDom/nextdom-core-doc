@@ -1,0 +1,16 @@
+<map id="refreshJson" name="refreshJson">
+<area shape="rect" id="node1" title="Rafraichier une source JSON." alt="" coords="5,75,96,100"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_market_1_1_market_item.html#a1377c3a8735aade9b84b21e94e0b30c6" title="Create an element from data in a JSON." alt="" coords="167,5,359,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_market_1_1_download_manager.html#ac29063c115010e9f11feee52cb7336c1" title="Télécharge un contenu à partir de son lien." alt="" coords="144,68,381,107"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_market_1_1_next_dom_market.html#a68cfe6b4ac623b39ed19b5916347a11f" title="Test si une mise à jour de la liste des dépôts est nécessaire." alt="" coords="202,131,323,156"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#acc220ef57722e954ceee961ec9f0b55c" title="Log a debug." alt="" coords="452,37,644,76"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_market_1_1_download_manager.html#a6e05d18ed9a2f95e1b30a43e7d7d630f" title="Télécharge un contenu à partir de son lien avec la méthode cURL." alt="" coords="429,100,666,139"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a4d086122826f89ccd612789af05ff0ba" title="Add a message to the log and ensure that there are never more than 1000 lines." alt="" coords="714,44,932,69"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_managers_1_1_message_manager.html#a3fb2dbd02fd3e3b3e6c49e9420fda03e" title=" " alt="" coords="980,5,1178,44"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a59bc2904869e417bffca60916a5cde96" title="Get logger depends of target." alt="" coords="983,68,1175,107"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="1226,68,1460,107"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="1508,36,1743,75"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="1532,99,1720,137"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="1791,99,1979,137"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="2027,99,2215,137"/>
+</map>

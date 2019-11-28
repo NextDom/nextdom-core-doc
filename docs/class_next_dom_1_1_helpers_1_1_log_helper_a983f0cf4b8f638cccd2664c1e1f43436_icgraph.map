@@ -1,0 +1,10 @@
+<map id="getConfig" name="getConfig">
+<area shape="rect" id="node1" title="Get config data by key." alt="" coords="764,65,842,91"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#af248a96208c21d27ca76b447894d6d3a" title="Reduce log file to DEFAULT_MAX_LINES_IN_LOG." alt="" coords="629,40,708,65"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#ac90ef81ac0210d11087ecbc505ccac6a" title="Get log level from config." alt="" coords="622,89,716,115"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#ab42e646a0d621b825fb977ab04e6a790" title="Reduce all logs files." alt="" coords="517,40,574,65"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a1989af29d7a86630b94145e3be721810" title="Task started everyday." alt="" coords="244,5,469,44"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a5f7d2be69f6f2ea18f24fb218e5311df" title="Get log file content." alt="" coords="336,68,376,93"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_rest_1_1_logs_rest.html#a462598fb037e18795ce144fa52038ee5" title="Get the content of a log file For subfolder, / must be replace by a triple underscore (___)" alt="" coords="5,43,196,68"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_ajax_1_1_log_ajax.html#ac33ee765f5ad9f134540bac393721cfe" title=" " alt="" coords="10,92,191,117"/>
+</map>

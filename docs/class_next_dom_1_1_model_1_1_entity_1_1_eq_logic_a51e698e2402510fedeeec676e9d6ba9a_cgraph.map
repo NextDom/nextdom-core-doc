@@ -1,0 +1,4 @@
+<map id="setCategory" name="setCategory">
+<area shape="rect" id="node1" title="Define if the object belongs to a category." alt="" coords="5,5,99,31"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ad39583f77e152044faa849feb281fcb7" title="Test if the object belongs to a category." alt="" coords="147,5,241,31"/>
+</map>

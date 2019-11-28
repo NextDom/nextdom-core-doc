@@ -1,0 +1,13 @@
+<map id="getDefaultRoomTree" name="getDefaultRoomTree">
+<area shape="rect" id="node1" title="Get tree of rooms from room defined by the user or root room." alt="" coords="5,109,150,135"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#af5a86a562ec9a405b33b3559f3b703ae" title=" " alt="" coords="198,40,402,79"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_rest_1_1_authenticator.html#ac93fbec81f07e5d15f80db907e63dc10" title="Get instance of the singleton." alt="" coords="205,103,395,141"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_rest_1_1_summary_rest.html#a26b2e8aab652ddd697d2437911cb1277" title="Get tree of rooms from specific room." alt="" coords="249,165,351,191"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a4f4b5d496f57ab62b86a3a95d2763afc" title="Get an object by with his id." alt="" coords="450,131,653,169"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_model_1_1_entity_1_1_user.html#af5f986a34865b87a7c99a9449cbc3e01" title=" " alt="" coords="474,68,628,107"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a010ff926eec8ff6fe8407c4cfa7f4f5d" title="Get root objects." alt="" coords="450,5,653,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="701,64,889,103"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4b821e14be0e43a27c7e7093d4d2237d" title="Get one object from database." alt="" coords="701,128,889,167"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="937,68,1125,107"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1173,68,1361,107"/>
+</map>

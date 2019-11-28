@@ -1,0 +1,52 @@
+<map id="sentence" name="sentence">
+<area shape="rect" id="node1" title="Traduction direct d&#39;une phrase." alt="" coords="795,1408,870,1433"/>
+<area shape="rect" id="node2" href="$namespace_next_dom.html#a9610e1f499e0995e17fa108053065d08" title="Translate a string." alt="" coords="651,1408,747,1433"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#a82e28d532f4bc7fb130c1347df26eb5a" title=" " alt="" coords="363,5,517,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#ad5710ede5e01969a4a0efe58030cc2f1" title=" " alt="" coords="344,68,536,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#af9d14e4ae6227970ad603987781573ca" title=" " alt="" coords="345,131,535,156"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_api.html#a13490df2ae075ce0e9cce6c753e9e980" title="Get API access with key." alt="" coords="365,180,515,219"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#a1227243837a6b5b7c687195ba3677cf1" title=" " alt="" coords="346,243,534,281"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a3c355c0abf1ef242ca092d05ad9ea19b" title=" " alt="" coords="346,305,534,344"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_repo_1_1_repo_market.html#abd67387af33597b6ae9668d246a6f621" title=" " alt="" coords="346,368,534,407"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_ajax_1_1_repo_ajax.html#aa023faef6fb8675836ba957e4c20ce27" title=" " alt="" coords="356,431,524,469"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac0c376449aaef2145b23905837cc9494" title="Update battery status." alt="" coords="362,493,518,532"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aa9af0e62b347831e6a437472a3532140" title="Get HTML code for battery widget." alt="" coords="360,556,520,595"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_ajax_1_1_cmd_ajax.html#ad72a53949a9634ef8663d92de9b1c92e" title="Get command by human name." alt="" coords="358,619,522,657"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_ajax_1_1_object_ajax.html#a7459b4cb91e395705363607595a00ae0" title=" " alt="" coords="338,681,542,707"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_ajax_1_1_eq_logic_ajax.html#a7459b4cb91e395705363607595a00ae0" title=" " alt="" coords="333,731,547,756"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#ac088d49ec4671e62734f5ca4303ebe37" title="Get a plugin from his username." alt="" coords="309,780,571,805"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a4b9f34774d9077fa3b90f0bafa80970f" title="TODO ???" alt="" coords="5,799,229,837"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_ajax_1_1_cmd_ajax.html#a7459b4cb91e395705363607595a00ae0" title="Get command object by his id." alt="" coords="343,881,537,907"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_ajax_1_1_repo_ajax.html#aa066c320f2a7957c16b2267f8bed7cb9" title=" " alt="" coords="356,931,524,969"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_managers_1_1_eq_logic_manager.html#ac50c4e6d7cf0e8a624b3e7342413d699" title="TODO: ???" alt="" coords="315,993,565,1032"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_managers_1_1_cmd_manager.html#a01f87f9caa3473d82a3760f7cbd39098" title="Get command by object name, eqLogic name and cmd name." alt="" coords="310,1056,570,1095"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#a3ae293741e51e23afc490baa3203fdb4" title="Liste des scénario triés par objet, group et nom du scénario." alt="" coords="277,1119,603,1157"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_managers_1_1_cmd_manager.html#a76b412216bf58c4fa2e55471b59101bb" title="Get commands by string in human readeable format." alt="" coords="328,1181,552,1220"/>
+<area shape="rect" id="node24" href="$class_next_dom_1_1_managers_1_1_eq_logic_manager.html#a321844505f1e7e78427fbae4cbde22ea" title=" " alt="" coords="344,1244,536,1283"/>
+<area shape="rect" id="node25" href="$class_next_dom_1_1_ajax_1_1_cmd_ajax.html#a222747b363a52e373b358bc2fdd10f88" title="Change history item from datetime to another." alt="" coords="358,1307,522,1345"/>
+<area shape="rect" id="node26" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#afbe625d6fe4d03b578d15b4b87d69d75" title="Change scenario state." alt="" coords="346,1369,534,1408"/>
+<area shape="rect" id="node27" href="$class_next_dom_1_1_ajax_1_1_interact_ajax.html#afbe625d6fe4d03b578d15b4b87d69d75" title=" " alt="" coords="350,1432,530,1471"/>
+<area shape="rect" id="node28" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#a1ef3d1d6487e953bd1ed01055f680b82" title="Vérifier un scénario TODO: Virer les strings." alt="" coords="342,1495,538,1533"/>
+<area shape="rect" id="node29" href="$class_next_dom_1_1_ajax_1_1_base_ajax.html#a54111154223bed6fe504e5043435bf5a" title="Check access of the user." alt="" coords="357,1557,523,1596"/>
+<area shape="rect" id="node30" href="$class_next_dom_1_1_managers_1_1_eq_logic_manager.html#a64e395783f04d278c10d7520d7e00f98" title="Vérifier si un objet est actif." alt="" coords="344,1620,536,1659"/>
+<area shape="rect" id="node31" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#af8625faaeeb79df492c9384f65f1ca82" title="Test le daemon TODO ??" alt="" coords="323,1683,557,1721"/>
+<area shape="rect" id="node32" href="$class_next_dom_1_1_helpers_1_1_ajax_helper.html#ac89b7952fdcfcc125b7e9b96bd8c7e73" title="Check ajax token validity." alt="" coords="342,1745,538,1784"/>
+<area shape="rect" id="node33" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a495fe12ef3f01acdd7b456a450087aac" title="Check that the object tree does not have a loop." alt="" coords="328,1808,552,1847"/>
+<area shape="rect" id="node34" href="$class_next_dom_1_1_ajax_1_1_update_ajax.html#ab8f79025aae0d0b3b53ecf6921cbd460" title=" " alt="" coords="350,1871,530,1909"/>
+<area shape="rect" id="node35" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#ab8f79025aae0d0b3b53ecf6921cbd460" title="Vérifier si une mise à jour est disponible." alt="" coords="363,1933,517,1972"/>
+<area shape="rect" id="node36" href="$class_next_dom_1_1_helpers_1_1_script_helper.html#a82a1374c25d8f074319f59e0414cd0e5" title=" " alt="" coords="338,1996,542,2035"/>
+<area shape="rect" id="node37" href="$class_next_dom_1_1_managers_1_1_user_manager.html#a7ca248d8a27ef20f3eeeba0e7555887d" title="Retourne un object utilisateur (si les information de connection sont valide)" alt="" coords="328,2059,552,2097"/>
+<area shape="rect" id="node38" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#a82176d33196c45cf0485658d905d12f3" title="Test la validité des scénarios TODO: Je suppose." alt="" coords="342,2121,538,2160"/>
+<area shape="rect" id="node39" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#ac177e1adbc47994d4abf97304ce1c532" title="Contrôle des scénarios // TODO: ???" alt="" coords="342,2184,538,2223"/>
+<area shape="rect" id="node40" href="$class_next_dom_1_1_managers_1_1_cmd_manager.html#afcde4c32b4351c6b2ecd0d610b9c0325" title="Convert color to hexadecimal code." alt="" coords="328,2247,552,2285"/>
+<area shape="rect" id="node41" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#a424f27d9b462c9830cc30ab985f34b31" title="Convert current scenario to template." alt="" coords="346,2309,534,2348"/>
+<area shape="rect" id="node42" href="$class_next_dom_1_1_ajax_1_1_plan_ajax.html#af2ee38d1ce36008491d935c9431afc7b" title=" " alt="" coords="343,2372,537,2397"/>
+<area shape="rect" id="node43" href="$class_next_dom_1_1_ajax_1_1_eq_logic_ajax.html#af2ee38d1ce36008491d935c9431afc7b" title=" " alt="" coords="332,2421,548,2447"/>
+<area shape="rect" id="node44" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#af2ee38d1ce36008491d935c9431afc7b" title=" " alt="" coords="330,2471,550,2496"/>
+<area shape="rect" id="node45" href="$class_next_dom_1_1_managers_1_1_history_manager.html#a537cad872669887f2944650ac8d262f8" title=" " alt="" coords="345,2520,535,2559"/>
+<area shape="rect" id="node46" href="$class_next_dom_1_1_ajax_1_1_plan_ajax.html#a0735b9a5a4031cdd2d2201c930e8a75b" title=" " alt="" coords="359,2583,522,2621"/>
+<area shape="rect" id="node47" href="$class_next_dom_1_1_ajax_1_1_plan3d_ajax.html#a435e7d7525d4bcd0ed5e34a469f3adf6" title=" " alt="" coords="351,2645,529,2684"/>
+<area shape="rect" id="node48" href="$class_next_dom_1_1_ajax_1_1_plan_ajax.html#a435e7d7525d4bcd0ed5e34a469f3adf6" title=" " alt="" coords="359,2708,522,2747"/>
+<area shape="rect" id="node49" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#a88d851df8f49c1fb269f182142c9ec0e" title=" " alt="" coords="344,2771,536,2809"/>
+<area shape="rect" id="node50" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a1364f59605e5bc5a436fb63eeb9020a8" title="Task started minutes." alt="" coords="313,2833,567,2859"/>
+</map>

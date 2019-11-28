@@ -1,0 +1,52 @@
+<map id="backup" name="backup">
+<area shape="rect" id="node1" title=" " alt="" coords="5,981,70,1007"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a27cd8188d6bf24c6de12f55bb7abe72b" title="Creates a backup archive." alt="" coords="118,943,358,981"/>
+<area shape="rect" id="node49" href="$class_next_dom_1_1_helpers_1_1_authentification_helper.html#a462e90baa8609e020082a6e93e236b02" title="@abstract Test if user is connected with admins right or throw CoreException if not." alt="" coords="124,1005,352,1044"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#af64c83a3bb07eeef70cb65ec9cbf84fc" title="Clear log file." alt="" coords="431,1491,623,1529"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a7e0e52bdf0635af0118ce4c49c138616" title="Get target path log (usually /var/log/nextdom)" alt="" coords="723,1491,915,1529"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#ace782e411a6c4e97ead02884eb54ea20" title="Runs the backup procedure." alt="" coords="406,753,647,792"/>
+<area shape="rect" id="node48" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#a03248ba1274669947482d53b18506308" title="Execute PHP command." alt="" coords="407,5,647,31"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_com_1_1_com_shell.html#a2444160cf715a3b170c54bf076b25801" title="Execute a command." alt="" coords="734,1553,904,1592"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#adfa1119c93aed305edf0a34f9d574c04" title="Get sudo command." alt="" coords="712,1616,926,1655"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_com_1_1_com_shell.html#ac93fbec81f07e5d15f80db907e63dc10" title="Get the instance of com_shell." alt="" coords="1026,1553,1196,1592"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a7a3429f446f9db275f118bf41bbb7942" title="Test if NextDom can call system function." alt="" coords="998,1616,1223,1655"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#ada013231ed32c57edca6885116d176c3" title="Log an error." alt="" coords="1317,579,1508,617"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a10ab3be11f78c639e67193666cb1c0df" title="Runs backup method for each active plugins if available." alt="" coords="698,344,939,383"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="1594,1121,1829,1160"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a9c8a076632ca9e7e37837af66eabacb2" title="Creates an archive with all files that should be included in backup." alt="" coords="698,407,939,445"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#afa2a620d4390ce5f6f6ec92a2748ff57" title="Creates a backup of database to given output file path." alt="" coords="698,469,939,508"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_helpers_1_1_console_helper.html#a4151611be30228b4d9a4b24eca0995c3" title="Show ok message." alt="" coords="710,532,928,571"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_helpers_1_1_console_helper.html#a1d78d52cbcb03cbbbfe514773f54cf06" title="Show error message." alt="" coords="710,595,928,633"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a2ac9f06d44b956a01745521940b04c5a" title="Check an event." alt="" coords="706,156,931,195"/>
+<area shape="rect" id="node25" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#af5a073725c5c084616eb64ca8b8b82d5" title=" " alt="" coords="993,920,1228,959"/>
+<area shape="rect" id="node26" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a08d00aa985d7aecd45665c0b183d0486" title="Returns backup directory according to backup::path." alt="" coords="1292,1440,1533,1479"/>
+<area shape="rect" id="node27" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a55c13c988beeb475343d0ca1f36d441a" title="Computes backup filename from nextdom&#39;s name and current datetime." alt="" coords="698,1275,939,1313"/>
+<area shape="rect" id="node29" href="$class_next_dom_1_1_helpers_1_1_console_helper.html#a8219703c5acfa6db575b0464e9acd9b8" title="Show not ok message." alt="" coords="697,873,941,899"/>
+<area shape="rect" id="node30" href="$class_next_dom_1_1_helpers_1_1_console_helper.html#a2cdf4a5b1248db93096edb610c7c97dd" title="Show ok message." alt="" coords="701,923,937,948"/>
+<area shape="rect" id="node31" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a10b59043fc22b1dd0369492835e5734a" title="Persist cache system." alt="" coords="701,1087,936,1125"/>
+<area shape="rect" id="node36" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#ace1bacd577bd2254c9a68e501fdd84ca" title="Checks and repair database." alt="" coords="698,1024,939,1063"/>
+<area shape="rect" id="node37" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a2b5b2e6ecb7f01476001d6db4dd691b3" title="Removes backup archives according to backup::keepDays and backup::maxSize." alt="" coords="698,811,939,849"/>
+<area shape="rect" id="node39" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#ab5948510b747494dbfbf23bc77a7347c" title="Trigger remote upload for all available repos." alt="" coords="990,743,1231,781"/>
+<area shape="rect" id="node42" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ab592353eefc343cf696f184d79fbb9f9" title="Start all cron tasks and scenarios." alt="" coords="998,1212,1223,1251"/>
+<area shape="rect" id="node44" href="$class_next_dom_1_1_helpers_1_1_console_helper.html#a17ff46b018e62e3e3b611a1609a39260" title="Show step information." alt="" coords="695,107,942,132"/>
+<area shape="rect" id="node45" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ad686923149ee99c13b8895133dcc0d69" title="Stop all cron tasks and scenarios." alt="" coords="998,680,1223,719"/>
+<area shape="rect" id="node46" href="$class_next_dom_1_1_helpers_1_1_console_helper.html#a3d6e756b99c1f847d7937c62c007ef3f" title="Show subtitle." alt="" coords="710,219,928,257"/>
+<area shape="rect" id="node47" href="$class_next_dom_1_1_helpers_1_1_console_helper.html#a30efebe4e50a775ea505a60e8dde3ef3" title="Show title." alt="" coords="710,281,928,320"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a4d086122826f89ccd612789af05ff0ba" title="Add a message to the log and ensure that there are never more than 1000 lines." alt="" coords="1602,616,1820,641"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#af7965a4a188caffa392780b011c824f3" title="Get the list of plugins." alt="" coords="994,344,1227,383"/>
+<area shape="rect" id="node14" href="$namespace_next_dom.html#a9610e1f499e0995e17fa108053065d08" title="Translate a string." alt="" coords="1365,163,1460,188"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a756453f5746332d01aae5d7f0a583df7" title="Traduction direct d&#39;une phrase." alt="" coords="1618,156,1804,195"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="1877,864,2111,903"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="1900,1121,2088,1160"/>
+<area shape="rect" id="node24" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#a1ef3d1d6487e953bd1ed01055f680b82" title="Vérifier un scénario TODO: Virer les strings." alt="" coords="1013,156,1209,195"/>
+<area shape="rect" id="node28" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a6cf68c49b664014c65f64cf7ac03623e" title="Get Nextdom version." alt="" coords="998,1275,1223,1313"/>
+<area shape="rect" id="node32" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#ad62e7ab677383b9e591ea7be6e1357af" title="Get the folder where the cache is stored." alt="" coords="993,1149,1228,1188"/>
+<area shape="rect" id="node34" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#ab6c43fe722c0b17bcad97b64dddc75c0" title="Get apache group id." alt="" coords="1004,1035,1218,1073"/>
+<area shape="rect" id="node35" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#af8edbc1b2262a37d02b96082d58817ff" title="Get apache user id name." alt="" coords="1305,1005,1519,1044"/>
+<area shape="rect" id="node33" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a2eb7fdd340eb5ab95e82b4500a9abbbf" title="Get temporary folder and creates it if not exists." alt="" coords="1300,1149,1525,1188"/>
+<area shape="rect" id="node38" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#af43fb8a4372343001b0ba4f43ff770ab" title="Creates an array with information about existing backup files." alt="" coords="990,805,1231,844"/>
+<area shape="rect" id="node40" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#aef6866d7f01a167db0f9a5b61ccb695d" title="Log an information." alt="" coords="1317,641,1508,680"/>
+<area shape="rect" id="node41" href="$class_next_dom_1_1_managers_1_1_update_manager.html#a374d97919101d5265deae63f1c60ae2b" title="List of repositories." alt="" coords="1293,805,1532,844"/>
+<area shape="rect" id="node43" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a28bc8c5f706be1ed57bd99742193f44d" title="Save new configuration value in the database." alt="" coords="1279,704,1546,729"/>
+<area shape="rect" id="node50" href="$class_next_dom_1_1_helpers_1_1_authentification_helper.html#a822bd28fe77940191d4b3d716e4dadd1" title="Get the login status of the user as an administrator." alt="" coords="416,1553,637,1592"/>
+</map>

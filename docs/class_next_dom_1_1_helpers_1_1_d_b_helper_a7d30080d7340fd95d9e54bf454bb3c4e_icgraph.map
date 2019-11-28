@@ -1,0 +1,9 @@
+<map id="refresh" name="refresh">
+<area shape="rect" id="node1" title="Refresh value of an object." alt="" coords="409,137,472,163"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_user.html#a2aff0844db6d9b56e6ba96123e1dd11c" title=" " alt="" coords="207,5,361,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a2aff0844db6d9b56e6ba96123e1dd11c" title="Rafraichit les informations à partir de la base de données." alt="" coords="207,68,361,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a2aff0844db6d9b56e6ba96123e1dd11c" title=" " alt="" coords="207,131,361,169"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#a2aff0844db6d9b56e6ba96123e1dd11c" title=" " alt="" coords="207,193,361,232"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a2aff0844db6d9b56e6ba96123e1dd11c" title="Refresh data from the database." alt="" coords="207,256,361,295"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a041adcbb404f75b2bca37fe34161c1e2" title="Start update." alt="" coords="5,68,159,107"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="downloadContent" name="downloadContent">
+<area shape="rect" id="node1" title="Télécharge un contenu à partir de son lien." alt="" coords="784,127,909,152"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_market_1_1_download_manager.html#a29d54a2a2f684fffa6ab02e313e23548" title="Télécharge un fichier binaire." alt="" coords="567,15,683,40"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_market_1_1_market_item.html#a2aff0844db6d9b56e6ba96123e1dd11c" title="Updates the data of the element." alt="" coords="5,35,197,73"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_market_1_1_market_item.html#a038a3f092b49f8fe77257949fad576cb" title="Update branch data." alt="" coords="519,120,731,159"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_market_1_1_git_manager.html#a527e18805dc80b1db8696c81043d1374" title="Télécharge la liste des dépôts au format JSON." alt="" coords="528,183,722,221"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_market_1_1_next_dom_market.html#a4cf467d23db29b6bd8195fc4d619989d" title="Rafraichier une source JSON." alt="" coords="514,245,736,284"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_market_1_1_market_item.html#af2fe1d49f1c3b969d08b84d1694d5f85" title="Download the plugin icon." alt="" coords="260,5,452,44"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_market_1_1_git_manager.html#a1f4c5beae6042e2173cd8b31f3af71be" title="Met à jour la liste des dépôts." alt="" coords="258,183,453,221"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_market_1_1_next_dom_market.html#a6ca3288cdb58dee2ddf5350d3b4995b0" title="Met à jour la liste des dépôts." alt="" coords="245,245,466,284"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="calculStat" name="calculStat">
+<area shape="rect" id="node1" title="TODO: Calcul les stats de quelquechose." alt="" coords="978,137,1058,163"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a721f44fa4308bdeda015f695c6c5a716" title="TODO ???" alt="" coords="711,68,930,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#ad819e621ceeb55ce0a0920996126e95f" title="TODO: ???" alt="" coords="719,131,923,169"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a783512ecb45e8e79f0aa5cfe01176d6f" title="Get summary of the object." alt="" coords="739,193,903,232"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan.html#ab181fbf7d0aa5e43fee9340e89bac190" title=" " alt="" coords="480,5,634,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_ajax_1_1_object_ajax.html#afa5aac53f06522aec35e9e575a3247bf" title=" " alt="" coords="470,68,644,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a577635c65ea8232f8275d04c364358c9" title="TODO ???" alt="" coords="451,131,663,169"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#aa1eb6eeb80a044419601d0cd58ad8407" title="Get summary in HTML format." alt="" coords="461,193,653,232"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_rest_1_1_room_rest.html#a814e8217867111837a28fe02601bb7b7" title="Get HTML room summary." alt="" coords="228,193,403,232"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_rest_1_1_room_rest.html#a725bd170466af0e38d3d8a69361f3b14" title="Get HTML summary from list of rooms passed in argument separated by ;." alt="" coords="5,193,180,232"/>
+</map>

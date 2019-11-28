@@ -1,0 +1,25 @@
+<map id="refresh" name="refresh">
+<area shape="rect" id="node1" title="Refresh DB state of this cron." alt="" coords="5,181,68,207"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#afbf787ced76807989fb3093e1772c5a1" title="Get current state." alt="" coords="315,156,386,181"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a777b3bdaee6d812a1994c79051178149" title="Check if this cron is currently running." alt="" coords="118,105,184,131"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a1c239394c20779ef571d562fa56f5b44" title="Store PID in cache." alt="" coords="121,207,182,232"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a94042b70768a686decc42594ef36bbd6" title="Set task state." alt="" coords="116,256,186,281"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a61fb0dc52f8055dbdf8dba4d3337bab0" title="Get task data in cache." alt="" coords="603,107,682,132"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a0876e53f130e9430811a79e786c02e0c" title="Get stored object by key." alt="" coords="818,203,1053,241"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a12251d0c022e9e21c137a105ff683f13" title=" " alt="" coords="910,107,961,132"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a50aa8a13306d0d908f9411f1c0fb18b0" title="Get cache system." alt="" coords="1101,203,1336,241"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="2254,205,2489,244"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a28bc8c5f706be1ed57bd99742193f44d" title="Save new configuration value in the database." alt="" coords="1384,149,1651,175"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="2537,143,2772,181"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="2561,205,2749,244"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="2820,173,3008,212"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="3056,145,3244,184"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a01c203ce9e139c8217a39d446eca7ea3" title="Execute a query without result (DELETE, UPDATE, INSERT, etc.)" alt="" coords="1984,92,2204,117"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#aaa69e3f215a5e653f61ec2bb0d57d44e" title="Get configuration informations or global configuration." alt="" coords="1703,205,1929,244"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ac91a39d2fc0ff49855ad66b906d00bf0" title="Remove key from the database." alt="" coords="1699,143,1933,181"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#acda790553577ca5cef6f61bd79cc3f45" title="TODO: ???" alt="" coords="1981,205,2206,244"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a18583f1bcba3fd5960e339e53fcb2a16" title="Get task PID." alt="" coords="319,107,381,132"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#a5f9ca2605151102ce38f53e389452f2d" title="Find a process." alt="" coords="234,5,466,31"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#abf2cc7758bde0b1a311d60c058a7c2b5" title="Store task data in cache." alt="" coords="311,207,389,232"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#af7ddee5a83aa46d9f8e4b071e6d25335" title="Store object in cache." alt="" coords="514,156,770,181"/>
+</map>

@@ -1,0 +1,52 @@
+<map id="getPathById" name="getPathById">
+<area shape="rect" id="node1" title="Get the path of the info.json file from the plugin ID." alt="" coords="941,1325,1035,1351"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#ac088d49ec4671e62734f5ca4303ebe37" title="Get a plugin from his username." alt="" coords="847,840,893,865"/>
+<area shape="rect" id="node34" href="$class_next_dom_1_1_controller_1_1_diagnostic_1_1_health_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render health page." alt="" coords="272,1805,481,1844"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a2d964e881b99820bf727aa0c4bd96cd9" title="Remove old and unused item stored in cache." alt="" coords="562,68,796,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a4b9f34774d9077fa3b90f0bafa80970f" title="TODO ???" alt="" coords="567,131,791,169"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#ae80357076e2e91a0e5a60b1f8dfc6bba" title=" " alt="" coords="589,193,769,232"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#abaf8b9e59b410de8dd03dc0d3dabf3cf" title=" " alt="" coords="592,256,766,295"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#a1395e5895c238108b1fc3e7391412b14" title=" " alt="" coords="592,319,766,357"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#ac6fa171c40da3c8f5cbf3ad866a46e33" title="Supprime une information de mise à jour." alt="" coords="602,381,756,420"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#a88deefa1f6b94ae6fa5b0f63cdcaff3f" title=" " alt="" coords="592,444,766,483"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#aa5e360f49dd61daca06ed4f1a1c1634f" title=" " alt="" coords="570,507,788,545"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#adbc2f5e92a07fc145077b2e0c8df4458" title=" " alt="" coords="582,569,776,621"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_controller_1_1_modals_1_1_plugin_daemon.html#a5ba61361bf0695a285bbaefefc427191" title="Render plugin daemon modal." alt="" coords="588,645,770,684"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_controller_1_1_modals_1_1_plugin_dependency.html#a5ba61361bf0695a285bbaefefc427191" title="Render plugin daemon modal." alt="" coords="576,708,782,747"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_controller_1_1_pages_1_1_panel_page_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="TODO this methode are used ?" alt="" coords="573,771,785,809"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_controller_1_1_tools_1_1_plugin_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render for all plugins pages." alt="" coords="590,833,767,872"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_managers_1_1_eq_real_manager.html#a9b4ee1ab11141d7dda2adf0bf21eaedf" title=" " alt="" coords="559,896,799,935"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#ab5019584a7fd1de86f069cbf20e5f06d" title=" " alt="" coords="592,959,766,997"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#ab436bfea5935f0005a050dff211e752d" title=" " alt="" coords="592,1021,766,1060"/>
+<area shape="rect" id="node24" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#a71c05a794ae11e21ef0dc42e7feba05b" title=" " alt="" coords="592,1084,766,1123"/>
+<area shape="rect" id="node25" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#aefab49eda699f0057de9db43b57bf7b7" title="Get documentation link." alt="" coords="583,1147,775,1185"/>
+<area shape="rect" id="node26" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a2af8add37797384585cae101fb8cbfe7" title="Get linked image." alt="" coords="602,1209,756,1248"/>
+<area shape="rect" id="node28" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#af7965a4a188caffa392780b011c824f3" title="Get the list of plugins." alt="" coords="642,1272,716,1297"/>
+<area shape="rect" id="node47" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a93c55211d4fdf814bc4417641c327415" title="Lancer la procédure post installation." alt="" coords="592,1321,766,1360"/>
+<area shape="rect" id="node48" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#aac7affc55b87c330b8b991bf5f8f0d45" title="Lance la procédure de préinstallation d&#39;un objet." alt="" coords="595,1384,763,1423"/>
+<area shape="rect" id="node49" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a9061c90b7efabb2edf4e7a93cb00635b" title="TODO: Génération des fichiers de traduction." alt="" coords="586,1447,772,1485"/>
+<area shape="rect" id="node50" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#a09b3d50907f071311ad6088502e43108" title=" " alt="" coords="592,1509,766,1548"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_ajax_1_1_cache_ajax.html#adb40b812890a8bc058bf6b7a0e1a54d9" title="Clean the cache." alt="" coords="289,5,464,44"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a1989af29d7a86630b94145e3be721810" title="Task started everyday." alt="" coords="264,68,489,107"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_ajax_1_1_object_ajax.html#ab03d9e184bb9519ea5685789b92112c5" title=" " alt="" coords="289,131,464,169"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a8f2d1b2ce1cfb1e53182ffa23407c1f7" title=" " alt="" coords="280,569,474,621"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_managers_1_1_eq_real_manager.html#a80e21b85b4c1b79237951397c90a8217" title=" " alt="" coords="242,665,511,691"/>
+<area shape="rect" id="node27" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac8d70bd1c911c1397de766ca02149037" title="Get link data for graph representation." alt="" coords="300,715,454,753"/>
+<area shape="rect" id="node29" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#af9d14e4ae6227970ad603987781573ca" title=" " alt="" coords="281,777,472,803"/>
+<area shape="rect" id="node30" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a10ab3be11f78c639e67193666cb1c0df" title="Runs backup method for each active plugins if available." alt="" coords="256,827,497,865"/>
+<area shape="rect" id="node31" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#ab6caeefd18672286789d7db7225b4c70" title="Procédure d&#39;installation des dépendances TODO: Corriger la faute." alt="" coords="287,889,467,928"/>
+<area shape="rect" id="node32" href="$class_next_dom_1_1_managers_1_1_update_manager.html#a9a165a557485e40188c027d6c96e5734" title="Find if new items are presents (installed manually)" alt="" coords="257,952,496,991"/>
+<area shape="rect" id="node33" href="$class_next_dom_1_1_controller_1_1_params_1_1_log_config_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render logConfig page." alt="" coords="269,1015,484,1053"/>
+<area shape="rect" id="node35" href="$class_next_dom_1_1_controller_1_1_admin_1_1_api_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render API page." alt="" coords="294,1077,459,1116"/>
+<area shape="rect" id="node36" href="$class_next_dom_1_1_controller_1_1_tools_1_1_plugin_list_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render plugin page." alt="" coords="278,1140,475,1179"/>
+<area shape="rect" id="node37" href="$class_next_dom_1_1_controller_1_1_diagnostic_1_1_report_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render report page." alt="" coords="271,1203,482,1241"/>
+<area shape="rect" id="node38" href="$class_next_dom_1_1_controller_1_1_params_1_1_profils_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render profils page." alt="" coords="281,1265,472,1304"/>
+<area shape="rect" id="node39" href="$class_next_dom_1_1_controller_1_1_diagnostic_1_1_eq_analyze_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render eqLogic analyze page." alt="" coords="259,1328,494,1367"/>
+<area shape="rect" id="node40" href="$class_next_dom_1_1_helpers_1_1_prepare_view.html#a016324ca5e5a6422c7e8735293a9d550" title="Response to an Ajax request." alt="" coords="273,1391,480,1429"/>
+<area shape="rect" id="node41" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#a9713e122ec8d1e1fdaba2a06e72a066b" title=" " alt="" coords="281,1453,472,1492"/>
+<area shape="rect" id="node42" href="$class_next_dom_1_1_repo_1_1_repo_market.html#aefcc6f1e19821b00c0852134af360274" title=" " alt="" coords="282,1516,471,1555"/>
+<area shape="rect" id="node43" href="$class_next_dom_1_1_repo_1_1_repo_market.html#a0a34d13365af24c2367765a42d7de901" title=" " alt="" coords="5,1545,194,1584"/>
+<area shape="rect" id="node44" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#ab98c978d767899cef39ee1435e719273" title=" " alt="" coords="300,1631,453,1656"/>
+<area shape="rect" id="node45" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#acb13384ee83db23b568fc06d0ec4e07e" title="TODO: Déplacer dans CmdManager ???" alt="" coords="275,1680,478,1719"/>
+<area shape="rect" id="node46" href="$class_next_dom_1_1_managers_1_1_interact_query_manager.html#aba641bdf5a05b7f966136e6029b9adb6" title=" " alt="" coords="283,1743,471,1781"/>
+</map>

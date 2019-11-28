@@ -1,0 +1,8 @@
+<map id="setPID" name="setPID">
+<area shape="rect" id="node1" title="Store PID in cache." alt="" coords="247,79,308,104"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a8c8cc98835b4b7a3e7e18fdfb54631bb" title="Stop immediatly cron (this method must be only call by jeecron master)" alt="" coords="138,29,180,55"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#ab0f46db4a021112a2c8c1848b811b3ce" title="Stop task after insert in database." alt="" coords="119,79,199,104"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a2aff0844db6d9b56e6ba96123e1dd11c" title="Refresh DB state of this cron." alt="" coords="128,128,190,153"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#ad827bb380f83a35deaf24c68d33c41b1" title="Remove cron object from the database." alt="" coords="5,5,71,31"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#afa17e114d4ab7d7b7da271de70a14f66" title="Launch cron (this method must be only call by jeeCron master)" alt="" coords="18,55,59,80"/>
+</map>

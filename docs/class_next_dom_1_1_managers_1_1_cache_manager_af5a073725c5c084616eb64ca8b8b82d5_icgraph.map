@@ -1,0 +1,11 @@
+<map id="getArchivePath" name="getArchivePath">
+<area shape="rect" id="node1" title=" " alt="" coords="959,63,1071,88"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#ace782e411a6c4e97ead02884eb54ea20" title="Runs the backup procedure." alt="" coords="534,5,774,44"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a04dab4a8cc8e0bf67559dd243f014c9b" title="Get system health Test all functionnalities." alt="" coords="542,113,767,152"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#addf4fc18f1f079f776d408ad184414e5" title="Test if cache already exists." alt="" coords="822,139,911,164"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a10b59043fc22b1dd0369492835e5734a" title="Persist cache system." alt="" coords="837,37,897,63"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a27cd8188d6bf24c6de12f55bb7abe72b" title="Creates a backup archive." alt="" coords="245,5,486,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#ada953121a7d721565b055fef7407296e" title=" " alt="" coords="5,5,197,44"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_controller_1_1_diagnostic_1_1_health_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render health page." alt="" coords="261,77,470,116"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#a2374e9a58b0da4edd7fa14b83f9e7e41" title=" " alt="" coords="270,140,461,179"/>
+</map>

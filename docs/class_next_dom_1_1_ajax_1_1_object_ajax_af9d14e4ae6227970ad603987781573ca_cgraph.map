@@ -1,0 +1,8 @@
+<map id="all" name="all">
+<area shape="rect" id="node1" title=" " alt="" coords="5,44,44,69"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a41ccd9d586f8d92f5811c166595d6d56" title="Build tree of all objects." alt="" coords="92,37,296,76"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a010ff926eec8ff6fe8407c4cfa7f4f5d" title="Get root objects." alt="" coords="344,37,547,76"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="595,5,783,44"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="595,68,783,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="831,68,1019,107"/>
+</map>

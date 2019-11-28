@@ -1,0 +1,4 @@
+<map id="storeRawData" name="storeRawData">
+<area shape="rect" id="node1" title="Stocke des données brutes." alt="" coords="161,5,266,31"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#aa60aaaea2dbc9f4206906795db32cd57" title="Stocke des données au format JSON." alt="" coords="5,5,113,31"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="get" name="get">
+<area shape="rect" id="node1" title="Render update add modal." alt="" coords="5,79,45,105"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="380,43,615,82"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_render.html#ac93fbec81f07e5d15f80db907e63dc10" title="Get render instance." alt="" coords="126,41,300,79"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_ajax_helper.html#a6f60050addad0dfcc72a86c2508d48aa" title="Get current NextDom token stored in session." alt="" coords="115,166,311,205"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_managers_1_1_update_manager.html#a374d97919101d5265deae63f1c60ae2b" title="List of repositories." alt="" coords="93,103,332,142"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="663,11,898,50"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="687,74,875,113"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="946,74,1134,113"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1182,74,1370,113"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ace8e646ad07ddadd65d783e56b7a24b1" title="Generate Key with letters and numbers." alt="" coords="380,166,615,205"/>
+</map>

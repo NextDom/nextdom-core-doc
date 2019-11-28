@@ -1,0 +1,17 @@
+<map id="getCache" name="getCache">
+<area shape="rect" id="node1" title="Get data from cache." alt="" coords="517,163,595,189"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a6c9c0fd3020357deb46ba154f8d25486" title="Execute the scenario." alt="" coords="120,39,188,65"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a9e814555338d70b03eb1cfe77b2e710e" title="Lance un scénario." alt="" coords="5,39,66,65"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#abc6917e58447dbc064ae42e1864f4e29" title=" " alt="" coords="360,214,469,239"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a94042b70768a686decc42594ef36bbd6" title=" " alt="" coords="242,163,312,189"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#ac1f693a12c8e554284a143310f3c37db" title=" " alt="" coords="383,113,446,138"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#afbf787ced76807989fb3093e1772c5a1" title=" " alt="" coords="379,338,450,363"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a658defb34762c8f40085aec87e16ba1a" title=" " alt="" coords="382,387,447,413"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a643e50b0eab988f3a398f68cc7055a78" title=" " alt="" coords="249,213,305,238"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#afc8a3c62679cf00ade9f15fb2a6d6132" title=" " alt="" coords="252,314,302,339"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a95645a22e466607e1e3e79d3f92ab5cf" title=" " alt="" coords="124,363,184,389"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#ab0f46db4a021112a2c8c1848b811b3ce" title=" " alt="" coords="114,163,194,189"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a8b6fc76a620d7557d06e9a11a9ffb509" title=" " alt="" coords="131,114,177,139"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a777b3bdaee6d812a1994c79051178149" title=" " alt="" coords="244,114,310,139"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#af54631223fd83ce6f4fabb2beab4c12f" title="Get scenario icon." alt="" coords="244,363,310,389"/>
+</map>

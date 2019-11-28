@@ -1,0 +1,4 @@
+<map id="isEnabled" name="isEnabled">
+<area shape="rect" id="node1" title="Get eqLogic enable status." alt="" coords="5,5,85,31"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a41015245b2ca84a4e01f456dd32bfe8d" title="Get eqLogic enabled state." alt="" coords="133,5,225,31"/>
+</map>

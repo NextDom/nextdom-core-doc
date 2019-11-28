@@ -1,0 +1,5 @@
+<map id="halt" name="halt">
+<area shape="rect" id="node1" title="Stop immediatly cron (this method must be only call by jeecron master)" alt="" coords="119,31,162,56"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#ad827bb380f83a35deaf24c68d33c41b1" title="Remove cron object from the database." alt="" coords="5,5,71,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#afa17e114d4ab7d7b7da271de70a14f66" title="Launch cron (this method must be only call by jeeCron master)" alt="" coords="18,55,59,80"/>
+</map>

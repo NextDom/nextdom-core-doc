@@ -1,0 +1,26 @@
+<map id="add" name="add">
+<area shape="rect" id="node1" title="Add event in cache." alt="" coords="994,384,1038,409"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a1364f59605e5bc5a436fb63eeb9020a8" title="Task started minutes." alt="" coords="691,5,946,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a30f9e8a6fd463cd86dbc8b24185fb136" title=" " alt="" coords="722,55,916,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#ac139c6c5afa053ff82ff88d02c261992" title=" " alt="" coords="722,131,916,183"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a10686a40e05b16f515d6ec7fe1491c9c" title=" " alt="" coords="722,207,916,259"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a99a0b05f0d1061f7b8bde50763fe78ef" title=" " alt="" coords="742,283,896,321"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a6bdb2eb565a2a3e5f5354550fe22ea22" title="Envoi un évènement." alt="" coords="742,345,896,384"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac878b16b0f6fefe8068bcd99eb2d42c7" title="Refresh widget if change occurs since la render." alt="" coords="739,408,899,447"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_model_1_1_entity_1_1_message.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="742,471,896,509"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_managers_1_1_message_manager.html#aee545c643a3b57e98636963c02d0b0b9" title=" " alt="" coords="720,533,918,572"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_model_1_1_entity_1_1_message.html#aa605261e45c1a01140d85374da1cc2c6" title=" " alt="" coords="742,596,896,635"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#afc8a3c62679cf00ade9f15fb2a6d6132" title=" " alt="" coords="742,659,896,697"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a94042b70768a686decc42594ef36bbd6" title=" " alt="" coords="742,721,896,760"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a8f2d1b2ce1cfb1e53182ffa23407c1f7" title=" " alt="" coords="449,131,643,183"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a4f7d62ae87281b7c23f1f5324a6c90cb" title="Execute a scenario." alt="" coords="207,137,401,176"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aeb4dec2385a93f04f83d3a88b41658d3" title="Save in database." alt="" coords="5,407,159,445"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ab0bc4d5f9c3e7aad54025acf99fe5b46" title=" " alt="" coords="469,439,623,477"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac0c376449aaef2145b23905837cc9494" title="Update battery status." alt="" coords="227,464,382,503"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a65c8869392741e7f8a67089fec975547" title="Set if the eqLogic is enabled." alt="" coords="227,527,381,565"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_ajax_1_1_message_ajax.html#abb29703d520510d3cf714d3641e64073" title=" " alt="" coords="451,533,641,572"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a6c9c0fd3020357deb46ba154f8d25486" title="Execute the scenario." alt="" coords="469,659,623,697"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#ab0f46db4a021112a2c8c1848b811b3ce" title=" " alt="" coords="469,721,623,760"/>
+<area shape="rect" id="node24" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a8b6fc76a620d7557d06e9a11a9ffb509" title=" " alt="" coords="469,784,623,823"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a9e814555338d70b03eb1cfe77b2e710e" title="Lance un scénario." alt="" coords="227,659,381,697"/>
+</map>

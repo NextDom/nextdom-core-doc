@@ -1,0 +1,7 @@
+<map id="remove" name="remove">
+<area shape="rect" id="node1" title="Remove note from database." alt="" coords="5,12,71,37"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a9a330afaa158ab0b15dd0b3c845f49d9" title="Deletes an object." alt="" coords="119,5,307,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="355,5,543,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="591,5,779,44"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="827,5,1015,44"/>
+</map>

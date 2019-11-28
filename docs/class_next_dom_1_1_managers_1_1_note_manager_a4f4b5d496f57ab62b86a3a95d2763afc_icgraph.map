@@ -1,0 +1,6 @@
+<map id="byId" name="byId">
+<area shape="rect" id="node1" title="Get a note by his Id." alt="" coords="250,61,296,87"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_ajax_1_1_note_ajax.html#a7459b4cb91e395705363607595a00ae0" title=" " alt="" coords="7,5,200,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_ajax_1_1_note_ajax.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="21,55,186,93"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_ajax_1_1_note_ajax.html#afc8a3c62679cf00ade9f15fb2a6d6132" title=" " alt="" coords="5,117,202,143"/>
+</map>

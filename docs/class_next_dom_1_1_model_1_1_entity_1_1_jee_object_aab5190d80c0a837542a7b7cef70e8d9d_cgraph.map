@@ -1,0 +1,37 @@
+<map id="getLinkData" name="getLinkData">
+<area shape="rect" id="node1" title="Get graph data." alt="" coords="5,249,98,275"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="146,33,381,72"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a6f999deb7be375e62d592d90631ef200" title="Get direct children." alt="" coords="1113,207,1183,232"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a15e34545103fe7539ff0b47ba62af788" title="Get display information by key." alt="" coords="504,249,588,275"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#af6d2c179966ebb0cfecfa239d615d81b" title="Get eqLogics attached to the object." alt="" coords="502,401,590,427"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a12251d0c022e9e21c137a105ff683f13" title="Get object id." alt="" coords="798,280,849,305"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a04a23c95ab614318acc27497ea12b27d" title="Get object human name." alt="" coords="204,249,322,275"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a3d0963e68bb313b163a73f2803c64600" title="Get object name." alt="" coords="508,299,584,324"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#ad218020bd341b682195c6a480c7e38b3" title="Get scenario linked to the object." alt="" coords="500,200,592,225"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a455ed8d2a653dfb8c085bfbec56a37c5" title="Get object usage in string." alt="" coords="231,452,295,477"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="429,33,663,72"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="730,5,918,44"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="1595,320,1783,359"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1831,320,2019,359"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="1359,323,1547,361"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a744d0039a3a1e249044fe38f7fa04189" title="Get objects from database." alt="" coords="1359,259,1547,297"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a41ccd9d586f8d92f5811c166595d6d56" title="Build tree of all objects." alt="" coords="722,381,926,420"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_managers_1_1_eq_logic_manager.html#a3fd748562c66c2796a706de23513bad0" title="Get all eqLogics linked to object." alt="" coords="1052,319,1244,357"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#a010ff926eec8ff6fe8407c4cfa7f4f5d" title="Get root objects." alt="" coords="1046,381,1250,420"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#a427471c41f52fb8cba6dd93714c7a502" title="Obtenir un scénario à partir de l&#39;identifiant d&#39;un objet //TODO: Comprendre ce que c&#39;est." alt="" coords="1050,256,1246,295"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#af9270bf303e7bb64562807c0673b1faf" title="TODO: ?? Ca aussi ça fait plein de choses." alt="" coords="433,504,659,543"/>
+<area shape="rect" id="node34" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a64f225fc57e2c0f2b96a68a5214ace89" title="Get type of entity in string." alt="" coords="711,444,936,483"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#af9270bf303e7bb64562807c0673b1faf" title="TODO: Ca fait l&#39;inverse, mais je sais pas quoi." alt="" coords="722,507,926,545"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#a3ae293741e51e23afc490baa3203fdb4" title="Liste des scénario triés par objet, group et nom du scénario." alt="" coords="984,507,1311,545"/>
+<area shape="rect" id="node24" href="$namespace_next_dom.html#a9610e1f499e0995e17fa108053065d08" title="Translate a string." alt="" coords="1405,513,1501,539"/>
+<area shape="rect" id="node33" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4b821e14be0e43a27c7e7093d4d2237d" title="Get one object from database." alt="" coords="1359,444,1547,483"/>
+<area shape="rect" id="node25" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a756453f5746332d01aae5d7f0a583df7" title="Traduction direct d&#39;une phrase." alt="" coords="1597,507,1782,545"/>
+<area shape="rect" id="node26" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a4ac118d290a9e8bdce621a813fa058ad" title="Lance la traduction d&#39;un texte." alt="" coords="1833,535,2018,573"/>
+<area shape="rect" id="node27" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#ae34010c132ac0dc3b0ab65beb42d4f7c" title="Obtenir les traductions pour la langue courante." alt="" coords="2067,507,2253,545"/>
+<area shape="rect" id="node28" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#af66c7c22aba46f400b2e392f09fd48fb" title="Obtenir la langue configurée." alt="" coords="2540,477,2725,516"/>
+<area shape="rect" id="node31" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a9f3573951dbcc095bcc364eed754da14" title="Charge les informations de traduction TODO: Même celles de tous les plugins." alt="" coords="2301,535,2486,573"/>
+<area shape="rect" id="node29" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a0fd2914593a531e82e827b2c879da15c" title="Obtenir une des informations de la configuration liée à la traduction." alt="" coords="2779,477,2965,516"/>
+<area shape="rect" id="node30" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a824e9e4c9274cab6f7acab17c8b945df" title="Get configuration by multiple keys." alt="" coords="3013,477,3247,516"/>
+<area shape="rect" id="node32" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#afa4ed863a3f92d0912e6aeea99dc2d0e" title="Obtenir le chemin du fichier de traduction d&#39;une langue." alt="" coords="2534,540,2731,579"/>
+<area shape="rect" id="node35" href="$class_next_dom_1_1_managers_1_1_data_store_manager.html#ae0b4eb13dbe2a3eaebba8f9ee75d719e" title="Get stored data by type, linkId and key." alt="" coords="1046,444,1250,483"/>
+</map>

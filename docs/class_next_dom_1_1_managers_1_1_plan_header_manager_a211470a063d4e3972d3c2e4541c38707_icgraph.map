@@ -1,0 +1,8 @@
+<map id="all" name="all">
+<area shape="rect" id="node1" title=" " alt="" coords="264,137,303,163"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_ajax_1_1_plan_ajax.html#ab823e40ef60f865f8f4844543ea6f4b4" title=" " alt="" coords="29,5,192,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_controller_1_1_pages_1_1_plan_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render plan page." alt="" coords="24,68,197,107"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_controller_1_1_diagnostic_1_1_report_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render report page." alt="" coords="5,131,216,169"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_controller_1_1_modals_1_1_plan_configure.html#a5ba61361bf0695a285bbaefefc427191" title="Render plan configure modal." alt="" coords="22,193,200,232"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_controller_1_1_params_1_1_profils_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render profils page." alt="" coords="15,256,207,295"/>
+</map>

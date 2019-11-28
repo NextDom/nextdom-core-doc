@@ -1,0 +1,8 @@
+<map id="removeByTypeLinkId" name="removeByTypeLinkId">
+<area shape="rect" id="node1" title="Remove stored data by type and linkId." alt="" coords="211,137,357,163"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#abf679677b2a0602556e15c5119b2cb19" title="Method called before remove." alt="" coords="5,5,163,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_real.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="7,68,161,107"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="7,131,161,169"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="7,193,161,232"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title="Remove from database." alt="" coords="7,256,161,295"/>
+</map>

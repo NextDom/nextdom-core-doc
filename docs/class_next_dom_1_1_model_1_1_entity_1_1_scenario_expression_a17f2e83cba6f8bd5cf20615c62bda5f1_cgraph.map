@@ -1,0 +1,14 @@
+<map id="executeActionDeleteVariable" name="executeActionDeleteVariable">
+<area shape="rect" id="node1" title=" " alt="" coords="5,91,197,116"/>
+<area shape="rect" id="node2" href="$namespace_next_dom.html#a9610e1f499e0995e17fa108053065d08" title="Translate a string." alt="" coords="245,41,340,67"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#af5f986a34865b87a7c99a9449cbc3e01" title=" " alt="" coords="250,91,336,116"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#ad8e4167eec9ecfbb3aba86beee2c02cc" title=" " alt="" coords="262,140,323,165"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a756453f5746332d01aae5d7f0a583df7" title="Traduction direct d&#39;une phrase." alt="" coords="388,35,574,73"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a4ac118d290a9e8bdce621a813fa058ad" title="Lance la traduction d&#39;un texte." alt="" coords="622,5,807,44"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#ae34010c132ac0dc3b0ab65beb42d4f7c" title="Obtenir les traductions pour la langue courante." alt="" coords="855,35,1040,73"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#af66c7c22aba46f400b2e392f09fd48fb" title="Obtenir la langue configurée." alt="" coords="1328,5,1513,44"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a9f3573951dbcc095bcc364eed754da14" title="Charge les informations de traduction TODO: Même celles de tous les plugins." alt="" coords="1088,63,1274,101"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#a0fd2914593a531e82e827b2c879da15c" title="Obtenir une des informations de la configuration liée à la traduction." alt="" coords="1567,5,1752,44"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a824e9e4c9274cab6f7acab17c8b945df" title="Get configuration by multiple keys." alt="" coords="1800,5,2035,44"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_translate_helper.html#afa4ed863a3f92d0912e6aeea99dc2d0e" title="Obtenir le chemin du fichier de traduction d&#39;une langue." alt="" coords="1322,68,1519,107"/>
+</map>

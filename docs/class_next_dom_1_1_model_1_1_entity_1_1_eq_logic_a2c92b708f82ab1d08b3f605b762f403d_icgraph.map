@@ -1,0 +1,12 @@
+<map id="getEqType_name" name="getEqType_name">
+<area shape="rect" id="node1" title="Get eqLogic type name (linked plugin)" alt="" coords="471,132,596,157"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac0c376449aaef2145b23905837cc9494" title="Update battery status." alt="" coords="294,5,394,31"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aa9af0e62b347831e6a437472a3532140" title="Get HTML code for battery widget." alt="" coords="113,81,217,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a2af8add37797384585cae101fb8cbfe7" title="Get linked image." alt="" coords="305,156,382,181"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aa7b1ba4595a11b740195832f2b145cce" title="Get configuration URL." alt="" coords="265,107,423,132"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a289b24e29b2738c0905129d497712252" title="Prepare data for HTML view." alt="" coords="124,207,206,232"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ae54b69dadd4d953aee775072685223b9" title="Get widget specific possibility." alt="" coords="284,257,403,283"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aeb4dec2385a93f04f83d3a88b41658d3" title="Save in database." alt="" coords="140,5,190,31"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac8d70bd1c911c1397de766ca02149037" title="Get link data for graph representation." alt="" coords="119,144,211,169"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#abaeadd74508bb9804a663e862055826a" title="Get HTML code depends of the view." alt="" coords="5,207,65,232"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="startCronTargetMethod" name="startCronTargetMethod">
+<area shape="rect" id="node1" title="Start cron where the target is a class method." alt="" coords="5,63,163,88"/>
+<area shape="rect" id="node2" href="$namespace_next_dom.html#aaa7d6fc5bd241d14b777d04e537f3fcd" title="Set cron in error and stop the execution of the script." alt="" coords="227,37,369,63"/>
+<area shape="rect" id="node13" href="$namespace_next_dom.html#a65ee447ecc60b3ad72072d94f2884732" title="Set cron error on exception." alt="" coords="211,87,385,112"/>
+<area shape="rect" id="node3" href="$core_8php.html#a9c382c68c216e05493103f35a645f3ec" title="Translate a string (global function)" alt="" coords="531,5,570,31"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#ada013231ed32c57edca6885116d176c3" title="Log an error." alt="" coords="455,55,646,93"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a4d086122826f89ccd612789af05ff0ba" title="Add a message to the log and ensure that there are never more than 1000 lines." alt="" coords="716,61,934,87"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_managers_1_1_message_manager.html#a3fb2dbd02fd3e3b3e6c49e9420fda03e" title=" " alt="" coords="982,23,1179,61"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a59bc2904869e417bffca60916a5cde96" title="Get logger depends of target." alt="" coords="984,85,1176,124"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="1227,85,1462,124"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="1510,53,1745,92"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="1533,116,1721,155"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="1793,116,1981,155"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="2029,116,2217,155"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a850c8747b69f08f09abbe6a411da9c80" title="Get exception message." alt="" coords="455,117,646,156"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ace8e646ad07ddadd65d783e56b7a24b1" title="Generate Key with letters and numbers." alt="" coords="433,180,668,219"/>
+</map>

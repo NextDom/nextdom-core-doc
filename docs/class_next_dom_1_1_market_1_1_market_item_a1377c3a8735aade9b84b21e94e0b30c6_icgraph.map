@@ -1,0 +1,5 @@
+<map id="createFromJson" name="createFromJson">
+<area shape="rect" id="node1" title="Create an element from data in a JSON." alt="" coords="544,12,662,37"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_market_1_1_next_dom_market.html#a4cf467d23db29b6bd8195fc4d619989d" title="Rafraichier une source JSON." alt="" coords="275,5,496,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_market_1_1_next_dom_market.html#a6ca3288cdb58dee2ddf5350d3b4995b0" title="Met à jour la liste des dépôts." alt="" coords="5,5,227,44"/>
+</map>

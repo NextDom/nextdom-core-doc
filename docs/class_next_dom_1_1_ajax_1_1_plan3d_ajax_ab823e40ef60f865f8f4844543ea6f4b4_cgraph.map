@@ -1,0 +1,8 @@
+<map id="allHeader" name="allHeader">
+<area shape="rect" id="node1" title=" " alt="" coords="5,44,84,69"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_plan3d_header_manager.html#a211470a063d4e3972d3c2e4541c38707" title=" " alt="" coords="132,37,361,76"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="409,5,597,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a744d0039a3a1e249044fe38f7fa04189" title="Get objects from database." alt="" coords="409,68,597,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="645,68,833,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="881,68,1069,107"/>
+</map>

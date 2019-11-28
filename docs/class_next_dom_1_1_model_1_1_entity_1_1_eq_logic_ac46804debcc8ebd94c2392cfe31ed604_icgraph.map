@@ -1,0 +1,9 @@
+<map id="emptyCacheWidget" name="emptyCacheWidget">
+<area shape="rect" id="node1" title="Remove widget render in cache." alt="" coords="528,142,666,168"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac878b16b0f6fefe8068bcd99eb2d42c7" title="Refresh widget if change occurs since la render." alt="" coords="376,42,480,68"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aeb4dec2385a93f04f83d3a88b41658d3" title="Save in database." alt="" coords="5,17,55,42"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title="Remove from database." alt="" coords="395,193,461,218"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ab0bc4d5f9c3e7aad54025acf99fe5b46" title=" " alt="" coords="251,42,328,68"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac0c376449aaef2145b23905837cc9494" title="Update battery status." alt="" coords="103,42,203,68"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a65c8869392741e7f8a67089fec975547" title="Set if the eqLogic is enabled." alt="" coords="107,92,198,117"/>
+</map>

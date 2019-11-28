@@ -1,0 +1,6 @@
+<map id="getWithFilter" name="getWithFilter">
+<area shape="rect" id="node1" title="Get list of objects filtered." alt="" coords="5,31,101,56"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="149,5,228,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="154,55,223,80"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="276,55,383,80"/>
+</map>

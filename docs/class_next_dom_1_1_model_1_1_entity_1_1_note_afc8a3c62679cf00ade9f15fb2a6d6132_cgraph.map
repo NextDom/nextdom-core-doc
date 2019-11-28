@@ -1,0 +1,7 @@
+<map id="save" name="save">
+<area shape="rect" id="node1" title="Save note in database." alt="" coords="5,12,55,37"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a1f64e6e367b866571dd5808fc04545dd" title="Saves an entity inside the repository." alt="" coords="103,12,323,37"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="371,5,559,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="607,5,795,44"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="843,5,1031,44"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="getConfig" name="getConfig">
+<area shape="rect" id="node1" title="Get config data by key." alt="" coords="5,44,84,69"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a824e9e4c9274cab6f7acab17c8b945df" title="Get configuration by multiple keys." alt="" coords="132,5,367,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a3d8e4e457524fb1dead8b2d0f3cfb768" title="Get log level for all plugins." alt="" coords="132,68,367,107"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#abf4092a262c5b6b639d7c501c1b79120" title="Get data from database." alt="" coords="415,68,603,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="651,68,839,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="887,68,1075,107"/>
+</map>

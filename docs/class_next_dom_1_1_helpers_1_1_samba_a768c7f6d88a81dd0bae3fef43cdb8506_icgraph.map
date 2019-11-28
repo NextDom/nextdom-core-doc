@@ -1,0 +1,5 @@
+<map id="dir" name="dir">
+<area shape="rect" id="node1" title="List folder content on the server." alt="" coords="251,5,289,31"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_samba.html#a8cd33f3b3d23c4ad122420609a32f559" title="Get folder content." alt="" coords="121,5,203,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_samba.html#ac380821aa502f08203b64cd46eb39bdb" title="Get files list in folder." alt="" coords="5,5,73,31"/>
+</map>

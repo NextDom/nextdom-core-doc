@@ -1,0 +1,18 @@
+<map id="save" name="save">
+<area shape="rect" id="node1" title=" " alt="" coords="5,249,55,274"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_history_manager.html#ad3bb7e6476d56bf26b3f56d5ce4d49cd" title=" " alt="" coords="103,59,288,98"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a01c203ce9e139c8217a39d446eca7ea3" title="Execute a query without result (DELETE, UPDATE, INSERT, etc.)" alt="" coords="353,35,573,61"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="369,85,557,123"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_history.html#afc9c3a2abad3b51691083d75cd1c7459" title=" " alt="" coords="161,174,229,199"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_model_1_1_entity_1_1_history.html#a7b4c10630d006fa8b0437cd51fcaefae" title=" " alt="" coords="152,223,238,249"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_model_1_1_entity_1_1_history.html#ab375786352ef061dc2ce2a938c5fb96d" title=" " alt="" coords="149,273,242,298"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_model_1_1_entity_1_1_history.html#a93566f2c8d709d410ae8ec46b813999b" title=" " alt="" coords="142,322,249,347"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_model_1_1_entity_1_1_history.html#ac0bc18784b182c89fcfd276625aef435" title=" " alt="" coords="159,371,232,397"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_model_1_1_entity_1_1_history.html#a0b922064c1b0034cdc816c91b3fcc2fa" title=" " alt="" coords="149,421,242,446"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_model_1_1_entity_1_1_history.html#a7494441b6ed08a391704971873f31432" title=" " alt="" coords="159,470,231,495"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1109,58,1297,97"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="873,86,1061,125"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_cmd_manager.html#a4f4b5d496f57ab62b86a3a95d2763afc" title="Get command by his id." alt="" coords="336,174,589,199"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="637,142,825,181"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4b821e14be0e43a27c7e7093d4d2237d" title="Get one object from database." alt="" coords="637,205,825,243"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="restore" name="restore">
+<area shape="rect" id="node1" title="Restore persisted cache." alt="" coords="5,69,68,95"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="651,37,886,76"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#ad62e7ab677383b9e591ea7be6e1357af" title="Get the folder where the cache is stored." alt="" coords="184,69,262,95"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#a9739c212169febd37616db45a1526e55" title=" " alt="" coords="116,119,330,157"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="934,5,1169,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="957,68,1145,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="1217,68,1405,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1453,68,1641,107"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a2eb7fdd340eb5ab95e82b4500a9abbbf" title="Get temporary folder and creates it if not exists." alt="" coords="378,65,603,104"/>
+</map>

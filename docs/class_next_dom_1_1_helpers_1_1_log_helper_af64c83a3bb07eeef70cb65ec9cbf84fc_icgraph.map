@@ -1,0 +1,23 @@
+<map id="clear" name="clear">
+<area shape="rect" id="node1" title="Clear log file." alt="" coords="1111,229,1161,255"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a27cd8188d6bf24c6de12f55bb7abe72b" title="Creates a backup archive." alt="" coords="822,5,1063,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_ajax_1_1_log_ajax.html#aa821bec12eaa7e0f649397c9675ff505" title=" " alt="" coords="864,68,1022,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#abd4c5a38e84e2dac6858f1783326dab5" title=" " alt="" coords="836,131,1050,169"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_migration_helper.html#af8dd107daec5031fc6faa19a46626694" title="Main migrate process." alt="" coords="850,193,1035,232"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#afe628a96cf68ea284aaa6d5ad51b6e91" title="Restore a backup from file." alt="" coords="245,223,486,261"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#ae33dbdb296f5cf85494238378dafef91" title="Delete log file." alt="" coords="910,308,976,333"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_ajax_1_1_update_ajax.html#a842e4774e3b3601a005b995c02f7e883" title=" " alt="" coords="853,357,1032,396"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a1826a6ddcf3ae2fbce0cf9f7299459fc" title="Start update." alt="" coords="830,451,1055,489"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#ada953121a7d721565b055fef7407296e" title=" " alt="" coords="558,5,750,44"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#a349d248217825f2e4241ec44ef5cdc97" title=" " alt="" coords="558,131,750,169"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a1d97af581072e4d4d86facc560b83827" title="Runs the restore procedure." alt="" coords="534,193,774,232"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_repo_1_1_repo_samba.html#aee192953b106025fd85ad3960b05009f" title="Start restore process." alt="" coords="6,160,196,199"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_repo_1_1_repo_market.html#aa0dd4320470bf335e323fd67b8d8f203" title=" " alt="" coords="7,223,196,261"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#aa1371f22826cf8cde4454c9b467203d0" title=" " alt="" coords="5,285,197,324"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_ajax_1_1_log_ajax.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="575,308,733,347"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a1aff3b0cad0cc68676cecee4dc5fc625" title="Remove all log by deleting files." alt="" coords="614,371,694,396"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_ajax_1_1_log_ajax.html#a521979edc6ecc9d48f60892bedb52df0" title=" " alt="" coords="286,364,445,403"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a041adcbb404f75b2bca37fe34161c1e2" title="Start update." alt="" coords="577,420,731,459"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#a842e4774e3b3601a005b995c02f7e883" title=" " alt="" coords="558,483,750,521"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_ajax_1_1_update_ajax.html#a0b607adf10d3df1f078818c05de8f9ea" title=" " alt="" coords="565,545,744,584"/>
+</map>

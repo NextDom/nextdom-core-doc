@@ -1,0 +1,33 @@
+<map id="generateAskResponseLink" name="generateAskResponseLink">
+<area shape="rect" id="node1" title=" " alt="" coords="5,481,186,507"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ace8e646ad07ddadd65d783e56b7a24b1" title="Generate Key with letters and numbers." alt="" coords="500,5,735,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_api.html#af8299f160d2acd05886b8a1ae55d6cb8" title="Get API key from core or plugin." alt="" coords="268,101,418,140"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#a610cc521179ca440cf22694594c814b9" title=" " alt="" coords="304,716,382,741"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#a12251d0c022e9e21c137a105ff683f13" title=" " alt="" coords="592,715,643,740"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#a8512115f145796f02f0d55311d5f74a7" title="Get type of network access." alt="" coords="234,341,452,380"/>
+<area shape="rect" id="node30" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#a4b3224918179cd2a1f70fb74c6d2da9e" title=" " alt="" coords="304,615,382,640"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="3042,292,3277,331"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a28bc8c5f706be1ed57bd99742193f44d" title="Save new configuration value in the database." alt="" coords="2172,171,2438,196"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="3325,213,3560,252"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="3348,77,3536,116"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="3608,77,3796,116"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="3844,49,4032,88"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a01c203ce9e139c8217a39d446eca7ea3" title="Execute a query without result (DELETE, UPDATE, INSERT, etc.)" alt="" coords="2772,27,2992,52"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#aaa69e3f215a5e653f61ec2bb0d57d44e" title="Get configuration informations or global configuration." alt="" coords="2491,235,2716,273"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ac91a39d2fc0ff49855ad66b906d00bf0" title="Remove key from the database." alt="" coords="2486,69,2721,108"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#acda790553577ca5cef6f61bd79cc3f45" title="TODO: ???" alt="" coords="2769,235,2994,273"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a0876e53f130e9430811a79e786c02e0c" title="Get stored object by key." alt="" coords="1595,601,1830,640"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#a50aa8a13306d0d908f9411f1c0fb18b0" title="Get cache system." alt="" coords="1889,513,2124,552"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#a03b9b278a7e23deb006cb67c1b0faeb5" title=" " alt="" coords="509,423,727,461"/>
+<area shape="rect" id="node26" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#a9ae8ffa520e3556d610eaf0951d4746d" title=" " alt="" coords="509,279,727,317"/>
+<area shape="rect" id="node27" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#a0b8685381e696830cac925ab791d1960" title="Get user source location." alt="" coords="509,341,727,380"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#ab13e81954aa92204f06247539e41d790" title=" " alt="" coords="783,500,1002,539"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#adfa1119c93aed305edf0a34f9d574c04" title="Get sudo command." alt="" coords="1050,500,1264,539"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a7a3429f446f9db275f118bf41bbb7942" title="Test if NextDom can call system function." alt="" coords="1312,500,1537,539"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ad4e9ca45ed4392062743765796f64791" title="Get hostname." alt="" coords="1894,399,2119,437"/>
+<area shape="rect" id="node25" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#af7ddee5a83aa46d9f8e4b071e6d25335" title="Store object in cache." alt="" coords="1585,551,1841,576"/>
+<area shape="rect" id="node24" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#a3a4126fcc0101a0700ad459c1b068416" title=" " alt="" coords="2198,349,2412,388"/>
+<area shape="rect" id="node28" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#a312fc0263dc44172280853528d00654d" title="Get server IP from PHP server data." alt="" coords="783,284,1002,323"/>
+<area shape="rect" id="node29" href="$class_next_dom_1_1_helpers_1_1_network_helper.html#a080fa08bcd8f63f218f5606369387e34" title=" " alt="" coords="783,221,1002,260"/>
+<area shape="rect" id="node31" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#ac0bc18784b182c89fcfd276625aef435" title=" " alt="" coords="581,665,654,691"/>
+</map>

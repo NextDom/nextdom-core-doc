@@ -1,0 +1,5 @@
+<map id="getJeedomVersion" name="getJeedomVersion">
+<area shape="rect" id="node1" title="Get Jeedom version." alt="" coords="227,44,358,69"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#ab5019584a7fd1de86f069cbf20e5f06d" title=" " alt="" coords="5,5,179,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#aff6368038ab559ee1aeebd70ad19fe3b" title="Change l&#39;état d&#39;activation d&#39;un plugin." alt="" coords="15,68,169,107"/>
+</map>

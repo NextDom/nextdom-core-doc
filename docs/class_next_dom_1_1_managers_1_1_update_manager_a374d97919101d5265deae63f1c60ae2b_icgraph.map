@@ -1,0 +1,43 @@
+<map id="listRepo" name="listRepo">
+<area shape="rect" id="node1" title="List of repositories." alt="" coords="1124,440,1193,465"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ad89bba80d5fa0d986eceafd1461cc952" title=" " alt="" coords="843,5,1068,44"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#aac0504e133c88cf2a4ba19375868bc0a" title="Task started every 5 minutes." alt="" coords="843,68,1068,107"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a1989af29d7a86630b94145e3be721810" title="Task started everyday." alt="" coords="843,131,1068,169"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ad4b79a129296151b4ad4145efba66f32" title="Task started every hours." alt="" coords="259,280,484,319"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_controller_1_1_modals_1_1_update_add.html#a5ba61361bf0695a285bbaefefc427191" title="Render update add modal." alt="" coords="875,245,1036,284"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_controller_1_1_modals_1_1_scenario_template.html#a5ba61361bf0695a285bbaefefc427191" title="Render scenario template modal." alt="" coords="855,308,1056,347"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_controller_1_1_admin_1_1_services_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render Services page." alt="" coords="857,371,1054,409"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_controller_1_1_tools_1_1_backup_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render backup page." alt="" coords="863,433,1048,472"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_controller_1_1_admin_1_1_api_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render API page." alt="" coords="872,496,1038,535"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_controller_1_1_tools_1_1_plugin_list_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render plugin page." alt="" coords="857,559,1054,597"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_controller_1_1_admin_1_1_network_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render network page." alt="" coords="858,621,1053,660"/>
+<area shape="rect" id="node13" href="$class_next_dom_1_1_ajax_1_1_plugin_ajax.html#ab5019584a7fd1de86f069cbf20e5f06d" title=" " alt="" coords="580,252,753,291"/>
+<area shape="rect" id="node14" href="$class_next_dom_1_1_managers_1_1_update_manager.html#a944d541ea7da1e7a3a614ff684b5cd96" title="Get the class of the repo by the name." alt="" coords="872,736,1039,761"/>
+<area shape="rect" id="node35" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a04dab4a8cc8e0bf67559dd243f014c9b" title="Get system health Test all functionnalities." alt="" coords="843,1128,1068,1167"/>
+<area shape="rect" id="node38" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#ab5948510b747494dbfbf23bc77a7347c" title="Trigger remote upload for all available repos." alt="" coords="835,1221,1076,1260"/>
+<area shape="rect" id="node15" href="$class_next_dom_1_1_ajax_1_1_repo_ajax.html#aa023faef6fb8675836ba957e4c20ce27" title=" " alt="" coords="583,315,751,353"/>
+<area shape="rect" id="node16" href="$class_next_dom_1_1_ajax_1_1_repo_ajax.html#aa066c320f2a7957c16b2267f8bed7cb9" title=" " alt="" coords="583,377,751,416"/>
+<area shape="rect" id="node17" href="$class_next_dom_1_1_managers_1_1_update_manager.html#a27e4befa01dfcf6be0fa6ab666bf4ec2" title="Check all updates." alt="" coords="610,440,724,465"/>
+<area shape="rect" id="node19" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#ab8f79025aae0d0b3b53ecf6921cbd460" title="Vérifier si une mise à jour est disponible." alt="" coords="590,489,744,528"/>
+<area shape="rect" id="node20" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a041adcbb404f75b2bca37fe34161c1e2" title="Start update." alt="" coords="295,521,449,560"/>
+<area shape="rect" id="node21" href="$class_next_dom_1_1_ajax_1_1_repo_ajax.html#a164026f74736817927e1cacd282a2e28" title=" " alt="" coords="583,604,751,643"/>
+<area shape="rect" id="node22" href="$class_next_dom_1_1_ajax_1_1_repo_ajax.html#aa966adc12c56a4cc70da92207fa50929" title=" " alt="" coords="583,667,751,705"/>
+<area shape="rect" id="node23" href="$class_next_dom_1_1_ajax_1_1_repo_ajax.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="583,729,751,768"/>
+<area shape="rect" id="node24" href="$class_next_dom_1_1_managers_1_1_update_manager.html#ae559fbb2b869ff6abb9f370280c69423" title="Get a repo by its identifier." alt="" coords="629,792,704,817"/>
+<area shape="rect" id="node30" href="$class_next_dom_1_1_ajax_1_1_repo_ajax.html#aa08ac82b3974522079e9a22cf67da0f4" title=" " alt="" coords="583,841,751,880"/>
+<area shape="rect" id="node31" href="$class_next_dom_1_1_ajax_1_1_repo_ajax.html#afc8a3c62679cf00ade9f15fb2a6d6132" title=" " alt="" coords="567,904,767,929"/>
+<area shape="rect" id="node32" href="$class_next_dom_1_1_ajax_1_1_repo_ajax.html#ae0ce1deba78f283a1c3c8ad51f08293d" title=" " alt="" coords="583,953,751,992"/>
+<area shape="rect" id="node33" href="$class_next_dom_1_1_ajax_1_1_repo_ajax.html#a16c5838373ec6f3bc29c9bb09bd86141" title=" " alt="" coords="583,1016,751,1055"/>
+<area shape="rect" id="node34" href="$class_next_dom_1_1_ajax_1_1_repo_ajax.html#ad69dd4607977cae05ebe19d1ae604fb1" title=" " alt="" coords="570,1079,763,1104"/>
+<area shape="rect" id="node18" href="$class_next_dom_1_1_ajax_1_1_update_ajax.html#ac82a83cca7cce0b9d155423411b9a7e7" title=" " alt="" coords="282,433,461,472"/>
+<area shape="rect" id="node25" href="$class_next_dom_1_1_controller_1_1_tools_1_1_markets_1_1_market_jee_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render market page." alt="" coords="245,751,498,789"/>
+<area shape="rect" id="node26" href="$class_next_dom_1_1_controller_1_1_modals_1_1_base_abstract_modal.html#ab861c07ad93ec0992a42e22adc2ec231" title="Show repo modal from code." alt="" coords="278,813,465,865"/>
+<area shape="rect" id="node27" href="$class_next_dom_1_1_controller_1_1_modals_1_1_update_list.html#a5ba61361bf0695a285bbaefefc427191" title="Render update list modal." alt="" coords="22,757,180,796"/>
+<area shape="rect" id="node28" href="$class_next_dom_1_1_controller_1_1_modals_1_1_update_send.html#a5ba61361bf0695a285bbaefefc427191" title="Render update send modal." alt="" coords="17,820,185,859"/>
+<area shape="rect" id="node29" href="$class_next_dom_1_1_controller_1_1_modals_1_1_update_display.html#a5ba61361bf0695a285bbaefefc427191" title="Render update display modal." alt="" coords="11,883,192,921"/>
+<area shape="rect" id="node36" href="$class_next_dom_1_1_controller_1_1_diagnostic_1_1_health_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render health page." alt="" coords="562,1128,771,1167"/>
+<area shape="rect" id="node37" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#a2374e9a58b0da4edd7fa14b83f9e7e41" title=" " alt="" coords="571,1191,763,1229"/>
+<area shape="rect" id="node39" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#ace782e411a6c4e97ead02884eb54ea20" title="Runs the backup procedure." alt="" coords="546,1253,787,1292"/>
+<area shape="rect" id="node40" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a27cd8188d6bf24c6de12f55bb7abe72b" title="Creates a backup archive." alt="" coords="251,1253,492,1292"/>
+<area shape="rect" id="node41" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#ada953121a7d721565b055fef7407296e" title=" " alt="" coords="5,1253,197,1292"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="getData" name="getData">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,73,96"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_data_store_manager.html#ae0b4eb13dbe2a3eaebba8f9ee75d719e" title="Get stored data by type, linkId and key." alt="" coords="121,36,325,75"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a12251d0c022e9e21c137a105ff683f13" title=" " alt="" coords="198,99,249,124"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="373,5,561,44"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4b821e14be0e43a27c7e7093d4d2237d" title="Get one object from database." alt="" coords="373,68,561,107"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="609,68,797,107"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="845,68,1033,107"/>
+</map>

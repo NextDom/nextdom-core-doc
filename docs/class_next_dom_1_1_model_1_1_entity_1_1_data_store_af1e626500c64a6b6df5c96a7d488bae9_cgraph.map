@@ -1,0 +1,14 @@
+<map id="getUsedBy" name="getUsedBy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,124,92,149"/>
+<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_data_store.html#ad40c766ec8aced9770fe6ae269a1e781" title=" " alt="" coords="207,5,269,31"/>
+<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_interact_def_manager.html#a6b8f3176032fbcc265f3846acf7b1df0" title=" " alt="" coords="144,55,332,93"/>
+<area shape="rect" id="node9" href="$class_next_dom_1_1_managers_1_1_scenario_manager.html#a24ab3cc750d92c289d28ee7f73319225" title="TODO:" alt="" coords="140,117,336,156"/>
+<area shape="rect" id="node11" href="$class_next_dom_1_1_managers_1_1_cmd_manager.html#a1dbe21a991a604ea9ad8c0edeac3fb3a" title="Search in commands configuration." alt="" coords="397,179,621,217"/>
+<area shape="rect" id="node12" href="$class_next_dom_1_1_managers_1_1_eq_logic_manager.html#ad30f549274fcce78c44ee246733e0a8c" title="TODO: ???" alt="" coords="410,241,607,280"/>
+<area shape="rect" id="node4" href="$class_next_dom_1_1_managers_1_1_interact_query_manager.html#aee6838fbe412fa8d803c71941b164215" title=" " alt="" coords="410,53,608,92"/>
+<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="682,116,870,155"/>
+<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a744d0039a3a1e249044fe38f7fa04189" title="Get objects from database." alt="" coords="682,179,870,217"/>
+<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="918,179,1106,217"/>
+<area shape="rect" id="node8" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1154,179,1342,217"/>
+<area shape="rect" id="node10" href="$class_next_dom_1_1_managers_1_1_scenario_expression_manager.html#a757c4b564cabe60d09cc32168b41a38a" title="Search an expression by name and/or option." alt="" coords="384,116,634,155"/>
+</map>
