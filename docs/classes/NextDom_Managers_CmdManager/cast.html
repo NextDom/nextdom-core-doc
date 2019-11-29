@@ -62,18 +62,18 @@
             <a href="#return">Return</a>
           </li>
           <li>
-            <a href="../../source/Managers/CmdManager.php.html#line59">Source</a>
+            <a href="../../source/Managers/CmdManager.php.html#line63">Source</a>
           </li>
         </ul>
       </nav>
       <section>
         <h1><small>NextDom\Managers\CmdManager::</small>cast</h1>
-        <h4>Cast a command from generic to plugin</h4>
+        <h4>Cast a command from generic to specific plugin</h4>
         <p/>
         <ul/>
         <h2 id="signature">Signature</h2>
         <div class="styled synopsis">
-          <code>public function cast(<a title="NextDom\Model\Entity\Cmd" href="../../classes/NextDom_Model_Entity_Cmd.html">Cmd</a>
+          <code>public function cast(array
         $inputs,
             [<a title="NextDom\Model\Entity\EqLogic" href="../../classes/NextDom_Model_Entity_EqLogic.html">EqLogic</a>
         $eqLogic = NULL] )
@@ -83,17 +83,17 @@
         <dl class="styled">
           <dt><code>$inputs</code>
                 —
-                object</dt>
-          <dd><br/><br/><br/>      </dd>
+                array</dt>
+          <dd>Commands to cast<br/><br/><br/>      </dd>
           <dt><code>$eqLogic</code>
                 —
                 object</dt>
-          <dd><br/><br/><br/>      </dd>
+          <dd>Link to a specific EqLogic<br/><br/><br/>      </dd>
         </dl>
         <h2 id="return">Returns</h2>
         <dl class="styled">
           <dt>array|mixed</dt>
-          <dd><br/>
+          <dd>Casted command<br/>
         </dd>
         </dl>
       </section>
