@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - NextDom\Model\Entity\Update</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.html">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.html">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html#NextDom_Model_Entity">NextDom\Model\Entity</a>
+          </li>
+          <li class="separator">Update</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Model/Entity/Update.php.html#line40">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>NextDom\Model\Entity\</small>Update</h1>
+        <h4>Update</h4>
+        <p/>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class Update
+                implements
+                <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">EntityInterface</a>
+            {<br/><ul class="none"><li>// members</li><li>protected string <a href="#members">$type</a> =
+                        'plugin';
+                    </li><li>protected  <a href="#members">$name</a>;
+                    </li><li>protected  <a href="#members">$logicalId</a>;
+                    </li><li>protected  <a href="#members">$localVersion</a>;
+                    </li><li>protected  <a href="#members">$remoteVersion</a>;
+                    </li><li>protected string <a href="#members">$source</a> =
+                        'market';
+                    </li><li>protected  <a href="#members">$status</a>;
+                    </li><li>protected  <a href="#members">$configuration</a>;
+                    </li><li>protected  <a href="#members">$id</a>;
+                    </li><li>protected boolean <a href="#members">$_changeUpdate</a> =
+                        false;
+                    </li><li>protected boolean <a href="#members">$_changed</a> =
+                        false;
+                    </li></ul><ul class="none"><li>// methods</li><li>public array <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getInfo.html">getInfo</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getType.html">getType</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setType.html">setType</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getSource.html">getSource</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setSource.html">setSource</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/doUpdate.html">doUpdate</a>()
+                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getConfiguration.html">getConfiguration</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setConfiguration.html">setConfiguration</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getLogicalId.html">getLogicalId</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setLogicalId.html">setLogicalId</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/preInstallUpdate.html">preInstallUpdate</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/postInstallUpdate.html">postInstallUpdate</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/remove.html">remove</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/save.html">save</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/refresh.html">refresh</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/checkUpdate.html">checkUpdate</a>()
+                    </li><li>public static null|string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getLastAvailableVersion.html">getLastAvailableVersion</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getLocalVersion.html">getLocalVersion</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setLocalVersion.html">setLocalVersion</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getRemoteVersion.html">getRemoteVersion</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setRemoteVersion.html">setRemoteVersion</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/deleteObjet.html">deleteObjet</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/preSave.html">preSave</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getName.html">getName</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setName.html">setName</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/postSave.html">postSave</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/postRemove.html">postRemove</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getId.html">getId</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setId.html">setId</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getStatus.html">getStatus</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setStatus.html">setStatus</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getChanged.html">getChanged</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setChanged.html">setChanged</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getTableName.html">getTableName</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div class="styled">
+          <h4>Implements</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">NextDom\Model\Entity\EntityInterface</a>
+            </li>
+          </ul>
+        </div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="_changeUpdate">
+              <strong>$_changeUpdate</strong>
+            </li>
+            <li id="_changed">
+              <strong>$_changed</strong>
+            </li>
+            <li id="configuration"><strong>$configuration</strong>
+                —
+                string</li>
+            <li id="id"><strong>$id</strong>
+                —
+                integer</li>
+            <li id="localVersion"><strong>$localVersion</strong>
+                —
+                string</li>
+            <li id="logicalId"><strong>$logicalId</strong>
+                —
+                string</li>
+            <li id="name"><strong>$name</strong>
+                —
+                string</li>
+            <li id="remoteVersion"><strong>$remoteVersion</strong>
+                —
+                string</li>
+            <li id="source"><strong>$source</strong>
+                —
+                string</li>
+            <li id="status"><strong>$status</strong>
+                —
+                string</li>
+            <li id="type"><strong>$type</strong>
+                —
+                string</li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>public</h4>
+          <ul>
+            <li id="checkUpdate"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/checkUpdate.html">checkUpdate()</a>
+                — Vérifier si une mise à jour est disponible</li>
+            <li id="deleteObjet"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/deleteObjet.html">deleteObjet()</a>
+                — Supprime une information de mise à jour</li>
+            <li id="doUpdate"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/doUpdate.html">doUpdate()</a>
+                — Start update</li>
+            <li id="getChanged">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getChanged.html">getChanged()</a>
+            </li>
+            <li id="getConfiguration">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getConfiguration.html">getConfiguration()</a>
+            </li>
+            <li id="getId">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getId.html">getId()</a>
+            </li>
+            <li id="getInfo"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getInfo.html">getInfo()</a>
+                — Obtenir les informations de la mise à jour</li>
+            <li id="getLastAvailableVersion"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getLastAvailableVersion.html">getLastAvailableVersion()</a>
+                — Obtenir la dernière version disponible</li>
+            <li id="getLocalVersion">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getLocalVersion.html">getLocalVersion()</a>
+            </li>
+            <li id="getLogicalId">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getLogicalId.html">getLogicalId()</a>
+            </li>
+            <li id="getName">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getName.html">getName()</a>
+            </li>
+            <li id="getRemoteVersion">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getRemoteVersion.html">getRemoteVersion()</a>
+            </li>
+            <li id="getSource">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getSource.html">getSource()</a>
+            </li>
+            <li id="getStatus">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getStatus.html">getStatus()</a>
+            </li>
+            <li id="getTableName">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getTableName.html">getTableName()</a>
+            </li>
+            <li id="getType">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getType.html">getType()</a>
+            </li>
+            <li id="postInstallUpdate"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/postInstallUpdate.html">postInstallUpdate()</a>
+                — Lancer la procédure post installation</li>
+            <li id="postRemove">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/postRemove.html">postRemove()</a>
+            </li>
+            <li id="postSave"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/postSave.html">postSave()</a>
+                — Envoi un évènement</li>
+            <li id="preInstallUpdate"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/preInstallUpdate.html">preInstallUpdate()</a>
+                — Lance la procédure de préinstallation d'un objet</li>
+            <li id="preSave"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/preSave.html">preSave()</a>
+                — Prépare l'objet avant la sauvegarde TODO: Bizarre, en gros le nom = logicialId</li>
+            <li id="refresh"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/refresh.html">refresh()</a>
+                — Rafraichit les informations à partir de la base de données</li>
+            <li id="remove"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/remove.html">remove()</a>
+                — Supprime l'objet de la base de données</li>
+            <li id="save"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/save.html">save()</a>
+                — Sauvegarde l'objet dans la base de données</li>
+            <li id="setChanged">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setChanged.html">setChanged()</a>
+            </li>
+            <li id="setConfiguration">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setConfiguration.html">setConfiguration()</a>
+            </li>
+            <li id="setId">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setId.html">setId()</a>
+            </li>
+            <li id="setLocalVersion">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setLocalVersion.html">setLocalVersion()</a>
+            </li>
+            <li id="setLogicalId">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setLogicalId.html">setLogicalId()</a>
+            </li>
+            <li id="setName">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setName.html">setName()</a>
+            </li>
+            <li id="setRemoteVersion">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setRemoteVersion.html">setRemoteVersion()</a>
+            </li>
+            <li id="setSource">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setSource.html">setSource()</a>
+            </li>
+            <li id="setStatus">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setStatus.html">setStatus()</a>
+            </li>
+            <li id="setType">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setType.html">setType()</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2019 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

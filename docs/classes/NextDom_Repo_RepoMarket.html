@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - NextDom\Repo\RepoMarket</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.html">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.html">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html#NextDom_Repo">NextDom\Repo</a>
+          </li>
+          <li class="separator">RepoMarket</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Repo/RepoMarket.php.html#line40">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>NextDom\Repo\</small>RepoMarket</h1>
+        <h4/>
+        <p/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class RepoMarket
+            {<br/><ul class="none"><li>// members</li><li>public static string <a href="#members">$_name</a> =
+                        'Market';
+                    </li><li>public static string <a href="#members">$_icon</a> =
+                        'fas fa-shopping-cart';
+                    </li><li>public static string <a href="#members">$_description</a> =
+                        'repo.market.description';
+                    </li><li>public static array <a href="#members">$_scope</a> =
+                        ;
+                    </li><li>public static array <a href="#members">$_configuration</a> =
+                        ;
+                    </li><li>private  <a href="#members">$id</a>;
+                    </li><li>private  <a href="#members">$name</a>;
+                    </li><li>private  <a href="#members">$type</a>;
+                    </li><li>private  <a href="#members">$datetime</a>;
+                    </li><li>private  <a href="#members">$description</a>;
+                    </li><li>private  <a href="#members">$categorie</a>;
+                    </li><li>private  <a href="#members">$changelog</a>;
+                    </li><li>private  <a href="#members">$doc</a>;
+                    </li><li>private  <a href="#members">$version</a>;
+                    </li><li>private  <a href="#members">$user_id</a>;
+                    </li><li>private  <a href="#members">$downloaded</a>;
+                    </li><li>private  <a href="#members">$status</a>;
+                    </li><li>private  <a href="#members">$author</a>;
+                    </li><li>private  <a href="#members">$logicalId</a>;
+                    </li><li>private  <a href="#members">$rating</a>;
+                    </li><li>private  <a href="#members">$utilization</a>;
+                    </li><li>private  <a href="#members">$isAuthor</a>;
+                    </li><li>private  <a href="#members">$img</a>;
+                    </li><li>private  <a href="#members">$buyer</a>;
+                    </li><li>private integer <a href="#members">$purchase</a> =
+                        0;
+                    </li><li>private integer <a href="#members">$cost</a> =
+                        0;
+                    </li><li>private integer <a href="#members">$realcost</a> =
+                        0;
+                    </li><li>private  <a href="#members">$link</a>;
+                    </li><li>private  <a href="#members">$certification</a>;
+                    </li><li>private  <a href="#members">$language</a>;
+                    </li><li>private  <a href="#members">$private</a>;
+                    </li><li>private  <a href="#members">$updateBy</a>;
+                    </li><li>private  <a href="#members">$parameters</a>;
+                    </li><li>private  <a href="#members">$hardwareCompatibility</a>;
+                    </li><li>private  <a href="#members">$nbInstall</a>;
+                    </li><li>private array <a href="#members">$allowVersion</a> =
+                        ;
+                    </li></ul><ul class="none"><li>// methods</li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/checkUpdate.html">checkUpdate</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getInfo.html">getInfo</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byLogicalIdAndType.html">byLogicalIdAndType</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getJsonRpc.html">getJsonRpc</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getPassword.html">getPassword</a>()
+                    </li><li>public static self <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/construct.html">construct</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byLogicalId.html">byLogicalId</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getDatetime.html">getDatetime</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setDatetime.html">setDatetime</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getIsAuthor.html">getIsAuthor</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setIsAuthor.html">setIsAuthor</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getType.html">getType</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setType.html">setType</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getLogicalId.html">getLogicalId</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setLogicalId.html">setLogicalId</a>()
+                    </li><li>public static array <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/downloadObject.html">downloadObject</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/install.html">install</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getId.html">getId</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setId.html">setId</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/deleteObjet.html">deleteObjet</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/remove.html">remove</a>()
+                    </li><li>public static array <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/objectInfo.html">objectInfo</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_send.html">backup_send</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_createFolderIsNotExist.html">backup_createFolderIsNotExist</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_install.html">backup_install</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_errorAnalyzed.html">backup_errorAnalyzed</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_clean.html">backup_clean</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_list.html">backup_list</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_restore.html">backup_restore</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/cronHourly.html">cronHourly</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/test.html">test</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/cron5.html">cron5</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/monitoring_status.html">monitoring_status</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/monitoring_allow.html">monitoring_allow</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/monitoring_start.html">monitoring_start</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/monitoring_install.html">monitoring_install</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/monitoring_stop.html">monitoring_stop</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/health.html">health</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/saveTicket.html">saveTicket</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/supportAccess.html">supportAccess</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getPurchaseInfo.html">getPurchaseInfo</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/distinctCategorie.html">distinctCategorie</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/postJsonRpc.html">postJsonRpc</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byId.html">byId</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byMe.html">byMe</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byStatusAndType.html">byStatusAndType</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byStatus.html">byStatus</a>()
+                    </li><li>public static void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byFilter.html">byFilter</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getRating.html">getRating</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setRating.html">setRating</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getName.html">getName</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setName.html">setName</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getDescription.html">getDescription</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setDescription.html">setDescription</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getCategorie.html">getCategorie</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setCategorie.html">setCategorie</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getVersion.html">getVersion</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setVersion.html">setVersion</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getUser_id.html">getUser_id</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setUser_id.html">setUser_id</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getDownloaded.html">getDownloaded</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setDownloaded.html">setDownloaded</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getStatus.html">getStatus</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setStatus.html">setStatus</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getLink.html">getLink</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setLink.html">setLink</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getLanguage.html">getLanguage</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setLanguage.html">setLanguage</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getImg.html">getImg</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getAuthor.html">getAuthor</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setAuthor.html">setAuthor</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getChangelog.html">getChangelog</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setChangelog.html">setChangelog</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getNbInstall.html">getNbInstall</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setNbInstall.html">setNbInstall</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getPrivate.html">getPrivate</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setPrivate.html">setPrivate</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getUtilization.html">getUtilization</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setUtilization.html">setUtilization</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getPurchase.html">getPurchase</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setPurchase.html">setPurchase</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getCost.html">getCost</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setCost.html">setCost</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getRealcost.html">getRealcost</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setRealcost.html">setRealcost</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getBuyer.html">getBuyer</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setBuyer.html">setBuyer</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getCertification.html">getCertification</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setCertification.html">setCertification</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getDoc.html">getDoc</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setDoc.html">setDoc</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getUpdateBy.html">getUpdateBy</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setUpdateBy.html">setUpdateBy</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getAllowVersion.html">getAllowVersion</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setAllowVersion.html">setAllowVersion</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getHardwareCompatibility.html">getHardwareCompatibility</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setHardwareCompatibility.html">setHardwareCompatibility</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getParameters.html">getParameters</a>()
+                    </li><li>public void <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setParameters.html">setParameters</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="allowVersion">
+              <strong>$allowVersion</strong>
+            </li>
+            <li id="author">
+              <strong>$author</strong>
+            </li>
+            <li id="buyer">
+              <strong>$buyer</strong>
+            </li>
+            <li id="categorie">
+              <strong>$categorie</strong>
+            </li>
+            <li id="certification">
+              <strong>$certification</strong>
+            </li>
+            <li id="changelog">
+              <strong>$changelog</strong>
+            </li>
+            <li id="cost">
+              <strong>$cost</strong>
+            </li>
+            <li id="datetime">
+              <strong>$datetime</strong>
+            </li>
+            <li id="description">
+              <strong>$description</strong>
+            </li>
+            <li id="doc">
+              <strong>$doc</strong>
+            </li>
+            <li id="downloaded">
+              <strong>$downloaded</strong>
+            </li>
+            <li id="hardwareCompatibility">
+              <strong>$hardwareCompatibility</strong>
+            </li>
+            <li id="id">
+              <strong>$id</strong>
+            </li>
+            <li id="img">
+              <strong>$img</strong>
+            </li>
+            <li id="isAuthor">
+              <strong>$isAuthor</strong>
+            </li>
+            <li id="language">
+              <strong>$language</strong>
+            </li>
+            <li id="link">
+              <strong>$link</strong>
+            </li>
+            <li id="logicalId">
+              <strong>$logicalId</strong>
+            </li>
+            <li id="name">
+              <strong>$name</strong>
+            </li>
+            <li id="nbInstall">
+              <strong>$nbInstall</strong>
+            </li>
+            <li id="parameters">
+              <strong>$parameters</strong>
+            </li>
+            <li id="private">
+              <strong>$private</strong>
+            </li>
+            <li id="purchase">
+              <strong>$purchase</strong>
+            </li>
+            <li id="rating">
+              <strong>$rating</strong>
+            </li>
+            <li id="realcost">
+              <strong>$realcost</strong>
+            </li>
+            <li id="status">
+              <strong>$status</strong>
+            </li>
+            <li id="type">
+              <strong>$type</strong>
+            </li>
+            <li id="updateBy">
+              <strong>$updateBy</strong>
+            </li>
+            <li id="user_id">
+              <strong>$user_id</strong>
+            </li>
+            <li id="utilization">
+              <strong>$utilization</strong>
+            </li>
+            <li id="version">
+              <strong>$version</strong>
+            </li>
+          </ul>
+          <h4>public</h4>
+          <ul class="members">
+            <li id="_configuration">
+              <strong>$_configuration</strong>
+            </li>
+            <li id="_description">
+              <strong>$_description</strong>
+            </li>
+            <li id="_icon">
+              <strong>$_icon</strong>
+            </li>
+            <li id="_name">
+              <strong>$_name</strong>
+            </li>
+            <li id="_scope">
+              <strong>$_scope</strong>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>public</h4>
+          <ul>
+            <li id="backup_clean">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_clean.html">backup_clean()</a>
+            </li>
+            <li id="backup_createFolderIsNotExist">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_createFolderIsNotExist.html">backup_createFolderIsNotExist()</a>
+            </li>
+            <li id="backup_errorAnalyzed">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_errorAnalyzed.html">backup_errorAnalyzed()</a>
+            </li>
+            <li id="backup_install">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_install.html">backup_install()</a>
+            </li>
+            <li id="backup_list">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_list.html">backup_list()</a>
+            </li>
+            <li id="backup_restore">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_restore.html">backup_restore()</a>
+            </li>
+            <li id="backup_send">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/backup_send.html">backup_send()</a>
+            </li>
+            <li id="byFilter">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byFilter.html">byFilter()</a>
+            </li>
+            <li id="byId">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byId.html">byId()</a>
+            </li>
+            <li id="byLogicalId">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byLogicalId.html">byLogicalId()</a>
+            </li>
+            <li id="byLogicalIdAndType">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byLogicalIdAndType.html">byLogicalIdAndType()</a>
+            </li>
+            <li id="byMe">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byMe.html">byMe()</a>
+            </li>
+            <li id="byStatus">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byStatus.html">byStatus()</a>
+            </li>
+            <li id="byStatusAndType">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/byStatusAndType.html">byStatusAndType()</a>
+            </li>
+            <li id="checkUpdate">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/checkUpdate.html">checkUpdate()</a>
+            </li>
+            <li id="construct">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/construct.html">construct()</a>
+            </li>
+            <li id="cron5">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/cron5.html">cron5()</a>
+            </li>
+            <li id="cronHourly">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/cronHourly.html">cronHourly()</a>
+            </li>
+            <li id="deleteObjet">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/deleteObjet.html">deleteObjet()</a>
+            </li>
+            <li id="distinctCategorie">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/distinctCategorie.html">distinctCategorie()</a>
+            </li>
+            <li id="downloadObject">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/downloadObject.html">downloadObject()</a>
+            </li>
+            <li id="getAllowVersion">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getAllowVersion.html">getAllowVersion()</a>
+            </li>
+            <li id="getAuthor">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getAuthor.html">getAuthor()</a>
+            </li>
+            <li id="getBuyer">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getBuyer.html">getBuyer()</a>
+            </li>
+            <li id="getCategorie">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getCategorie.html">getCategorie()</a>
+            </li>
+            <li id="getCertification">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getCertification.html">getCertification()</a>
+            </li>
+            <li id="getChangelog">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getChangelog.html">getChangelog()</a>
+            </li>
+            <li id="getCost">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getCost.html">getCost()</a>
+            </li>
+            <li id="getDatetime">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getDatetime.html">getDatetime()</a>
+            </li>
+            <li id="getDescription">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getDescription.html">getDescription()</a>
+            </li>
+            <li id="getDoc">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getDoc.html">getDoc()</a>
+            </li>
+            <li id="getDownloaded">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getDownloaded.html">getDownloaded()</a>
+            </li>
+            <li id="getHardwareCompatibility">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getHardwareCompatibility.html">getHardwareCompatibility()</a>
+            </li>
+            <li id="getId">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getId.html">getId()</a>
+            </li>
+            <li id="getImg">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getImg.html">getImg()</a>
+            </li>
+            <li id="getInfo">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getInfo.html">getInfo()</a>
+            </li>
+            <li id="getIsAuthor">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getIsAuthor.html">getIsAuthor()</a>
+            </li>
+            <li id="getJsonRpc">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getJsonRpc.html">getJsonRpc()</a>
+            </li>
+            <li id="getLanguage">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getLanguage.html">getLanguage()</a>
+            </li>
+            <li id="getLink">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getLink.html">getLink()</a>
+            </li>
+            <li id="getLogicalId">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getLogicalId.html">getLogicalId()</a>
+            </li>
+            <li id="getName">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getName.html">getName()</a>
+            </li>
+            <li id="getNbInstall">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getNbInstall.html">getNbInstall()</a>
+            </li>
+            <li id="getParameters">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getParameters.html">getParameters()</a>
+            </li>
+            <li id="getPassword">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getPassword.html">getPassword()</a>
+            </li>
+            <li id="getPrivate">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getPrivate.html">getPrivate()</a>
+            </li>
+            <li id="getPurchase">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getPurchase.html">getPurchase()</a>
+            </li>
+            <li id="getPurchaseInfo">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getPurchaseInfo.html">getPurchaseInfo()</a>
+            </li>
+            <li id="getRating">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getRating.html">getRating()</a>
+            </li>
+            <li id="getRealcost">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getRealcost.html">getRealcost()</a>
+            </li>
+            <li id="getStatus">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getStatus.html">getStatus()</a>
+            </li>
+            <li id="getType">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getType.html">getType()</a>
+            </li>
+            <li id="getUpdateBy">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getUpdateBy.html">getUpdateBy()</a>
+            </li>
+            <li id="getUser_id">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getUser_id.html">getUser_id()</a>
+            </li>
+            <li id="getUtilization">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getUtilization.html">getUtilization()</a>
+            </li>
+            <li id="getVersion">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/getVersion.html">getVersion()</a>
+            </li>
+            <li id="health">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/health.html">health()</a>
+            </li>
+            <li id="install">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/install.html">install()</a>
+            </li>
+            <li id="monitoring_allow">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/monitoring_allow.html">monitoring_allow()</a>
+            </li>
+            <li id="monitoring_install">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/monitoring_install.html">monitoring_install()</a>
+            </li>
+            <li id="monitoring_start">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/monitoring_start.html">monitoring_start()</a>
+            </li>
+            <li id="monitoring_status">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/monitoring_status.html">monitoring_status()</a>
+            </li>
+            <li id="monitoring_stop">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/monitoring_stop.html">monitoring_stop()</a>
+            </li>
+            <li id="objectInfo">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/objectInfo.html">objectInfo()</a>
+            </li>
+            <li id="postJsonRpc">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/postJsonRpc.html">postJsonRpc()</a>
+            </li>
+            <li id="remove">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/remove.html">remove()</a>
+            </li>
+            <li id="saveTicket">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/saveTicket.html">saveTicket()</a>
+            </li>
+            <li id="setAllowVersion">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setAllowVersion.html">setAllowVersion()</a>
+            </li>
+            <li id="setAuthor">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setAuthor.html">setAuthor()</a>
+            </li>
+            <li id="setBuyer">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setBuyer.html">setBuyer()</a>
+            </li>
+            <li id="setCategorie">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setCategorie.html">setCategorie()</a>
+            </li>
+            <li id="setCertification">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setCertification.html">setCertification()</a>
+            </li>
+            <li id="setChangelog">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setChangelog.html">setChangelog()</a>
+            </li>
+            <li id="setCost">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setCost.html">setCost()</a>
+            </li>
+            <li id="setDatetime">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setDatetime.html">setDatetime()</a>
+            </li>
+            <li id="setDescription">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setDescription.html">setDescription()</a>
+            </li>
+            <li id="setDoc">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setDoc.html">setDoc()</a>
+            </li>
+            <li id="setDownloaded">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setDownloaded.html">setDownloaded()</a>
+            </li>
+            <li id="setHardwareCompatibility">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setHardwareCompatibility.html">setHardwareCompatibility()</a>
+            </li>
+            <li id="setId">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setId.html">setId()</a>
+            </li>
+            <li id="setIsAuthor">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setIsAuthor.html">setIsAuthor()</a>
+            </li>
+            <li id="setLanguage">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setLanguage.html">setLanguage()</a>
+            </li>
+            <li id="setLink">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setLink.html">setLink()</a>
+            </li>
+            <li id="setLogicalId">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setLogicalId.html">setLogicalId()</a>
+            </li>
+            <li id="setName">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setName.html">setName()</a>
+            </li>
+            <li id="setNbInstall">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setNbInstall.html">setNbInstall()</a>
+            </li>
+            <li id="setParameters">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setParameters.html">setParameters()</a>
+            </li>
+            <li id="setPrivate">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setPrivate.html">setPrivate()</a>
+            </li>
+            <li id="setPurchase">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setPurchase.html">setPurchase()</a>
+            </li>
+            <li id="setRating">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setRating.html">setRating()</a>
+            </li>
+            <li id="setRealcost">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setRealcost.html">setRealcost()</a>
+            </li>
+            <li id="setStatus">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setStatus.html">setStatus()</a>
+            </li>
+            <li id="setType">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setType.html">setType()</a>
+            </li>
+            <li id="setUpdateBy">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setUpdateBy.html">setUpdateBy()</a>
+            </li>
+            <li id="setUser_id">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setUser_id.html">setUser_id()</a>
+            </li>
+            <li id="setUtilization">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setUtilization.html">setUtilization()</a>
+            </li>
+            <li id="setVersion">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/setVersion.html">setVersion()</a>
+            </li>
+            <li id="supportAccess">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/supportAccess.html">supportAccess()</a>
+            </li>
+            <li id="test">
+              <a title="NextDom\Repo\RepoMarket" href="../classes/NextDom_Repo_RepoMarket/test.html">test()</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2019 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - NextDom\Model\Entity\Cmd</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.html">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.html">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html#NextDom_Model_Entity">NextDom\Model\Entity</a>
+          </li>
+          <li class="separator">Cmd</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Model/Entity/Cmd.php.html#line74">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>NextDom\Model\Entity\</small>Cmd</h1>
+        <h4>Cmd</h4>
+        <p>ORM\Table(name="cmd", uniqueConstraints={<br/>ORM\UniqueConstraint(name="unique", columns={"eqLogic_id", "name"})}, indexes={<br/>ORM\Index(name="isHistorized", columns={"isHistorized"}),<br/>ORM\Index(name="type", columns={"type"}),<br/>ORM\Index(name="name", columns={"name"}),<br/>ORM\Index(name="subtype", columns={"subType"}),<br/>ORM\Index(name="eqLogic_id", columns={"eqLogic_id"}),<br/>ORM\Index(name="value", columns={"value"}),<br/>ORM\Index(name="order", columns={"order"}),<br/>ORM\Index(name="logicalID", columns={"logicalId"}),<br/>ORM\Index(name="logicalId_eqLogicID", columns={"eqLogic_id", "logicalId"}),<br/>ORM\Index(name="genericType_eqLogicID", columns={"eqLogic_id", "generic_type"})<br/>})<br/>ORM\Entity</p>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class Cmd
+                implements
+                <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">EntityInterface</a>
+            {<br/><ul class="none"><li>// members</li><li>private static array <a href="#members">$_templateArray</a> =
+                        ;
+                    </li><li>public string <a href="#members">$_collectDate</a> =
+                        '';
+                    </li><li>public string <a href="#members">$_valueDate</a> =
+                        '';
+                    </li><li>public  <a href="#members">$_eqLogic</a> =
+                        NULL;
+                    </li><li>public  <a href="#members">$_needRefreshWidget</a>;
+                    </li><li>public  <a href="#members">$_needRefreshAlert</a>;
+                    </li><li>protected boolean <a href="#members">$_changed</a> =
+                        false;
+                    </li><li>protected  <a href="#members">$eqType</a>;
+                    </li><li>protected  <a href="#members">$logicalId</a>;
+                    </li><li>protected  <a href="#members">$generic_type</a>;
+                    </li><li>protected  <a href="#members">$order</a>;
+                    </li><li>protected  <a href="#members">$name</a>;
+                    </li><li>protected  <a href="#members">$configuration</a>;
+                    </li><li>protected  <a href="#members">$template</a>;
+                    </li><li>protected integer <a href="#members">$isHistorized</a> =
+                        0;
+                    </li><li>protected  <a href="#members">$type</a>;
+                    </li><li>protected  <a href="#members">$subType</a>;
+                    </li><li>protected  <a href="#members">$unite</a>;
+                    </li><li>protected  <a href="#members">$display</a>;
+                    </li><li>protected integer <a href="#members">$isVisible</a> =
+                        1;
+                    </li><li>protected  <a href="#members">$value</a> =
+                        NULL;
+                    </li><li>protected  <a href="#members">$html</a>;
+                    </li><li>protected  <a href="#members">$alert</a>;
+                    </li><li>protected  <a href="#members">$id</a>;
+                    </li><li>protected <span title="NextDom\Model\Entity\EqLogic">EqLogic</span> <a href="#members">$eqLogic_id</a>;
+                    </li></ul><ul class="none"><li>// methods</li><li>public static void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/duringAlertLevel.html">duringAlertLevel</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqType_name.html">getEqType_name</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getOrder.html">getOrder</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setOrder.html">setOrder</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getIsvisible.html">getIsvisible</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setIsVisible.html">setIsVisible</a>()
+                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getHtml.html">getHtml</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setHtml.html">setHtml</a>()
+                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getWidgetTemplateCode.html">getWidgetTemplateCode</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getType.html">getType</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setType.html">setType</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getSubType.html">getSubType</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setSubType.html">setSubType</a>()
+                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTemplate.html">getTemplate</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setTemplate.html">setTemplate</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEventOnly.html">getEventOnly</a>()
+                    </li><li>public EqLogic <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqLogic.html">getEqLogic</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEqLogic.html">setEqLogic</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEventOnly.html">setEventOnly</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/dontRemoveCmd.html">dontRemoveCmd</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTableName.html">getTableName</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/refresh.html">refresh</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/remove.html">remove</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getId.html">getId</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setId.html">setId</a>()
+                    </li><li>public array|mixed|null <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/emptyHistory.html">emptyHistory</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getHumanName.html">getHumanName</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getName.html">getName</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setName.html">setName</a>()
+                    </li><li>public mixed|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/toHtml.html">toHtml</a>()
+                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getDisplay.html">getDisplay</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setDisplay.html">setDisplay</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getUnite.html">getUnite</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setUnite.html">setUnite</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getLogicalId.html">getLogicalId</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setLogicalId.html">setLogicalId</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqLogic_Id.html">getEqLogic_Id</a>()
+                    </li><li>public EqLogic|null <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqLogicId.html">getEqLogicId</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEqLogicId.html">setEqLogicId</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEqLogic_id.html">setEqLogic_id</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getGeneric_type.html">getGeneric_type</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setGeneric_type.html">setGeneric_type</a>()
+                    </li><li>public Cmd|bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getCmdValue.html">getCmdValue</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getValue.html">getValue</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setValue.html">setValue</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/execCmd.html">execCmd</a>()
+                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getCache.html">getCache</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getCollectDate.html">getCollectDate</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setCollectDate.html">setCollectDate</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/preExecCmd.html">preExecCmd</a>()
+                    </li><li>public float|mixed|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/formatValue.html">formatValue</a>()
+                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getConfiguration.html">getConfiguration</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setConfiguration.html">setConfiguration</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/execute.html">execute</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/postExecCmd.html">postExecCmd</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/save.html">save</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqType.html">getEqType</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEqType.html">setEqType</a>()
+                    </li><li>public int|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/checkAlertLevel.html">checkAlertLevel</a>()
+                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getAlert.html">getAlert</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setAlert.html">setAlert</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/actionAlertLevel.html">actionAlertLevel</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setCache.html">setCache</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/event.html">event</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getValueDate.html">getValueDate</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setValueDate.html">setValueDate</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/addHistoryValue.html">addHistoryValue</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getIsHistorized.html">getIsHistorized</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setIsHistorized.html">setIsHistorized</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/checkReturnState.html">checkReturnState</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/checkCmdAlert.html">checkCmdAlert</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/executeAlertCmdAction.html">executeAlertCmdAction</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/pushUrl.html">pushUrl</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/influxDb.html">influxDb</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getStatistique.html">getStatistique</a>()
+                    </li><li>public float|int <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTendance.html">getTendance</a>()
+                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getLastValue.html">getLastValue</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/generateAskResponseLink.html">generateAskResponseLink</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/askResponse.html">askResponse</a>()
+                    </li><li>public array|float|int|null <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTemporalAvg.html">getTemporalAvg</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getHistory.html">getHistory</a>()
+                    </li><li>public array|mixed|null <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getPluralityHistory.html">getPluralityHistory</a>()
+                    </li><li>public array|bool|mixed <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/widgetPossibility.html">widgetPossibility</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/export.html">export</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getDirectUrlAccess.html">getDirectUrlAccess</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/checkAccessCode.html">checkAccessCode</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/exportApi.html">exportApi</a>()
+                    </li><li>public array|null <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getLinkData.html">getLinkData</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getUsedBy.html">getUsedBy</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getUse.html">getUse</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/hasRight.html">hasRight</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getChanged.html">getChanged</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setChanged.html">setChanged</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/castFromCmd.html">castFromCmd</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getAllAttributes.html">getAllAttributes</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div class="styled">
+          <h4>Implements</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">NextDom\Model\Entity\EntityInterface</a>
+            </li>
+          </ul>
+        </div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="_templateArray">
+              <strong>$_templateArray</strong>
+            </li>
+          </ul>
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="_changed">
+              <strong>$_changed</strong>
+            </li>
+            <li id="alert"><strong>$alert</strong>
+                —
+                string</li>
+            <li id="configuration"><strong>$configuration</strong>
+                —
+                string</li>
+            <li id="display"><strong>$display</strong>
+                —
+                string</li>
+            <li id="eqLogic_id"><strong>$eqLogic_id</strong>
+                —
+                <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic.html">NextDom\Model\Entity\EqLogic</a></li>
+            <li id="eqType"><strong>$eqType</strong>
+                —
+                string</li>
+            <li id="generic_type"><strong>$generic_type</strong>
+                —
+                string</li>
+            <li id="html"><strong>$html</strong>
+                —
+                string</li>
+            <li id="id"><strong>$id</strong>
+                —
+                integer</li>
+            <li id="isHistorized"><strong>$isHistorized</strong>
+                —
+                string</li>
+            <li id="isVisible"><strong>$isVisible</strong>
+                —
+                integer</li>
+            <li id="logicalId"><strong>$logicalId</strong>
+                —
+                string</li>
+            <li id="name"><strong>$name</strong>
+                —
+                string</li>
+            <li id="order"><strong>$order</strong>
+                —
+                integer</li>
+            <li id="subType"><strong>$subType</strong>
+                —
+                string</li>
+            <li id="template"><strong>$template</strong>
+                —
+                string</li>
+            <li id="type"><strong>$type</strong>
+                —
+                string</li>
+            <li id="unite"><strong>$unite</strong>
+                —
+                string</li>
+            <li id="value"><strong>$value</strong>
+                —
+                string</li>
+          </ul>
+          <h4>public</h4>
+          <ul class="members">
+            <li id="_collectDate">
+              <strong>$_collectDate</strong>
+            </li>
+            <li id="_eqLogic">
+              <strong>$_eqLogic</strong>
+            </li>
+            <li id="_needRefreshAlert">
+              <strong>$_needRefreshAlert</strong>
+            </li>
+            <li id="_needRefreshWidget">
+              <strong>$_needRefreshWidget</strong>
+            </li>
+            <li id="_valueDate">
+              <strong>$_valueDate</strong>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>public</h4>
+          <ul>
+            <li id="actionAlertLevel">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/actionAlertLevel.html">actionAlertLevel()</a>
+            </li>
+            <li id="addHistoryValue">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/addHistoryValue.html">addHistoryValue()</a>
+            </li>
+            <li id="askResponse">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/askResponse.html">askResponse()</a>
+            </li>
+            <li id="castFromCmd"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/castFromCmd.html">castFromCmd()</a>
+                — Cast this object from a source command</li>
+            <li id="checkAccessCode">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/checkAccessCode.html">checkAccessCode()</a>
+            </li>
+            <li id="checkAlertLevel">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/checkAlertLevel.html">checkAlertLevel()</a>
+            </li>
+            <li id="checkCmdAlert">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/checkCmdAlert.html">checkCmdAlert()</a>
+            </li>
+            <li id="checkReturnState">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/checkReturnState.html">checkReturnState()</a>
+            </li>
+            <li id="dontRemoveCmd">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/dontRemoveCmd.html">dontRemoveCmd()</a>
+            </li>
+            <li id="duringAlertLevel">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/duringAlertLevel.html">duringAlertLevel()</a>
+            </li>
+            <li id="emptyHistory">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/emptyHistory.html">emptyHistory()</a>
+            </li>
+            <li id="event">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/event.html">event()</a>
+            </li>
+            <li id="execCmd">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/execCmd.html">execCmd()</a>
+            </li>
+            <li id="execute"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/execute.html">execute()</a>
+                — Execute command overrided by plugins</li>
+            <li id="executeAlertCmdAction">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/executeAlertCmdAction.html">executeAlertCmdAction()</a>
+            </li>
+            <li id="export">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/export.html">export()</a>
+            </li>
+            <li id="exportApi">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/exportApi.html">exportApi()</a>
+            </li>
+            <li id="formatValue">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/formatValue.html">formatValue()</a>
+            </li>
+            <li id="generateAskResponseLink">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/generateAskResponseLink.html">generateAskResponseLink()</a>
+            </li>
+            <li id="getAlert">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getAlert.html">getAlert()</a>
+            </li>
+            <li id="getAllAttributes"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getAllAttributes.html">getAllAttributes()</a>
+                — Get all attributes of the Cmd class</li>
+            <li id="getCache">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getCache.html">getCache()</a>
+            </li>
+            <li id="getChanged"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getChanged.html">getChanged()</a>
+                — Get changed state</li>
+            <li id="getCmdValue">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getCmdValue.html">getCmdValue()</a>
+            </li>
+            <li id="getCollectDate">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getCollectDate.html">getCollectDate()</a>
+            </li>
+            <li id="getConfiguration">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getConfiguration.html">getConfiguration()</a>
+            </li>
+            <li id="getDirectUrlAccess">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getDirectUrlAccess.html">getDirectUrlAccess()</a>
+            </li>
+            <li id="getDisplay">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getDisplay.html">getDisplay()</a>
+            </li>
+            <li id="getEqLogic">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqLogic.html">getEqLogic()</a>
+            </li>
+            <li id="getEqLogicId">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqLogicId.html">getEqLogicId()</a>
+            </li>
+            <li id="getEqLogic_Id">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqLogic_Id.html">getEqLogic_Id()</a>
+            </li>
+            <li id="getEqType">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqType.html">getEqType()</a>
+            </li>
+            <li id="getEqType_name">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqType_name.html">getEqType_name()</a>
+            </li>
+            <li id="getEventOnly">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEventOnly.html">getEventOnly()</a>
+            </li>
+            <li id="getGeneric_type">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getGeneric_type.html">getGeneric_type()</a>
+            </li>
+            <li id="getHistory">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getHistory.html">getHistory()</a>
+            </li>
+            <li id="getHtml">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getHtml.html">getHtml()</a>
+            </li>
+            <li id="getHumanName">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getHumanName.html">getHumanName()</a>
+            </li>
+            <li id="getId">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getId.html">getId()</a>
+            </li>
+            <li id="getIsHistorized">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getIsHistorized.html">getIsHistorized()</a>
+            </li>
+            <li id="getIsvisible">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getIsvisible.html">getIsvisible()</a>
+            </li>
+            <li id="getLastValue">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getLastValue.html">getLastValue()</a>
+            </li>
+            <li id="getLinkData">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getLinkData.html">getLinkData()</a>
+            </li>
+            <li id="getLogicalId">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getLogicalId.html">getLogicalId()</a>
+            </li>
+            <li id="getName">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getName.html">getName()</a>
+            </li>
+            <li id="getOrder">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getOrder.html">getOrder()</a>
+            </li>
+            <li id="getPluralityHistory">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getPluralityHistory.html">getPluralityHistory()</a>
+            </li>
+            <li id="getStatistique">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getStatistique.html">getStatistique()</a>
+            </li>
+            <li id="getSubType">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getSubType.html">getSubType()</a>
+            </li>
+            <li id="getTableName">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTableName.html">getTableName()</a>
+            </li>
+            <li id="getTemplate">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTemplate.html">getTemplate()</a>
+            </li>
+            <li id="getTemporalAvg">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTemporalAvg.html">getTemporalAvg()</a>
+            </li>
+            <li id="getTendance">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTendance.html">getTendance()</a>
+            </li>
+            <li id="getType">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getType.html">getType()</a>
+            </li>
+            <li id="getUnite">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getUnite.html">getUnite()</a>
+            </li>
+            <li id="getUse">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getUse.html">getUse()</a>
+            </li>
+            <li id="getUsedBy">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getUsedBy.html">getUsedBy()</a>
+            </li>
+            <li id="getValue">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getValue.html">getValue()</a>
+            </li>
+            <li id="getValueDate">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getValueDate.html">getValueDate()</a>
+            </li>
+            <li id="getWidgetTemplateCode"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getWidgetTemplateCode.html">getWidgetTemplateCode()</a>
+                — TODO: Déplacer dans CmdManager ???</li>
+            <li id="hasRight"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/hasRight.html">hasRight()</a>
+                — Check if user have right to execute the action.</li>
+            <li id="influxDb">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/influxDb.html">influxDb()</a>
+            </li>
+            <li id="postExecCmd"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/postExecCmd.html">postExecCmd()</a>
+                — Executed after execution</li>
+            <li id="preExecCmd"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/preExecCmd.html">preExecCmd()</a>
+                — Execute before command execution</li>
+            <li id="pushUrl">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/pushUrl.html">pushUrl()</a>
+            </li>
+            <li id="refresh">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/refresh.html">refresh()</a>
+            </li>
+            <li id="remove">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/remove.html">remove()</a>
+            </li>
+            <li id="save">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/save.html">save()</a>
+            </li>
+            <li id="setAlert">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setAlert.html">setAlert()</a>
+            </li>
+            <li id="setCache">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setCache.html">setCache()</a>
+            </li>
+            <li id="setChanged"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setChanged.html">setChanged()</a>
+                — Set changed state</li>
+            <li id="setCollectDate">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setCollectDate.html">setCollectDate()</a>
+            </li>
+            <li id="setConfiguration"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setConfiguration.html">setConfiguration()</a>
+                — Save configuration</li>
+            <li id="setDisplay">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setDisplay.html">setDisplay()</a>
+            </li>
+            <li id="setEqLogic">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEqLogic.html">setEqLogic()</a>
+            </li>
+            <li id="setEqLogicId">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEqLogicId.html">setEqLogicId()</a>
+            </li>
+            <li id="setEqLogic_id">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEqLogic_id.html">setEqLogic_id()</a>
+            </li>
+            <li id="setEqType">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEqType.html">setEqType()</a>
+            </li>
+            <li id="setEventOnly">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEventOnly.html">setEventOnly()</a>
+            </li>
+            <li id="setGeneric_type">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setGeneric_type.html">setGeneric_type()</a>
+            </li>
+            <li id="setHtml">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setHtml.html">setHtml()</a>
+            </li>
+            <li id="setId">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setId.html">setId()</a>
+            </li>
+            <li id="setIsHistorized">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setIsHistorized.html">setIsHistorized()</a>
+            </li>
+            <li id="setIsVisible">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setIsVisible.html">setIsVisible()</a>
+            </li>
+            <li id="setLogicalId">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setLogicalId.html">setLogicalId()</a>
+            </li>
+            <li id="setName">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setName.html">setName()</a>
+            </li>
+            <li id="setOrder">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setOrder.html">setOrder()</a>
+            </li>
+            <li id="setSubType">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setSubType.html">setSubType()</a>
+            </li>
+            <li id="setTemplate">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setTemplate.html">setTemplate()</a>
+            </li>
+            <li id="setType">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setType.html">setType()</a>
+            </li>
+            <li id="setUnite">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setUnite.html">setUnite()</a>
+            </li>
+            <li id="setValue">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setValue.html">setValue()</a>
+            </li>
+            <li id="setValueDate">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setValueDate.html">setValueDate()</a>
+            </li>
+            <li id="toHtml">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/toHtml.html">toHtml()</a>
+            </li>
+            <li id="widgetPossibility">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/widgetPossibility.html">widgetPossibility()</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2019 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

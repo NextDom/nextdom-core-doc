@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - NextDom\Model\Entity\Plugin</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.html">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.html">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html#NextDom_Model_Entity">NextDom\Model\Entity</a>
+          </li>
+          <li class="separator">Plugin</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Model/Entity/Plugin.php.html#line42">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>NextDom\Model\Entity\</small>Plugin</h1>
+        <h4>Plugin</h4>
+        <p/>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class Plugin
+                implements
+                <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">EntityInterface</a>
+            {<br/><ul class="none"><li>// members</li><li>protected  <a href="#members">$id</a>;
+                    </li><li>protected string <a href="#members">$name</a> =
+                        '';
+                    </li><li>protected string <a href="#members">$description</a> =
+                        '';
+                    </li><li>protected string <a href="#members">$license</a> =
+                        '';
+                    </li><li>protected string <a href="#members">$installation</a> =
+                        '';
+                    </li><li>protected string <a href="#members">$author</a> =
+                        '';
+                    </li><li>protected string <a href="#members">$require</a> =
+                        '';
+                    </li><li>protected string <a href="#members">$category</a> =
+                        '';
+                    </li><li>protected  <a href="#members">$filepath</a>;
+                    </li><li>protected  <a href="#members">$index</a>;
+                    </li><li>protected string <a href="#members">$display</a> =
+                        '';
+                    </li><li>protected  <a href="#members">$mobile</a>;
+                    </li><li>protected integer <a href="#members">$eventjs</a> =
+                        0;
+                    </li><li>protected integer <a href="#members">$hasDependency</a> =
+                        0;
+                    </li><li>protected integer <a href="#members">$maxDependancyInstallTime</a> =
+                        30;
+                    </li><li>protected integer <a href="#members">$hasOwnDeamon</a> =
+                        0;
+                    </li><li>protected string <a href="#members">$issue</a> =
+                        '';
+                    </li><li>protected string <a href="#members">$changelog</a> =
+                        '';
+                    </li><li>protected string <a href="#members">$documentation</a> =
+                        '';
+                    </li><li>protected array <a href="#members">$info</a> =
+                        ;
+                    </li><li>protected array <a href="#members">$include</a> =
+                        ;
+                    </li><li>protected array <a href="#members">$functionality</a> =
+                        ;
+                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/initPluginFromData.html">initPluginFromData</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getId.html">getId</a>()
+                    </li><li>public <span title="Plugin">Plugin</span> <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setId.html">setId</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getPathToConfiguration.html">getPathToConfiguration</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getPathToConfigurationById.html">getPathToConfigurationById</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/report.html">report</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getDisplay.html">getDisplay</a>()
+                    </li><li>public <span title="Plugin">Plugin</span> <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setDisplay.html">setDisplay</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/isActive.html">isActive</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/dependancy_info.html">dependancy_info</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getDependencyInfo.html">getDependencyInfo</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getHasDependency.html">getHasDependency</a>()
+                    </li><li>public <span title="Plugin">Plugin</span> <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setHasDependency.html">setHasDependency</a>()
+                    </li><li>public null <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/dependancy_install.html">dependancy_install</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/deamon_stop.html">deamon_stop</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getHasOwnDeamon.html">getHasOwnDeamon</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/deamon_info.html">deamon_info</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/deamon_changeAutoMode.html">deamon_changeAutoMode</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/deamon_start.html">deamon_start</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setIsEnable.html">setIsEnable</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getRequire.html">getRequire</a>()
+                    </li><li>public bool|string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/callInstallFunction.html">callInstallFunction</a>()
+                    </li><li>public bool|string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/launch.html">launch</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getTranslation.html">getTranslation</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/saveTranslation.html">saveTranslation</a>()
+                    </li><li>public array|mixed|null <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getUpdate.html">getUpdate</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getPathImgIcon.html">getPathImgIcon</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getLogList.html">getLogList</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getName.html">getName</a>()
+                    </li><li>public <span title="Plugin">Plugin</span> <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setName.html">setName</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getDescription.html">getDescription</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getAuthor.html">getAuthor</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getCategory.html">getCategory</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setCategory.html">setCategory</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getLicense.html">getLicense</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getFilepath.html">getFilepath</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getInstallation.html">getInstallation</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getIndex.html">getIndex</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getInclude.html">getInclude</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getMobile.html">getMobile</a>()
+                    </li><li>public <span title="Plugin">Plugin</span> <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setMobile.html">setMobile</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getEventjs.html">getEventjs</a>()
+                    </li><li>public <span title="Plugin">Plugin</span> <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setEventjs.html">setEventjs</a>()
+                    </li><li>public <span title="Plugin">Plugin</span> <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setHasOwnDeamony.html">setHasOwnDeamony</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getMaxDependancyInstallTime.html">getMaxDependancyInstallTime</a>()
+                    </li><li>public <span title="Plugin">Plugin</span> <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setMaxDependancyInstallTime.html">setMaxDependancyInstallTime</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getIssue.html">getIssue</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setIssue.html">setIssue</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getChangelog.html">getChangelog</a>()
+                    </li><li>public <span title="Plugin">Plugin</span> <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setChangelog.html">setChangelog</a>()
+                    </li><li>public array|mixed|string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getInfo.html">getInfo</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getDocumentation.html">getDocumentation</a>()
+                    </li><li>public <span title="Plugin">Plugin</span> <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setDocumentation.html">setDocumentation</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getTableName.html">getTableName</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div class="styled">
+          <h4>Implements</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">NextDom\Model\Entity\EntityInterface</a>
+            </li>
+          </ul>
+        </div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="author">
+              <strong>$author</strong>
+            </li>
+            <li id="category">
+              <strong>$category</strong>
+            </li>
+            <li id="changelog">
+              <strong>$changelog</strong>
+            </li>
+            <li id="description">
+              <strong>$description</strong>
+            </li>
+            <li id="display">
+              <strong>$display</strong>
+            </li>
+            <li id="documentation">
+              <strong>$documentation</strong>
+            </li>
+            <li id="eventjs">
+              <strong>$eventjs</strong>
+            </li>
+            <li id="filepath">
+              <strong>$filepath</strong>
+            </li>
+            <li id="functionality">
+              <strong>$functionality</strong>
+            </li>
+            <li id="hasDependency">
+              <strong>$hasDependency</strong>
+            </li>
+            <li id="hasOwnDeamon">
+              <strong>$hasOwnDeamon</strong>
+            </li>
+            <li id="id">
+              <strong>$id</strong>
+            </li>
+            <li id="include">
+              <strong>$include</strong>
+            </li>
+            <li id="index">
+              <strong>$index</strong>
+            </li>
+            <li id="info">
+              <strong>$info</strong>
+            </li>
+            <li id="installation">
+              <strong>$installation</strong>
+            </li>
+            <li id="issue">
+              <strong>$issue</strong>
+            </li>
+            <li id="license">
+              <strong>$license</strong>
+            </li>
+            <li id="maxDependancyInstallTime">
+              <strong>$maxDependancyInstallTime</strong>
+            </li>
+            <li id="mobile">
+              <strong>$mobile</strong>
+            </li>
+            <li id="name">
+              <strong>$name</strong>
+            </li>
+            <li id="require">
+              <strong>$require</strong>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>public</h4>
+          <ul>
+            <li id="callInstallFunction"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/callInstallFunction.html">callInstallFunction()</a>
+                — Appelle les fonctions liées aux actions d'installation/préinstallation/mise à jour et suppression d'un plugin La fonction de préinstallation nommé TODO:TROUVER SON NOM doit se trouver dans un fichier nommé "pre_install.php" situé dans le répertoire plugin_info du plugin Les autres fonctions doivent se trouver dans le fichier install.php située dans le répertoire plugin_info du plugin</li>
+            <li id="deamon_changeAutoMode"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/deamon_changeAutoMode.html">deamon_changeAutoMode()</a>
+                — TODO Surement le mode de chargement du daemon au démarrage. Sans doute</li>
+            <li id="deamon_info"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/deamon_info.html">deamon_info()</a>
+                — Obtenir les informations sur le daemon</li>
+            <li id="deamon_start"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/deamon_start.html">deamon_start()</a>
+                — Démarre le daemon du plugin</li>
+            <li id="deamon_stop"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/deamon_stop.html">deamon_stop()</a>
+                — Arrête le daemon du plugin</li>
+            <li id="dependancy_info"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/dependancy_info.html">dependancy_info()</a>
+                — Obtenir des informations sur les dépendances TODO: Renommer</li>
+            <li id="dependancy_install"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/dependancy_install.html">dependancy_install()</a>
+                — Procédure d'installation des dépendances TODO: Corriger la faute</li>
+            <li id="getAuthor"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getAuthor.html">getAuthor()</a>
+                — Obtenir l'auteur</li>
+            <li id="getCategory"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getCategory.html">getCategory()</a>
+                — Obtenir la catégorie</li>
+            <li id="getChangelog"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getChangelog.html">getChangelog()</a>
+                — Obtenir l'adresse des changelogs</li>
+            <li id="getDependencyInfo">
+              <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getDependencyInfo.html">getDependencyInfo()</a>
+            </li>
+            <li id="getDescription"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getDescription.html">getDescription()</a>
+                — Obtenir la description</li>
+            <li id="getDisplay"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getDisplay.html">getDisplay()</a>
+                — TODO: ???</li>
+            <li id="getDocumentation"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getDocumentation.html">getDocumentation()</a>
+                — Obtenir l'adresse de la documentation</li>
+            <li id="getEventjs"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getEventjs.html">getEventjs()</a>
+                — TODO ??</li>
+            <li id="getFilepath"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getFilepath.html">getFilepath()</a>
+                — Obtenir le chemin complet</li>
+            <li id="getHasDependency"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getHasDependency.html">getHasDependency()</a>
+                — Savoir si le plugin a des dépendances</li>
+            <li id="getHasOwnDeamon"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getHasOwnDeamon.html">getHasOwnDeamon()</a>
+                — Savoir si le plugin a son propre daemon</li>
+            <li id="getId"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getId.html">getId()</a>
+                — Obtenir l'identifiant</li>
+            <li id="getInclude"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getInclude.html">getInclude()</a>
+                — TODO: ???</li>
+            <li id="getIndex"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getIndex.html">getIndex()</a>
+                — TODO: ???</li>
+            <li id="getInfo"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getInfo.html">getInfo()</a>
+                — Obtenir les informations</li>
+            <li id="getInstallation">
+              <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getInstallation.html">getInstallation()</a>
+            </li>
+            <li id="getIssue"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getIssue.html">getIssue()</a>
+                — TODO ????</li>
+            <li id="getLicense"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getLicense.html">getLicense()</a>
+                — Obtenir la licence</li>
+            <li id="getLogList"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getLogList.html">getLogList()</a>
+                — Obtenir la liste des logs</li>
+            <li id="getMaxDependancyInstallTime"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getMaxDependancyInstallTime.html">getMaxDependancyInstallTime()</a>
+                — Obtenir la limite de temps pour installer les dépendances</li>
+            <li id="getMobile"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getMobile.html">getMobile()</a>
+                — TODO: ??</li>
+            <li id="getName"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getName.html">getName()</a>
+                — Obtenir le nom</li>
+            <li id="getPathImgIcon">
+              <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getPathImgIcon.html">getPathImgIcon()</a>
+            </li>
+            <li id="getPathToConfiguration">
+              <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getPathToConfiguration.html">getPathToConfiguration()</a>
+            </li>
+            <li id="getPathToConfigurationById"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getPathToConfigurationById.html">getPathToConfigurationById()</a>
+                — Obtenir le fichier de configuration du plugin</li>
+            <li id="getRequire"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getRequire.html">getRequire()</a>
+                — Obtenir la version de NextDom requise</li>
+            <li id="getTableName">
+              <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getTableName.html">getTableName()</a>
+            </li>
+            <li id="getTranslation"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getTranslation.html">getTranslation()</a>
+                — Obtenir la traduction d'un plugin</li>
+            <li id="getUpdate"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getUpdate.html">getUpdate()</a>
+                — Get plugin update data</li>
+            <li id="initPluginFromData">
+              <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/initPluginFromData.html">initPluginFromData()</a>
+            </li>
+            <li id="isActive"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/isActive.html">isActive()</a>
+                — Test si le plugin est actif TODO: Doit passer en static</li>
+            <li id="launch"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/launch.html">launch()</a>
+                — TODO: Lance un truc, peut être un Nokia 3310</li>
+            <li id="report"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/report.html">report()</a>
+                — Génère un rapport si le plugin le permet TODO: Fonction getDisplay</li>
+            <li id="saveTranslation"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/saveTranslation.html">saveTranslation()</a>
+                — Sauvegarde un traduction TODO: Changer le format</li>
+            <li id="setCategory">
+              <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setCategory.html">setCategory()</a>
+            </li>
+            <li id="setChangelog"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setChangelog.html">setChangelog()</a>
+                — Définir l'adresse des changelogs</li>
+            <li id="setDisplay"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setDisplay.html">setDisplay()</a>
+                — TODO: ??</li>
+            <li id="setDocumentation"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setDocumentation.html">setDocumentation()</a>
+                — Définir l'adresse de la documentation</li>
+            <li id="setEventjs"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setEventjs.html">setEventjs()</a>
+                — TODO ??</li>
+            <li id="setHasDependency"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setHasDependency.html">setHasDependency()</a>
+                — Définir si le plugin a des dépendances</li>
+            <li id="setHasOwnDeamony"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setHasOwnDeamony.html">setHasOwnDeamony()</a>
+                — Définir si le plugin a son propre daemon</li>
+            <li id="setId"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setId.html">setId()</a>
+                — Définir l'identifiant</li>
+            <li id="setIsEnable"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setIsEnable.html">setIsEnable()</a>
+                — Change l'état d'activation d'un plugin</li>
+            <li id="setIssue"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setIssue.html">setIssue()</a>
+                — Définir une issue TODO ???</li>
+            <li id="setMaxDependancyInstallTime"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setMaxDependancyInstallTime.html">setMaxDependancyInstallTime()</a>
+                — Définir la limite de temps pour installer les dépendances</li>
+            <li id="setMobile"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setMobile.html">setMobile()</a>
+                — TODO: ??</li>
+            <li id="setName"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setName.html">setName()</a>
+                — Définir le nom</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2019 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

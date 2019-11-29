@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - NextDom\Rest\Authenticator</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.html">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.html">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html#NextDom_Rest">NextDom\Rest</a>
+          </li>
+          <li class="separator">Authenticator</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Rest/Authenticator.php.html#line32">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>NextDom\Rest\</small>Authenticator</h1>
+        <h4/>
+        <p/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class Authenticator
+            {<br/><ul class="none"><li>// members</li><li>private static <span title="NextDom\Rest\Authenticator">Authenticator</span> <a href="#members">$instance</a>;
+                    </li><li>private <span title="Symfony\Component\HttpFoundation\Request">Request</span> <a href="#members">$request</a>;
+                    </li><li>private <span title="NextDom\Rest\bool">bool</span> <a href="#members">$authenticated</a> =
+                        false;
+                    </li><li>private <span title="NextDom\Model\Entity\User">User</span> <a href="#members">$connectedUser</a> =
+                        NULL;
+                    </li><li>private  <a href="#members">$secret</a>;
+                    </li></ul><ul class="none"><li>// methods</li><li>private void <a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/__construct.html">__construct</a>()
+                    </li><li>public static <span title="Authenticator">Authenticator</span> <a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/init.html">init</a>()
+                    </li><li>public static Authenticator <a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/getInstance.html">getInstance</a>()
+                    </li><li>public bool <a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/supportAuthentication.html">supportAuthentication</a>()
+                    </li><li>public bool <a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/isAuthenticated.html">isAuthenticated</a>()
+                    </li><li>public User|false <a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/checkCredentials.html">checkCredentials</a>()
+                    </li><li>public string <a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/createTokenForUser.html">createTokenForUser</a>()
+                    </li><li>public bool <a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/checkSendedToken.html">checkSendedToken</a>()
+                    </li><li>public bool <a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/checkApiKey.html">checkApiKey</a>()
+                    </li><li>private User|null <a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/getUserFromToken.html">getUserFromToken</a>()
+                    </li><li>public User <a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/getConnectedUser.html">getConnectedUser</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="authenticated"><strong>$authenticated</strong>
+                —
+                <a title="NextDom\Rest\bool" href="../classes/NextDom_Rest_bool.html">NextDom\Rest\bool</a></li>
+            <li id="connectedUser"><strong>$connectedUser</strong>
+                —
+                <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User.html">NextDom\Model\Entity\User</a></li>
+            <li id="instance"><strong>$instance</strong>
+                —
+                <a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator.html">NextDom\Rest\Authenticator</a></li>
+            <li id="request"><strong>$request</strong>
+                —
+                <a title="Symfony\Component\HttpFoundation\Request" href="../classes/Symfony_Component_HttpFoundation_Request.html">Symfony\Component\HttpFoundation\Request</a></li>
+            <li id="secret"><strong>$secret</strong>
+                —
+                string</li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>private</h4>
+          <ul>
+            <li id="__construct"><a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/__construct.html">__construct()</a>
+                — Private authenticator constructor with request for singleton</li>
+            <li id="getUserFromToken"><a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/getUserFromToken.html">getUserFromToken()</a>
+                — Get the user from the token</li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="checkApiKey"><a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/checkApiKey.html">checkApiKey()</a>
+                — Check API Key sended in URL (?apikey=MY_KEY)\n Consider connected like the first admin in database</li>
+            <li id="checkCredentials"><a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/checkCredentials.html">checkCredentials()</a>
+                — Check user credentials</li>
+            <li id="checkSendedToken"><a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/checkSendedToken.html">checkSendedToken()</a>
+                — Check if sended token is valid</li>
+            <li id="createTokenForUser"><a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/createTokenForUser.html">createTokenForUser()</a>
+                — Create user token for next request</li>
+            <li id="getConnectedUser"><a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/getConnectedUser.html">getConnectedUser()</a>
+                — Get current connected user</li>
+            <li id="getInstance"><a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/getInstance.html">getInstance()</a>
+                — Get instance of the singleton</li>
+            <li id="init"><a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/init.html">init()</a>
+                — Init authenticator instance</li>
+            <li id="isAuthenticated"><a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/isAuthenticated.html">isAuthenticated()</a>
+                — Authentication state of the request</li>
+            <li id="supportAuthentication"><a title="NextDom\Rest\Authenticator" href="../classes/NextDom_Rest_Authenticator/supportAuthentication.html">supportAuthentication()</a>
+                — Test if query use authentication</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2019 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

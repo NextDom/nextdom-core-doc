@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - NextDom\Model\Entity\EqLogic</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.html">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.html">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html#NextDom_Model_Entity">NextDom\Model\Entity</a>
+          </li>
+          <li class="separator">EqLogic</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Model/Entity/EqLogic.php.html#line66">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>NextDom\Model\Entity\</small>EqLogic</h1>
+        <h4>Eqlogic</h4>
+        <p>ORM\Table(name="eqLogic", uniqueConstraints={<br/>ORM\UniqueConstraint(name="unique", columns={"name", "object_id"})}, indexes={<br/>ORM\Index(name="eqTypeName", columns={"eqType_name"}),<br/>ORM\Index(name="name", columns={"name"}), @ORM\Index(name="logical_id", columns={"logicalId"}),<br/>ORM\Index(name="generic_type", columns={"generic_type"}),<br/>ORM\Index(name="logica_id_eqTypeName", columns={"logicalId", "eqType_name"}),<br/>ORM\Index(name="object_id", columns={"object_id"}),<br/>ORM\Index(name="timeout", columns={"timeout"}),<br/>ORM\Index(name="eqReal_id", columns={"eqReal_id"}),<br/>ORM\Index(name="tags", columns={"tags"})<br/>})<br/>ORM\Entity</p>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class EqLogic
+                implements
+                <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">EntityInterface</a>
+            {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = EqLogic::class;</li><li>const DB_CLASS_NAME = '`eqLogic`';</li><li>const UIDDELIMITER = '__';</li></ul><ul class="none"><li>// members</li><li>private static array <a href="#members">$_templateArray</a> =
+                        ;
+                    </li><li>protected boolean <a href="#members">$_debug</a> =
+                        false;
+                    </li><li>protected  <a href="#members">$_object</a> =
+                        NULL;
+                    </li><li>protected boolean <a href="#members">$_needRefreshWidget</a> =
+                        false;
+                    </li><li>protected boolean <a href="#members">$_timeoutUpdated</a> =
+                        false;
+                    </li><li>protected boolean <a href="#members">$_batteryUpdated</a> =
+                        false;
+                    </li><li>protected boolean <a href="#members">$_changed</a> =
+                        false;
+                    </li><li>private array <a href="#members">$_cmds</a> =
+                        ;
+                    </li><li>protected  <a href="#members">$id</a>;
+                    </li><li>protected  <a href="#members">$name</a>;
+                    </li><li>protected  <a href="#members">$generic_type</a>;
+                    </li><li>protected  <a href="#members">$logicalId</a>;
+                    </li><li>protected  <a href="#members">$eqType_name</a>;
+                    </li><li>protected  <a href="#members">$configuration</a>;
+                    </li><li>protected  <a href="#members">$isVisible</a>;
+                    </li><li>protected  <a href="#members">$isEnable</a>;
+                    </li><li>protected  <a href="#members">$timeout</a>;
+                    </li><li>protected  <a href="#members">$category</a>;
+                    </li><li>protected  <a href="#members">$display</a>;
+                    </li><li>protected integer <a href="#members">$order</a> =
+                        9999;
+                    </li><li>protected  <a href="#members">$comment</a>;
+                    </li><li>protected  <a href="#members">$tags</a>;
+                    </li><li>protected  <a href="#members">$eqReal_id</a>;
+                    </li><li>protected  <a href="#members">$object_id</a>;
+                    </li></ul><ul class="none"><li>// methods</li><li>public int <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getId.html">getId</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setId.html">setId</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getName.html">getName</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setName.html">setName</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getGenericType.html">getGenericType</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setGenericType.html">setGenericType</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getLogicalId.html">getLogicalId</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setLogicalId.html">setLogicalId</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqType_name.html">getEqType_name</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setEqType_name.html">setEqType_name</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getConfiguration.html">getConfiguration</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setConfiguration.html">setConfiguration</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getIsVisible.html">getIsVisible</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setIsVisible.html">setIsVisible</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getIsEnable.html">getIsEnable</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setIsEnable.html">setIsEnable</a>()
+                    </li><li>public int|null <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTimeout.html">getTimeout</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setTimeout.html">setTimeout</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCategory.html">getCategory</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setCategory.html">setCategory</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getPrimaryCategory.html">getPrimaryCategory</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getDisplay.html">getDisplay</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setDisplay.html">setDisplay</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getOrder.html">getOrder</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setOrder.html">setOrder</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getComment.html">getComment</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setComment.html">setComment</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTags.html">getTags</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setTags.html">setTags</a>()
+                    </li><li>public int|null <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqReal_id.html">getEqReal_id</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setEqReal_id.html">setEqReal_id</a>()
+                    </li><li>public array|mixed|null <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqReal.html">getEqReal</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getObject_id.html">getObject_id</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setObject_id.html">setObject_id</a>()
+                    </li><li>public JeeObject|null <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getObject.html">getObject</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setObject.html">setObject</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getDebug.html">getDebug</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setDebug.html">setDebug</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getChanged.html">getChanged</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setChanged.html">setChanged</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCache.html">getCache</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setCache.html">setCache</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCmd.html">getCmd</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getStatus.html">getStatus</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/batteryWidget.html">batteryWidget</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/batteryStatus.html">batteryStatus</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getLinkToConfiguration.html">getLinkToConfiguration</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/checkAndUpdateCmd.html">checkAndUpdateCmd</a>()
+                    </li><li>public EqLogic <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/copy.html">copy</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/save.html">save</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/emptyCacheWidget.html">emptyCacheWidget</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/refreshWidget.html">refreshWidget</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getHumanName.html">getHumanName</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setStatus.html">setStatus</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/hasOnlyEventOnlyCmd.html">hasOnlyEventOnlyCmd</a>()
+                    </li><li>public array|string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/preToHtml.html">preToHtml</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/postToHtml.html">postToHtml</a>()
+                    </li><li>public array|mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/toHtml.html">toHtml</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/hasRight.html">hasRight</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/widgetPossibility.html">widgetPossibility</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getBackgroundColor.html">getBackgroundColor</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getAlert.html">getAlert</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getMaxCmdAlert.html">getMaxCmdAlert</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getShowOnChild.html">getShowOnChild</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/remove.html">remove</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/refresh.html">refresh</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/displayDebug.html">displayDebug</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/import.html">import</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/export.html">export</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCmdByGenericType.html">getCmdByGenericType</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/searchCmdByConfiguration.html">searchCmdByConfiguration</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getLinkData.html">getLinkData</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getImage.html">getImage</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getUse.html">getUse</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getUsedBy.html">getUsedBy</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/toArray.html">toArray</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/castFromEqLogic.html">castFromEqLogic</a>()
+                    </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getAllAttributes.html">getAllAttributes</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTableName.html">getTableName</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div class="styled">
+          <h4>Implements</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">NextDom\Model\Entity\EntityInterface</a>
+            </li>
+          </ul>
+        </div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="CLASS_NAME">CLASS_NAME</td>
+              <td>EqLogic::class</td>
+            </tr>
+            <tr>
+              <td id="DB_CLASS_NAME">DB_CLASS_NAME</td>
+              <td>'`eqLogic`'</td>
+            </tr>
+            <tr>
+              <td id="UIDDELIMITER">UIDDELIMITER</td>
+              <td>'__'</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="_cmds">
+              <strong>$_cmds</strong>
+            </li>
+            <li id="_templateArray">
+              <strong>$_templateArray</strong>
+            </li>
+          </ul>
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="_batteryUpdated">
+              <strong>$_batteryUpdated</strong>
+            </li>
+            <li id="_changed">
+              <strong>$_changed</strong>
+            </li>
+            <li id="_debug">
+              <strong>$_debug</strong>
+            </li>
+            <li id="_needRefreshWidget">
+              <strong>$_needRefreshWidget</strong>
+            </li>
+            <li id="_object">
+              <strong>$_object</strong>
+            </li>
+            <li id="_timeoutUpdated">
+              <strong>$_timeoutUpdated</strong>
+            </li>
+            <li id="category"><strong>$category</strong>
+                —
+                string</li>
+            <li id="comment"><strong>$comment</strong>
+                —
+                string</li>
+            <li id="configuration"><strong>$configuration</strong>
+                —
+                string</li>
+            <li id="display"><strong>$display</strong>
+                —
+                string</li>
+            <li id="eqReal_id"><strong>$eqReal_id</strong>
+                —
+                integer</li>
+            <li id="eqType_name"><strong>$eqType_name</strong>
+                —
+                string</li>
+            <li id="generic_type"><strong>$generic_type</strong>
+                —
+                string</li>
+            <li id="id"><strong>$id</strong>
+                —
+                integer</li>
+            <li id="isEnable"><strong>$isEnable</strong>
+                —
+                int</li>
+            <li id="isVisible"><strong>$isVisible</strong>
+                —
+                int</li>
+            <li id="logicalId"><strong>$logicalId</strong>
+                —
+                string</li>
+            <li id="name"><strong>$name</strong>
+                —
+                string</li>
+            <li id="object_id"><strong>$object_id</strong>
+                —
+                integer</li>
+            <li id="order"><strong>$order</strong>
+                —
+                integer</li>
+            <li id="tags"><strong>$tags</strong>
+                —
+                string</li>
+            <li id="timeout"><strong>$timeout</strong>
+                —
+                integer</li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>public</h4>
+          <ul>
+            <li id="batteryStatus"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/batteryStatus.html">batteryStatus()</a>
+                — Update battery status</li>
+            <li id="batteryWidget"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/batteryWidget.html">batteryWidget()</a>
+                — Get HTML code for battery widget</li>
+            <li id="castFromEqLogic"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/castFromEqLogic.html">castFromEqLogic()</a>
+                — Cast from a raw eqLogic</li>
+            <li id="checkAndUpdateCmd"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/checkAndUpdateCmd.html">checkAndUpdateCmd()</a>
+                — Check and update a command information</li>
+            <li id="copy"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/copy.html">copy()</a>
+                — Get copy of this eqLogic</li>
+            <li id="displayDebug"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/displayDebug.html">displayDebug()</a>
+                — Show debug message if in debug mode</li>
+            <li id="emptyCacheWidget"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/emptyCacheWidget.html">emptyCacheWidget()</a>
+                — Remove widget render in cache</li>
+            <li id="export"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/export.html">export()</a>
+                — Export eqLogic data in plain text array</li>
+            <li id="getAlert"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getAlert.html">getAlert()</a>
+                — Get alert if presents</li>
+            <li id="getAllAttributes"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getAllAttributes.html">getAllAttributes()</a>
+                — Get all attributes of the object (used for cast)</li>
+            <li id="getBackgroundColor"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getBackgroundColor.html">getBackgroundColor()</a>
+                — Get widget background color</li>
+            <li id="getCache"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCache.html">getCache()</a>
+                — Get data in cache linked to the eqLogic</li>
+            <li id="getCategory"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCategory.html">getCategory()</a>
+                — Test if the object belongs to a category</li>
+            <li id="getChanged"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getChanged.html">getChanged()</a>
+                — Get changed data state</li>
+            <li id="getCmd"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCmd.html">getCmd()</a>
+                — Get one or more commands of the object</li>
+            <li id="getCmdByGenericType"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCmdByGenericType.html">getCmdByGenericType()</a>
+                — Get command of the eqLogic by generic type</li>
+            <li id="getComment"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getComment.html">getComment()</a>
+                — Get the comment attached to the eqLogic</li>
+            <li id="getConfiguration"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getConfiguration.html">getConfiguration()</a>
+                — Get object specific configuration data</li>
+            <li id="getDebug"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getDebug.html">getDebug()</a>
+                — Get debug state</li>
+            <li id="getDisplay"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getDisplay.html">getDisplay()</a>
+                — Get display parameters</li>
+            <li id="getEqReal"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqReal.html">getEqReal()</a>
+                — TODO: Unused</li>
+            <li id="getEqReal_id"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqReal_id.html">getEqReal_id()</a>
+                — TODO: Unused</li>
+            <li id="getEqType_name"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqType_name.html">getEqType_name()</a>
+                — Get eqLogic type name (linked plugin)</li>
+            <li id="getGenericType"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getGenericType.html">getGenericType()</a>
+                — Get generic type for simple eqLogic</li>
+            <li id="getHumanName"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getHumanName.html">getHumanName()</a>
+                — Get HTML code for battery widget</li>
+            <li id="getId"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getId.html">getId()</a>
+                — Get Id</li>
+            <li id="getImage"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getImage.html">getImage()</a>
+                — Get linked image</li>
+            <li id="getIsEnable"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getIsEnable.html">getIsEnable()</a>
+                — Get eqLogic enabled state</li>
+            <li id="getIsVisible"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getIsVisible.html">getIsVisible()</a>
+                — Get visibility of the eqLogic 1 for visible, 0 for hidden</li>
+            <li id="getLinkData"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getLinkData.html">getLinkData()</a>
+                — Get link data for graph representation</li>
+            <li id="getLinkToConfiguration"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getLinkToConfiguration.html">getLinkToConfiguration()</a>
+                — Get configuration URL</li>
+            <li id="getLogicalId"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getLogicalId.html">getLogicalId()</a>
+                — Set logicalId (Id used by plugins)</li>
+            <li id="getMaxCmdAlert"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getMaxCmdAlert.html">getMaxCmdAlert()</a>
+                — Get max command alter for this eqLogic</li>
+            <li id="getName"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getName.html">getName()</a>
+                — Get EqLogic name</li>
+            <li id="getObject"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getObject.html">getObject()</a>
+                — Get attached object</li>
+            <li id="getObject_id"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getObject_id.html">getObject_id()</a>
+                — Get id of the attached object</li>
+            <li id="getOrder"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getOrder.html">getOrder()</a>
+                — Get order used in eqLogic list</li>
+            <li id="getPrimaryCategory"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getPrimaryCategory.html">getPrimaryCategory()</a>
+                — Get primary category</li>
+            <li id="getShowOnChild"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getShowOnChild.html">getShowOnChild()</a>
+                — TODO: ???</li>
+            <li id="getStatus"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getStatus.html">getStatus()</a>
+                — Get status from cache</li>
+            <li id="getTableName"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTableName.html">getTableName()</a>
+                — Get the name of the SQL table where data is stored.</li>
+            <li id="getTags"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTags.html">getTags()</a>
+                — Get list of eqLogic tags</li>
+            <li id="getTimeout"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTimeout.html">getTimeout()</a>
+                — Get eqLogic timeout</li>
+            <li id="getUse"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getUse.html">getUse()</a>
+                — Get list of usage in string (TODO: ???)</li>
+            <li id="getUsedBy"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getUsedBy.html">getUsedBy()</a>
+                — Get list of this eqLogic usage</li>
+            <li id="hasOnlyEventOnlyCmd">
+              <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/hasOnlyEventOnlyCmd.html">hasOnlyEventOnlyCmd()</a>
+            </li>
+            <li id="hasRight"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/hasRight.html">hasRight()</a>
+                — Test if user have right</li>
+            <li id="import"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/import.html">import()</a>
+                — Import eqLogic from a plain text array</li>
+            <li id="postToHtml"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/postToHtml.html">postToHtml()</a>
+                — Store HTML view in cache</li>
+            <li id="preToHtml"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/preToHtml.html">preToHtml()</a>
+                — Prepare data for HTML view</li>
+            <li id="refresh"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/refresh.html">refresh()</a>
+                — Refresh data from the database</li>
+            <li id="refreshWidget"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/refreshWidget.html">refreshWidget()</a>
+                — Refresh widget if change occurs since la render</li>
+            <li id="remove"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/remove.html">remove()</a>
+                — Remove from database</li>
+            <li id="save"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/save.html">save()</a>
+                — Save in database</li>
+            <li id="searchCmdByConfiguration"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/searchCmdByConfiguration.html">searchCmdByConfiguration()</a>
+                — Search cmd with a specific configuration</li>
+            <li id="setCache"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setCache.html">setCache()</a>
+                — Store data in cache</li>
+            <li id="setCategory"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setCategory.html">setCategory()</a>
+                — Define if the object belongs to a category</li>
+            <li id="setChanged"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setChanged.html">setChanged()</a>
+                — Set changed data state</li>
+            <li id="setComment"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setComment.html">setComment()</a>
+                — Set the comment attached to the eqLogic</li>
+            <li id="setConfiguration"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setConfiguration.html">setConfiguration()</a>
+                — Set object specific configuration data</li>
+            <li id="setDebug"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setDebug.html">setDebug()</a>
+                — Set debug state</li>
+            <li id="setDisplay"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setDisplay.html">setDisplay()</a>
+                — Set a display parameters</li>
+            <li id="setEqReal_id"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setEqReal_id.html">setEqReal_id()</a>
+                — TODO: Unused</li>
+            <li id="setEqType_name"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setEqType_name.html">setEqType_name()</a>
+                — Set eqLogic type name (linked plugin)</li>
+            <li id="setGenericType"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setGenericType.html">setGenericType()</a>
+                — Set generic type for simple EqLogic</li>
+            <li id="setId"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setId.html">setId()</a>
+                — Change id</li>
+            <li id="setIsEnable"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setIsEnable.html">setIsEnable()</a>
+                — Set if the eqLogic is enabled</li>
+            <li id="setIsVisible"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setIsVisible.html">setIsVisible()</a>
+                — Set the visibility of the eqLogic</li>
+            <li id="setLogicalId"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setLogicalId.html">setLogicalId()</a>
+                — Get logicalId (Id used by plugins)</li>
+            <li id="setName"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setName.html">setName()</a>
+                — Set eqLogic name</li>
+            <li id="setObject"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setObject.html">setObject()</a>
+                — Set attached object</li>
+            <li id="setObject_id"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setObject_id.html">setObject_id()</a>
+                — Set attached room id</li>
+            <li id="setOrder"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setOrder.html">setOrder()</a>
+                — Set eqLogic order in list</li>
+            <li id="setStatus">
+              <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setStatus.html">setStatus()</a>
+            </li>
+            <li id="setTags"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setTags.html">setTags()</a>
+                — Define list of eqLogics tags</li>
+            <li id="setTimeout"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setTimeout.html">setTimeout()</a>
+                — Get eqLogic timeout</li>
+            <li id="toArray"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/toArray.html">toArray()</a>
+                — Get object data in array</li>
+            <li id="toHtml"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/toHtml.html">toHtml()</a>
+                — Get HTML code depends of the view</li>
+            <li id="widgetPossibility"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/widgetPossibility.html">widgetPossibility()</a>
+                — Get widget specific possibility</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2019 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

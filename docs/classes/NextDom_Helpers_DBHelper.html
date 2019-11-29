@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - NextDom\Helpers\DBHelper</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.html">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.html">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html#NextDom_Helpers">NextDom\Helpers</a>
+          </li>
+          <li class="separator">DBHelper</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#tasks">Tasks</a>
+          </li>
+          <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Helpers/DBHelper.php.html#line44">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>NextDom\Helpers\</small>DBHelper</h1>
+        <h4>Class DBHelper</h4>
+        <p/>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class DBHelper
+            {<br/><ul class="none"><li>// constants</li><li>const FETCH_TYPE_ROW = 0;</li><li>const FETCH_TYPE_ALL = 1;</li><li>const CONNECTION_TIMEOUT = 120;</li></ul><ul class="none"><li>// members</li><li>private static  <a href="#members">$sharedInstance</a>;
+                    </li><li>private static array <a href="#members">$fieldsCache</a> =
+                        ;
+                    </li><li>private static array <a href="#members">$fieldsQuery</a> =
+                        ;
+                    </li><li>private  <a href="#members">$connection</a>;
+                    </li><li>private  <a href="#members">$lastConnection</a>;
+                    </li></ul><ul class="none"><li>// methods</li><li>private void <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/__construct.html">__construct</a>()
+                    </li><li>public static array|mixed|null <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/CallStoredProc.html">CallStoredProc</a>()
+                    </li><li>public static mixed|null <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getOneObject.html">getOneObject</a>()
+                    </li><li>public static mixed|null <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getAllObjects.html">getAllObjects</a>()
+                    </li><li>public static mixed <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getOne.html">getOne</a>()
+                    </li><li>public static mixed <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getAll.html">getAll</a>()
+                    </li><li>public static bool <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/exec.html">exec</a>()
+                    </li><li>public static array|mixed|null <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/Prepare.html">Prepare</a>()
+                    </li><li>public static PDO <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getConnection.html">getConnection</a>()
+                    </li><li>public static void <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/optimize.html">optimize</a>()
+                    </li><li>public static void <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/beginTransaction.html">beginTransaction</a>()
+                    </li><li>public static void <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/commit.html">commit</a>()
+                    </li><li>public static void <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/rollBack.html">rollBack</a>()
+                    </li><li>public static boolean <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/save.html">save</a>()
+                    </li><li>private static mixed <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getField.html">getField</a>()
+                    </li><li>private static ReflectionClass <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getReflectionClass.html">getReflectionClass</a>()
+                    </li><li>private static array <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getFields.html">getFields</a>()
+                    </li><li>private static string <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getTableName.html">getTableName</a>()
+                    </li><li>private static void <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/setField.html">setField</a>()
+                    </li><li>private static array <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/buildQuery.html">buildQuery</a>()
+                    </li><li>public static mixed <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getLastInsertId.html">getLastInsertId</a>()
+                    </li><li>public static bool <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/refresh.html">refresh</a>()
+                    </li><li>public static string <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/buildField.html">buildField</a>()
+                    </li><li>public static array <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getWithFilter.html">getWithFilter</a>()
+                    </li><li>public static boolean <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/remove.html">remove</a>()
+                    </li><li>public static mixed <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/checksum.html">checksum</a>()
+                    </li><li>public static boolean <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/lock.html">lock</a>()
+                    </li><li>public static bool <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/compareAndFix.html">compareAndFix</a>()
+                    </li><li>private static array <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/compareDatabase.html">compareDatabase</a>()
+                    </li><li>private static array <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/compareTable.html">compareTable</a>()
+                    </li><li>private static string <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/buildDefinitionField.html">buildDefinitionField</a>()
+                    </li><li>private static string <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/buildDefinitionIndex.html">buildDefinitionIndex</a>()
+                    </li><li>private static array <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/compareField.html">compareField</a>()
+                    </li><li>private static array <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/prepareIndexCompare.html">prepareIndexCompare</a>()
+                    </li><li>private static array <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/compareIndex.html">compareIndex</a>()
+                    </li><li>public void <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/__clone.html">__clone</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="tasks">Tasks</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th style="width:3em;">Line</th>
+              <th>Task</th>
+            </tr>
+          </thead>
+          <tr>
+            <td class="nummeric">217</td>
+            <td>Revoir cette chaine</td>
+          </tr>
+        </table>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="FETCH_TYPE_ROW">FETCH_TYPE_ROW</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td id="FETCH_TYPE_ALL">FETCH_TYPE_ALL</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td id="CONNECTION_TIMEOUT">CONNECTION_TIMEOUT</td>
+              <td>120</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="connection">
+              <strong>$connection</strong>
+            </li>
+            <li id="fieldsCache">
+              <strong>$fieldsCache</strong>
+            </li>
+            <li id="fieldsQuery">
+              <strong>$fieldsQuery</strong>
+            </li>
+            <li id="lastConnection">
+              <strong>$lastConnection</strong>
+            </li>
+            <li id="sharedInstance">
+              <strong>$sharedInstance</strong>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>private</h4>
+          <ul>
+            <li id="__construct"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/__construct.html">__construct()</a>
+                — Private constructor for singleton</li>
+            <li id="buildDefinitionField">
+              <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/buildDefinitionField.html">buildDefinitionField()</a>
+            </li>
+            <li id="buildDefinitionIndex">
+              <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/buildDefinitionIndex.html">buildDefinitionIndex()</a>
+            </li>
+            <li id="buildQuery"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/buildQuery.html">buildQuery()</a>
+                — Builds the elements for an SQL query. It will return two lists, the first being the list of parts "key= :key" to inject in the SQL, the second being the mapping of these parameters to the values.</li>
+            <li id="compareDatabase">
+              <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/compareDatabase.html">compareDatabase()</a>
+            </li>
+            <li id="compareField">
+              <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/compareField.html">compareField()</a>
+            </li>
+            <li id="compareIndex">
+              <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/compareIndex.html">compareIndex()</a>
+            </li>
+            <li id="compareTable">
+              <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/compareTable.html">compareTable()</a>
+            </li>
+            <li id="getField"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getField.html">getField()</a>
+                — Returns the value of a field of a given object. It'll try to use a getter first if defined. If not defined, we'll use the reflection API.</li>
+            <li id="getFields">
+              <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getFields.html">getFields()</a>
+            </li>
+            <li id="getReflectionClass"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getReflectionClass.html">getReflectionClass()</a>
+                — Returns the reflection class for the given object.</li>
+            <li id="getTableName"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getTableName.html">getTableName()</a>
+                — Returns the name of the table where to save entities.</li>
+            <li id="prepareIndexCompare">
+              <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/prepareIndexCompare.html">prepareIndexCompare()</a>
+            </li>
+            <li id="setField"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/setField.html">setField()</a>
+                — Forces the value of a field of a given object, even if this field is not accessible.</li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="CallStoredProc"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/CallStoredProc.html">CallStoredProc()</a>
+                — Call procedure TODO: Y en a-t-il d'utilisé ?</li>
+            <li id="Prepare"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/Prepare.html">Prepare()</a>
+                — Prepare a query and execute</li>
+            <li id="__clone"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/__clone.html">__clone()</a>
+                — Block object cloning</li>
+            <li id="beginTransaction"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/beginTransaction.html">beginTransaction()</a>
+                — Begin transaction</li>
+            <li id="buildField"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/buildField.html">buildField()</a>
+                — Build fields for query</li>
+            <li id="checksum">
+              <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/checksum.html">checksum()</a>
+            </li>
+            <li id="commit"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/commit.html">commit()</a>
+                — Commit transaction</li>
+            <li id="compareAndFix">
+              <a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/compareAndFix.html">compareAndFix()</a>
+            </li>
+            <li id="exec"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/exec.html">exec()</a>
+                — Execute a query without result (DELETE, UPDATE, INSERT, etc.)</li>
+            <li id="getAll"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getAll.html">getAll()</a>
+                — Get data from database</li>
+            <li id="getAllObjects"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getAllObjects.html">getAllObjects()</a>
+                — Get objects from database</li>
+            <li id="getConnection"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getConnection.html">getConnection()</a>
+                — Get the connection. Connect to the database if not.</li>
+            <li id="getLastInsertId"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getLastInsertId.html">getLastInsertId()</a>
+                — Get the last insert id TODO: ???? Ca me parait dangereux si il y a une écriture en bdd entre temps</li>
+            <li id="getOne"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getOne.html">getOne()</a>
+                — Get one row data from database</li>
+            <li id="getOneObject"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getOneObject.html">getOneObject()</a>
+                — Get one object from database</li>
+            <li id="getWithFilter"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/getWithFilter.html">getWithFilter()</a>
+                — Get list of objects filtered</li>
+            <li id="lock"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/lock.html">lock()</a>
+                — Lock an entity.</li>
+            <li id="optimize"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/optimize.html">optimize()</a>
+                — Optimize all tables</li>
+            <li id="refresh"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/refresh.html">refresh()</a>
+                — Refresh value of an object</li>
+            <li id="remove"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/remove.html">remove()</a>
+                — Deletes an object.</li>
+            <li id="rollBack"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/rollBack.html">rollBack()</a>
+                — Rollback a transaction</li>
+            <li id="save"><a title="NextDom\Helpers\DBHelper" href="../classes/NextDom_Helpers_DBHelper/save.html">save()</a>
+                — Saves an entity inside the repository. If the entity is new a new row will be created. If the entity is not new the row will be updated.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2019 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

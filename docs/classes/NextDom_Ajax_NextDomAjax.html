@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - NextDom\Ajax\NextDomAjax</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.html">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.html">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html#NextDom_Ajax">NextDom\Ajax</a>
+          </li>
+          <li class="separator">NextDomAjax</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Ajax/NextDomAjax.php.html#line46">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>NextDom\Ajax\</small>NextDomAjax</h1>
+        <h4>Class NextDomAjax</h4>
+        <p/>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class NextDomAjax
+                extends <a title="NextDom\Ajax\BaseAjax" href="../classes/NextDom_Ajax_BaseAjax.html">BaseAjax</a>
+            {<br/><ul class="none"><li>// members</li><li>protected <a href="#members">$NEEDED_RIGHTS</a> =
+                        UserRight::NOTHING;
+                    </li><li>protected boolean <a href="#members">$MUST_BE_CONNECTED</a> =
+                        true;
+                    </li><li>protected boolean <a href="#members">$CHECK_AJAX_TOKEN</a> =
+                        false;
+                    </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Ajax\BaseAjax">BaseAjax</span></li><li>protected string <a href="#members">$NEEDED_RIGHTS</a>;
+                        </li><li>protected boolean <a href="#members">$MUST_BE_CONNECTED</a>;
+                        </li><li>protected boolean <a href="#members">$CHECK_AJAX_TOKEN</a>;
+                        </li><li>protected <span title="NextDom\Helpers\AjaxHelper">AjaxHelper</span> <a href="#members">$ajax</a>;
+                        </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getInfoApplication.html">getInfoApplication</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getDocumentationUrl.html">getDocumentationUrl</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/addWarnme.html">addWarnme</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/ssh.html">ssh</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/db.html">db</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/dbcorrectTable.html">dbcorrectTable</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/health.html">health</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/update.html">update</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/clearDate.html">clearDate</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/backup.html">backup</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/restore.html">restore</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/removeBackup.html">removeBackup</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/listBackup.html">listBackup</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getConfiguration.html">getConfiguration</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/resetHwKey.html">resetHwKey</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/resetHour.html">resetHour</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/backupupload.html">backupupload</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/haltSystem.html">haltSystem</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/rebootSystem.html">rebootSystem</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/forceSyncHour.html">forceSyncHour</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getGraphData.html">getGraphData</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getTimelineEvents.html">getTimelineEvents</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/consistency.html">consistency</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/cleanFileSystemRight.html">cleanFileSystemRight</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/removeTimelineEvents.html">removeTimelineEvents</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getFileFolder.html">getFileFolder</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getFileContent.html">getFileContent</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/setFileContent.html">setFileContent</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/deleteFile.html">deleteFile</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/createFile.html">createFile</a>()
+                    </li><li>public void <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/emptyRemoveHistory.html">emptyRemoveHistory</a>()
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Ajax\BaseAjax">BaseAjax</span></li><li>public void <a title="NextDom\Ajax\BaseAjax" href="../classes/NextDom_Ajax_BaseAjax/__construct.html">__construct</a>()
+                        </li><li>public void <a title="NextDom\Ajax\BaseAjax" href="../classes/NextDom_Ajax_BaseAjax/process.html">process</a>()
+                        </li><li>protected void <a title="NextDom\Ajax\BaseAjax" href="../classes/NextDom_Ajax_BaseAjax/checkAccessOrFail.html">checkAccessOrFail</a>()
+                        </li></ul>
+
+            }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div class="styled">
+          <h4>Extends</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Ajax\BaseAjax" href="../classes/NextDom_Ajax_BaseAjax.html">NextDom\Ajax\BaseAjax</a>
+            </li>
+          </ul>
+        </div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="CHECK_AJAX_TOKEN">
+              <strong>$CHECK_AJAX_TOKEN</strong>
+            </li>
+            <li id="CHECK_AJAX_TOKEN"><strong>$CHECK_AJAX_TOKEN</strong>
+                —
+                string</li>
+            <li id="MUST_BE_CONNECTED">
+              <strong>$MUST_BE_CONNECTED</strong>
+            </li>
+            <li id="MUST_BE_CONNECTED"><strong>$MUST_BE_CONNECTED</strong>
+                —
+                string</li>
+            <li id="NEEDED_RIGHTS">
+              <strong>$NEEDED_RIGHTS</strong>
+            </li>
+            <li id="NEEDED_RIGHTS"><strong>$NEEDED_RIGHTS</strong>
+                —
+                string</li>
+            <li id="ajax"><strong>$ajax</strong>
+                —
+                <a title="NextDom\Helpers\AjaxHelper" href="../classes/NextDom_Helpers_AjaxHelper.html">NextDom\Helpers\AjaxHelper</a></li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>public</h4>
+          <ul>
+            <li id="addWarnme">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/addWarnme.html">addWarnme()</a>
+            </li>
+            <li id="backup">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/backup.html">backup()</a>
+            </li>
+            <li id="backupupload">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/backupupload.html">backupupload()</a>
+            </li>
+            <li id="cleanFileSystemRight">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/cleanFileSystemRight.html">cleanFileSystemRight()</a>
+            </li>
+            <li id="clearDate">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/clearDate.html">clearDate()</a>
+            </li>
+            <li id="consistency">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/consistency.html">consistency()</a>
+            </li>
+            <li id="createFile">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/createFile.html">createFile()</a>
+            </li>
+            <li id="db">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/db.html">db()</a>
+            </li>
+            <li id="dbcorrectTable">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/dbcorrectTable.html">dbcorrectTable()</a>
+            </li>
+            <li id="deleteFile">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/deleteFile.html">deleteFile()</a>
+            </li>
+            <li id="emptyRemoveHistory">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/emptyRemoveHistory.html">emptyRemoveHistory()</a>
+            </li>
+            <li id="forceSyncHour">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/forceSyncHour.html">forceSyncHour()</a>
+            </li>
+            <li id="getConfiguration">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getConfiguration.html">getConfiguration()</a>
+            </li>
+            <li id="getDocumentationUrl"><a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getDocumentationUrl.html">getDocumentationUrl()</a>
+                — Get documentation link</li>
+            <li id="getFileContent">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getFileContent.html">getFileContent()</a>
+            </li>
+            <li id="getFileFolder">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getFileFolder.html">getFileFolder()</a>
+            </li>
+            <li id="getGraphData">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getGraphData.html">getGraphData()</a>
+            </li>
+            <li id="getInfoApplication">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getInfoApplication.html">getInfoApplication()</a>
+            </li>
+            <li id="getTimelineEvents">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/getTimelineEvents.html">getTimelineEvents()</a>
+            </li>
+            <li id="haltSystem">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/haltSystem.html">haltSystem()</a>
+            </li>
+            <li id="health">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/health.html">health()</a>
+            </li>
+            <li id="listBackup">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/listBackup.html">listBackup()</a>
+            </li>
+            <li id="rebootSystem">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/rebootSystem.html">rebootSystem()</a>
+            </li>
+            <li id="removeBackup">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/removeBackup.html">removeBackup()</a>
+            </li>
+            <li id="removeTimelineEvents">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/removeTimelineEvents.html">removeTimelineEvents()</a>
+            </li>
+            <li id="resetHour">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/resetHour.html">resetHour()</a>
+            </li>
+            <li id="resetHwKey">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/resetHwKey.html">resetHwKey()</a>
+            </li>
+            <li id="restore">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/restore.html">restore()</a>
+            </li>
+            <li id="setFileContent">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/setFileContent.html">setFileContent()</a>
+            </li>
+            <li id="ssh">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/ssh.html">ssh()</a>
+            </li>
+            <li id="update">
+              <a title="NextDom\Ajax\NextDomAjax" href="../classes/NextDom_Ajax_NextDomAjax/update.html">update()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Ajax\BaseAjax" href="../classes/NextDom_Ajax_BaseAjax.html">NextDom\Ajax\BaseAjax</a></h3>
+          <h4>protected</h4>
+          <ul>
+            <li id="checkAccessOrFail"><a title="NextDom\Ajax\BaseAjax" href="../classes/NextDom_Ajax_BaseAjax/checkAccessOrFail.html">checkAccessOrFail()</a>
+                — Check access of the user. Fail on problem.</li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="process"><a title="NextDom\Ajax\BaseAjax" href="../classes/NextDom_Ajax_BaseAjax/process.html">process()</a>
+                — Start the process</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2019 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

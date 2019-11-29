@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - NextDom\Managers\BackupManager</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.html">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.html">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html#NextDom_Managers">NextDom\Managers</a>
+          </li>
+          <li class="separator">BackupManager</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Managers/BackupManager.php.html#line43">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>NextDom\Managers\</small>BackupManager</h1>
+        <h4>Class BackupManager</h4>
+        <p/>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class BackupManager
+            {<br/><ul class="none"><li>// members</li><li>private static  <a href="#members">$logLevel</a> =
+                        NULL;
+                    </li></ul><ul class="none"><li>// methods</li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/backup.html">backup</a>()
+                    </li><li>public static bool <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/createBackup.html">createBackup</a>()
+                    </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/getBackupDirectory.html">getBackupDirectory</a>()
+                    </li><li>public static string <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/getBackupFilename.html">getBackupFilename</a>()
+                    </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/backupPlugins.html">backupPlugins</a>()
+                    </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/repairDB.html">repairDB</a>()
+                    </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/createDBBackup.html">createDBBackup</a>()
+                    </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/createBackupArchive.html">createBackupArchive</a>()
+                    </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/rotateBackups.html">rotateBackups</a>()
+                    </li><li>public static array <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/getBackupFileInfo.html">getBackupFileInfo</a>()
+                    </li><li>public static bool <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/sendRemoteBackup.html">sendRemoteBackup</a>()
+                    </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restore.html">restore</a>()
+                    </li><li>public static bool <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreBackup.html">restoreBackup</a>()
+                    </li><li>public static string <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/getLastBackupFilePath.html">getLastBackupFilePath</a>()
+                    </li><li>private static string <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/extractArchive.html">extractArchive</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreDatabase.html">restoreDatabase</a>()
+                    </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/loadSQLFromFile.html">loadSQLFromFile</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/loadSQLMigrateScript.html">loadSQLMigrateScript</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreJeedomConfig.html">restoreJeedomConfig</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreCustomData.html">restoreCustomData</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restorePlugins.html">restorePlugins</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restorePublicPerms.html">restorePublicPerms</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/updateConfig.html">updateConfig</a>()
+                    </li><li>public static array <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/listBackup.html">listBackup</a>()
+                    </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/removeBackup.html">removeBackup</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/addPathToArchive.html">addPathToArchive</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/clearCache.html">clearCache</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/initValues.html">initValues</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="logLevel">
+              <strong>$logLevel</strong>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>private</h4>
+          <ul>
+            <li id="addPathToArchive">
+              <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/addPathToArchive.html">addPathToArchive()</a>
+            </li>
+            <li id="clearCache">
+              <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/clearCache.html">clearCache()</a>
+            </li>
+            <li id="extractArchive"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/extractArchive.html">extractArchive()</a>
+                — Extracts backup archive to a temporary folder</li>
+            <li id="initValues"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/initValues.html">initValues()</a>
+                — Init default values</li>
+            <li id="loadSQLMigrateScript"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/loadSQLMigrateScript.html">loadSQLMigrateScript()</a>
+                — Loads migrate script into mysql database</li>
+            <li id="restoreCustomData"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreCustomData.html">restoreCustomData()</a>
+                — Restore custom data from backup archive</li>
+            <li id="restoreDatabase"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreDatabase.html">restoreDatabase()</a>
+                — Loads mysql dump from backup archive into database</li>
+            <li id="restoreJeedomConfig"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreJeedomConfig.html">restoreJeedomConfig()</a>
+                — Import common config if not already exists</li>
+            <li id="restorePlugins"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restorePlugins.html">restorePlugins()</a>
+                — Restore plugins from backup archive</li>
+            <li id="restorePublicPerms"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restorePublicPerms.html">restorePublicPerms()</a>
+                — Restore www-data owner and 775 permissions on directory</li>
+            <li id="updateConfig">
+              <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/updateConfig.html">updateConfig()</a>
+            </li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="backup"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/backup.html">backup()</a>
+                — Creates a backup archive</li>
+            <li id="backupPlugins"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/backupPlugins.html">backupPlugins()</a>
+                — Runs backup method for each active plugins if available</li>
+            <li id="createBackup"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/createBackup.html">createBackup()</a>
+                — Runs the backup procedure</li>
+            <li id="createBackupArchive"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/createBackupArchive.html">createBackupArchive()</a>
+                — Creates an archive with all files that should be included in backup</li>
+            <li id="createDBBackup"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/createDBBackup.html">createDBBackup()</a>
+                — Creates a backup of database to given output file path</li>
+            <li id="getBackupDirectory"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/getBackupDirectory.html">getBackupDirectory()</a>
+                — Returns backup directory according to backup::path</li>
+            <li id="getBackupFileInfo"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/getBackupFileInfo.html">getBackupFileInfo()</a>
+                — Creates an array with information about existing backup files</li>
+            <li id="getBackupFilename"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/getBackupFilename.html">getBackupFilename()</a>
+                — Computes backup filename from nextdom's name and current datetime</li>
+            <li id="getLastBackupFilePath"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/getLastBackupFilePath.html">getLastBackupFilePath()</a>
+                — Returns path to last available backup archive</li>
+            <li id="listBackup"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/listBackup.html">listBackup()</a>
+                — Obtenir la liste des sauvegardes</li>
+            <li id="loadSQLFromFile"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/loadSQLFromFile.html">loadSQLFromFile()</a>
+                — Load given file in mysql database</li>
+            <li id="removeBackup"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/removeBackup.html">removeBackup()</a>
+                — Remove a backup file</li>
+            <li id="repairDB"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/repairDB.html">repairDB()</a>
+                — Checks and repair database</li>
+            <li id="restore"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restore.html">restore()</a>
+                — Restore a backup from file</li>
+            <li id="restoreBackup"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreBackup.html">restoreBackup()</a>
+                — Runs the restore procedure</li>
+            <li id="rotateBackups"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/rotateBackups.html">rotateBackups()</a>
+                — Removes backup archives according to backup::keepDays and backup::maxSize</li>
+            <li id="sendRemoteBackup"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/sendRemoteBackup.html">sendRemoteBackup()</a>
+                — Trigger remote upload for all available repos</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2019 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

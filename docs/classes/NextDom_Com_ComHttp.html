@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - NextDom\Com\ComHttp</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.html">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.html">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html#NextDom_Com">NextDom\Com</a>
+          </li>
+          <li class="separator">ComHttp</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Com/ComHttp.php.html#line28">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>NextDom\Com\</small>ComHttp</h1>
+        <h4/>
+        <p/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class ComHttp
+            {<br/><ul class="none"><li>// members</li><li>private  <a href="#members">$url</a>;
+                    </li><li>private string <a href="#members">$username</a> =
+                        '';
+                    </li><li>private string <a href="#members">$password</a> =
+                        '';
+                    </li><li>private boolean <a href="#members">$logError</a> =
+                        false;
+                    </li><li>private boolean <a href="#members">$ping</a> =
+                        false;
+                    </li><li>private boolean <a href="#members">$noSslCheck</a> =
+                        true;
+                    </li><li>private integer <a href="#members">$sleepTime</a> =
+                        500000;
+                    </li><li>private string <a href="#members">$post</a> =
+                        '';
+                    </li><li>private string <a href="#members">$put</a> =
+                        '';
+                    </li><li>private string <a href="#members">$delete</a> =
+                        '';
+                    </li><li>private array <a href="#members">$header</a> =
+                        ;
+                    </li><li>private boolean <a href="#members">$cookiesession</a> =
+                        false;
+                    </li><li>private boolean <a href="#members">$allowEmptyReponse</a> =
+                        false;
+                    </li><li>private boolean <a href="#members">$noReportError</a> =
+                        false;
+                    </li><li>private string <a href="#members">$userAgent</a> =
+                        '';
+                    </li><li>private string <a href="#members">$CURLOPT_HTTPAUTH</a> =
+                        '';
+                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/__construct.html">__construct</a>()
+                    </li><li>public string <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/exec.html">exec</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getNoSslCheck.html">getNoSslCheck</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setNoSslCheck.html">setNoSslCheck</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getHeader.html">getHeader</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setHeader.html">setHeader</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getCookiesession.html">getCookiesession</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setCookiesession.html">setCookiesession</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getCURLOPT_HTTPAUTH.html">getCURLOPT_HTTPAUTH</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setCURLOPT_HTTPAUTH.html">setCURLOPT_HTTPAUTH</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getPost.html">getPost</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setPost.html">setPost</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getPut.html">getPut</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setPut.html">setPut</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getUserAgent.html">getUserAgent</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setUserAgent.html">setUserAgent</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getSleepTime.html">getSleepTime</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setSleepTime.html">setSleepTime</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getNoReportError.html">getNoReportError</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setNoReportError.html">setNoReportError</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getAllowEmptyReponse.html">getAllowEmptyReponse</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setAllowEmptyReponse.html">setAllowEmptyReponse</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getLogError.html">getLogError</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setLogError.html">setLogError</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getPing.html">getPing</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setPing.html">setPing</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getUrl.html">getUrl</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setUrl.html">setUrl</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getDelete.html">getDelete</a>()
+                    </li><li>public void <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setDelete.html">setDelete</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="CURLOPT_HTTPAUTH">
+              <strong>$CURLOPT_HTTPAUTH</strong>
+            </li>
+            <li id="allowEmptyReponse">
+              <strong>$allowEmptyReponse</strong>
+            </li>
+            <li id="cookiesession">
+              <strong>$cookiesession</strong>
+            </li>
+            <li id="delete">
+              <strong>$delete</strong>
+            </li>
+            <li id="header">
+              <strong>$header</strong>
+            </li>
+            <li id="logError">
+              <strong>$logError</strong>
+            </li>
+            <li id="noReportError">
+              <strong>$noReportError</strong>
+            </li>
+            <li id="noSslCheck">
+              <strong>$noSslCheck</strong>
+            </li>
+            <li id="password">
+              <strong>$password</strong>
+            </li>
+            <li id="ping">
+              <strong>$ping</strong>
+            </li>
+            <li id="post">
+              <strong>$post</strong>
+            </li>
+            <li id="put">
+              <strong>$put</strong>
+            </li>
+            <li id="sleepTime">
+              <strong>$sleepTime</strong>
+            </li>
+            <li id="url">
+              <strong>$url</strong>
+            </li>
+            <li id="userAgent">
+              <strong>$userAgent</strong>
+            </li>
+            <li id="username">
+              <strong>$username</strong>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>public</h4>
+          <ul>
+            <li id="__construct">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/__construct.html">__construct()</a>
+            </li>
+            <li id="exec">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/exec.html">exec()</a>
+            </li>
+            <li id="getAllowEmptyReponse">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getAllowEmptyReponse.html">getAllowEmptyReponse()</a>
+            </li>
+            <li id="getCURLOPT_HTTPAUTH">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getCURLOPT_HTTPAUTH.html">getCURLOPT_HTTPAUTH()</a>
+            </li>
+            <li id="getCookiesession">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getCookiesession.html">getCookiesession()</a>
+            </li>
+            <li id="getDelete">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getDelete.html">getDelete()</a>
+            </li>
+            <li id="getHeader">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getHeader.html">getHeader()</a>
+            </li>
+            <li id="getLogError">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getLogError.html">getLogError()</a>
+            </li>
+            <li id="getNoReportError">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getNoReportError.html">getNoReportError()</a>
+            </li>
+            <li id="getNoSslCheck">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getNoSslCheck.html">getNoSslCheck()</a>
+            </li>
+            <li id="getPing">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getPing.html">getPing()</a>
+            </li>
+            <li id="getPost">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getPost.html">getPost()</a>
+            </li>
+            <li id="getPut">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getPut.html">getPut()</a>
+            </li>
+            <li id="getSleepTime">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getSleepTime.html">getSleepTime()</a>
+            </li>
+            <li id="getUrl">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getUrl.html">getUrl()</a>
+            </li>
+            <li id="getUserAgent">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/getUserAgent.html">getUserAgent()</a>
+            </li>
+            <li id="setAllowEmptyReponse">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setAllowEmptyReponse.html">setAllowEmptyReponse()</a>
+            </li>
+            <li id="setCURLOPT_HTTPAUTH">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setCURLOPT_HTTPAUTH.html">setCURLOPT_HTTPAUTH()</a>
+            </li>
+            <li id="setCookiesession">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setCookiesession.html">setCookiesession()</a>
+            </li>
+            <li id="setDelete">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setDelete.html">setDelete()</a>
+            </li>
+            <li id="setHeader">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setHeader.html">setHeader()</a>
+            </li>
+            <li id="setLogError">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setLogError.html">setLogError()</a>
+            </li>
+            <li id="setNoReportError">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setNoReportError.html">setNoReportError()</a>
+            </li>
+            <li id="setNoSslCheck">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setNoSslCheck.html">setNoSslCheck()</a>
+            </li>
+            <li id="setPing">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setPing.html">setPing()</a>
+            </li>
+            <li id="setPost">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setPost.html">setPost()</a>
+            </li>
+            <li id="setPut">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setPut.html">setPut()</a>
+            </li>
+            <li id="setSleepTime">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setSleepTime.html">setSleepTime()</a>
+            </li>
+            <li id="setUrl">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setUrl.html">setUrl()</a>
+            </li>
+            <li id="setUserAgent">
+              <a title="NextDom\Com\ComHttp" href="../classes/NextDom_Com_ComHttp/setUserAgent.html">setUserAgent()</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2019 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

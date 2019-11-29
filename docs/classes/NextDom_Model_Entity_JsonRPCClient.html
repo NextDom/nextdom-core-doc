@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - NextDom\Model\Entity\JsonRPCClient</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.html">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.html">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.html">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.html">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.html">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.html">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.html#NextDom_Model_Entity">NextDom\Model\Entity</a>
+          </li>
+          <li class="separator">JsonRPCClient</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Model/Entity/JsonRPCClient.php.html#line26">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>NextDom\Model\Entity\</small>JsonRPCClient</h1>
+        <h4>Class JsonRPCClient</h4>
+        <p/>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class JsonRPCClient
+            {<br/><ul class="none"><li>// members</li><li>protected integer <a href="#members">$errorCode</a> =
+                        9999;
+                    </li><li>protected string <a href="#members">$errorMessage</a> =
+                        'No error';
+                    </li><li>protected string <a href="#members">$error</a> =
+                        'No error';
+                    </li><li>protected  <a href="#members">$result</a>;
+                    </li><li>protected  <a href="#members">$rawResult</a>;
+                    </li><li>protected string <a href="#members">$apikey</a> =
+                        '';
+                    </li><li>protected array <a href="#members">$options</a> =
+                        ;
+                    </li><li>protected  <a href="#members">$apiAddr</a>;
+                    </li><li>protected string <a href="#members">$cb_function</a> =
+                        '';
+                    </li><li>protected string <a href="#members">$cb_class</a> =
+                        '';
+                    </li><li>protected string <a href="#members">$certificate_path</a> =
+                        '';
+                    </li><li>protected boolean <a href="#members">$noSslCheck</a> =
+                        false;
+                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/__construct.html">__construct</a>()
+                    </li><li>public boolean <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/sendRequest.html">sendRequest</a>()
+                    </li><li>protected mixed|null <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/send.html">send</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getCertificate_path.html">getCertificate_path</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/setCertificate_path.html">setCertificate_path</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getNoSslCheck.html">getNoSslCheck</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/setNoSslCheck.html">setNoSslCheck</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getCb_class.html">getCb_class</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/setCb_class.html">setCb_class</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getCb_function.html">getCb_function</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/setCb_function.html">setCb_function</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getError.html">getError</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getResult.html">getResult</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getRawResult.html">getRawResult</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getErrorCode.html">getErrorCode</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getErrorMessage.html">getErrorMessage</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/setDisable_ssl_verifiy.html">setDisable_ssl_verifiy</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="apiAddr">
+              <strong>$apiAddr</strong>
+            </li>
+            <li id="apikey">
+              <strong>$apikey</strong>
+            </li>
+            <li id="cb_class">
+              <strong>$cb_class</strong>
+            </li>
+            <li id="cb_function">
+              <strong>$cb_function</strong>
+            </li>
+            <li id="certificate_path">
+              <strong>$certificate_path</strong>
+            </li>
+            <li id="error">
+              <strong>$error</strong>
+            </li>
+            <li id="errorCode">
+              <strong>$errorCode</strong>
+            </li>
+            <li id="errorMessage">
+              <strong>$errorMessage</strong>
+            </li>
+            <li id="noSslCheck">
+              <strong>$noSslCheck</strong>
+            </li>
+            <li id="options">
+              <strong>$options</strong>
+            </li>
+            <li id="rawResult">
+              <strong>$rawResult</strong>
+            </li>
+            <li id="result">
+              <strong>$result</strong>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>protected</h4>
+          <ul>
+            <li id="send">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/send.html">send()</a>
+            </li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="__construct">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/__construct.html">__construct()</a>
+            </li>
+            <li id="getCb_class">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getCb_class.html">getCb_class()</a>
+            </li>
+            <li id="getCb_function">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getCb_function.html">getCb_function()</a>
+            </li>
+            <li id="getCertificate_path">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getCertificate_path.html">getCertificate_path()</a>
+            </li>
+            <li id="getError">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getError.html">getError()</a>
+            </li>
+            <li id="getErrorCode">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getErrorCode.html">getErrorCode()</a>
+            </li>
+            <li id="getErrorMessage">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getErrorMessage.html">getErrorMessage()</a>
+            </li>
+            <li id="getNoSslCheck">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getNoSslCheck.html">getNoSslCheck()</a>
+            </li>
+            <li id="getRawResult">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getRawResult.html">getRawResult()</a>
+            </li>
+            <li id="getResult">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/getResult.html">getResult()</a>
+            </li>
+            <li id="sendRequest">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/sendRequest.html">sendRequest()</a>
+            </li>
+            <li id="setCb_class">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/setCb_class.html">setCb_class()</a>
+            </li>
+            <li id="setCb_function">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/setCb_function.html">setCb_function()</a>
+            </li>
+            <li id="setCertificate_path">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/setCertificate_path.html">setCertificate_path()</a>
+            </li>
+            <li id="setDisable_ssl_verifiy">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/setDisable_ssl_verifiy.html">setDisable_ssl_verifiy()</a>
+            </li>
+            <li id="setNoSslCheck">
+              <a title="NextDom\Model\Entity\JsonRPCClient" href="../classes/NextDom_Model_Entity_JsonRPCClient/setNoSslCheck.html">setNoSslCheck()</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2019 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>
