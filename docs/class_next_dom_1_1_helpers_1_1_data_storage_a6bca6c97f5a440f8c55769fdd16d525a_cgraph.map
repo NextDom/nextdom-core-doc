@@ -1,5 +1,0 @@
-<map id="createDataTable" name="createDataTable">
-<area shape="rect" id="node1" title="Créer la table des données." alt="" coords="5,12,124,37"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="346,5,534,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#a07feaff6b82d51d82f20101fc411bfea" title="Test si une table existe dans la base de données." alt="" coords="172,37,298,63"/>
-</map>

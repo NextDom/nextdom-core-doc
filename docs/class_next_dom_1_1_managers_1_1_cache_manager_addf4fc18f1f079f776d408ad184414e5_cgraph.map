@@ -1,9 +1,0 @@
-<map id="isPersistOk" name="isPersistOk">
-<area shape="rect" id="node1" title="Test if cache already exists." alt="" coords="5,71,94,96"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ae4695808d86fd397cfab76bf97db5ee0" title="Get configuration by key." alt="" coords="142,36,377,75"/>
-<area shape="rect" id="node7" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#af5a073725c5c084616eb64ca8b8b82d5" title=" " alt="" coords="204,99,315,124"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="425,5,660,44"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="448,68,636,107"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="708,68,896,107"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="944,68,1132,107"/>
-</map>

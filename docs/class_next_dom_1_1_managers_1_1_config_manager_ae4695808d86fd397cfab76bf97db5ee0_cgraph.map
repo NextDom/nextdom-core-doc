@@ -1,7 +1,0 @@
-<map id="byKey" name="byKey">
-<area shape="rect" id="node1" title="Get configuration by key." alt="" coords="5,33,64,59"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a0c9551afe14fb1b4df707764ea46207d" title="Get default configuration from default.config.ini." alt="" coords="125,5,286,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="112,55,300,93"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="348,55,536,93"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="584,55,772,93"/>
-</map>

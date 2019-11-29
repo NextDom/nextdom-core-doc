@@ -1,9 +1,0 @@
-<map id="setCache" name="setCache">
-<area shape="rect" id="node1" title="Store information of this object in cache." alt="" coords="623,41,701,67"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#aa1eb6eeb80a044419601d0cd58ad8407" title="Get summary in HTML format." alt="" coords="451,15,575,40"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#afc8a3c62679cf00ade9f15fb2a6d6132" title="Save object in database." alt="" coords="488,65,538,91"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_rest_1_1_room_rest.html#a814e8217867111837a28fe02601bb7b7" title="Get HTML room summary." alt="" coords="228,5,403,44"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_rest_1_1_room_rest.html#a725bd170466af0e38d3d8a69361f3b14" title="Get HTML summary from list of rooms passed in argument separated by ;." alt="" coords="5,5,180,44"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#ac567771d5986d825cea09b6ea4d3f8d7" title=" " alt="" coords="272,68,359,93"/>
-<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a658defb34762c8f40085aec87e16ba1a" title="Get data of the object in plain text array." alt="" coords="61,68,125,93"/>
-</map>

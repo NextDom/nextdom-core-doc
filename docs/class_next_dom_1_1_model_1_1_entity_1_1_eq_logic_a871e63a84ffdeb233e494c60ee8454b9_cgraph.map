@@ -1,4 +1,0 @@
-<map id="displayDebug" name="displayDebug">
-<area shape="rect" id="node1" title="Show debug message if in debug mode." alt="" coords="5,5,107,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a2328b703767e1a8c77e8a93198b89a26" title="Get debug state." alt="" coords="155,5,235,31"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="getHumanName" name="getHumanName">
-<area shape="rect" id="node1" title="Get object human name." alt="" coords="5,31,124,56"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a15e34545103fe7539ff0b47ba62af788" title="Get display information by key." alt="" coords="172,5,255,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a3d0963e68bb313b163a73f2803c64600" title="Get object name." alt="" coords="176,55,251,80"/>
-</map>

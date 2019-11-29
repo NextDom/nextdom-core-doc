@@ -1,6 +1,0 @@
-<map id="getName" name="getName">
-<area shape="rect" id="node1" title="Get object name." alt="" coords="312,56,388,81"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a04a23c95ab614318acc27497ea12b27d" title="Get object human name." alt="" coords="146,5,264,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#aab5190d80c0a837542a7b7cef70e8d9d" title="Get graph data." alt="" coords="5,31,98,56"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title="Remove object from the database." alt="" coords="172,107,238,132"/>
-</map>

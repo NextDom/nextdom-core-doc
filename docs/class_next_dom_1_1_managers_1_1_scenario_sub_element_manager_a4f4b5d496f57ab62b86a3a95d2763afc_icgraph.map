@@ -1,7 +1,0 @@
-<map id="byId" name="byId">
-<area shape="rect" id="node1" title="Obtain a sub&#45;element of a scenario from its identifier." alt="" coords="561,44,607,69"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a9da0aff10b533d803f9568e160651e9b" title=" " alt="" coords="274,5,513,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_scenario_element_manager.html#abdcf3640b068a732e2a146232db00466" title="Sauvegarder un élément Ajax TODO: ???" alt="" coords="278,68,508,107"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#a1227243837a6b5b7c687195ba3677cf1" title=" " alt="" coords="21,40,210,79"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_ajax_1_1_scenario_ajax.html#afc8a3c62679cf00ade9f15fb2a6d6132" title="Save scenario." alt="" coords="5,103,226,128"/>
-</map>

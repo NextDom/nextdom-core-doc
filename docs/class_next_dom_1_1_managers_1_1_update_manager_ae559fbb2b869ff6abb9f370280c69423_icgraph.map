@@ -1,8 +1,0 @@
-<map id="repoById" name="repoById">
-<area shape="rect" id="node1" title="Get a repo by its identifier." alt="" coords="535,47,610,72"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_controller_1_1_tools_1_1_markets_1_1_market_jee_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render market page." alt="" coords="234,5,487,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_controller_1_1_modals_1_1_base_abstract_modal.html#ab861c07ad93ec0992a42e22adc2ec231" title="Show repo modal from code." alt="" coords="267,68,454,120"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_controller_1_1_modals_1_1_update_list.html#a5ba61361bf0695a285bbaefefc427191" title="Render update list modal." alt="" coords="17,12,175,51"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_controller_1_1_modals_1_1_update_send.html#a5ba61361bf0695a285bbaefefc427191" title="Render update send modal." alt="" coords="12,75,180,113"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_controller_1_1_modals_1_1_update_display.html#a5ba61361bf0695a285bbaefefc427191" title="Render update display modal." alt="" coords="5,137,186,176"/>
-</map>

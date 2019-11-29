@@ -1,6 +1,0 @@
-<map id="createFromConfig" name="createFromConfig">
-<area shape="rect" id="node1" title="Create connection from config name." alt="" coords="244,75,372,100"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_repo_1_1_repo_samba.html#aa2e8fcaf5eaea0f2afd88760175d5225" title="Get list of backups." alt="" coords="5,5,196,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_repo_1_1_repo_samba.html#aee192953b106025fd85ad3960b05009f" title="Start restore process." alt="" coords="5,68,196,107"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_repo_1_1_repo_samba.html#a84d8e4b23ffe99e18c0acb743ac6c494" title="Send backup to the share." alt="" coords="5,131,196,169"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="getItems" name="getItems">
-<area shape="rect" id="node1" title="Obtenir la liste des éléments du dépot." alt="" coords="5,12,78,37"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_market_1_1_next_dom_market.html#aaf1df2371da9168194d832c8f5f88bf7" title="Obtenir les éléments d&#39;une source JSON." alt="" coords="126,12,258,37"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_market_1_1_market_item.html#a033aaecd45caa6cf00386f6167744c52" title="Create an item from the cache." alt="" coords="306,5,497,44"/>
-</map>

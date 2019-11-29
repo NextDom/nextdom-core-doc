@@ -1,7 +1,0 @@
-<map id="byObjectNameCmdName" name="byObjectNameCmdName">
-<area shape="rect" id="node1" title="Get commands by object and command name." alt="" coords="5,44,179,69"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="227,5,415,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4b821e14be0e43a27c7e7093d4d2237d" title="Get one object from database." alt="" coords="227,68,415,107"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="463,68,651,107"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="699,68,887,107"/>
-</map>

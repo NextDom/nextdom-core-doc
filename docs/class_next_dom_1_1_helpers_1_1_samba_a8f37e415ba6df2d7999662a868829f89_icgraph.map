@@ -1,9 +1,0 @@
-<map id="getShare" name="getShare">
-<area shape="rect" id="node1" title="Get current share." alt="" coords="339,80,414,105"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_samba.html#ad97fb6ddeb5f0c7170a63aa2e01d32ca" title="Delete a file from the server." alt="" coords="251,5,290,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_samba.html#a768c7f6d88a81dd0bae3fef43cdb8506" title="List folder content on the server." alt="" coords="251,55,290,80"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_samba.html#a0698afcd2bc3bf14ea9099de78c3982d" title="Copy file from the server." alt="" coords="251,104,291,129"/>
-<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_samba.html#a6103f9668f0e6ac0af62f083ae208538" title="Copy file on the server." alt="" coords="251,153,291,179"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_samba.html#a8cd33f3b3d23c4ad122420609a32f559" title="Get folder content." alt="" coords="121,55,203,80"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_samba.html#ac380821aa502f08203b64cd46eb39bdb" title="Get files list in folder." alt="" coords="5,55,73,80"/>
-</map>

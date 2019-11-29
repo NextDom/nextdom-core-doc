@@ -1,5 +1,0 @@
-<map id="getOneObject" name="getOneObject">
-<area shape="rect" id="node1" title="Get one object from database." alt="" coords="5,5,109,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="157,5,226,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="274,5,381,31"/>
-</map>

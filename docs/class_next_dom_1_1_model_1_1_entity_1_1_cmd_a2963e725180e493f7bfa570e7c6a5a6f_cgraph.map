@@ -1,9 +1,0 @@
-<map id="getStatistique" name="getStatistique">
-<area shape="rect" id="node1" title=" " alt="" coords="5,61,107,87"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#a12251d0c022e9e21c137a105ff683f13" title=" " alt="" coords="223,5,273,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_history_manager.html#a0e1dcfe94ee4b7ba6ace46eb5958f162" title=" " alt="" coords="155,55,341,93"/>
-<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#a4318c0d80e9782f63c6a9e4f1a5c0348" title="Test type of the command." alt="" coords="218,117,278,143"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="389,55,577,93"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="625,55,813,93"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="861,55,1049,93"/>
-</map>

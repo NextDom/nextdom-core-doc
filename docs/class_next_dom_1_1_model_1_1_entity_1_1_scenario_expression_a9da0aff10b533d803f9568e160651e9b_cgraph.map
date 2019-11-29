@@ -1,9 +1,0 @@
-<map id="getSubElement" name="getSubElement">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,118,96"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_scenario_sub_element_manager.html#a4f4b5d496f57ab62b86a3a95d2763afc" title="Obtain a sub&#45;element of a scenario from its identifier." alt="" coords="166,36,362,75"/>
-<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#aa3fc5082e3f004fee20086962447ae53" title=" " alt="" coords="172,99,355,124"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="410,5,598,44"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4b821e14be0e43a27c7e7093d4d2237d" title="Get one object from database." alt="" coords="410,68,598,107"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="646,68,834,107"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="882,68,1070,107"/>
-</map>

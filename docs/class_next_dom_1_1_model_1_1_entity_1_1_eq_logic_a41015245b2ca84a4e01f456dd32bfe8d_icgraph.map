@@ -1,8 +1,0 @@
-<map id="getIsEnable" name="getIsEnable">
-<area shape="rect" id="node1" title="Get eqLogic enabled state." alt="" coords="453,31,544,56"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac8d70bd1c911c1397de766ca02149037" title="Get link data for graph representation." alt="" coords="312,5,405,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ad734dc60b64a242fe183e0c23b192790" title="Get eqLogic enable status." alt="" coords="319,55,398,80"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a773dae67ff6b4ee05b53760ae83ed475" title="Check and update a command information." alt="" coords="113,29,264,55"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a289b24e29b2738c0905129d497712252" title="Prepare data for HTML view." alt="" coords="148,79,230,104"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#abaeadd74508bb9804a663e862055826a" title="Get HTML code depends of the view." alt="" coords="5,79,65,104"/>
-</map>

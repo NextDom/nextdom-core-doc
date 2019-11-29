@@ -1,4 +1,0 @@
-<map id="getName" name="getName">
-<area shape="rect" id="node1" title="Get the name of the note." alt="" coords="124,5,200,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_note.html#a680e55c05d9781a772524c546cac6293" title="Throw exception if note doesn&#39;t have name." alt="" coords="5,5,76,31"/>
-</map>

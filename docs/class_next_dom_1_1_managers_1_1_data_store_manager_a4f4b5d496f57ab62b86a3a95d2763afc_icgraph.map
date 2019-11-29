@@ -1,5 +1,0 @@
-<map id="byId" name="byId">
-<area shape="rect" id="node1" title="Get stored data by his Id." alt="" coords="281,40,328,65"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_ajax_1_1_data_store_ajax.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title="Remove variable from the dataStore." alt="" coords="21,5,217,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_ajax_1_1_data_store_ajax.html#afc8a3c62679cf00ade9f15fb2a6d6132" title="Save variable in the dataStore." alt="" coords="5,68,233,93"/>
-</map>

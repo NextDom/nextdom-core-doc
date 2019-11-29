@@ -1,7 +1,0 @@
-<map id="all" name="all">
-<area shape="rect" id="node1" title="Get all the updates." alt="" coords="440,68,479,93"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_update_manager.html#a27e4befa01dfcf6be0fa6ab666bf4ec2" title="Check all updates." alt="" coords="278,43,392,68"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_managers_1_1_update_manager.html#a87ee151cbcafc0fd2bd331b5dd8125df" title="Update all items." alt="" coords="297,92,374,117"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_ajax_1_1_update_ajax.html#ac82a83cca7cce0b9d155423411b9a7e7" title=" " alt="" coords="28,5,207,44"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ad4b79a129296151b4ad4145efba66f32" title="Task started every hours." alt="" coords="5,68,230,107"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="getDefaultUserRoom" name="getDefaultUserRoom">
-<area shape="rect" id="node1" title=" " alt="" coords="250,44,395,69"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_rest_1_1_summary_rest.html#a4c5d2756693f3980317f9b2a34316a4d" title="Get tree of rooms from room defined by the user or root room." alt="" coords="5,5,202,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_rest_1_1_room_rest.html#a1287ad66926c40488911183ce0d6be61" title="Get tree of rooms from room defined by the user or root room." alt="" coords="16,68,191,107"/>
-</map>

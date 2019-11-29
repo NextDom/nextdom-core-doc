@@ -1,4 +1,0 @@
-<map id="getToken" name="getToken">
-<area shape="rect" id="node1" title="Get current NextDom token stored in session." alt="" coords="5,12,81,37"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#ace8e646ad07ddadd65d783e56b7a24b1" title="Generate Key with letters and numbers." alt="" coords="129,5,364,44"/>
-</map>

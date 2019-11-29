@@ -1,7 +1,0 @@
-<map id="postRemove" name="postRemove">
-<area shape="rect" id="node1" title=" " alt="" coords="5,12,102,37"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_interact_def_manager.html#a0f7b341de171af4793bc4f6026c3f3fe" title=" " alt="" coords="150,5,338,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4fd597219b185fced898ef86a54bf99c" title="Get one row data from database." alt="" coords="386,5,574,44"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="622,5,810,44"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="858,5,1046,44"/>
-</map>

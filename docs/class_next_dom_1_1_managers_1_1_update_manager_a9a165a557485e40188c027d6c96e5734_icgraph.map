@@ -1,7 +1,0 @@
-<map id="findNewUpdateObject" name="findNewUpdateObject">
-<area shape="rect" id="node1" title="Find if new items are presents (installed manually)" alt="" coords="506,71,657,96"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_update_manager.html#a27e4befa01dfcf6be0fa6ab666bf4ec2" title="Check all updates." alt="" coords="311,43,425,68"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_ajax_1_1_update_ajax.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="278,92,458,131"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_ajax_1_1_update_ajax.html#ac82a83cca7cce0b9d155423411b9a7e7" title=" " alt="" coords="28,5,207,44"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#ad4b79a129296151b4ad4145efba66f32" title="Task started every hours." alt="" coords="5,68,230,107"/>
-</map>

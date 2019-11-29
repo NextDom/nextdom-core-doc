@@ -1,7 +1,0 @@
-<map id="haltSystem" name="haltSystem">
-<area shape="rect" id="node1" title="Shutdown the system." alt="" coords="731,53,819,79"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a7c465ac4d50cac3bd68ca481450b623e" title=" " alt="" coords="489,5,683,57"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#aa1ea9940eac19e280f98eb111482ab74" title=" " alt="" coords="491,81,682,120"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a8f2d1b2ce1cfb1e53182ffa23407c1f7" title=" " alt="" coords="247,5,441,57"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario_expression.html#a4f7d62ae87281b7c23f1f5324a6c90cb" title="Execute a scenario." alt="" coords="5,12,199,51"/>
-</map>

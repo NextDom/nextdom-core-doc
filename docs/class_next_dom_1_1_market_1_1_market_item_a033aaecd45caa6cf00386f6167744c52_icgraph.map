@@ -1,7 +1,0 @@
-<map id="createFromCache" name="createFromCache">
-<area shape="rect" id="node1" title="Create an item from the cache." alt="" coords="544,75,672,100"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_ajax_1_1_next_dom_market_ajax.html#ac33ee765f5ad9f134540bac393721cfe" title="Obtenir une information." alt="" coords="282,5,489,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_market_1_1_git_manager.html#a287d916443e4e7f51032240f6fa37113" title="Obtenir la liste des plugins." alt="" coords="288,68,483,107"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_market_1_1_next_dom_market.html#aaf1df2371da9168194d832c8f5f88bf7" title="Obtenir les éléments d&#39;une source JSON." alt="" coords="275,131,496,169"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_market_1_1_next_dom_market.html#ab20ac3660e2d867b235b004bd3950ec3" title="Obtenir la liste des éléments du dépot." alt="" coords="5,131,227,169"/>
-</map>

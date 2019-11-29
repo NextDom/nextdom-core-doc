@@ -1,4 +1,0 @@
-<map id="castFromCmd" name="castFromCmd">
-<area shape="rect" id="node1" title="Cast this object from a source command." alt="" coords="5,5,110,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#a87ba362b0d72b64e0da6f095c5c40ba5" title="Get all attributes of the Cmd class." alt="" coords="158,5,269,31"/>
-</map>

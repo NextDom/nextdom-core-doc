@@ -1,8 +1,0 @@
-<map id="hasRight" name="hasRight">
-<area shape="rect" id="node1" title=" " alt="" coords="5,113,79,139"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_scenario.html#a12251d0c022e9e21c137a105ff683f13" title=" " alt="" coords="213,5,263,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_user_manager.html#ae7884af92a6f68dc77e63b73844ec486" title=" " alt="" coords="397,141,621,180"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_authentification_helper.html#ae7f9fc68bf9bcc98ec93bfd1017b1818" title="Get the status of the user login." alt="" coords="127,107,349,145"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_authentification_helper.html#a822bd28fe77940191d4b3d716e4dadd1" title="Get the login status of the user as an administrator." alt="" coords="127,169,349,208"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_authentification_helper.html#a21dac9d08b056e4eb69d059bf32b8408" title="Test if user have some rights." alt="" coords="127,232,349,271"/>
-</map>

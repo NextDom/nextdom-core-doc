@@ -1,5 +1,0 @@
-<map id="getInfo" name="getInfo">
-<area shape="rect" id="node1" title="Obtenir les informations." alt="" coords="183,31,245,56"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#aab416c70db3acdc92e2b4cfdaec89137" title="Obtenir l&#39;adresse des changelogs." alt="" coords="18,5,122,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#af38e13adb09ea1cfbea5e625458f3f3d" title="Obtenir l&#39;adresse de la documentation." alt="" coords="5,55,135,80"/>
-</map>

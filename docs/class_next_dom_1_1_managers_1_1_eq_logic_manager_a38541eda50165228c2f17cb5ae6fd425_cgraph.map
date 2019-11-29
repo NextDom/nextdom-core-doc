@@ -1,6 +1,0 @@
-<map id="listByObjectAndCmdType" name="listByObjectAndCmdType">
-<area shape="rect" id="node1" title="TODO: ???" alt="" coords="5,12,178,37"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#abf4092a262c5b6b639d7c501c1b79120" title="Get data from database." alt="" coords="226,5,414,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="462,5,650,44"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="698,5,886,44"/>
-</map>

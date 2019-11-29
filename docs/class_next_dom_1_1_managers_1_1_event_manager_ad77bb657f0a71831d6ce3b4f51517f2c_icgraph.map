@@ -1,6 +1,0 @@
-<map id="filterEvent" name="filterEvent">
-<area shape="rect" id="node1" title="Get events filtered by name." alt="" coords="388,40,468,65"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_event_manager.html#ad3a763c175e9f5f8290b40e7bf6124fd" title="Get new events since a datetime." alt="" coords="268,40,340,65"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_ajax_1_1_event_ajax.html#aa8baf5fbdd5735f2e660640c61e85a8d" title=" " alt="" coords="28,5,198,44"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_rest_1_1_changes_rest.html#a4cfa57af28f0b461b63d410c006a1f0e" title="Get change since a datetime." alt="" coords="5,68,220,93"/>
-</map>

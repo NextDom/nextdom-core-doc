@@ -1,6 +1,0 @@
-<map id="get" name="get">
-<area shape="rect" id="node1" title=" " alt="" coords="5,75,45,100"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a824e9e4c9274cab6f7acab17c8b945df" title="Get configuration by multiple keys." alt="" coords="93,5,328,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_render.html#ac93fbec81f07e5d15f80db907e63dc10" title="Get render instance." alt="" coords="124,68,298,107"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_router.html#a1354defcc5bd2274c1233abcf5e75c0a" title="Show 404 error page (Not found)" alt="" coords="125,131,296,169"/>
-</map>

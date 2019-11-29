@@ -1,5 +1,0 @@
-<map id="createBackup" name="createBackup">
-<area shape="rect" id="node1" title="Runs the backup procedure." alt="" coords="357,12,460,37"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#a27cd8188d6bf24c6de12f55bb7abe72b" title="Creates a backup archive." alt="" coords="245,12,309,37"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#ada953121a7d721565b055fef7407296e" title=" " alt="" coords="5,5,197,44"/>
-</map>

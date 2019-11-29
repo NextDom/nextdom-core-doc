@@ -1,4 +1,0 @@
-<map id="execute" name="execute">
-<area shape="rect" id="node1" title="Execute a command." alt="" coords="5,5,73,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_com_1_1_com_shell.html#ac93fbec81f07e5d15f80db907e63dc10" title="Get the instance of com_shell." alt="" coords="121,5,212,31"/>
-</map>

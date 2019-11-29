@@ -1,6 +1,0 @@
-<map id="showRepoModal" name="showRepoModal">
-<area shape="rect" id="node1" title="Show repo modal from code." alt="" coords="234,75,355,100"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_controller_1_1_modals_1_1_update_list.html#a5ba61361bf0695a285bbaefefc427191" title="Render update list modal." alt="" coords="17,5,175,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_controller_1_1_modals_1_1_update_send.html#a5ba61361bf0695a285bbaefefc427191" title="Render update send modal." alt="" coords="12,68,180,107"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_controller_1_1_modals_1_1_update_display.html#a5ba61361bf0695a285bbaefefc427191" title="Render update display modal." alt="" coords="5,131,186,169"/>
-</map>

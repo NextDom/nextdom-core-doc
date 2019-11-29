@@ -1,6 +1,0 @@
-<map id="showError404AndDie" name="showError404AndDie">
-<area shape="rect" id="node1" title="Show 404 error page (Not found)" alt="" coords="260,75,408,100"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_controller_1_1_pages_1_1_first_use_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title=" " alt="" coords="10,5,207,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_prepare_view.html#a016324ca5e5a6422c7e8735293a9d550" title="Response to an Ajax request." alt="" coords="5,68,212,107"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_prepare_view.html#a74ca46bf82a8d08be94f1965fa061007" title="Response to an Ajax request." alt="" coords="5,131,212,169"/>
-</map>

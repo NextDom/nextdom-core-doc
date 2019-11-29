@@ -1,4 +1,0 @@
-<map id="getLastBackupFilePath" name="getLastBackupFilePath">
-<area shape="rect" id="node1" title="Returns path to last available backup archive." alt="" coords="5,5,164,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#af43fb8a4372343001b0ba4f43ff770ab" title="Creates an array with information about existing backup files." alt="" coords="212,5,340,31"/>
-</map>

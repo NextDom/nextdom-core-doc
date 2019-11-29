@@ -1,8 +1,0 @@
-<map id="storeRawData" name="storeRawData">
-<area shape="rect" id="node1" title="Stocke des données brutes." alt="" coords="5,56,111,81"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#aacc068080b1f014ff0bf23cd8b9b642f" title="Ajoute des données brutes." alt="" coords="324,5,423,31"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#a75886ee90624d70b981314f153c12d04" title="Test si une donnée existe." alt="" coords="170,56,265,81"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#aec11d623c27479dd3c54e4e08b09429b" title="Met à jour une donnée brutes stockées." alt="" coords="159,105,276,131"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="471,48,659,87"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_data_storage.html#afbf89678e9ada9a1f801b16055e58c6b" title="Obtenir une données stockée brute." alt="" coords="326,55,421,80"/>
-</map>

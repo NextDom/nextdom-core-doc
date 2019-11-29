@@ -1,4 +1,0 @@
-<map id="getNextRunDate" name="getNextRunDate">
-<area shape="rect" id="node1" title="Get date of the next task run." alt="" coords="5,5,125,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a3dbae8cba869fb348612f375aab7f350" title=" " alt="" coords="173,5,269,31"/>
-</map>

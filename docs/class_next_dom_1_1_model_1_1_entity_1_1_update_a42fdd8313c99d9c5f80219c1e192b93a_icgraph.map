@@ -1,7 +1,0 @@
-<map id="getSource" name="getSource">
-<area shape="rect" id="node1" title=" " alt="" coords="280,81,362,107"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#ab8f79025aae0d0b3b53ecf6921cbd460" title="Vérifier si une mise à jour est disponible." alt="" coords="132,5,232,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a041adcbb404f75b2bca37fe34161c1e2" title="Start update." alt="" coords="5,31,84,56"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#ac6fa171c40da3c8f5cbf3ad866a46e33" title="Supprime une information de mise à jour." alt="" coords="137,107,227,132"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a164026f74736817927e1cacd282a2e28" title="Obtenir les informations de la mise à jour." alt="" coords="151,156,213,181"/>
-</map>

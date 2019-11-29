@@ -1,5 +1,0 @@
-<map id="getEnabledPlugins" name="getEnabledPlugins">
-<area shape="rect" id="node1" title="Get enabled plugins." alt="" coords="489,12,621,37"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_plugin_manager.html#a43fa9dcb3d9a141cf0ec61b7ed04489f" title="Test si le plugin est actif TODO: Doit passer en static." alt="" coords="207,5,441,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#aa56a17bc66c1081fad1cca3a488224c3" title="Test si le plugin est actif TODO: Doit passer en static." alt="" coords="5,5,159,44"/>
-</map>

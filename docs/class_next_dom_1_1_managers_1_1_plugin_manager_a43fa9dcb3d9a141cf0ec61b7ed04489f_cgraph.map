@@ -1,4 +1,0 @@
-<map id="isActive" name="isActive">
-<area shape="rect" id="node1" title="Test si le plugin est actif TODO: Doit passer en static." alt="" coords="5,12,73,37"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a5e463af6c660b3e7207eaf2380e0d6af" title="Get enabled plugins." alt="" coords="121,5,355,44"/>
-</map>

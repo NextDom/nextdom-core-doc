@@ -1,7 +1,0 @@
-<map id="restoreBackup" name="restoreBackup">
-<area shape="rect" id="node1" title="Runs the restore procedure." alt="" coords="356,75,463,100"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_backup_manager.html#afe628a96cf68ea284aaa6d5ad51b6e91" title="Restore a backup from file." alt="" coords="245,75,308,100"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_repo_1_1_repo_samba.html#aee192953b106025fd85ad3960b05009f" title="Start restore process." alt="" coords="6,5,196,44"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_repo_1_1_repo_market.html#aa0dd4320470bf335e323fd67b8d8f203" title=" " alt="" coords="7,68,196,107"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#aa1371f22826cf8cde4454c9b467203d0" title=" " alt="" coords="5,131,197,169"/>
-</map>

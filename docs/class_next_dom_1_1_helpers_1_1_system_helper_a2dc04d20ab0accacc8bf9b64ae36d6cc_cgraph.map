@@ -1,5 +1,0 @@
-<map id="getCommand" name="getCommand">
-<area shape="rect" id="node1" title="Get command key." alt="" coords="5,5,107,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#aca736b727d27e04d027ecfcc6b03c352" title="Get distribution name." alt="" coords="155,5,232,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#ac2ce88342a8b12d06048a2b1cd5add8f" title="Load system from /core/config/system_cmd.json if file exists." alt="" coords="280,5,388,31"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="getChild" name="getChild">
-<area shape="rect" id="node1" title="Get direct children." alt="" coords="146,31,216,56"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a674455687865d698c4b8cf9bce0aa143" title="Get tree under this object." alt="" coords="13,5,90,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#aab5190d80c0a837542a7b7cef70e8d9d" title="Get graph data." alt="" coords="5,55,98,80"/>
-</map>

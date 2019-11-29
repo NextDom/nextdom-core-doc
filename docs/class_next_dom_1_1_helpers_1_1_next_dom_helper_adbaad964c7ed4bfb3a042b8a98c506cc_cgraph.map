@@ -1,5 +1,0 @@
-<map id="sick" name="sick">
-<area shape="rect" id="node1" title="Get informations about system installation." alt="" coords="5,40,50,65"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a7e0e52bdf0635af0118ce4c49c138616" title="Get target path log (usually /var/log/nextdom)" alt="" coords="122,5,313,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#a03248ba1274669947482d53b18506308" title="Execute PHP command." alt="" coords="98,68,338,93"/>
-</map>

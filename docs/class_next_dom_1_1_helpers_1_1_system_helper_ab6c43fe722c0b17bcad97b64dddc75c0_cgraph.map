@@ -1,6 +1,0 @@
-<map id="getWWWGid" name="getWWWGid">
-<area shape="rect" id="node1" title="Get apache group id." alt="" coords="5,5,104,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#af8edbc1b2262a37d02b96082d58817ff" title="Get apache user id name." alt="" coords="152,5,249,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#aca736b727d27e04d027ecfcc6b03c352" title="Get distribution name." alt="" coords="297,5,375,31"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#ac2ce88342a8b12d06048a2b1cd5add8f" title="Load system from /core/config/system_cmd.json if file exists." alt="" coords="423,5,531,31"/>
-</map>

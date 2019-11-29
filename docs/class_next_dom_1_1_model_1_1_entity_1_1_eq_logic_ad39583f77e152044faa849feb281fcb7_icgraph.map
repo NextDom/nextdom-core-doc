@@ -1,8 +1,0 @@
-<map id="getCategory" name="getCategory">
-<area shape="rect" id="node1" title="Test if the object belongs to a category." alt="" coords="622,56,716,81"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aba9c4e0ccc4790c176ae3dc1df3e8f78" title="Get primary category." alt="" coords="434,31,574,56"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a51e698e2402510fedeeec676e9d6ba9a" title="Define if the object belongs to a category." alt="" coords="458,80,551,105"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a1e9fd08f7b6a6f416ede451b8ef7566d" title="Get widget background color." alt="" coords="243,5,386,31"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a289b24e29b2738c0905129d497712252" title="Prepare data for HTML view." alt="" coords="113,31,195,56"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#abaeadd74508bb9804a663e862055826a" title="Get HTML code depends of the view." alt="" coords="5,31,65,56"/>
-</map>

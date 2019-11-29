@@ -1,4 +1,0 @@
-<map id="getRepositoriesList" name="getRepositoriesList">
-<area shape="rect" id="node1" title="Lire le contenu du fichier contenant la liste des dépôts." alt="" coords="126,5,261,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_market_1_1_git_manager.html#a287d916443e4e7f51032240f6fa37113" title="Obtenir la liste des plugins." alt="" coords="5,5,78,31"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="stats" name="stats">
-<area shape="rect" id="node1" title="Get some stats about the cache system." alt="" coords="238,44,288,69"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_controller_1_1_admin_1_1_cache_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render cache page." alt="" coords="5,5,190,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_ajax_1_1_cache_ajax.html#aaea730e06f325e9287fa12181277bce4" title="Get cache statistics." alt="" coords="11,68,185,107"/>
-</map>

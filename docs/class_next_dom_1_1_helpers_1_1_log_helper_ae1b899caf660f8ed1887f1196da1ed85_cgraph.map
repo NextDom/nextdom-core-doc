@@ -1,4 +1,0 @@
-<map id="authorizeClearLog" name="authorizeClearLog">
-<area shape="rect" id="node1" title="Check if target log file is good." alt="" coords="5,5,136,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a7e0e52bdf0635af0118ce4c49c138616" title="Get target path log (usually /var/log/nextdom)" alt="" coords="184,5,287,31"/>
-</map>

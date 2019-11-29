@@ -1,4 +1,0 @@
-<map id="getDistrib" name="getDistrib">
-<area shape="rect" id="node1" title="Get distribution name." alt="" coords="5,5,83,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_system_helper.html#ac2ce88342a8b12d06048a2b1cd5add8f" title="Load system from /core/config/system_cmd.json if file exists." alt="" coords="131,5,239,31"/>
-</map>

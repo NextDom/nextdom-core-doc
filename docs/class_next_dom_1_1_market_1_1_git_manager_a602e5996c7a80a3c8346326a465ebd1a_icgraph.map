@@ -1,5 +1,0 @@
-<map id="getIgnoreList" name="getIgnoreList">
-<area shape="rect" id="node1" title="Obtenir la liste des dépots ignorés." alt="" coords="190,31,288,56"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_market_1_1_git_manager.html#a287d916443e4e7f51032240f6fa37113" title="Obtenir la liste des plugins." alt="" coords="37,5,110,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_market_1_1_git_manager.html#ac298b29e821f0555420c31ad3f9891a8" title="Mettre à jour les dépôts." alt="" coords="5,55,142,80"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="buildTree" name="buildTree">
-<area shape="rect" id="node1" title="Build tree of all objects." alt="" coords="475,124,551,149"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_ajax_1_1_object_ajax.html#af9d14e4ae6227970ad603987781573ca" title=" " alt="" coords="224,5,416,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_controller_1_1_modals_1_1_object_summary.html#a5ba61361bf0695a285bbaefefc427191" title="Render object summary modal." alt="" coords="225,55,415,93"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_controller_1_1_tools_1_1_object_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render objects page." alt="" coords="231,117,409,156"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_controller_1_1_pages_1_1_dash_board_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render dashboard." alt="" coords="213,180,427,219"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#af6d2c179966ebb0cfecfa239d615d81b" title="Get eqLogics attached to the object." alt="" coords="242,243,398,281"/>
-<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#aab5190d80c0a837542a7b7cef70e8d9d" title="Get graph data." alt="" coords="5,243,165,281"/>
-</map>

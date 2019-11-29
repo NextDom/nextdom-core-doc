@@ -1,6 +1,0 @@
-<map id="remove" name="remove">
-<area shape="rect" id="node1" title="Delete log file." alt="" coords="418,40,484,65"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_ajax_1_1_log_ajax.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="212,5,370,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a1aff3b0cad0cc68676cecee4dc5fc625" title="Remove all log by deleting files." alt="" coords="251,68,331,93"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_ajax_1_1_log_ajax.html#a521979edc6ecc9d48f60892bedb52df0" title=" " alt="" coords="5,61,164,100"/>
-</map>

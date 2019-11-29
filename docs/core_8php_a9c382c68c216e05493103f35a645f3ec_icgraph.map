@@ -1,9 +1,0 @@
-<map id="__" name="__">
-<area shape="rect" id="node1" title="Translate a string (global function)" alt="" coords="779,46,817,71"/>
-<area shape="rect" id="node2" href="$namespace_next_dom.html#aaa7d6fc5bd241d14b777d04e537f3fcd" title="Set cron in error and stop the execution of the script." alt="" coords="514,95,714,120"/>
-<area shape="rect" id="node3" href="$namespace_next_dom.html#a9c6c2537e54ee407d4036b45fab62e54" title="Start cron where the target is a global function." alt="" coords="226,22,449,47"/>
-<area shape="rect" id="node4" href="$namespace_next_dom.html#a6ab2a8e695b7f40bfedf70aebc62b3be" title="Start single cron job." alt="" coords="5,22,178,47"/>
-<area shape="rect" id="node6" href="$namespace_next_dom.html#a65ee447ecc60b3ad72072d94f2884732" title="Set cron error on exception." alt="" coords="497,46,731,71"/>
-<area shape="rect" id="node7" href="$namespace_next_dom.html#aa2cfa73a2cdd6e120ae0468333c7adf7" title="Start all crons jobs." alt="" coords="536,144,693,170"/>
-<area shape="rect" id="node5" href="$namespace_next_dom.html#ac935f0c4bcd33a33cbe7654cfc638920" title="Start cron where the target is a class method." alt="" coords="229,71,446,96"/>
-</map>

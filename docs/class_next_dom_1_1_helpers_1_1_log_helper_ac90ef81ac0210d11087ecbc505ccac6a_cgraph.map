@@ -1,9 +1,0 @@
-<map id="getLogLevel" name="getLogLevel">
-<area shape="rect" id="node1" title="Get log level from config." alt="" coords="5,44,99,69"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_log_helper.html#a983f0cf4b8f638cccd2664c1e1f43436" title="Get config data by key." alt="" coords="147,44,226,69"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a824e9e4c9274cab6f7acab17c8b945df" title="Get configuration by multiple keys." alt="" coords="274,5,508,44"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_managers_1_1_config_manager.html#a3d8e4e457524fb1dead8b2d0f3cfb768" title="Get log level for all plugins." alt="" coords="274,68,508,107"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#abf4092a262c5b6b639d7c501c1b79120" title="Get data from database." alt="" coords="556,68,745,107"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="793,68,981,107"/>
-<area shape="rect" id="node7" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="1029,68,1217,107"/>
-</map>

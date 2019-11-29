@@ -1,9 +1,0 @@
-<map id="getType" name="getType">
-<area shape="rect" id="node1" title=" " alt="" coords="305,132,374,157"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#ab8f79025aae0d0b3b53ecf6921cbd460" title="Vérifier si une mise à jour est disponible." alt="" coords="145,5,244,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a041adcbb404f75b2bca37fe34161c1e2" title="Start update." alt="" coords="5,131,84,156"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#ac6fa171c40da3c8f5cbf3ad866a46e33" title="Supprime une information de mise à jour." alt="" coords="150,107,239,132"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a164026f74736817927e1cacd282a2e28" title="Obtenir les informations de la mise à jour." alt="" coords="164,156,226,181"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#a93c55211d4fdf814bc4417641c327415" title="Lancer la procédure post installation." alt="" coords="132,205,257,231"/>
-<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_update.html#aac7affc55b87c330b8b991bf5f8f0d45" title="Lance la procédure de préinstallation d&#39;un objet." alt="" coords="135,255,254,280"/>
-</map>

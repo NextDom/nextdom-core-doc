@@ -1,7 +1,0 @@
-<map id="getOptions" name="getOptions">
-<area shape="rect" id="node1" title=" " alt="" coords="501,71,587,96"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_jee_object_manager.html#af5a86a562ec9a405b33b3559f3b703ae" title=" " alt="" coords="250,36,453,75"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_user.html#a0957838bff9ffa5503231fbeac24f46f" title=" " alt="" coords="271,99,432,124"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_rest_1_1_summary_rest.html#a4c5d2756693f3980317f9b2a34316a4d" title="Get tree of rooms from room defined by the user or root room." alt="" coords="5,5,202,44"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_rest_1_1_room_rest.html#a1287ad66926c40488911183ce0d6be61" title="Get tree of rooms from room defined by the user or root room." alt="" coords="16,68,191,107"/>
-</map>

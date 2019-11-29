@@ -1,6 +1,0 @@
-<map id="getItems" name="getItems">
-<area shape="rect" id="node1" title="Obtenir la liste des plugins." alt="" coords="5,68,78,93"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_market_1_1_market_item.html#a033aaecd45caa6cf00386f6167744c52" title="Create an item from the cache." alt="" coords="126,5,318,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_market_1_1_git_manager.html#a602e5996c7a80a3c8346326a465ebd1a" title="Obtenir la liste des dépots ignorés." alt="" coords="172,68,271,93"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_market_1_1_git_manager.html#a96cf6e4ac13166735c5088214eb87212" title="Lire le contenu du fichier contenant la liste des dépôts." alt="" coords="154,117,289,143"/>
-</map>

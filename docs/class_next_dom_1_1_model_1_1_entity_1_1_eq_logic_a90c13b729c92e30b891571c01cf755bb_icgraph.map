@@ -1,7 +1,0 @@
-<map id="getConfiguration" name="getConfiguration">
-<area shape="rect" id="node1" title="Get object specific configuration data." alt="" coords="269,55,388,80"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac0c376449aaef2145b23905837cc9494" title="Update battery status." alt="" coords="112,5,212,31"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aa9af0e62b347831e6a437472a3532140" title="Get HTML code for battery widget." alt="" coords="110,55,214,80"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#acfb9b855e6e8efa23369c73c7f284289" title="Set object specific configuration data." alt="" coords="103,104,221,129"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aeb4dec2385a93f04f83d3a88b41658d3" title="Save in database." alt="" coords="5,55,55,80"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="getPlan3dHeader" name="getPlan3dHeader">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,130,96"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_managers_1_1_plan3d_header_manager.html#a80e21b85b4c1b79237951397c90a8217" title=" " alt="" coords="178,36,407,75"/>
-<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan3d.html#ab61d3c72b5f2270e0e36beee80903657" title=" " alt="" coords="221,99,364,124"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a339a8d56d518dbacc67fbe93703e1780" title="Build fields for query." alt="" coords="455,5,643,44"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a4b821e14be0e43a27c7e7093d4d2237d" title="Get one object from database." alt="" coords="455,68,643,107"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#ab797da453b67184f536a64010d8ea18e" title="Prepare a query and execute." alt="" coords="691,68,879,107"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_helpers_1_1_d_b_helper.html#a6b25efc0b7bf136a727f36f22577b06c" title="Get the connection." alt="" coords="927,68,1115,107"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="getClass" name="getClass">
-<area shape="rect" id="node1" title=" " alt="" coords="243,55,316,80"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a3d0963e68bb313b163a73f2803c64600" title="Get human name of cron." alt="" coords="119,5,195,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a8c8cc98835b4b7a3e7e18fdfb54631bb" title="Stop immediatly cron (this method must be only call by jeecron master)" alt="" coords="135,55,178,80"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#a680e55c05d9781a772524c546cac6293" title="Check if cron object is valid before save." alt="" coords="121,104,192,129"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#ad827bb380f83a35deaf24c68d33c41b1" title="Remove cron object from the database." alt="" coords="5,31,71,56"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_cron.html#afa17e114d4ab7d7b7da271de70a14f66" title="Launch cron (this method must be only call by jeeCron master)" alt="" coords="18,80,59,105"/>
-</map>

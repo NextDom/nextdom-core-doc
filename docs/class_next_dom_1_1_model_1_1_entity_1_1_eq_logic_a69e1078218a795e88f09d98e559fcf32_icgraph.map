@@ -1,6 +1,0 @@
-<map id="getHumanName" name="getHumanName">
-<area shape="rect" id="node1" title="Get HTML code for battery widget." alt="" coords="251,31,369,56"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac0c376449aaef2145b23905837cc9494" title="Update battery status." alt="" coords="103,5,203,31"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#ac8d70bd1c911c1397de766ca02149037" title="Get link data for graph representation." alt="" coords="107,55,199,80"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#aeb4dec2385a93f04f83d3a88b41658d3" title="Save in database." alt="" coords="5,5,55,31"/>
-</map>

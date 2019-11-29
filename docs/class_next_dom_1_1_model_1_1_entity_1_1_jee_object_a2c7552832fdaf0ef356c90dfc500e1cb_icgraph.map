@@ -1,7 +1,0 @@
-<map id="getFather_id" name="getFather_id">
-<area shape="rect" id="node1" title="Get father object id." alt="" coords="454,27,551,52"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a495fe12ef3f01acdd7b456a450087aac" title="Check that the object tree does not have a loop." alt="" coords="124,27,280,52"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a680e55c05d9781a772524c546cac6293" title="Method called before save." alt="" coords="5,27,76,52"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#aec1d8138cd9fa0e76c926a6d76cd2324" title="Get father." alt="" coords="328,78,406,103"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a434061ce8faf53879c1757d850d06cb3" title="Get number of parents." alt="" coords="149,76,255,102"/>
-</map>

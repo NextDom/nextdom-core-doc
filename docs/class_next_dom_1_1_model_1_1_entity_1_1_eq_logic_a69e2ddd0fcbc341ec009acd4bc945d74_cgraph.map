@@ -1,6 +1,0 @@
-<map id="postToHtml" name="postToHtml">
-<area shape="rect" id="node1" title="Store HTML view in cache." alt="" coords="5,61,93,87"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_eq_logic.html#a12251d0c022e9e21c137a105ff683f13" title="Get Id." alt="" coords="244,5,295,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_managers_1_1_user_manager.html#ae7884af92a6f68dc77e63b73844ec486" title=" " alt="" coords="157,55,382,93"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_managers_1_1_cache_manager.html#af7ddee5a83aa46d9f8e4b071e6d25335" title="Store object in cache." alt="" coords="141,117,398,143"/>
-</map>

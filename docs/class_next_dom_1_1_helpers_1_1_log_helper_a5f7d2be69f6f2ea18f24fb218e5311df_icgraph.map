@@ -1,5 +1,0 @@
-<map id="get" name="get">
-<area shape="rect" id="node1" title="Get log file content." alt="" coords="244,31,283,56"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_rest_1_1_logs_rest.html#a462598fb037e18795ce144fa52038ee5" title="Get the content of a log file For subfolder, / must be replace by a triple underscore (___)" alt="" coords="5,5,196,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_ajax_1_1_log_ajax.html#ac33ee765f5ad9f134540bac393721cfe" title=" " alt="" coords="10,55,191,80"/>
-</map>

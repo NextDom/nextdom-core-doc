@@ -1,9 +1,0 @@
-<map id="addRemoveHistory" name="addRemoveHistory">
-<area shape="rect" id="node1" title="Add an entry in the history and keep only the last 200." alt="" coords="212,169,346,195"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan3d_header.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="5,5,164,44"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_view.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="8,68,162,107"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_user.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="8,131,162,169"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_plan_header.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="8,193,162,232"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title="Remove object from the database." alt="" coords="8,256,162,295"/>
-<area shape="rect" id="node7" href="$class_next_dom_1_1_model_1_1_entity_1_1_cmd.html#aff9a1fb07dca963c2c9a8ffe66b45ded" title=" " alt="" coords="8,319,162,357"/>
-</map>

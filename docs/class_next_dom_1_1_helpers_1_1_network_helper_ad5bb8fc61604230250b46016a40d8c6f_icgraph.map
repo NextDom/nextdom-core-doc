@@ -1,7 +1,0 @@
-<map id="test" name="test">
-<area shape="rect" id="node1" title=" " alt="" coords="566,33,608,59"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a1364f59605e5bc5a436fb63eeb9020a8" title="Task started minutes." alt="" coords="263,5,518,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_helpers_1_1_next_dom_helper.html#a04dab4a8cc8e0bf67559dd243f014c9b" title="Get system health Test all functionnalities." alt="" coords="278,55,503,93"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_controller_1_1_diagnostic_1_1_health_controller.html#a3d22270a4d5bd5a4f7f7fe6746a2ba26" title="Render health page." alt="" coords="5,23,215,61"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_ajax_1_1_next_dom_ajax.html#a2374e9a58b0da4edd7fa14b83f9e7e41" title=" " alt="" coords="14,85,206,124"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="getHasOwnDeamon" name="getHasOwnDeamon">
-<area shape="rect" id="node1" title="Savoir si le plugin a son propre daemon." alt="" coords="485,56,627,81"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#ab582f5abccca669beab3d4cdb03a6632" title="Obtenir les informations sur le daemon." alt="" coords="339,56,437,81"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#a43d410bdd594083c3ec5b5c0c7dd34d2" title="Démarre le daemon du plugin." alt="" coords="22,5,125,31"/>
-<area shape="rect" id="node4" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#a5fb9bcacf838dc5d773f1124fad006d9" title="Arrête le daemon du plugin." alt="" coords="189,107,291,132"/>
-<area shape="rect" id="node6" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#aff6368038ab559ee1aeebd70ad19fe3b" title="Change l&#39;état d&#39;activation d&#39;un plugin." alt="" coords="28,56,119,81"/>
-<area shape="rect" id="node5" href="$class_next_dom_1_1_model_1_1_entity_1_1_plugin.html#ab6caeefd18672286789d7db7225b4c70" title="Procédure d&#39;installation des dépendances TODO: Corriger la faute." alt="" coords="5,107,141,132"/>
-</map>

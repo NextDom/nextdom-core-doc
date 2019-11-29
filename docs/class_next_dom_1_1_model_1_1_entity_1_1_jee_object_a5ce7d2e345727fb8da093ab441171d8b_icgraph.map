@@ -1,5 +1,0 @@
-<map id="getIsVisible" name="getIsVisible">
-<area shape="rect" id="node1" title="Get visibility value." alt="" coords="260,5,349,31"/>
-<area shape="rect" id="node2" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a35606a18f7163f5196819d2e2e7282ca" title="Get visibility state." alt="" coords="142,5,212,31"/>
-<area shape="rect" id="node3" href="$class_next_dom_1_1_model_1_1_entity_1_1_jee_object.html#a764cb84d525e2dbbb7e69e0a9fea99d9" title="Set visibility value." alt="" coords="5,5,94,31"/>
-</map>
