@@ -59,7 +59,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Managers/BackupManager.php.html#line43">Source</a>
+            <a href="../source/Managers/BackupManager.php.html#line45">Source</a>
           </li>
         </ul>
       </nav>
@@ -80,6 +80,7 @@
                     </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/repairDB.html">repairDB</a>()
                     </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/createDBBackup.html">createDBBackup</a>()
                     </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/createBackupArchive.html">createBackupArchive</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/addPathToArchive.html">addPathToArchive</a>()
                     </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/rotateBackups.html">rotateBackups</a>()
                     </li><li>public static array <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/getBackupFileInfo.html">getBackupFileInfo</a>()
                     </li><li>public static bool <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/sendRemoteBackup.html">sendRemoteBackup</a>()
@@ -87,19 +88,19 @@
                     </li><li>public static bool <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreBackup.html">restoreBackup</a>()
                     </li><li>public static string <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/getLastBackupFilePath.html">getLastBackupFilePath</a>()
                     </li><li>private static string <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/extractArchive.html">extractArchive</a>()
-                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreDatabase.html">restoreDatabase</a>()
-                    </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/loadSQLFromFile.html">loadSQLFromFile</a>()
-                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/loadSQLMigrateScript.html">loadSQLMigrateScript</a>()
-                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreJeedomConfig.html">restoreJeedomConfig</a>()
-                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreCustomData.html">restoreCustomData</a>()
                     </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restorePlugins.html">restorePlugins</a>()
                     </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restorePublicPerms.html">restorePublicPerms</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreDatabase.html">restoreDatabase</a>()
+                    </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/loadSQLFromFile.html">loadSQLFromFile</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreJeedomConfig.html">restoreJeedomConfig</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreCustomData.html">restoreCustomData</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreCache.html">restoreCache</a>()
                     </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/updateConfig.html">updateConfig</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/initValues.html">initValues</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/clearCache.html">clearCache</a>()
                     </li><li>public static array <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/listBackup.html">listBackup</a>()
                     </li><li>public static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/removeBackup.html">removeBackup</a>()
-                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/addPathToArchive.html">addPathToArchive</a>()
-                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/clearCache.html">clearCache</a>()
-                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/initValues.html">initValues</a>()
+                    </li><li>private static void <a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/loadSQLMigrateScript.html">loadSQLMigrateScript</a>()
                     </li></ul>
 
             }<br/></div>
@@ -128,6 +129,8 @@
                 — Init default values</li>
             <li id="loadSQLMigrateScript"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/loadSQLMigrateScript.html">loadSQLMigrateScript()</a>
                 — Loads migrate script into mysql database</li>
+            <li id="restoreCache"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreCache.html">restoreCache()</a>
+                — Restore cache from backup archive</li>
             <li id="restoreCustomData"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreCustomData.html">restoreCustomData()</a>
                 — Restore custom data from backup archive</li>
             <li id="restoreDatabase"><a title="NextDom\Managers\BackupManager" href="../classes/NextDom_Managers_BackupManager/restoreDatabase.html">restoreDatabase()</a>

@@ -65,7 +65,7 @@
             <a href="#throws">Throws</a>
           </li>
           <li>
-            <a href="../../source/Managers/InteractQueryManager.php.html#line65">Source</a>
+            <a href="../../source/Managers/InteractQueryManager.php.html#line767">Source</a>
           </li>
         </ul>
       </nav>
@@ -79,7 +79,9 @@
           <code>public function byQuery(
         $_query,
             [null
-        $_interactDef_id = NULL] )
+        $_interactDef_id = NULL,
+            [boolean
+        $caseSensitive = true]] )
             </code>
         </div>
         <h2 id="parameterlist">Parameters</h2>
@@ -92,10 +94,14 @@
                 —
                 null</dt>
           <dd/>
+          <dt><code>$caseSensitive</code>
+                —
+                boolean</dt>
+          <dd>Set to false for insensitive case comparaison<br/><br/><br/>      </dd>
         </dl>
         <h2 id="return">Returns</h2>
         <dl class="styled">
-          <dt>array|mixed|null</dt>
+          <dt>InteractQuery</dt>
           <dd><br/>
         </dd>
         </dl>
