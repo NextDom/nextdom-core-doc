@@ -2,7 +2,7 @@
 <!DOCTYPE html SYSTEM "about:legacy-compat">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <title>phpDox - NextDom\Controller\Modals\IconSelector::getIconsData</title>
+    <title>phpDox - NextDom\Ajax\MessageAjax::addIcon</title>
     <link rel="stylesheet" type="text/css" href="../../css/style.css" media="screen"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
   </head>
@@ -39,12 +39,12 @@
             <a href="../../classes.html">Classes</a>
           </li>
           <li class="separator">
-            <a href="../../classes.html#NextDom_Controller_Modals">NextDom\Controller\Modals</a>
+            <a href="../../classes.html#NextDom_Ajax">NextDom\Ajax</a>
           </li>
           <li class="separator">
-            <a title="NextDom\Controller\Modals\IconSelector" href="../../classes/NextDom_Controller_Modals_IconSelector.html">IconSelector</a>
+            <a title="NextDom\Ajax\MessageAjax" href="../../classes/NextDom_Ajax_MessageAjax.html">MessageAjax</a>
           </li>
-          <li class="separator">getIconsData</li>
+          <li class="separator">addIcon</li>
         </ul>
       </div>
       <nav class="box">
@@ -59,58 +59,38 @@
             <a href="#parameter">Parameter</a>
           </li>
           <li>
-            <a href="#return">Return</a>
+            <a href="#throws">Throws</a>
           </li>
           <li>
-            <a href="../../source/Controller/Modals/IconSelector.php.html#line89">Source</a>
+            <a href="../../source/Ajax/MessageAjax.php.html#line58">Source</a>
           </li>
         </ul>
       </nav>
       <section>
-        <h1><small>NextDom\Controller\Modals\IconSelector::</small>getIconsData</h1>
-        <h4>Get icons data from CSS file</h4>
+        <h1><small>NextDom\Ajax\MessageAjax::</small>addIcon</h1>
+        <h4>Add icon data</h4>
         <p/>
         <ul/>
         <h2 id="signature">Signature</h2>
         <div class="styled synopsis">
-          <code>private function getIconsData(string
-        $path,
-            string
-        $cssContent,
-            string
-        $matchPattern,
-            [<a title="NextDom\Controller\Modals\string|null" href="../../classes/NextDom_Controller_Modals_string|null.html">string|null</a>
-        $name = NULL,
-            [<a title="NextDom\Controller\Modals\string|null" href="../../classes/NextDom_Controller_Modals_string|null.html">string|null</a>
-        $cssClass = NULL]] )
+          <code>private function addIcon(&amp;
+        $message )
             </code>
         </div>
         <h2 id="parameterlist">Parameters</h2>
         <dl class="styled">
-          <dt><code>$path</code>
+          <dt><code>$message</code>
                 —
-                string</dt>
-          <dd>Path to the CSS file</dd>
-          <dt><code>$cssContent</code>
-                —
-                string</dt>
-          <dd>Content of the CSS file</dd>
-          <dt><code>$matchPattern</code>
-                —
-                string</dt>
-          <dd>Pattern for icon matchs</dd>
-          <dt><code>$name</code>
-                —
-                object</dt>
-          <dd>Name of the font<br/><br/><br/>      </dd>
-          <dt><code>$cssClass</code>
-                —
-                object</dt>
-          <dd>CSS class to add<br/><br/><br/>      </dd>
+                </dt>
+          <dd/>
         </dl>
-        <h2 id="return">Returns</h2>
+        <h2 id="throws">Errors/Exceptions</h2>
         <dl class="styled">
-          <dt>array</dt>
+          <dt>
+            <code>
+              <a title="\Exception" href="../../classes/_Exception.html">Exception</a>
+            </code>
+          </dt>
           <dd/>
         </dl>
       </section>
