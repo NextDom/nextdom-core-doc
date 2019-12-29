@@ -78,12 +78,12 @@
         <div class="synopsis">class DataStoreManager
                 extends <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">SimpleManager</a>
             {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = 'dataStore';</li><li>const DB_CLASS_NAME = '`dataStore`';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
-                        </li></ul><ul class="none"><li>// methods</li><li>public static mixed <a title="NextDom\Managers\DataStoreManager" href="../classes/NextDom_Managers_DataStoreManager/byId.html">byId</a>()
-                    </li><li>public static mixed <a title="NextDom\Managers\DataStoreManager" href="../classes/NextDom_Managers_DataStoreManager/byTypeLinkIdKey.html">byTypeLinkIdKey</a>()
+                        </li></ul><ul class="none"><li>// methods</li><li>public static mixed <a title="NextDom\Managers\DataStoreManager" href="../classes/NextDom_Managers_DataStoreManager/byTypeLinkIdKey.html">byTypeLinkIdKey</a>()
                     </li><li>public static bool <a title="NextDom\Managers\DataStoreManager" href="../classes/NextDom_Managers_DataStoreManager/removeByTypeLinkId.html">removeByTypeLinkId</a>()
                     </li><li>public static array <a title="NextDom\Managers\DataStoreManager" href="../classes/NextDom_Managers_DataStoreManager/byTypeLinkId.html">byTypeLinkId</a>()
-                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\SimpleManager">SimpleManager</span></li><li>public static void <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId</a>()
-                        </li><li>public static void <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered</a>()
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\SimpleManager">SimpleManager</span></li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId</a>()
+                        </li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll</a>()
+                        </li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static void <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL</a>()
                         </li></ul>
 
@@ -137,8 +137,6 @@
         <div class="styled">
           <h4>public</h4>
           <ul>
-            <li id="byId"><a title="NextDom\Managers\DataStoreManager" href="../classes/NextDom_Managers_DataStoreManager/byId.html">byId()</a>
-                — Get stored data by his Id</li>
             <li id="byTypeLinkId"><a title="NextDom\Managers\DataStoreManager" href="../classes/NextDom_Managers_DataStoreManager/byTypeLinkId.html">byTypeLinkId()</a>
                 — Get stored data by type and linkId</li>
             <li id="byTypeLinkIdKey"><a title="NextDom\Managers\DataStoreManager" href="../classes/NextDom_Managers_DataStoreManager/byTypeLinkIdKey.html">byTypeLinkIdKey()</a>
@@ -149,12 +147,12 @@
           <h3>Inherited from <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">NextDom\Managers\Parents\SimpleManager</a></h3>
           <h4>public</h4>
           <ul>
-            <li id="byId">
-              <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId()</a>
-            </li>
-            <li id="getAllOrdered">
-              <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered()</a>
-            </li>
+            <li id="byId"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId()</a>
+                — Get one object by his id</li>
+            <li id="getAll"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll()</a>
+                — Get all objects</li>
+            <li id="getAllOrdered"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered()</a>
+                — Get all object sorted on column</li>
           </ul>
           <h3>Inherited from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">NextDom\Managers\Parents\BaseManager</a></h3>
           <h4>protected</h4>

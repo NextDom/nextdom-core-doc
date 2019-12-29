@@ -87,13 +87,13 @@
                     </li><li>public static array <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/listRepo.html">listRepo</a>()
                     </li><li>public static array <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/repoById.html">repoById</a>()
                     </li><li>public static bool <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/updateAll.html">updateAll</a>()
-                    </li><li>public static Update|null <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byId.html">byId</a>()
                     </li><li>public static array <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byStatus.html">byStatus</a>()
                     </li><li>public static array <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byLogicalId.html">byLogicalId</a>()
                     </li><li>public static int <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/nbNeedUpdate.html">nbNeedUpdate</a>()
                     </li><li>public static array <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/listCoreUpdate.html">listCoreUpdate</a>()
-                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\SimpleManager">SimpleManager</span></li><li>public static void <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId</a>()
-                        </li><li>public static void <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered</a>()
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\SimpleManager">SimpleManager</span></li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId</a>()
+                        </li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll</a>()
+                        </li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static void <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL</a>()
                         </li></ul>
 
@@ -153,8 +153,6 @@
           <ul>
             <li id="all"><a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/all.html">all()</a>
                 — Get all the updates.</li>
-            <li id="byId"><a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byId.html">byId()</a>
-                — Get update by his id</li>
             <li id="byLogicalId"><a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byLogicalId.html">byLogicalId()</a>
                 — Get the bets from its logical identifier</li>
             <li id="byStatus"><a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byStatus.html">byStatus()</a>
@@ -183,12 +181,12 @@
           <h3>Inherited from <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">NextDom\Managers\Parents\SimpleManager</a></h3>
           <h4>public</h4>
           <ul>
-            <li id="byId">
-              <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId()</a>
-            </li>
-            <li id="getAllOrdered">
-              <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered()</a>
-            </li>
+            <li id="byId"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId()</a>
+                — Get one object by his id</li>
+            <li id="getAll"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll()</a>
+                — Get all objects</li>
+            <li id="getAllOrdered"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered()</a>
+                — Get all object sorted on column</li>
           </ul>
           <h3>Inherited from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">NextDom\Managers\Parents\BaseManager</a></h3>
           <h4>protected</h4>

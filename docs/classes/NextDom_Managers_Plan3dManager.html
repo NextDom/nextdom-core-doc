@@ -78,8 +78,7 @@
         <div class="synopsis">class Plan3dManager
                 extends <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">SimpleManager</a>
             {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = Plan3d::class;</li><li>const DB_CLASS_NAME = '`plan3d`';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
-                        </li></ul><ul class="none"><li>// methods</li><li>public static array|mixed|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byId.html">byId</a>()
-                    </li><li>public static Plan3d|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byPlan3dHeaderId.html">byPlan3dHeaderId</a>()
+                        </li></ul><ul class="none"><li>// methods</li><li>public static Plan3d|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byPlan3dHeaderId.html">byPlan3dHeaderId</a>()
                     </li><li>public static array|mixed|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byLinkTypeLinkId.html">byLinkTypeLinkId</a>()
                     </li><li>public static array|mixed|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byName3dHeaderId.html">byName3dHeaderId</a>()
                     </li><li>public static array|mixed|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byLinkTypeLinkId3dHeaderId.html">byLinkTypeLinkId3dHeaderId</a>()
@@ -87,8 +86,9 @@
                     </li><li>public static array|mixed|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/all.html">all</a>()
                     </li><li>public static array|mixed|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/searchByDisplay.html">searchByDisplay</a>()
                     </li><li>public static array|mixed|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/searchByConfiguration.html">searchByConfiguration</a>()
-                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\SimpleManager">SimpleManager</span></li><li>public static void <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId</a>()
-                        </li><li>public static void <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered</a>()
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\SimpleManager">SimpleManager</span></li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId</a>()
+                        </li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll</a>()
+                        </li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static void <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL</a>()
                         </li></ul>
 
@@ -145,9 +145,6 @@
             <li id="all">
               <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/all.html">all()</a>
             </li>
-            <li id="byId">
-              <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byId.html">byId()</a>
-            </li>
             <li id="byLinkTypeLinkId">
               <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byLinkTypeLinkId.html">byLinkTypeLinkId()</a>
             </li>
@@ -173,12 +170,12 @@
           <h3>Inherited from <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">NextDom\Managers\Parents\SimpleManager</a></h3>
           <h4>public</h4>
           <ul>
-            <li id="byId">
-              <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId()</a>
-            </li>
-            <li id="getAllOrdered">
-              <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered()</a>
-            </li>
+            <li id="byId"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId()</a>
+                — Get one object by his id</li>
+            <li id="getAll"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll()</a>
+                — Get all objects</li>
+            <li id="getAllOrdered"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered()</a>
+                — Get all object sorted on column</li>
           </ul>
           <h3>Inherited from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">NextDom\Managers\Parents\BaseManager</a></h3>
           <h4>protected</h4>
