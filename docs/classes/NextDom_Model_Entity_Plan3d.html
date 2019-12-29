@@ -73,57 +73,59 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class Plan3d
-                implements
-                <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">EntityInterface</a>
+                extends <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan.html">BasePlan</a>
             {<br/><ul class="none"><li>// members</li><li>protected  <a href="#members">$name</a>;
-                    </li><li>protected  <a href="#members">$link_type</a>;
-                    </li><li>protected  <a href="#members">$link_id</a>;
-                    </li><li>protected  <a href="#members">$position</a>;
-                    </li><li>protected  <a href="#members">$display</a>;
-                    </li><li>protected  <a href="#members">$configuration</a>;
-                    </li><li>protected  <a href="#members">$id</a>;
                     </li><li>protected <span title="\NextDom\Model\Entity\Plan3dHeader">Plan3dHeader</span> <a href="#members">$plan3dHeader_id</a>;
-                    </li><li>protected  <a href="#members">$css</a>;
-                    </li><li>protected boolean <a href="#members">$_changed</a> =
-                        false;
-                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/preInsert.html">preInsert</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getLink_type.html">getLink_type</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setLink_type.html">setLink_type</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getLink_id.html">getLink_id</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setLink_id.html">setLink_id</a>()
+                    </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\BasePlan">BasePlan</span></li><li>protected  <a href="#members">$link_type</a>;
+                        </li><li>protected  <a href="#members">$link_id</a>;
+                        </li><li>protected  <a href="#members">$position</a>;
+                        </li><li>protected  <a href="#members">$display</a>;
+                        </li><li>protected  <a href="#members">$css</a>;
+                        </li><li>protected  <a href="#members">$configuration</a>;
+                        </li><li>protected  <a href="#members">$id</a>;
+                        </li><li>protected <span title="NextDom\Model\bool">bool</span> <a href="#members">$_changed</a>;
+                        </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/preInsert.html">preInsert</a>()
                     </li><li>public Plan3dHeader <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getPlan3dHeader_id.html">getPlan3dHeader_id</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setPlan3dHeader_id.html">setPlan3dHeader_id</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/preSave.html">preSave</a>()
-                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getConfiguration.html">getConfiguration</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setConfiguration.html">setConfiguration</a>()
-                    </li><li>public void <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/save.html">save</a>()
-                    </li><li>public void <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/remove.html">remove</a>()
                     </li><li>public array|null <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getHtml.html">getHtml</a>()
                     </li><li>public bool|Cmd|EqLogic|JeeObject|Scenario|null <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getLink.html">getLink</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/additionalData.html">additionalData</a>()
                     </li><li>public array|mixed|null <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getPlan3dHeader.html">getPlan3dHeader</a>()
-                    </li><li>public int <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getId.html">getId</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setId.html">setId</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getName.html">getName</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setName.html">setName</a>()
-                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getPosition.html">getPosition</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setPosition.html">setPosition</a>()
-                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getDisplay.html">getDisplay</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setDisplay.html">setDisplay</a>()
-                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getCss.html">getCss</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setCss.html">setCss</a>()
-                    </li><li>public bool <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getChanged.html">getChanged</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setChanged.html">setChanged</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getTableName.html">getTableName</a>()
-                    </li></ul>
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\BasePlan">BasePlan</span></li><li>public int <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getId.html">getId</a>()
+                        </li><li>public $this <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setId.html">setId</a>()
+                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getPosition.html">getPosition</a>()
+                        </li><li>public $this <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setPosition.html">setPosition</a>()
+                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getDisplay.html">getDisplay</a>()
+                        </li><li>public $this <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setDisplay.html">setDisplay</a>()
+                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getConfiguration.html">getConfiguration</a>()
+                        </li><li>public $this <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setConfiguration.html">setConfiguration</a>()
+                        </li><li>public string <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getLink_type.html">getLink_type</a>()
+                        </li><li>public $this <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setLink_type.html">setLink_type</a>()
+                        </li><li>public int <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getLink_id.html">getLink_id</a>()
+                        </li><li>public $this <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setLink_id.html">setLink_id</a>()
+                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getCss.html">getCss</a>()
+                        </li><li>public $this <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setCss.html">setCss</a>()
+                        </li><li>public bool <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getChanged.html">getChanged</a>()
+                        </li><li>public $this <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setChanged.html">setChanged</a>()
+                        </li><li>public void <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/save.html">save</a>()
+                        </li><li>public void <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/remove.html">remove</a>()
+                        </li><li>public abstract void <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/preInsert.html">preInsert</a>()
+                        </li><li>public abstract void <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/preSave.html">preSave</a>()
+                        </li><li>public abstract void <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getHtml.html">getHtml</a>()
+                        </li><li>public abstract void <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getLink.html">getLink</a>()
+                        </li></ul>
 
             }<br/></div>
         <h2 id="hierarchy">Hierarchy</h2>
         <div class="styled">
-          <h4>Implements</h4>
+          <h4>Extends</h4>
           <ul>
             <li>
-              <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">NextDom\Model\Entity\EntityInterface</a>
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan.html">NextDom\Model\BasePlan</a>
             </li>
           </ul>
         </div>
@@ -131,15 +133,15 @@
         <div class="styled members">
           <h4>protected</h4>
           <ul class="members">
-            <li id="_changed">
-              <strong>$_changed</strong>
-            </li>
+            <li id="_changed"><strong>$_changed</strong>
+                —
+                <a title="NextDom\Model\bool" href="../classes/NextDom_Model_bool.html">NextDom\Model\bool</a></li>
             <li id="configuration"><strong>$configuration</strong>
                 —
                 string</li>
-            <li id="css">
-              <strong>$css</strong>
-            </li>
+            <li id="css"><strong>$css</strong>
+                —
+                string</li>
             <li id="display"><strong>$display</strong>
                 —
                 string</li>
@@ -148,7 +150,7 @@
                 integer</li>
             <li id="link_id"><strong>$link_id</strong>
                 —
-                string</li>
+                integer</li>
             <li id="link_type"><strong>$link_type</strong>
                 —
                 string</li>
@@ -170,32 +172,11 @@
             <li id="additionalData">
               <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/additionalData.html">additionalData()</a>
             </li>
-            <li id="getChanged">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getChanged.html">getChanged()</a>
-            </li>
-            <li id="getConfiguration">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getConfiguration.html">getConfiguration()</a>
-            </li>
-            <li id="getCss">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getCss.html">getCss()</a>
-            </li>
-            <li id="getDisplay">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getDisplay.html">getDisplay()</a>
-            </li>
             <li id="getHtml">
               <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getHtml.html">getHtml()</a>
             </li>
-            <li id="getId">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getId.html">getId()</a>
-            </li>
             <li id="getLink">
               <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getLink.html">getLink()</a>
-            </li>
-            <li id="getLink_id">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getLink_id.html">getLink_id()</a>
-            </li>
-            <li id="getLink_type">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getLink_type.html">getLink_type()</a>
             </li>
             <li id="getName">
               <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getName.html">getName()</a>
@@ -206,9 +187,6 @@
             <li id="getPlan3dHeader_id">
               <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getPlan3dHeader_id.html">getPlan3dHeader_id()</a>
             </li>
-            <li id="getPosition">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getPosition.html">getPosition()</a>
-            </li>
             <li id="getTableName">
               <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/getTableName.html">getTableName()</a>
             </li>
@@ -218,41 +196,81 @@
             <li id="preSave">
               <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/preSave.html">preSave()</a>
             </li>
-            <li id="remove">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/remove.html">remove()</a>
-            </li>
-            <li id="save">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/save.html">save()</a>
-            </li>
-            <li id="setChanged">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setChanged.html">setChanged()</a>
-            </li>
-            <li id="setConfiguration">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setConfiguration.html">setConfiguration()</a>
-            </li>
-            <li id="setCss">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setCss.html">setCss()</a>
-            </li>
-            <li id="setDisplay">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setDisplay.html">setDisplay()</a>
-            </li>
-            <li id="setId">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setId.html">setId()</a>
-            </li>
-            <li id="setLink_id">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setLink_id.html">setLink_id()</a>
-            </li>
-            <li id="setLink_type">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setLink_type.html">setLink_type()</a>
-            </li>
             <li id="setName">
               <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setName.html">setName()</a>
             </li>
             <li id="setPlan3dHeader_id">
               <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setPlan3dHeader_id.html">setPlan3dHeader_id()</a>
             </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan.html">NextDom\Model\BasePlan</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getChanged">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getChanged.html">getChanged()</a>
+            </li>
+            <li id="getConfiguration">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getConfiguration.html">getConfiguration()</a>
+            </li>
+            <li id="getCss">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getCss.html">getCss()</a>
+            </li>
+            <li id="getDisplay">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getDisplay.html">getDisplay()</a>
+            </li>
+            <li id="getHtml">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getHtml.html">getHtml()</a>
+            </li>
+            <li id="getId">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getId.html">getId()</a>
+            </li>
+            <li id="getLink">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getLink.html">getLink()</a>
+            </li>
+            <li id="getLink_id">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getLink_id.html">getLink_id()</a>
+            </li>
+            <li id="getLink_type">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getLink_type.html">getLink_type()</a>
+            </li>
+            <li id="getPosition">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getPosition.html">getPosition()</a>
+            </li>
+            <li id="preInsert">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/preInsert.html">preInsert()</a>
+            </li>
+            <li id="preSave">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/preSave.html">preSave()</a>
+            </li>
+            <li id="remove">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/remove.html">remove()</a>
+            </li>
+            <li id="save">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/save.html">save()</a>
+            </li>
+            <li id="setChanged">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setChanged.html">setChanged()</a>
+            </li>
+            <li id="setConfiguration">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setConfiguration.html">setConfiguration()</a>
+            </li>
+            <li id="setCss">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setCss.html">setCss()</a>
+            </li>
+            <li id="setDisplay">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setDisplay.html">setDisplay()</a>
+            </li>
+            <li id="setId">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setId.html">setId()</a>
+            </li>
+            <li id="setLink_id">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setLink_id.html">setLink_id()</a>
+            </li>
+            <li id="setLink_type">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setLink_type.html">setLink_type()</a>
+            </li>
             <li id="setPosition">
-              <a title="NextDom\Model\Entity\Plan3d" href="../classes/NextDom_Model_Entity_Plan3d/setPosition.html">setPosition()</a>
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setPosition.html">setPosition()</a>
             </li>
           </ul>
         </div>
