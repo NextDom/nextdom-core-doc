@@ -53,19 +53,13 @@
             <a href="#synopsis">Synopsis</a>
           </li>
           <li>
-            <a href="#hierarchy">Hierarchy</a>
-          </li>
-          <li>
             <a href="#constants">Constants</a>
-          </li>
-          <li>
-            <a href="#members">Members</a>
           </li>
           <li>
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Managers/CmdManager.php.html#line52">Source</a>
+            <a href="../source/Managers/CmdManager.php.html#line51">Source</a>
           </li>
         </ul>
       </nav>
@@ -76,9 +70,7 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class CmdManager
-                extends <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager.html">CastedObjectManager</a>
-            {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = Cmd::class;</li><li>const DB_CLASS_NAME = '`cmd`';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
-                        </li></ul><ul class="none"><li>// methods</li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/allHistoryCmd.html">allHistoryCmd</a>()
+            {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = Cmd::class;</li><li>const DB_CLASS_NAME = '`cmd`';</li></ul><ul class="none"><li>// methods</li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/allHistoryCmd.html">allHistoryCmd</a>()
                     </li><li>public static array|mixed <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/cast.html">cast</a>()
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byEqLogicId.html">byEqLogicId</a>()
                     </li><li>public static array|mixed <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byLogicalId.html">byLogicalId</a>()
@@ -96,6 +88,7 @@
                     </li><li>public static string <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/cmdToHumanReadable.html">cmdToHumanReadable</a>()
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byIds.html">byIds</a>()
                     </li><li>public static Cmd <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byString.html">byString</a>()
+                    </li><li>public static Cmd|bool <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byId.html">byId</a>()
                     </li><li>public static string <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/humanReadableToCmd.html">humanReadableToCmd</a>()
                     </li><li>public static Cmd <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byObjectNameEqLogicNameCmdName.html">byObjectNameEqLogicNameCmdName</a>()
                     </li><li>public static array|mixed <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/cmdToValue.html">cmdToValue</a>()
@@ -109,22 +102,9 @@
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/all.html">all</a>()
                     </li><li>public static void <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/cmdAlert.html">cmdAlert</a>()
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/timelineDisplay.html">timelineDisplay</a>()
-                    </li><li>public static void <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/checkAlertCmds.html">checkAlertCmds</a>()
-                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\CastedObjectManager">CastedObjectManager</span></li><li>public static void <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager/byId.html">byId</a>()
-                        </li><li>public abstract static void <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager/cast.html">cast</a>()
-                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static void <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL</a>()
-                        </li></ul>
+                    </li></ul>
 
             }<br/></div>
-        <h2 id="hierarchy">Hierarchy</h2>
-        <div class="styled">
-          <h4>Extends</h4>
-          <ul>
-            <li>
-              <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager.html">NextDom\Managers\Parents\CastedObjectManager</a>
-            </li>
-          </ul>
-        </div>
         <h2 id="constants">Constants</h2>
         <table class="styled">
           <thead>
@@ -142,25 +122,8 @@
               <td id="DB_CLASS_NAME">DB_CLASS_NAME</td>
               <td>'`cmd`'</td>
             </tr>
-            <tr>
-              <td id="CLASS_NAME">CLASS_NAME</td>
-              <td>''</td>
-            </tr>
-            <tr>
-              <td id="DB_CLASS_NAME">DB_CLASS_NAME</td>
-              <td>'``'</td>
-            </tr>
           </tbody>
         </table>
-        <h2 id="members">Members</h2>
-        <div class="styled members">
-          <h4>protected</h4>
-          <ul class="members">
-            <li id="baseSQL">
-              <strong>$baseSQL</strong>
-            </li>
-          </ul>
-        </div>
         <h2 id="methods">Methods</h2>
         <div class="styled">
           <h4>public</h4>
@@ -187,6 +150,8 @@
                 — Get commands by EqLogic Id and command name</li>
             <li id="byGenericType"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byGenericType.html">byGenericType()</a>
                 — Get command by generic type (plugin)</li>
+            <li id="byId"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byId.html">byId()</a>
+                — Get command by his id</li>
             <li id="byIds"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byIds.html">byIds()</a>
                 — Get list of commands by IDs</li>
             <li id="byLogicalId"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byLogicalId.html">byLogicalId()</a>
@@ -205,9 +170,6 @@
                 — Get commands by value</li>
             <li id="cast"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/cast.html">cast()</a>
                 — Cast a command from generic to plugin</li>
-            <li id="checkAlertCmds">
-              <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/checkAlertCmds.html">checkAlertCmds()</a>
-            </li>
             <li id="cmdAlert"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/cmdAlert.html">cmdAlert()</a>
                 — Execute command and alert this execution</li>
             <li id="cmdToHumanReadable"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/cmdToHumanReadable.html">cmdToHumanReadable()</a>
@@ -230,23 +192,6 @@
                 — Search by template</li>
             <li id="timelineDisplay"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/timelineDisplay.html">timelineDisplay()</a>
                 — Show command timeline</li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager.html">NextDom\Managers\Parents\CastedObjectManager</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="byId">
-              <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager/byId.html">byId()</a>
-            </li>
-            <li id="cast">
-              <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager/cast.html">cast()</a>
-            </li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">NextDom\Managers\Parents\BaseManager</a></h3>
-          <h4>protected</h4>
-          <ul>
-            <li id="getBaseSQL">
-              <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL()</a>
-            </li>
           </ul>
         </div>
       </section>

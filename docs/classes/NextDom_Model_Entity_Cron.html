@@ -62,7 +62,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/Cron.php.html#line39">Source</a>
+            <a href="../source/Model/Entity/Cron.php.html#line38">Source</a>
           </li>
         </ul>
       </nav>
@@ -73,7 +73,8 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class Cron
-                extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
+                implements
+                <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">EntityInterface</a>
             {<br/><ul class="none"><li>// members</li><li>protected integer <a href="#members">$enable</a> =
                         1;
                     </li><li>protected string <a href="#members">$class</a> =
@@ -88,9 +89,10 @@
                     </li><li>protected  <a href="#members">$option</a>;
                     </li><li>protected integer <a href="#members">$once</a> =
                         0;
-                    </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
-                        </li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
-                        </li></ul><ul class="none"><li>// methods</li><li>public int <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getEnable.html">getEnable</a>()
+                    </li><li>protected  <a href="#members">$id</a>;
+                    </li><li>protected <span title="NextDom\Model\Entity\bool">bool</span> <a href="#members">$_changed</a> =
+                        false;
+                    </li></ul><ul class="none"><li>// methods</li><li>public int <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getEnable.html">getEnable</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setEnable.html">setEnable</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/isEnabled.html">isEnabled</a>()
                     </li><li>public int <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getTimeout.html">getTimeout</a>()
@@ -111,6 +113,8 @@
                     </li><li>public $this <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setOption.html">setOption</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getClass.html">getClass</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setClass.html">setClass</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getId.html">getId</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setId.html">setId</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/postInsert.html">postInsert</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setState.html">setState</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setCache.html">setCache</a>()
@@ -132,21 +136,17 @@
                     </li><li>public string <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getName.html">getName</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/toArray.html">toArray</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setLastRun.html">setLastRun</a>()
-                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
-                        </li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getChanged.html">getChanged</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged</a>()
-                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save</a>()
-                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove</a>()
-                        </li></ul>
+                    </li><li>public bool <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getChanged.html">getChanged</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setChanged.html">setChanged</a>()
+                    </li></ul>
 
             }<br/></div>
         <h2 id="hierarchy">Hierarchy</h2>
         <div class="styled">
-          <h4>Extends</h4>
+          <h4>Implements</h4>
           <ul>
             <li>
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
+              <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">NextDom\Model\Entity\EntityInterface</a>
             </li>
           </ul>
         </div>
@@ -156,7 +156,7 @@
           <ul class="members">
             <li id="_changed"><strong>$_changed</strong>
                 —
-                <a title="NextDom\Model\Entity\Parents\bool" href="../classes/NextDom_Model_Entity_Parents_bool.html">NextDom\Model\Entity\Parents\bool</a></li>
+                <a title="NextDom\Model\Entity\bool" href="../classes/NextDom_Model_Entity_bool.html">NextDom\Model\Entity\bool</a></li>
             <li id="class"><strong>$class</strong>
                 —
                 string</li>
@@ -195,6 +195,9 @@
           <ul>
             <li id="getCache"><a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getCache.html">getCache()</a>
                 — Get task data in cache</li>
+            <li id="getChanged">
+              <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getChanged.html">getChanged()</a>
+            </li>
             <li id="getClass">
               <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getClass.html">getClass()</a>
             </li>
@@ -208,6 +211,9 @@
                 — Get enabled state of the cron task</li>
             <li id="getFunction">
               <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getFunction.html">getFunction()</a>
+            </li>
+            <li id="getId">
+              <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getId.html">getId()</a>
             </li>
             <li id="getLastRun"><a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getLastRun.html">getLastRun()</a>
                 — Get last task run</li>
@@ -254,6 +260,9 @@
                 — Save cron object in database</li>
             <li id="setCache"><a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setCache.html">setCache()</a>
                 — Store task data in cache</li>
+            <li id="setChanged">
+              <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setChanged.html">setChanged()</a>
+            </li>
             <li id="setClass">
               <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setClass.html">setClass()</a>
             </li>
@@ -268,6 +277,8 @@
             <li id="setFunction">
               <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setFunction.html">setFunction()</a>
             </li>
+            <li id="setId"><a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setId.html">setId()</a>
+                — Set task id</li>
             <li id="setLastRun"><a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setLastRun.html">setLastRun()</a>
                 — Set last task run</li>
             <li id="setOnce">
@@ -292,26 +303,6 @@
                 — Stop task</li>
             <li id="toArray"><a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/toArray.html">toArray()</a>
                 — Get cron data in array</li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="getChanged"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getChanged.html">getChanged()</a>
-                — Get changed state</li>
-            <li id="getId">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId()</a>
-            </li>
-            <li id="remove">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove()</a>
-            </li>
-            <li id="save">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save()</a>
-            </li>
-            <li id="setChanged"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged()</a>
-                — Set changed state</li>
-            <li id="setId">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId()</a>
-            </li>
           </ul>
         </div>
       </section>
