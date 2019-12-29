@@ -53,16 +53,22 @@
             <a href="#synopsis">Synopsis</a>
           </li>
           <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
             <a href="#tasks">Tasks</a>
           </li>
           <li>
             <a href="#constants">Constants</a>
           </li>
           <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Managers/ScenarioExpressionManager.php.html#line54">Source</a>
+            <a href="../source/Managers/ScenarioExpressionManager.php.html#line55">Source</a>
           </li>
         </ul>
       </nav>
@@ -73,7 +79,9 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class ScenarioExpressionManager
-            {<br/><ul class="none"><li>// constants</li><li>const DB_CLASS_NAME = '`scenarioExpression`';</li><li>const CLASS_NAME = ScenarioExpression::class;</li><li>const WAIT_LIMIT = 7200;</li></ul><ul class="none"><li>// methods</li><li>public static ScenarioExpression|null <a title="NextDom\Managers\ScenarioExpressionManager" href="../classes/NextDom_Managers_ScenarioExpressionManager/byId.html">byId</a>()
+                extends <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">SimpleManager</a>
+            {<br/><ul class="none"><li>// constants</li><li>const DB_CLASS_NAME = '`scenarioExpression`';</li><li>const CLASS_NAME = ScenarioExpression::class;</li><li>const WAIT_LIMIT = 7200;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
+                        </li></ul><ul class="none"><li>// methods</li><li>public static ScenarioExpression|null <a title="NextDom\Managers\ScenarioExpressionManager" href="../classes/NextDom_Managers_ScenarioExpressionManager/byId.html">byId</a>()
                     </li><li>public static ScenarioExpression|null <a title="NextDom\Managers\ScenarioExpressionManager" href="../classes/NextDom_Managers_ScenarioExpressionManager/all.html">all</a>()
                     </li><li>public static ScenarioExpression|null <a title="NextDom\Managers\ScenarioExpressionManager" href="../classes/NextDom_Managers_ScenarioExpressionManager/byScenarioSubElementId.html">byScenarioSubElementId</a>()
                     </li><li>public static array <a title="NextDom\Managers\ScenarioExpressionManager" href="../classes/NextDom_Managers_ScenarioExpressionManager/searchExpression.html">searchExpression</a>()
@@ -126,9 +134,21 @@
                     </li><li>public static string <a title="NextDom\Managers\ScenarioExpressionManager" href="../classes/NextDom_Managers_ScenarioExpressionManager/formatTime.html">formatTime</a>()
                     </li><li>public static string <a title="NextDom\Managers\ScenarioExpressionManager" href="../classes/NextDom_Managers_ScenarioExpressionManager/name.html">name</a>()
                     </li><li>public static mixed <a title="NextDom\Managers\ScenarioExpressionManager" href="../classes/NextDom_Managers_ScenarioExpressionManager/createAndExec.html">createAndExec</a>()
-                    </li></ul>
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\SimpleManager">SimpleManager</span></li><li>public static void <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId</a>()
+                        </li><li>public static void <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static void <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL</a>()
+                        </li></ul>
 
             }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div class="styled">
+          <h4>Extends</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">NextDom\Managers\Parents\SimpleManager</a>
+            </li>
+          </ul>
+        </div>
         <h2 id="tasks">Tasks</h2>
         <table class="styled">
           <thead>
@@ -138,123 +158,123 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">167+</td>
+            <td class="nummeric">164+</td>
             <td>????</td>
           </tr>
           <tr>
-            <td class="nummeric">167+</td>
+            <td class="nummeric">164+</td>
             <td>Revoir la génération des UID</td>
           </tr>
           <tr>
-            <td class="nummeric">208+</td>
+            <td class="nummeric">205+</td>
             <td>????</td>
           </tr>
           <tr>
-            <td class="nummeric">254+</td>
+            <td class="nummeric">251+</td>
             <td>???</td>
           </tr>
           <tr>
-            <td class="nummeric">254+</td>
+            <td class="nummeric">251+</td>
             <td>Result n'est jamais utilisé, le bloc Try peut normalement être supprimé</td>
           </tr>
           <tr>
-            <td class="nummeric">285+</td>
+            <td class="nummeric">282+</td>
             <td>Faut bien les définir les tags</td>
           </tr>
           <tr>
-            <td class="nummeric">384+</td>
+            <td class="nummeric">381+</td>
             <td>: Je demande des tags</td>
           </tr>
           <tr>
-            <td class="nummeric">463+</td>
+            <td class="nummeric">460+</td>
             <td>????</td>
           </tr>
           <tr>
-            <td class="nummeric">483+</td>
+            <td class="nummeric">480+</td>
             <td>????</td>
           </tr>
           <tr>
-            <td class="nummeric">502+</td>
+            <td class="nummeric">499+</td>
             <td>: Un tag</td>
           </tr>
           <tr>
-            <td class="nummeric">522+</td>
+            <td class="nummeric">519+</td>
             <td>: Format ???</td>
           </tr>
           <tr>
-            <td class="nummeric">550+</td>
+            <td class="nummeric">547+</td>
             <td>: -2 en -1 ?</td>
           </tr>
           <tr>
-            <td class="nummeric">570+</td>
+            <td class="nummeric">567+</td>
             <td>: Fait une moyenne de quelque chose</td>
           </tr>
           <tr>
-            <td class="nummeric">570+</td>
+            <td class="nummeric">567+</td>
             <td>: Mettre en place la gestion du nombre de paramètres variables</td>
           </tr>
           <tr>
-            <td class="nummeric">624+</td>
+            <td class="nummeric">621+</td>
             <td>: Calcule une moyenne de quelque chose entre deux dates</td>
           </tr>
           <tr>
-            <td class="nummeric">954+</td>
+            <td class="nummeric">951+</td>
             <td>: j'en sais rien, durée pendant laquelle il a conserver son état sans doute</td>
           </tr>
           <tr>
-            <td class="nummeric">968+</td>
+            <td class="nummeric">965+</td>
             <td>Changement d'état, ou de pantalon, ou de slip</td>
           </tr>
           <tr>
-            <td class="nummeric">1142+</td>
+            <td class="nummeric">1139+</td>
             <td>: Dernier entre deux dates ???</td>
           </tr>
           <tr>
-            <td class="nummeric">1166+</td>
+            <td class="nummeric">1163+</td>
             <td>: Statistiques de quelque chose</td>
           </tr>
           <tr>
-            <td class="nummeric">1200+</td>
+            <td class="nummeric">1197+</td>
             <td>: Statistiques de quelque chose entre deux dates</td>
           </tr>
           <tr>
-            <td class="nummeric">1223</td>
+            <td class="nummeric">1220</td>
             <td>Yolo sur les trims</td>
           </tr>
           <tr>
-            <td class="nummeric">1254+</td>
+            <td class="nummeric">1251+</td>
             <td>: Dernier changement de la durée de ???</td>
           </tr>
           <tr>
-            <td class="nummeric">1269+</td>
+            <td class="nummeric">1266+</td>
             <td>: Changer en binaire le résultat</td>
           </tr>
           <tr>
-            <td class="nummeric">1303+</td>
+            <td class="nummeric">1300+</td>
             <td>: Collecter une date</td>
           </tr>
           <tr>
-            <td class="nummeric">1324+</td>
+            <td class="nummeric">1321+</td>
             <td>: Valeur d'une date</td>
           </tr>
           <tr>
-            <td class="nummeric">1456+</td>
+            <td class="nummeric">1453+</td>
             <td>:? ???</td>
           </tr>
           <tr>
-            <td class="nummeric">1546+</td>
+            <td class="nummeric">1543+</td>
             <td>: L'heure mais ça à l'air plus compliqué que ça</td>
           </tr>
           <tr>
-            <td class="nummeric">1579+</td>
+            <td class="nummeric">1576+</td>
             <td>: Formate l'heure</td>
           </tr>
           <tr>
-            <td class="nummeric">1601+</td>
+            <td class="nummeric">1598+</td>
             <td>: My name is Bond, James Bond</td>
           </tr>
           <tr>
-            <td class="nummeric">1634+</td>
+            <td class="nummeric">1631+</td>
             <td>: Créé et exécute un truc</td>
           </tr>
         </table>
@@ -279,8 +299,25 @@
               <td id="WAIT_LIMIT">WAIT_LIMIT</td>
               <td>7200</td>
             </tr>
+            <tr>
+              <td id="CLASS_NAME">CLASS_NAME</td>
+              <td>''</td>
+            </tr>
+            <tr>
+              <td id="DB_CLASS_NAME">DB_CLASS_NAME</td>
+              <td>'``'</td>
+            </tr>
           </tbody>
         </table>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="baseSQL">
+              <strong>$baseSQL</strong>
+            </li>
+          </ul>
+        </div>
         <h2 id="methods">Methods</h2>
         <div class="styled">
           <h4>private</h4>
@@ -420,6 +457,23 @@
                 — Obtenir la valeur d'une variable</li>
             <li id="wait"><a title="NextDom\Managers\ScenarioExpressionManager" href="../classes/NextDom_Managers_ScenarioExpressionManager/wait.html">wait()</a>
                 — Attend que la condition soit vraie.</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">NextDom\Managers\Parents\SimpleManager</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="byId">
+              <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId()</a>
+            </li>
+            <li id="getAllOrdered">
+              <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">NextDom\Managers\Parents\BaseManager</a></h3>
+          <h4>protected</h4>
+          <ul>
+            <li id="getBaseSQL">
+              <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL()</a>
+            </li>
           </ul>
         </div>
       </section>
