@@ -62,7 +62,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/User.php.html#line35">Source</a>
+            <a href="../source/Model/Entity/User.php.html#line36">Source</a>
           </li>
         </ul>
       </nav>
@@ -73,8 +73,7 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class User
-                implements
-                <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">EntityInterface</a>
+                extends <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity.html">BaseEntity</a>
             {<br/><ul class="none"><li>// members</li><li>protected  <a href="#members">$login</a>;
                     </li><li>protected string <a href="#members">$profils</a> =
                         'admin';
@@ -84,18 +83,15 @@
                     </li><li>protected  <a href="#members">$rights</a>;
                     </li><li>protected integer <a href="#members">$enable</a> =
                         1;
-                    </li><li>protected boolean <a href="#members">$_changed</a> =
-                        false;
-                    </li><li>protected  <a href="#members">$id</a>;
-                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/preInsert.html">preInsert</a>()
+                    </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
+                        </li><li>protected <span title="NextDom\Model\bool">bool</span> <a href="#members">$_changed</a>;
+                        </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/preInsert.html">preInsert</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getLogin.html">getLogin</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setLogin.html">setLogin</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/preSave.html">preSave</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getProfils.html">getProfils</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setProfils.html">setProfils</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/isEnabled.html">isEnabled</a>()
-                    </li><li>public int <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getId.html">getId</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setId.html">setId</a>()
                     </li><li>public int <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getEnable.html">getEnable</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setEnable.html">setEnable</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/preRemove.html">preRemove</a>()
@@ -113,18 +109,22 @@
                     </li><li>public string <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getHash.html">getHash</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setHash.html">setHash</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/save.html">save</a>()
-                    </li><li>public bool <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getChanged.html">getChanged</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setChanged.html">setChanged</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getTableName.html">getTableName</a>()
-                    </li></ul>
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/getId.html">getId</a>()
+                        </li><li>public $this <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/setId.html">setId</a>()
+                        </li><li>public bool <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/getChanged.html">getChanged</a>()
+                        </li><li>public $this <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/setChanged.html">setChanged</a>()
+                        </li><li>public abstract void <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/save.html">save</a>()
+                        </li><li>public abstract void <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/remove.html">remove</a>()
+                        </li></ul>
 
             }<br/></div>
         <h2 id="hierarchy">Hierarchy</h2>
         <div class="styled">
-          <h4>Implements</h4>
+          <h4>Extends</h4>
           <ul>
             <li>
-              <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">NextDom\Model\Entity\EntityInterface</a>
+              <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity.html">NextDom\Model\BaseEntity</a>
             </li>
           </ul>
         </div>
@@ -132,9 +132,9 @@
         <div class="styled members">
           <h4>protected</h4>
           <ul class="members">
-            <li id="_changed">
-              <strong>$_changed</strong>
-            </li>
+            <li id="_changed"><strong>$_changed</strong>
+                —
+                <a title="NextDom\Model\bool" href="../classes/NextDom_Model_bool.html">NextDom\Model\bool</a></li>
             <li id="enable"><strong>$enable</strong>
                 —
                 integer</li>
@@ -165,17 +165,11 @@
         <div class="styled">
           <h4>public</h4>
           <ul>
-            <li id="getChanged">
-              <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getChanged.html">getChanged()</a>
-            </li>
             <li id="getEnable">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getEnable.html">getEnable()</a>
             </li>
             <li id="getHash">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getHash.html">getHash()</a>
-            </li>
-            <li id="getId">
-              <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getId.html">getId()</a>
             </li>
             <li id="getLogin">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getLogin.html">getLogin()</a>
@@ -221,17 +215,11 @@
             <li id="save">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/save.html">save()</a>
             </li>
-            <li id="setChanged">
-              <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setChanged.html">setChanged()</a>
-            </li>
             <li id="setEnable">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setEnable.html">setEnable()</a>
             </li>
             <li id="setHash">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setHash.html">setHash()</a>
-            </li>
-            <li id="setId">
-              <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setId.html">setId()</a>
             </li>
             <li id="setLogin">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setLogin.html">setLogin()</a>
@@ -250,6 +238,26 @@
             </li>
             <li id="validateTwoFactorCode">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/validateTwoFactorCode.html">validateTwoFactorCode()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity.html">NextDom\Model\BaseEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getChanged"><a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/getChanged.html">getChanged()</a>
+                — Get changed state</li>
+            <li id="getId">
+              <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/getId.html">getId()</a>
+            </li>
+            <li id="remove">
+              <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/remove.html">remove()</a>
+            </li>
+            <li id="save">
+              <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/save.html">save()</a>
+            </li>
+            <li id="setChanged"><a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/setChanged.html">setChanged()</a>
+                — Set changed state</li>
+            <li id="setId">
+              <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/setId.html">setId()</a>
             </li>
           </ul>
         </div>
