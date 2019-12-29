@@ -53,16 +53,22 @@
             <a href="#synopsis">Synopsis</a>
           </li>
           <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
             <a href="#tasks">Tasks</a>
           </li>
           <li>
             <a href="#constants">Constants</a>
           </li>
           <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Managers/EqLogicManager.php.html#line46">Source</a>
+            <a href="../source/Managers/EqLogicManager.php.html#line47">Source</a>
           </li>
         </ul>
       </nav>
@@ -73,7 +79,9 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class EqLogicManager
-            {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = EqLogic::class;</li><li>const DB_CLASS_NAME = '`eqLogic`';</li></ul><ul class="none"><li>// methods</li><li>public static array|mixed <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byEqRealId.html">byEqRealId</a>()
+                extends <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager.html">CastedObjectManager</a>
+            {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = EqLogic::class;</li><li>const DB_CLASS_NAME = '`eqLogic`';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
+                        </li></ul><ul class="none"><li>// methods</li><li>public static array|mixed <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byEqRealId.html">byEqRealId</a>()
                     </li><li>public static array <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/cast.html">cast</a>()
                     </li><li>public static array <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byObjectId.html">byObjectId</a>()
                     </li><li>public static array <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byLogicalId.html">byLogicalId</a>()
@@ -87,7 +95,6 @@
                     </li><li>public static void <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/checkAlive.html">checkAlive</a>()
                     </li><li>public static array|mixed <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byTimeout.html">byTimeout</a>()
                     </li><li>public static array|mixed <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/toHumanReadable.html">toHumanReadable</a>()
-                    </li><li>public static EqLogic|null <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byId.html">byId</a>()
                     </li><li>public static void <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/clearCacheWidget.html">clearCacheWidget</a>()
                     </li><li>public static array <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/all.html">all</a>()
                     </li><li>public static array <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/generateHtmlTable.html">generateHtmlTable</a>()
@@ -95,9 +102,21 @@
                     </li><li>public static EqLogic|null <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byString.html">byString</a>()
                     </li><li>public static array|mixed <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/fromHumanReadable.html">fromHumanReadable</a>()
                     </li><li>public static array|mixed <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byObjectNameEqLogicName.html">byObjectNameEqLogicName</a>()
-                    </li></ul>
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\CastedObjectManager">CastedObjectManager</span></li><li>public static void <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager/byId.html">byId</a>()
+                        </li><li>public abstract static void <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager/cast.html">cast</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static void <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL</a>()
+                        </li></ul>
 
             }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div class="styled">
+          <h4>Extends</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager.html">NextDom\Managers\Parents\CastedObjectManager</a>
+            </li>
+          </ul>
+        </div>
         <h2 id="tasks">Tasks</h2>
         <table class="styled">
           <thead>
@@ -111,47 +130,47 @@
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">237+</td>
+            <td class="nummeric">236+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">259+</td>
+            <td class="nummeric">257+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">297+</td>
+            <td class="nummeric">291+</td>
             <td>: ??</td>
           </tr>
           <tr>
-            <td class="nummeric">337+</td>
+            <td class="nummeric">331+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">370+</td>
+            <td class="nummeric">364+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">432+</td>
+            <td class="nummeric">413+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">453+</td>
+            <td class="nummeric">433+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">517+</td>
+            <td class="nummeric">474+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">552+</td>
+            <td class="nummeric">509+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">637+</td>
+            <td class="nummeric">594+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">694+</td>
+            <td class="nummeric">651+</td>
             <td>: ???</td>
           </tr>
         </table>
@@ -172,8 +191,25 @@
               <td id="DB_CLASS_NAME">DB_CLASS_NAME</td>
               <td>'`eqLogic`'</td>
             </tr>
+            <tr>
+              <td id="CLASS_NAME">CLASS_NAME</td>
+              <td>''</td>
+            </tr>
+            <tr>
+              <td id="DB_CLASS_NAME">DB_CLASS_NAME</td>
+              <td>'``'</td>
+            </tr>
           </tbody>
         </table>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="baseSQL">
+              <strong>$baseSQL</strong>
+            </li>
+          </ul>
+        </div>
         <h2 id="methods">Methods</h2>
         <div class="styled">
           <h4>public</h4>
@@ -187,8 +223,6 @@
                 — Get eqLogics objets by category</li>
             <li id="byEqRealId"><a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byEqRealId.html">byEqRealId()</a>
                 — Get an EqLogic from his EqRealId No EqRealId usage founds</li>
-            <li id="byId"><a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byId.html">byId()</a>
-                — Get eqLogic object with his id.</li>
             <li id="byLogicalId"><a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byLogicalId.html">byLogicalId()</a>
                 — Get all eqLogics filtered by logicalId (defined by plugin</li>
             <li id="byObjectId"><a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byObjectId.html">byObjectId()</a>
@@ -234,6 +268,23 @@
             </li>
             <li id="toHumanReadable">
               <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/toHumanReadable.html">toHumanReadable()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager.html">NextDom\Managers\Parents\CastedObjectManager</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="byId">
+              <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager/byId.html">byId()</a>
+            </li>
+            <li id="cast">
+              <a title="NextDom\Managers\Parents\CastedObjectManager" href="../classes/NextDom_Managers_Parents_CastedObjectManager/cast.html">cast()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">NextDom\Managers\Parents\BaseManager</a></h3>
+          <h4>protected</h4>
+          <ul>
+            <li id="getBaseSQL">
+              <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL()</a>
             </li>
           </ul>
         </div>

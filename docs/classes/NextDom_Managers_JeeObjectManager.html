@@ -53,16 +53,22 @@
             <a href="#synopsis">Synopsis</a>
           </li>
           <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
             <a href="#tasks">Tasks</a>
           </li>
           <li>
             <a href="#constants">Constants</a>
           </li>
           <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Managers/JeeObjectManager.php.html#line53">Source</a>
+            <a href="../source/Managers/JeeObjectManager.php.html#line54">Source</a>
           </li>
         </ul>
       </nav>
@@ -73,7 +79,9 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class JeeObjectManager
-            {<br/><ul class="none"><li>// constants</li><li>const DB_CLASS_NAME = '`object`';</li><li>const CLASS_NAME = JeeObject::class;</li></ul><ul class="none"><li>// methods</li><li>public static JeeObject|null <a title="NextDom\Managers\JeeObjectManager" href="../classes/NextDom_Managers_JeeObjectManager/byName.html">byName</a>()
+                extends <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">SimpleManager</a>
+            {<br/><ul class="none"><li>// constants</li><li>const DB_CLASS_NAME = '`object`';</li><li>const CLASS_NAME = JeeObject::class;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
+                        </li></ul><ul class="none"><li>// methods</li><li>public static JeeObject|null <a title="NextDom\Managers\JeeObjectManager" href="../classes/NextDom_Managers_JeeObjectManager/byName.html">byName</a>()
                     </li><li>public static array <a title="NextDom\Managers\JeeObjectManager" href="../classes/NextDom_Managers_JeeObjectManager/buildTree.html">buildTree</a>()
                     </li><li>public static array|mixed|null <a title="NextDom\Managers\JeeObjectManager" href="../classes/NextDom_Managers_JeeObjectManager/getRootObjects.html">getRootObjects</a>()
                     </li><li>public static void <a title="NextDom\Managers\JeeObjectManager" href="../classes/NextDom_Managers_JeeObjectManager/getDefaultUserRoom.html">getDefaultUserRoom</a>()
@@ -86,9 +94,22 @@
                     </li><li>public static float|null|string <a title="NextDom\Managers\JeeObjectManager" href="../classes/NextDom_Managers_JeeObjectManager/getGlobalSummary.html">getGlobalSummary</a>()
                     </li><li>public static string <a title="NextDom\Managers\JeeObjectManager" href="../classes/NextDom_Managers_JeeObjectManager/getGlobalHtmlSummary.html">getGlobalHtmlSummary</a>()
                     </li><li>public static void <a title="NextDom\Managers\JeeObjectManager" href="../classes/NextDom_Managers_JeeObjectManager/createSummaryToVirtual.html">createSummaryToVirtual</a>()
-                    </li></ul>
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\SimpleManager">SimpleManager</span></li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId</a>()
+                        </li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll</a>()
+                        </li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static void <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL</a>()
+                        </li></ul>
 
             }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div class="styled">
+          <h4>Extends</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">NextDom\Managers\Parents\SimpleManager</a>
+            </li>
+          </ul>
+        </div>
         <h2 id="tasks">Tasks</h2>
         <table class="styled">
           <thead>
@@ -98,27 +119,27 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">174+</td>
+            <td class="nummeric">172+</td>
             <td>: ??? Data restrictions : - $restrict['object'][OBJECT_ID] : Skip objects -</td>
           </tr>
           <tr>
-            <td class="nummeric">231+</td>
+            <td class="nummeric">228+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">252+</td>
+            <td class="nummeric">249+</td>
             <td>???</td>
           </tr>
           <tr>
-            <td class="nummeric">362+</td>
+            <td class="nummeric">358+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">398+</td>
+            <td class="nummeric">394+</td>
             <td>???</td>
           </tr>
           <tr>
-            <td class="nummeric">456+</td>
+            <td class="nummeric">452+</td>
             <td>???</td>
           </tr>
         </table>
@@ -139,8 +160,25 @@
               <td id="CLASS_NAME">CLASS_NAME</td>
               <td>JeeObject::class</td>
             </tr>
+            <tr>
+              <td id="CLASS_NAME">CLASS_NAME</td>
+              <td>''</td>
+            </tr>
+            <tr>
+              <td id="DB_CLASS_NAME">DB_CLASS_NAME</td>
+              <td>'``'</td>
+            </tr>
           </tbody>
         </table>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="baseSQL">
+              <strong>$baseSQL</strong>
+            </li>
+          </ul>
+        </div>
         <h2 id="methods">Methods</h2>
         <div class="styled">
           <h4>public</h4>
@@ -178,6 +216,23 @@
                 — Get root objects.</li>
             <li id="searchConfiguration"><a title="NextDom\Managers\JeeObjectManager" href="../classes/NextDom_Managers_JeeObjectManager/searchConfiguration.html">searchConfiguration()</a>
                 — Search object configuration @TODO: ??</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">NextDom\Managers\Parents\SimpleManager</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="byId"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId()</a>
+                — Get one object by his id</li>
+            <li id="getAll"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll()</a>
+                — Get all objects</li>
+            <li id="getAllOrdered"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered()</a>
+                — Get all object sorted on column</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">NextDom\Managers\Parents\BaseManager</a></h3>
+          <h4>protected</h4>
+          <ul>
+            <li id="getBaseSQL">
+              <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL()</a>
+            </li>
           </ul>
         </div>
       </section>
