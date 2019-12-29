@@ -81,6 +81,8 @@
                         </li><li>protected  <a href="#members">$display</a>;
                         </li><li>protected  <a href="#members">$css</a>;
                         </li><li>protected  <a href="#members">$configuration</a>;
+                        </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
+                        </li><li>protected <span title="NextDom\Model\bool">bool</span> <a href="#members">$_changed</a>;
                         </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\Plan" href="../classes/NextDom_Model_Entity_Plan/preInsert.html">preInsert</a>()
                     </li><li>public PlanHeader <a title="NextDom\Model\Entity\Plan" href="../classes/NextDom_Model_Entity_Plan/getPlanHeader_id.html">getPlanHeader_id</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Plan" href="../classes/NextDom_Model_Entity_Plan/setPlanHeader_id.html">setPlanHeader_id</a>()
@@ -104,10 +106,18 @@
                         </li><li>public $this <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setLink_id.html">setLink_id</a>()
                         </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getCss.html">getCss</a>()
                         </li><li>public $this <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setCss.html">setCss</a>()
+                        </li><li>public void <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/save.html">save</a>()
+                        </li><li>public void <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/remove.html">remove</a>()
                         </li><li>public abstract void <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/preInsert.html">preInsert</a>()
                         </li><li>public abstract void <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/preSave.html">preSave</a>()
                         </li><li>public abstract void <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getHtml.html">getHtml</a>()
                         </li><li>public abstract void <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/getLink.html">getLink</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/getId.html">getId</a>()
+                        </li><li>public $this <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/setId.html">setId</a>()
+                        </li><li>public bool <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/getChanged.html">getChanged</a>()
+                        </li><li>public $this <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/setChanged.html">setChanged</a>()
+                        </li><li>public abstract void <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/save.html">save</a>()
+                        </li><li>public abstract void <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/remove.html">remove</a>()
                         </li></ul>
 
             }<br/></div>
@@ -124,6 +134,9 @@
         <div class="styled members">
           <h4>protected</h4>
           <ul class="members">
+            <li id="_changed"><strong>$_changed</strong>
+                —
+                <a title="NextDom\Model\bool" href="../classes/NextDom_Model_bool.html">NextDom\Model\bool</a></li>
             <li id="configuration"><strong>$configuration</strong>
                 —
                 string</li>
@@ -133,6 +146,9 @@
             <li id="display"><strong>$display</strong>
                 —
                 string</li>
+            <li id="id"><strong>$id</strong>
+                —
+                integer</li>
             <li id="link_id"><strong>$link_id</strong>
                 —
                 integer</li>
@@ -218,6 +234,12 @@
             <li id="preSave">
               <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/preSave.html">preSave()</a>
             </li>
+            <li id="remove">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/remove.html">remove()</a>
+            </li>
+            <li id="save">
+              <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/save.html">save()</a>
+            </li>
             <li id="setConfiguration">
               <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setConfiguration.html">setConfiguration()</a>
             </li>
@@ -235,6 +257,26 @@
             </li>
             <li id="setPosition">
               <a title="NextDom\Model\BasePlan" href="../classes/NextDom_Model_BasePlan/setPosition.html">setPosition()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity.html">NextDom\Model\BaseEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getChanged"><a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/getChanged.html">getChanged()</a>
+                — Get changed state</li>
+            <li id="getId">
+              <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/getId.html">getId()</a>
+            </li>
+            <li id="remove">
+              <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/remove.html">remove()</a>
+            </li>
+            <li id="save">
+              <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/save.html">save()</a>
+            </li>
+            <li id="setChanged"><a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/setChanged.html">setChanged()</a>
+                — Set changed state</li>
+            <li id="setId">
+              <a title="NextDom\Model\BaseEntity" href="../classes/NextDom_Model_BaseEntity/setId.html">setId()</a>
             </li>
           </ul>
         </div>
