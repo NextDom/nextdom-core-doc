@@ -68,7 +68,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/Cmd.php.html#line80">Source</a>
+            <a href="../source/Model/Entity/Cmd.php.html#line82">Source</a>
           </li>
         </ul>
       </nav>
@@ -99,6 +99,7 @@
                     </li><li>protected  <a href="#members">$template</a>;
                     </li><li>protected integer <a href="#members">$isHistorized</a> =
                         0;
+                    </li><li>protected  <a href="#members">$type</a>;
                     </li><li>protected  <a href="#members">$subType</a>;
                     </li><li>protected  <a href="#members">$unite</a>;
                     </li><li>protected  <a href="#members">$display</a>;
@@ -128,13 +129,13 @@
                     </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setConfiguration.html">setConfiguration</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/preExecCmd.html">preExecCmd</a>()
                     </li><li>public float|mixed|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/formatValue.html">formatValue</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getSubType.html">getSubType</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setSubType.html">setSubType</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/execute.html">execute</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/postExecCmd.html">postExecCmd</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getValue.html">getValue</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setValue.html">setValue</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/save.html">save</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getType.html">getType</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setType.html">setType</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqLogic_Id.html">getEqLogic_Id</a>()
                     </li><li>public EqLogic|null <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqLogicId.html">getEqLogicId</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEqLogic_id.html">setEqLogic_id</a>()
@@ -177,7 +178,6 @@
                     </li><li>public int <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEventOnly.html">getEventOnly</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEventOnly.html">setEventOnly</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/dontRemoveCmd.html">dontRemoveCmd</a>()
-                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/refresh.html">refresh</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/remove.html">remove</a>()
                     </li><li>public array|mixed|null <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/emptyHistory.html">emptyHistory</a>()
                     </li><li>public mixed|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/toHtml.html">toHtml</a>()
@@ -213,6 +213,11 @@
                         </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\SubTypeEntity">SubTypeEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\SubTypeEntity" href="../traits/NextDom_Model_Entity_Parents_SubTypeEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\SubTypeEntity" href="../traits/NextDom_Model_Entity_Parents_SubTypeEntity/getSubtype.html">getSubtype</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\SubTypeEntity" href="../traits/NextDom_Model_Entity_Parents_SubTypeEntity/setSubtype.html">setSubtype</a>()
+                        </li><li>public bool <a title="NextDom\Model\Entity\Parents\SubTypeEntity" href="../traits/NextDom_Model_Entity_Parents_SubTypeEntity/isSubType.html">isSubType</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\RefreshEntity">RefreshEntity</span></li><li>public void <a title="NextDom\Model\Entity\Parents\RefreshEntity" href="../traits/NextDom_Model_Entity_Parents_RefreshEntity/refresh.html">refresh</a>()
                         </li></ul>
 
             }<br/></div>
@@ -222,6 +227,15 @@
           <ul>
             <li>
               <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
+            </li>
+          </ul>
+          <h4>Uses</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\SubTypeEntity" href="../traits/NextDom_Model_Entity_Parents_SubTypeEntity.html">NextDom\Model\Entity\Parents\SubTypeEntity</a>
+            </li>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\RefreshEntity" href="../traits/NextDom_Model_Entity_Parents_RefreshEntity.html">NextDom\Model\Entity\Parents\RefreshEntity</a>
             </li>
           </ul>
         </div>
@@ -306,7 +320,13 @@
             <li id="subType"><strong>$subType</strong>
                 —
                 string</li>
+            <li id="subtype"><strong>$subtype</strong>
+                —
+                string</li>
             <li id="template"><strong>$template</strong>
+                —
+                string</li>
+            <li id="type"><strong>$type</strong>
                 —
                 string</li>
             <li id="unite"><strong>$unite</strong>
@@ -483,8 +503,6 @@
             <li id="getStatistique">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getStatistique.html">getStatistique()</a>
             </li>
-            <li id="getSubType"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getSubType.html">getSubType()</a>
-                — Get sub type of the command</li>
             <li id="getTemplate">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTemplate.html">getTemplate()</a>
             </li>
@@ -493,6 +511,9 @@
             </li>
             <li id="getTendance">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTendance.html">getTendance()</a>
+            </li>
+            <li id="getType">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getType.html">getType()</a>
             </li>
             <li id="getUnite">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getUnite.html">getUnite()</a>
@@ -528,9 +549,6 @@
                 — Execute before command execution</li>
             <li id="pushUrl">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/pushUrl.html">pushUrl()</a>
-            </li>
-            <li id="refresh">
-              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/refresh.html">refresh()</a>
             </li>
             <li id="remove">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/remove.html">remove()</a>
@@ -588,11 +606,11 @@
             <li id="setOrder">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setOrder.html">setOrder()</a>
             </li>
-            <li id="setSubType">
-              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setSubType.html">setSubType()</a>
-            </li>
             <li id="setTemplate">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setTemplate.html">setTemplate()</a>
+            </li>
+            <li id="setType">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setType.html">setType()</a>
             </li>
             <li id="setUnite">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setUnite.html">setUnite()</a>
@@ -636,6 +654,27 @@
                 — Set changed state</li>
             <li id="updateChangeState"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState()</a>
                 — Update change state if values are different</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\SubTypeEntity" href="../traits/NextDom_Model_Entity_Parents_SubTypeEntity.html">NextDom\Model\Entity\Parents\SubTypeEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getSubtype">
+              <a title="NextDom\Model\Entity\Parents\SubTypeEntity" href="../traits/NextDom_Model_Entity_Parents_SubTypeEntity/getSubtype.html">getSubtype()</a>
+            </li>
+            <li id="isSubType"><a title="NextDom\Model\Entity\Parents\SubTypeEntity" href="../traits/NextDom_Model_Entity_Parents_SubTypeEntity/isSubType.html">isSubType()</a>
+                — Test sub type of the command</li>
+            <li id="setSubtype">
+              <a title="NextDom\Model\Entity\Parents\SubTypeEntity" href="../traits/NextDom_Model_Entity_Parents_SubTypeEntity/setSubtype.html">setSubtype()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\SubTypeEntity" href="../traits/NextDom_Model_Entity_Parents_SubTypeEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\RefreshEntity" href="../traits/NextDom_Model_Entity_Parents_RefreshEntity.html">NextDom\Model\Entity\Parents\RefreshEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="refresh"><a title="NextDom\Model\Entity\Parents\RefreshEntity" href="../traits/NextDom_Model_Entity_Parents_RefreshEntity/refresh.html">refresh()</a>
+                — Rafraichit les informations à partir de la base de données</li>
           </ul>
         </div>
       </section>
