@@ -59,20 +59,31 @@
             <a href="#parameter">Parameter</a>
           </li>
           <li>
-            <a href="../../source/Managers/Parents/SimpleManager.php.html#line113">Source</a>
+            <a href="#return">Return</a>
+          </li>
+          <li>
+            <a href="#throws">Throws</a>
+          </li>
+          <li>
+            <a href="../../source/Managers/Parents/SimpleManager.php.html#line147">Source</a>
           </li>
         </ul>
       </nav>
       <section>
         <h1><small>NextDom\Managers\Parents\SimpleManager::</small>getWithClauses</h1>
-        <h4/>
+        <h4>Get one object filtered with clauses</h4>
         <p/>
+        <ul/>
         <h2 id="signature">Signature</h2>
         <div class="styled synopsis">
           <code>private function getWithClauses(array
         $clauses,
-            [boolean
-        $oneResult = false] )
+            bool
+        $onlyOneResult,
+            string
+        $orderColumn,
+            bool
+        $reverseOrder )
             </code>
         </div>
         <h2 id="parameterlist">Parameters</h2>
@@ -81,9 +92,38 @@
                 —
                 array</dt>
           <dd/>
-          <dt><code>$oneResult</code>
+          <dt><code>$onlyOneResult</code>
                 —
-                boolean</dt>
+                bool</dt>
+          <dd><br/><br/><br/>      </dd>
+          <dt><code>$orderColumn</code>
+                —
+                string</dt>
+          <dd/>
+          <dt><code>$reverseOrder</code>
+                —
+                bool</dt>
+          <dd><br/><br/><br/>      </dd>
+        </dl>
+        <h2 id="return">Returns</h2>
+        <dl class="styled">
+          <dt>mixed|null</dt>
+          <dd><br/>
+        </dd>
+        </dl>
+        <h2 id="throws">Errors/Exceptions</h2>
+        <dl class="styled">
+          <dt>
+            <code>
+              <a title="NextDom\Exceptions\CoreException" href="../../classes/NextDom_Exceptions_CoreException.html">CoreException</a>
+            </code>
+          </dt>
+          <dd/>
+          <dt>
+            <code>
+              <a title="\ReflectionException" href="../../classes/_ReflectionException.html">ReflectionException</a>
+            </code>
+          </dt>
           <dd/>
         </dl>
       </section>
