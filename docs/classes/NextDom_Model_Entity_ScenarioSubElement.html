@@ -62,7 +62,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/ScenarioSubElement.php.html#line31">Source</a>
+            <a href="../source/Model/Entity/ScenarioSubElement.php.html#line32">Source</a>
           </li>
         </ul>
       </nav>
@@ -73,19 +73,17 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class ScenarioSubElement
-                implements
-                <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">EntityInterface</a>
+                extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
             {<br/><ul class="none"><li>// members</li><li>protected  <a href="#members">$order</a>;
                     </li><li>protected  <a href="#members">$type</a>;
                     </li><li>protected  <a href="#members">$subtype</a>;
                     </li><li>protected  <a href="#members">$name</a>;
                     </li><li>protected  <a href="#members">$options</a>;
-                    </li><li>protected  <a href="#members">$id</a>;
                     </li><li>protected <span title="\NextDom\Model\Entity\ScenarioElement">ScenarioElement</span> <a href="#members">$scenarioElement_id</a>;
                     </li><li>protected  <a href="#members">$_expression</a>;
-                    </li><li>protected boolean <a href="#members">$_changed</a> =
-                        false;
-                    </li></ul><ul class="none"><li>// methods</li><li>public string <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getName.html">getName</a>()
+                    </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
+                        </li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
+                        </li></ul><ul class="none"><li>// methods</li><li>public string <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getName.html">getName</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/setName.html">setName</a>()
                     </li><li>public ScenarioElement <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getElement.html">getElement</a>()
                     </li><li>public ScenarioElement <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getScenarioElement_id.html">getScenarioElement_id</a>()
@@ -94,30 +92,32 @@
                     </li><li>public $this <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/setOptions.html">setOptions</a>()
                     </li><li>public int <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getOrder.html">getOrder</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/setOrder.html">setOrder</a>()
-                    </li><li>public bool <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getChanged.html">getChanged</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/setChanged.html">setChanged</a>()
                     </li><li>public bool|null <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/execute.html">execute</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getSubtype.html">getSubtype</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/setSubtype.html">setSubtype</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getType.html">getType</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/setType.html">setType</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getExpression.html">getExpression</a>()
-                    </li><li>public int <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getId.html">getId</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/setId.html">setId</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/remove.html">remove</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getAllId.html">getAllId</a>()
                     </li><li>public int <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/copy.html">copy</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/save.html">save</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getTableName.html">getTableName</a>()
-                    </li></ul>
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
+                        </li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getChanged.html">getChanged</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged</a>()
+                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save</a>()
+                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove</a>()
+                        </li></ul>
 
             }<br/></div>
         <h2 id="hierarchy">Hierarchy</h2>
         <div class="styled">
-          <h4>Implements</h4>
+          <h4>Extends</h4>
           <ul>
             <li>
-              <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">NextDom\Model\Entity\EntityInterface</a>
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
             </li>
           </ul>
         </div>
@@ -125,9 +125,9 @@
         <div class="styled members">
           <h4>protected</h4>
           <ul class="members">
-            <li id="_changed">
-              <strong>$_changed</strong>
-            </li>
+            <li id="_changed"><strong>$_changed</strong>
+                —
+                <a title="NextDom\Model\Entity\Parents\bool" href="../classes/NextDom_Model_Entity_Parents_bool.html">NextDom\Model\Entity\Parents\bool</a></li>
             <li id="_expression">
               <strong>$_expression</strong>
             </li>
@@ -167,17 +167,11 @@
             <li id="getAllId">
               <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getAllId.html">getAllId()</a>
             </li>
-            <li id="getChanged">
-              <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getChanged.html">getChanged()</a>
-            </li>
             <li id="getElement">
               <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getElement.html">getElement()</a>
             </li>
             <li id="getExpression">
               <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getExpression.html">getExpression()</a>
-            </li>
-            <li id="getId">
-              <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getId.html">getId()</a>
             </li>
             <li id="getName">
               <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/getName.html">getName()</a>
@@ -206,12 +200,6 @@
             <li id="save">
               <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/save.html">save()</a>
             </li>
-            <li id="setChanged">
-              <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/setChanged.html">setChanged()</a>
-            </li>
-            <li id="setId">
-              <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/setId.html">setId()</a>
-            </li>
             <li id="setName">
               <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/setName.html">setName()</a>
             </li>
@@ -229,6 +217,26 @@
             </li>
             <li id="setType">
               <a title="NextDom\Model\Entity\ScenarioSubElement" href="../classes/NextDom_Model_Entity_ScenarioSubElement/setType.html">setType()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getChanged"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getChanged.html">getChanged()</a>
+                — Get changed state</li>
+            <li id="getId">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId()</a>
+            </li>
+            <li id="remove">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove()</a>
+            </li>
+            <li id="save">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save()</a>
+            </li>
+            <li id="setChanged"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged()</a>
+                — Set changed state</li>
+            <li id="setId">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId()</a>
             </li>
           </ul>
         </div>
