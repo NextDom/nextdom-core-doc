@@ -24,6 +24,9 @@
         <li>
           <a href="../classes.html">Classes</a>
         </li>
+        <li>
+          <a href="../traits.html">Traits</a>
+        </li>
         <li class="separator">
           <a href="../source/index.html">Source</a>
         </li>
@@ -53,13 +56,19 @@
             <a href="#synopsis">Synopsis</a>
           </li>
           <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
             <a href="#constants">Constants</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
           </li>
           <li>
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Managers/UpdateManager.php.html#line52">Source</a>
+            <a href="../source/Managers/UpdateManager.php.html#line53">Source</a>
           </li>
         </ul>
       </nav>
@@ -70,7 +79,9 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class UpdateManager
-            {<br/><ul class="none"><li>// constants</li><li>const REPO_CLASS_PATH = '\\NextDom\\Repo\\';</li><li>const DB_CLASS_NAME = 'update';</li><li>const CLASS_NAME = Update::class;</li></ul><ul class="none"><li>// methods</li><li>public static void <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/checkAllUpdate.html">checkAllUpdate</a>()
+                extends <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">SimpleManager</a>
+            {<br/><ul class="none"><li>// constants</li><li>const REPO_CLASS_PATH = '\\NextDom\\Repo\\';</li><li>const DB_CLASS_NAME = '`update`';</li><li>const CLASS_NAME = Update::class;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
+                        </li></ul><ul class="none"><li>// methods</li><li>public static void <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/checkAllUpdate.html">checkAllUpdate</a>()
                     </li><li>public static void <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/findNewUpdateObject.html">findNewUpdateObject</a>()
                     </li><li>public static Update|null <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byTypeAndLogicalId.html">byTypeAndLogicalId</a>()
                     </li><li>public static array <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byType.html">byType</a>()
@@ -79,14 +90,28 @@
                     </li><li>public static array <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/listRepo.html">listRepo</a>()
                     </li><li>public static array <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/repoById.html">repoById</a>()
                     </li><li>public static bool <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/updateAll.html">updateAll</a>()
-                    </li><li>public static Update|null <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byId.html">byId</a>()
                     </li><li>public static array <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byStatus.html">byStatus</a>()
                     </li><li>public static array <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byLogicalId.html">byLogicalId</a>()
                     </li><li>public static int <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/nbNeedUpdate.html">nbNeedUpdate</a>()
                     </li><li>public static array <a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/listCoreUpdate.html">listCoreUpdate</a>()
-                    </li></ul>
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\SimpleManager">SimpleManager</span></li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId</a>()
+                        </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll</a>()
+                        </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered</a>()
+                        </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getOneByClauses.html">getOneByClauses</a>()
+                        </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getMultipleByClauses.html">getMultipleByClauses</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static string <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL</a>()
+                        </li></ul>
 
             }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div class="styled">
+          <h4>Extends</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">NextDom\Managers\Parents\SimpleManager</a>
+            </li>
+          </ul>
+        </div>
         <h2 id="constants">Constants</h2>
         <table class="styled">
           <thead>
@@ -102,22 +127,37 @@
             </tr>
             <tr>
               <td id="DB_CLASS_NAME">DB_CLASS_NAME</td>
-              <td>'update'</td>
+              <td>'`update`'</td>
             </tr>
             <tr>
               <td id="CLASS_NAME">CLASS_NAME</td>
               <td>Update::class</td>
             </tr>
+            <tr>
+              <td id="CLASS_NAME">CLASS_NAME</td>
+              <td>''</td>
+            </tr>
+            <tr>
+              <td id="DB_CLASS_NAME">DB_CLASS_NAME</td>
+              <td>'``'</td>
+            </tr>
           </tbody>
         </table>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="baseSQL"><strong>$baseSQL</strong>
+                —
+                array</li>
+          </ul>
+        </div>
         <h2 id="methods">Methods</h2>
         <div class="styled">
           <h4>public</h4>
           <ul>
             <li id="all"><a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/all.html">all()</a>
                 — Get all the updates.</li>
-            <li id="byId"><a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byId.html">byId()</a>
-                — Get update by his id</li>
             <li id="byLogicalId"><a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byLogicalId.html">byLogicalId()</a>
                 — Get the bets from its logical identifier</li>
             <li id="byStatus"><a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/byStatus.html">byStatus()</a>
@@ -142,6 +182,29 @@
                 — Get a repo by its identifier</li>
             <li id="updateAll"><a title="NextDom\Managers\UpdateManager" href="../classes/NextDom_Managers_UpdateManager/updateAll.html">updateAll()</a>
                 — Update all items</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">NextDom\Managers\Parents\SimpleManager</a></h3>
+          <h4>protected</h4>
+          <ul>
+            <li id="getAll"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll()</a>
+                — Get all objects</li>
+            <li id="getAllOrdered"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered()</a>
+                — Get all object sorted on column</li>
+            <li id="getMultipleByClauses"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getMultipleByClauses.html">getMultipleByClauses()</a>
+                — Get one multiple filtered with clauses</li>
+            <li id="getOneByClauses"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getOneByClauses.html">getOneByClauses()</a>
+                — Get one object filtered with clauses</li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="byId"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId()</a>
+                — Get one object by his id</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">NextDom\Managers\Parents\BaseManager</a></h3>
+          <h4>protected</h4>
+          <ul>
+            <li id="getBaseSQL"><a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL()</a>
+                — Get base of Select SQL</li>
           </ul>
         </div>
       </section>

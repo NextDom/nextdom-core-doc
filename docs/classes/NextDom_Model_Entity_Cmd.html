@@ -24,6 +24,9 @@
         <li>
           <a href="../classes.html">Classes</a>
         </li>
+        <li>
+          <a href="../traits.html">Traits</a>
+        </li>
         <li class="separator">
           <a href="../source/index.html">Source</a>
         </li>
@@ -56,13 +59,16 @@
             <a href="#hierarchy">Hierarchy</a>
           </li>
           <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
             <a href="#members">Members</a>
           </li>
           <li>
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/Cmd.php.html#line80">Source</a>
+            <a href="../source/Model/Entity/Cmd.php.html#line82">Source</a>
           </li>
         </ul>
       </nav>
@@ -73,9 +79,8 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class Cmd
-                implements
-                <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">EntityInterface</a>
-            {<br/><ul class="none"><li>// members</li><li>private static array <a href="#members">$_templateArray</a> =
+                extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
+            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::CMD;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>private static array <a href="#members">$_templateArray</a> =
                         ;
                     </li><li>public string <a href="#members">$_collectDate</a> =
                         '';
@@ -85,8 +90,6 @@
                         NULL;
                     </li><li>public  <a href="#members">$_needRefreshWidget</a>;
                     </li><li>public  <a href="#members">$_needRefreshAlert</a>;
-                    </li><li>protected boolean <a href="#members">$_changed</a> =
-                        false;
                     </li><li>protected  <a href="#members">$eqType</a>;
                     </li><li>protected  <a href="#members">$logicalId</a>;
                     </li><li>protected  <a href="#members">$generic_type</a>;
@@ -106,16 +109,16 @@
                         NULL;
                     </li><li>protected  <a href="#members">$html</a>;
                     </li><li>protected  <a href="#members">$alert</a>;
-                    </li><li>protected  <a href="#members">$id</a>;
                     </li><li>protected <span title="NextDom\Model\Entity\EqLogic">EqLogic</span> <a href="#members">$eqLogic_id</a>;
-                    </li></ul><ul class="none"><li>// methods</li><li>public static void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/duringAlertLevel.html">duringAlertLevel</a>()
+                    </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
+                        </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected  <a href="#members">$id</a>;
+                        </li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
+                        </li></ul><ul class="none"><li>// methods</li><li>public static void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/duringAlertLevel.html">duringAlertLevel</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/isType.html">isType</a>()
                     </li><li>public EqLogic <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEqLogic.html">getEqLogic</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEqLogic.html">setEqLogic</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/execCmd.html">execCmd</a>()
                     </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getCache.html">getCache</a>()
-                    </li><li>public int <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getId.html">getId</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setId.html">setId</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getCollectDate.html">getCollectDate</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setCollectDate.html">setCollectDate</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getHumanName.html">getHumanName</a>()
@@ -126,8 +129,6 @@
                     </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setConfiguration.html">setConfiguration</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/preExecCmd.html">preExecCmd</a>()
                     </li><li>public float|mixed|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/formatValue.html">formatValue</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getSubType.html">getSubType</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setSubType.html">setSubType</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/execute.html">execute</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/postExecCmd.html">postExecCmd</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getValue.html">getValue</a>()
@@ -177,8 +178,6 @@
                     </li><li>public int <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEventOnly.html">getEventOnly</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEventOnly.html">setEventOnly</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/dontRemoveCmd.html">dontRemoveCmd</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTableName.html">getTableName</a>()
-                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/refresh.html">refresh</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/remove.html">remove</a>()
                     </li><li>public array|mixed|null <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/emptyHistory.html">emptyHistory</a>()
                     </li><li>public mixed|string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/toHtml.html">toHtml</a>()
@@ -204,22 +203,60 @@
                     </li><li>public array <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getUsedBy.html">getUsedBy</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getUse.html">getUse</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/hasRight.html">hasRight</a>()
-                    </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getChanged.html">getChanged</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setChanged.html">setChanged</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/castFromCmd.html">castFromCmd</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getSubType.html">getSubType</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setSubType.html">setSubType</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getAllAttributes.html">getAllAttributes</a>()
-                    </li></ul>
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getChanged.html">getChanged</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/setChanged.html">setChanged</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\RefreshEntity">RefreshEntity</span></li><li>public void <a title="NextDom\Model\Entity\Parents\RefreshEntity" href="../traits/NextDom_Model_Entity_Parents_RefreshEntity/refresh.html">refresh</a>()
+                        </li></ul>
 
             }<br/></div>
         <h2 id="hierarchy">Hierarchy</h2>
         <div class="styled">
-          <h4>Implements</h4>
+          <h4>Extends</h4>
           <ul>
             <li>
-              <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">NextDom\Model\Entity\EntityInterface</a>
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
+            </li>
+          </ul>
+          <h4>Uses</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\RefreshEntity" href="../traits/NextDom_Model_Entity_Parents_RefreshEntity.html">NextDom\Model\Entity\Parents\RefreshEntity</a>
             </li>
           </ul>
         </div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>NextDomObj::CMD</td>
+            </tr>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>''</td>
+            </tr>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>''</td>
+            </tr>
+          </tbody>
+        </table>
         <h2 id="members">Members</h2>
         <div class="styled members">
           <h4>private</h4>
@@ -230,9 +267,9 @@
           </ul>
           <h4>protected</h4>
           <ul class="members">
-            <li id="_changed">
-              <strong>$_changed</strong>
-            </li>
+            <li id="_changed"><strong>$_changed</strong>
+                —
+                <a title="NextDom\Model\Entity\Parents\bool" href="../classes/NextDom_Model_Entity_Parents_bool.html">NextDom\Model\Entity\Parents\bool</a></li>
             <li id="alert"><strong>$alert</strong>
                 —
                 string</li>
@@ -254,6 +291,9 @@
             <li id="html"><strong>$html</strong>
                 —
                 string</li>
+            <li id="id"><strong>$id</strong>
+                —
+                integer</li>
             <li id="id"><strong>$id</strong>
                 —
                 integer</li>
@@ -383,8 +423,6 @@
             <li id="getCache">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getCache.html">getCache()</a>
             </li>
-            <li id="getChanged"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getChanged.html">getChanged()</a>
-                — Get changed state</li>
             <li id="getCmdValue">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getCmdValue.html">getCmdValue()</a>
             </li>
@@ -430,9 +468,6 @@
             <li id="getHumanName">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getHumanName.html">getHumanName()</a>
             </li>
-            <li id="getId">
-              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getId.html">getId()</a>
-            </li>
             <li id="getIsHistorized">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getIsHistorized.html">getIsHistorized()</a>
             </li>
@@ -460,10 +495,8 @@
             <li id="getStatistique">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getStatistique.html">getStatistique()</a>
             </li>
-            <li id="getSubType"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getSubType.html">getSubType()</a>
-                — Get sub type of the command</li>
-            <li id="getTableName">
-              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTableName.html">getTableName()</a>
+            <li id="getSubType">
+              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getSubType.html">getSubType()</a>
             </li>
             <li id="getTemplate">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTemplate.html">getTemplate()</a>
@@ -512,9 +545,6 @@
             <li id="pushUrl">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/pushUrl.html">pushUrl()</a>
             </li>
-            <li id="refresh">
-              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/refresh.html">refresh()</a>
-            </li>
             <li id="remove">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/remove.html">remove()</a>
             </li>
@@ -527,8 +557,6 @@
             <li id="setCache">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setCache.html">setCache()</a>
             </li>
-            <li id="setChanged"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setChanged.html">setChanged()</a>
-                — Set changed state</li>
             <li id="setCollectDate">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setCollectDate.html">setCollectDate()</a>
             </li>
@@ -557,9 +585,6 @@
             </li>
             <li id="setHtml">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setHtml.html">setHtml()</a>
-            </li>
-            <li id="setId">
-              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setId.html">setId()</a>
             </li>
             <li id="setIsHistorized">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setIsHistorized.html">setIsHistorized()</a>
@@ -600,6 +625,39 @@
             <li id="widgetPossibility">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/widgetPossibility.html">widgetPossibility()</a>
             </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getId">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId()</a>
+            </li>
+            <li id="setId">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">NextDom\Model\Entity\Parents\BaseModel</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getChanged"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getChanged.html">getChanged()</a>
+                — Get changed state</li>
+            <li id="getTableName">
+              <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName()</a>
+            </li>
+            <li id="remove"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove()</a>
+                — Remove the entity from the database</li>
+            <li id="save"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save()</a>
+                — Save the entity in the database</li>
+            <li id="setChanged"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/setChanged.html">setChanged()</a>
+                — Set changed state</li>
+            <li id="updateChangeState"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState()</a>
+                — Update change state if values are different</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\RefreshEntity" href="../traits/NextDom_Model_Entity_Parents_RefreshEntity.html">NextDom\Model\Entity\Parents\RefreshEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="refresh"><a title="NextDom\Model\Entity\Parents\RefreshEntity" href="../traits/NextDom_Model_Entity_Parents_RefreshEntity/refresh.html">refresh()</a>
+                — Rafraichit les informations à partir de la base de données</li>
           </ul>
         </div>
       </section>
