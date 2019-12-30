@@ -56,13 +56,16 @@
             <a href="#hierarchy">Hierarchy</a>
           </li>
           <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
             <a href="#members">Members</a>
           </li>
           <li>
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/DataStore.php.html#line38">Source</a>
+            <a href="../source/Model/Entity/DataStore.php.html#line39">Source</a>
           </li>
         </ul>
       </nav>
@@ -74,7 +77,7 @@
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class DataStore
                 extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
-            {<br/><ul class="none"><li>// members</li><li>protected  <a href="#members">$type</a>;
+            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::DATASTORE;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected  <a href="#members">$type</a>;
                     </li><li>protected  <a href="#members">$link_id</a>;
                     </li><li>protected  <a href="#members">$key</a>;
                     </li><li>protected  <a href="#members">$value</a>;
@@ -87,20 +90,18 @@
                     </li><li>public $this <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/setLink_id.html">setLink_id</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/getKey.html">getKey</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/setKey.html">setKey</a>()
-                    </li><li>public bool <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/save.html">save</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/postSave.html">postSave</a>()
-                    </li><li>public void <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/remove.html">remove</a>()
                     </li><li>public array|null <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/getLinkData.html">getLinkData</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/getUsedBy.html">getUsedBy</a>()
                     </li><li>public bool|mixed|null|string <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/getValue.html">getValue</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/setValue.html">setValue</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/getTableName.html">getTableName</a>()
                     </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
                         </li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getChanged.html">getChanged</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged</a>()
-                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save</a>()
-                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getTableName.html">getTableName</a>()
                         </li></ul>
 
             }<br/></div>
@@ -113,6 +114,25 @@
             </li>
           </ul>
         </div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>NextDomObj::DATASTORE</td>
+            </tr>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>''</td>
+            </tr>
+          </tbody>
+        </table>
         <h2 id="members">Members</h2>
         <div class="styled members">
           <h4>protected</h4>
@@ -150,9 +170,6 @@
             <li id="getLink_id">
               <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/getLink_id.html">getLink_id()</a>
             </li>
-            <li id="getTableName">
-              <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/getTableName.html">getTableName()</a>
-            </li>
             <li id="getType">
               <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/getType.html">getType()</a>
             </li>
@@ -167,12 +184,6 @@
             </li>
             <li id="preSave">
               <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/preSave.html">preSave()</a>
-            </li>
-            <li id="remove">
-              <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/remove.html">remove()</a>
-            </li>
-            <li id="save">
-              <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/save.html">save()</a>
             </li>
             <li id="setKey">
               <a title="NextDom\Model\Entity\DataStore" href="../classes/NextDom_Model_Entity_DataStore/setKey.html">setKey()</a>
@@ -195,12 +206,13 @@
             <li id="getId">
               <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId()</a>
             </li>
-            <li id="remove">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove()</a>
+            <li id="getTableName">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getTableName.html">getTableName()</a>
             </li>
-            <li id="save">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save()</a>
-            </li>
+            <li id="remove"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove()</a>
+                — Remove the entity from the database</li>
+            <li id="save"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save()</a>
+                — Save the entity in the database</li>
             <li id="setChanged"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged()</a>
                 — Set changed state</li>
             <li id="setId">

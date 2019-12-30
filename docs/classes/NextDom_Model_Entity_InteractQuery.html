@@ -56,13 +56,16 @@
             <a href="#hierarchy">Hierarchy</a>
           </li>
           <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
             <a href="#members">Members</a>
           </li>
           <li>
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/InteractQuery.php.html#line39">Source</a>
+            <a href="../source/Model/Entity/InteractQuery.php.html#line40">Source</a>
           </li>
         </ul>
       </nav>
@@ -74,7 +77,7 @@
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class InteractQuery
                 extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
-            {<br/><ul class="none"><li>// members</li><li>protected  <a href="#members">$interactDef_id</a>;
+            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::INTERACT_QUERY;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected  <a href="#members">$interactDef_id</a>;
                     </li><li>protected  <a href="#members">$query</a>;
                     </li><li>protected  <a href="#members">$actions</a>;
                     </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
@@ -84,19 +87,18 @@
                     </li><li>public $this <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/setQuery.html">setQuery</a>()
                     </li><li>public int <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/getInteractDef_id.html">getInteractDef_id</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/setInteractDef_id.html">setInteractDef_id</a>()
-                    </li><li>public bool <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/remove.html">remove</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/executeAndReply.html">executeAndReply</a>()
                     </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/getActions.html">getActions</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/setActions.html">setActions</a>()
                     </li><li>public InteractDef <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/getInteractDef.html">getInteractDef</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/replaceForContextual.html">replaceForContextual</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/getTableName.html">getTableName</a>()
                     </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
                         </li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getChanged.html">getChanged</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged</a>()
-                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save</a>()
-                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getTableName.html">getTableName</a>()
                         </li></ul>
 
             }<br/></div>
@@ -109,6 +111,25 @@
             </li>
           </ul>
         </div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>NextDomObj::INTERACT_QUERY</td>
+            </tr>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>''</td>
+            </tr>
+          </tbody>
+        </table>
         <h2 id="members">Members</h2>
         <div class="styled members">
           <h4>protected</h4>
@@ -149,12 +170,6 @@
             <li id="getQuery">
               <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/getQuery.html">getQuery()</a>
             </li>
-            <li id="getTableName">
-              <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/getTableName.html">getTableName()</a>
-            </li>
-            <li id="remove">
-              <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/remove.html">remove()</a>
-            </li>
             <li id="replaceForContextual">
               <a title="NextDom\Model\Entity\InteractQuery" href="../classes/NextDom_Model_Entity_InteractQuery/replaceForContextual.html">replaceForContextual()</a>
             </li>
@@ -179,12 +194,13 @@
             <li id="getId">
               <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId()</a>
             </li>
-            <li id="remove">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove()</a>
+            <li id="getTableName">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getTableName.html">getTableName()</a>
             </li>
-            <li id="save">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save()</a>
-            </li>
+            <li id="remove"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove()</a>
+                — Remove the entity from the database</li>
+            <li id="save"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save()</a>
+                — Save the entity in the database</li>
             <li id="setChanged"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged()</a>
                 — Set changed state</li>
             <li id="setId">

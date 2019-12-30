@@ -80,7 +80,7 @@
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class EqLogic
                 extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
-            {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = EqLogic::class;</li><li>const DB_CLASS_NAME = '`eqLogic`';</li><li>const UIDDELIMITER = '__';</li></ul><ul class="none"><li>// members</li><li>private static array <a href="#members">$_templateArray</a> =
+            {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = EqLogic::class;</li><li>const DB_CLASS_NAME = '`eqLogic`';</li><li>const TABLE_NAME = NextDomObj::EQLOGIC;</li><li>const UIDDELIMITER = '__';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>private static array <a href="#members">$_templateArray</a> =
                         ;
                     </li><li>protected boolean <a href="#members">$_debug</a> =
                         false;
@@ -188,13 +188,13 @@
                     </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/toArray.html">toArray</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/castFromEqLogic.html">castFromEqLogic</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getAllAttributes.html">getAllAttributes</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTableName.html">getTableName</a>()
                     </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
                         </li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getChanged.html">getChanged</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged</a>()
-                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save</a>()
-                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getTableName.html">getTableName</a>()
                         </li></ul>
 
             }<br/></div>
@@ -216,15 +216,15 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">283+</td>
+            <td class="nummeric">284+</td>
             <td>: Unused</td>
           </tr>
           <tr>
-            <td class="nummeric">296+</td>
+            <td class="nummeric">297+</td>
             <td>: Unused</td>
           </tr>
           <tr>
-            <td class="nummeric">1592+</td>
+            <td class="nummeric">1593+</td>
             <td>: ???</td>
           </tr>
         </table>
@@ -246,8 +246,16 @@
               <td>'`eqLogic`'</td>
             </tr>
             <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>NextDomObj::EQLOGIC</td>
+            </tr>
+            <tr>
               <td id="UIDDELIMITER">UIDDELIMITER</td>
               <td>'__'</td>
+            </tr>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>''</td>
             </tr>
           </tbody>
         </table>
@@ -414,8 +422,6 @@
             </li>
             <li id="getStatus"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getStatus.html">getStatus()</a>
                 — Get status from cache</li>
-            <li id="getTableName"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTableName.html">getTableName()</a>
-                — Get the name of the SQL table where data is stored.</li>
             <li id="getTags"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTags.html">getTags()</a>
                 — Get list of eqLogic tags</li>
             <li id="getTimeout"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTimeout.html">getTimeout()</a>
@@ -504,12 +510,13 @@
             <li id="getId">
               <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId()</a>
             </li>
-            <li id="remove">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove()</a>
+            <li id="getTableName">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getTableName.html">getTableName()</a>
             </li>
-            <li id="save">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save()</a>
-            </li>
+            <li id="remove"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove()</a>
+                — Remove the entity from the database</li>
+            <li id="save"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save()</a>
+                — Save the entity in the database</li>
             <li id="setChanged"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged()</a>
                 — Set changed state</li>
             <li id="setId">

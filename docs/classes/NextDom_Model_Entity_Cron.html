@@ -56,13 +56,16 @@
             <a href="#hierarchy">Hierarchy</a>
           </li>
           <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
             <a href="#members">Members</a>
           </li>
           <li>
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/Cron.php.html#line39">Source</a>
+            <a href="../source/Model/Entity/Cron.php.html#line40">Source</a>
           </li>
         </ul>
       </nav>
@@ -74,7 +77,7 @@
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class Cron
                 extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
-            {<br/><ul class="none"><li>// members</li><li>protected integer <a href="#members">$enable</a> =
+            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::CRON;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected integer <a href="#members">$enable</a> =
                         1;
                     </li><li>protected string <a href="#members">$class</a> =
                         '';
@@ -101,7 +104,6 @@
                     </li><li>public $this <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setDeamonSleepTime.html">setDeamonSleepTime</a>()
                     </li><li>public int <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getOnce.html">getOnce</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setOnce.html">setOnce</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getTableName.html">getTableName</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/preSave.html">preSave</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getFunction.html">getFunction</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/setFunction.html">setFunction</a>()
@@ -136,8 +138,9 @@
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
                         </li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getChanged.html">getChanged</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged</a>()
-                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save</a>()
-                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getTableName.html">getTableName</a>()
                         </li></ul>
 
             }<br/></div>
@@ -150,6 +153,25 @@
             </li>
           </ul>
         </div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>NextDomObj::CRON</td>
+            </tr>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>''</td>
+            </tr>
+          </tbody>
+        </table>
         <h2 id="members">Members</h2>
         <div class="styled members">
           <h4>protected</h4>
@@ -228,8 +250,6 @@
             </li>
             <li id="getState"><a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getState.html">getState()</a>
                 — Get current state</li>
-            <li id="getTableName"><a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getTableName.html">getTableName()</a>
-                — Get the name of the SQL table where data is stored.</li>
             <li id="getTimeout"><a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/getTimeout.html">getTimeout()</a>
                 — Get timeout of the task If timeout is not configured, return default value from</li>
             <li id="halt"><a title="NextDom\Model\Entity\Cron" href="../classes/NextDom_Model_Entity_Cron/halt.html">halt()</a>
@@ -301,12 +321,13 @@
             <li id="getId">
               <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId()</a>
             </li>
-            <li id="remove">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove()</a>
+            <li id="getTableName">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getTableName.html">getTableName()</a>
             </li>
-            <li id="save">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save()</a>
-            </li>
+            <li id="remove"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove()</a>
+                — Remove the entity from the database</li>
+            <li id="save"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save()</a>
+                — Save the entity in the database</li>
             <li id="setChanged"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged()</a>
                 — Set changed state</li>
             <li id="setId">

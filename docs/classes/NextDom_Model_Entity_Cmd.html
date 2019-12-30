@@ -56,6 +56,9 @@
             <a href="#hierarchy">Hierarchy</a>
           </li>
           <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
             <a href="#members">Members</a>
           </li>
           <li>
@@ -74,7 +77,7 @@
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class Cmd
                 extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
-            {<br/><ul class="none"><li>// members</li><li>private static array <a href="#members">$_templateArray</a> =
+            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::CMD;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>private static array <a href="#members">$_templateArray</a> =
                         ;
                     </li><li>public string <a href="#members">$_collectDate</a> =
                         '';
@@ -173,7 +176,6 @@
                     </li><li>public int <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getEventOnly.html">getEventOnly</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/setEventOnly.html">setEventOnly</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/dontRemoveCmd.html">dontRemoveCmd</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTableName.html">getTableName</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/refresh.html">refresh</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/remove.html">remove</a>()
                     </li><li>public array|mixed|null <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/emptyHistory.html">emptyHistory</a>()
@@ -206,8 +208,9 @@
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
                         </li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getChanged.html">getChanged</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged</a>()
-                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save</a>()
-                        </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getTableName.html">getTableName</a>()
                         </li></ul>
 
             }<br/></div>
@@ -220,6 +223,25 @@
             </li>
           </ul>
         </div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>NextDomObj::CMD</td>
+            </tr>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>''</td>
+            </tr>
+          </tbody>
+        </table>
         <h2 id="members">Members</h2>
         <div class="styled members">
           <h4>private</h4>
@@ -457,9 +479,6 @@
             </li>
             <li id="getSubType"><a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getSubType.html">getSubType()</a>
                 — Get sub type of the command</li>
-            <li id="getTableName">
-              <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTableName.html">getTableName()</a>
-            </li>
             <li id="getTemplate">
               <a title="NextDom\Model\Entity\Cmd" href="../classes/NextDom_Model_Entity_Cmd/getTemplate.html">getTemplate()</a>
             </li>
@@ -599,12 +618,13 @@
             <li id="getId">
               <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId()</a>
             </li>
-            <li id="remove">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove()</a>
+            <li id="getTableName">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getTableName.html">getTableName()</a>
             </li>
-            <li id="save">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save()</a>
-            </li>
+            <li id="remove"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/remove.html">remove()</a>
+                — Remove the entity from the database</li>
+            <li id="save"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/save.html">save()</a>
+                — Save the entity in the database</li>
             <li id="setChanged"><a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setChanged.html">setChanged()</a>
                 — Set changed state</li>
             <li id="setId">
