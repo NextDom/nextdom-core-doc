@@ -68,7 +68,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/PlanHeader.php.html#line38">Source</a>
+            <a href="../source/Model/Entity/PlanHeader.php.html#line39">Source</a>
           </li>
         </ul>
       </nav>
@@ -81,17 +81,14 @@
         <div class="synopsis">class PlanHeader
                 extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
             {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::PLAN_HEADER;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected  <a href="#members">$image</a>;
-                    </li><li>protected  <a href="#members">$configuration</a>;
                     </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
-                        </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected  <a href="#members">$id</a>;
-                        </li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
+                        </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
                         </li></ul><ul class="none"><li>// methods</li><li>public string <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/report.html">report</a>()
                     </li><li>public PlanHeader <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/copy.html">copy</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/getPlan.html">getPlan</a>()
                     </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/getImage.html">getImage</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/setImage.html">setImage</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/preSave.html">preSave</a>()
-                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/getConfiguration.html">getConfiguration</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/setConfiguration.html">setConfiguration</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/remove.html">remove</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/displayImage.html">displayImage</a>()
@@ -107,6 +104,10 @@
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\NameEntity">NameEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState</a>()
                         </li><li>public string <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\ConfigurationEntity">ConfigurationEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">basicSetConfiguration</a>()
                         </li></ul>
 
             }<br/></div>
@@ -122,6 +123,9 @@
           <ul>
             <li>
               <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a>
+            </li>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a>
             </li>
           </ul>
         </div>
@@ -161,9 +165,6 @@
             <li id="id"><strong>$id</strong>
                 —
                 integer</li>
-            <li id="id"><strong>$id</strong>
-                —
-                integer</li>
             <li id="image"><strong>$image</strong>
                 —
                 string</li>
@@ -181,9 +182,6 @@
             </li>
             <li id="displayImage">
               <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/displayImage.html">displayImage()</a>
-            </li>
-            <li id="getConfiguration">
-              <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/getConfiguration.html">getConfiguration()</a>
             </li>
             <li id="getImage">
               <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/getImage.html">getImage()</a>
@@ -248,6 +246,22 @@
             </li>
             <li id="updateChangeState">
               <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="basicSetConfiguration">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">basicSetConfiguration()</a>
+            </li>
+            <li id="getConfiguration">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration()</a>
+            </li>
+            <li id="setConfiguration">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState()</a>
             </li>
           </ul>
         </div>
