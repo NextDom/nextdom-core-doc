@@ -85,7 +85,6 @@
                         </li><li>protected  <a href="#members">$link_id</a>;
                         </li><li>protected  <a href="#members">$position</a>;
                         </li><li>protected  <a href="#members">$css</a>;
-                        </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseUiEntity">BaseUiEntity</span></li><li>protected  <a href="#members">$display</a>;
                         </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
                         </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected  <a href="#members">$id</a>;
                         </li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
@@ -111,8 +110,6 @@
                         </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BasePlan" href="../classes/NextDom_Model_Entity_Parents_BasePlan/preSave.html">preSave</a>()
                         </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BasePlan" href="../classes/NextDom_Model_Entity_Parents_BasePlan/getHtml.html">getHtml</a>()
                         </li><li>public abstract void <a title="NextDom\Model\Entity\Parents\BasePlan" href="../classes/NextDom_Model_Entity_Parents_BasePlan/getLink.html">getLink</a>()
-                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseUiEntity">BaseUiEntity</span></li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\BaseUiEntity" href="../classes/NextDom_Model_Entity_Parents_BaseUiEntity/getDisplay.html">getDisplay</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseUiEntity" href="../classes/NextDom_Model_Entity_Parents_BaseUiEntity/setDisplay.html">setDisplay</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getChanged.html">getChanged</a>()
@@ -124,6 +121,9 @@
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\ConfigurationEntity">ConfigurationEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState</a>()
                         </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\DisplayEntity">DisplayEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public mixed <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/getDisplay.html">getDisplay</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/setDisplay.html">setDisplay</a>()
                         </li></ul>
 
             }<br/></div>
@@ -270,16 +270,6 @@
               <a title="NextDom\Model\Entity\Parents\BasePlan" href="../classes/NextDom_Model_Entity_Parents_BasePlan/setPosition.html">setPosition()</a>
             </li>
           </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseUiEntity" href="../classes/NextDom_Model_Entity_Parents_BaseUiEntity.html">NextDom\Model\Entity\Parents\BaseUiEntity</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="getDisplay">
-              <a title="NextDom\Model\Entity\Parents\BaseUiEntity" href="../classes/NextDom_Model_Entity_Parents_BaseUiEntity/getDisplay.html">getDisplay()</a>
-            </li>
-            <li id="setDisplay">
-              <a title="NextDom\Model\Entity\Parents\BaseUiEntity" href="../classes/NextDom_Model_Entity_Parents_BaseUiEntity/setDisplay.html">setDisplay()</a>
-            </li>
-          </ul>
           <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a></h3>
           <h4>public</h4>
           <ul>
@@ -318,6 +308,17 @@
             </li>
             <li id="updateChangeState">
               <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity.html">NextDom\Model\Entity\Parents\DisplayEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getDisplay"><a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/getDisplay.html">getDisplay()</a>
+                — Get display information by key</li>
+            <li id="setDisplay"><a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/setDisplay.html">setDisplay()</a>
+                — Set display information by key</li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/updateChangeState.html">updateChangeState()</a>
             </li>
           </ul>
         </div>

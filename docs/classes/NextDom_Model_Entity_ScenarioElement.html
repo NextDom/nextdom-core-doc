@@ -68,7 +68,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/ScenarioElement.php.html#line44">Source</a>
+            <a href="../source/Model/Entity/ScenarioElement.php.html#line46">Source</a>
           </li>
         </ul>
       </nav>
@@ -82,7 +82,6 @@
                 extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
             {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::SCENARIO_ELEMENT;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected integer <a href="#members">$order</a> =
                         0;
-                    </li><li>protected  <a href="#members">$type</a>;
                     </li><li>protected  <a href="#members">$_subelement</a>;
                     </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
                         </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected  <a href="#members">$id</a>;
@@ -90,17 +89,12 @@
                         </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/remove.html">remove</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getSubElement.html">getSubElement</a>()
                     </li><li>public bool|null <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/execute.html">execute</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getType.html">getType</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/setType.html">setType</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getAjaxElement.html">getAjaxElement</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getAllId.html">getAllId</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/resetRepeatIfStatus.html">resetRepeatIfStatus</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/export.html">export</a>()
                     </li><li>public int <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/copy.html">copy</a>()
                     </li><li>public mixed|null <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getScenario.html">getScenario</a>()
-                    </li><li>public int <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getOrder.html">getOrder</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/setOrder.html">setOrder</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getTableName.html">getTableName</a>()
                     </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getChanged.html">getChanged</a>()
@@ -112,6 +106,12 @@
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\NameEntity">NameEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState</a>()
                         </li><li>public string <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\OrderEntity">OrderEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public int <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/getOrder.html">getOrder</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/setOrder.html">setOrder</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\TypeEntity">TypeEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/getType.html">getType</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/setType.html">setType</a>()
                         </li></ul>
 
             }<br/></div>
@@ -127,6 +127,12 @@
           <ul>
             <li>
               <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a>
+            </li>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity.html">NextDom\Model\Entity\Parents\OrderEntity</a>
+            </li>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity.html">NextDom\Model\Entity\Parents\TypeEntity</a>
             </li>
           </ul>
         </div>
@@ -175,6 +181,9 @@
             <li id="order"><strong>$order</strong>
                 —
                 integer</li>
+            <li id="order"><strong>$order</strong>
+                —
+                integer</li>
             <li id="type"><strong>$type</strong>
                 —
                 string</li>
@@ -199,32 +208,17 @@
             <li id="getAllId">
               <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getAllId.html">getAllId()</a>
             </li>
-            <li id="getOrder">
-              <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getOrder.html">getOrder()</a>
-            </li>
             <li id="getScenario">
               <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getScenario.html">getScenario()</a>
             </li>
             <li id="getSubElement">
               <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getSubElement.html">getSubElement()</a>
             </li>
-            <li id="getTableName">
-              <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getTableName.html">getTableName()</a>
-            </li>
-            <li id="getType">
-              <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/getType.html">getType()</a>
-            </li>
             <li id="remove">
               <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/remove.html">remove()</a>
             </li>
             <li id="resetRepeatIfStatus">
               <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/resetRepeatIfStatus.html">resetRepeatIfStatus()</a>
-            </li>
-            <li id="setOrder">
-              <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/setOrder.html">setOrder()</a>
-            </li>
-            <li id="setType">
-              <a title="NextDom\Model\Entity\ScenarioElement" href="../classes/NextDom_Model_Entity_ScenarioElement/setType.html">setType()</a>
             </li>
           </ul>
           <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a></h3>
@@ -265,6 +259,32 @@
             </li>
             <li id="updateChangeState">
               <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity.html">NextDom\Model\Entity\Parents\OrderEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getOrder">
+              <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/getOrder.html">getOrder()</a>
+            </li>
+            <li id="setOrder">
+              <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/setOrder.html">setOrder()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity.html">NextDom\Model\Entity\Parents\TypeEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getType">
+              <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/getType.html">getType()</a>
+            </li>
+            <li id="setType">
+              <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/setType.html">setType()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/updateChangeState.html">updateChangeState()</a>
             </li>
           </ul>
         </div>
