@@ -77,14 +77,17 @@
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class Plan3dManager
                 extends <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager.html">BasePlanManager</a>
-            {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = Plan3d::class;</li><li>const DB_CLASS_NAME = '`plan3d`';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
+            {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = Plan3d::class;</li><li>const DB_CLASS_NAME = '`plan3d`';</li><li>const PLANHEADER_ID = 'plan3dHeader_id';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager.html">BasePlanManager</a></li><li>const <a href="#PLANHEADER_ID">PLANHEADER_ID</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
                         </li></ul><ul class="none"><li>// methods</li><li>public static Plan3d|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byPlan3dHeaderId.html">byPlan3dHeaderId</a>()
-                    </li><li>public static array|mixed|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byLinkTypeLinkId.html">byLinkTypeLinkId</a>()
                     </li><li>public static array|mixed|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byName3dHeaderId.html">byName3dHeaderId</a>()
                     </li><li>public static array|mixed|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byLinkTypeLinkId3dHeaderId.html">byLinkTypeLinkId3dHeaderId</a>()
                     </li><li>public static array|mixed|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/removeByLinkTypeLinkId3dHeaderId.html">removeByLinkTypeLinkId3dHeaderId</a>()
-                    </li><li>public static array|mixed|null <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/all.html">all</a>()
-                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BasePlanManager">BasePlanManager</span></li><li>public static array|mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/searchByDisplay.html">searchByDisplay</a>()
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BasePlanManager">BasePlanManager</span></li><li>public static mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/byPlanHeaderId.html">byPlanHeaderId</a>()
+                        </li><li>public static mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/byLinkTypeLinkIdPlanHeaderId.html">byLinkTypeLinkIdPlanHeaderId</a>()
+                        </li><li>public static mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/removeByLinkTypeLinkIdPlanHeaderId.html">removeByLinkTypeLinkIdPlanHeaderId</a>()
+                        </li><li>public static array|mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/all.html">all</a>()
+                        </li><li>public static array|mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/byLinkTypeLinkId.html">byLinkTypeLinkId</a>()
+                        </li><li>public static array|mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/searchByDisplay.html">searchByDisplay</a>()
                         </li><li>public static array|mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/searchByConfiguration.html">searchByConfiguration</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\SimpleManager">SimpleManager</span></li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId</a>()
                         </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll</a>()
@@ -122,6 +125,14 @@
               <td>'`plan3d`'</td>
             </tr>
             <tr>
+              <td id="PLANHEADER_ID">PLANHEADER_ID</td>
+              <td>'plan3dHeader_id'</td>
+            </tr>
+            <tr>
+              <td id="PLANHEADER_ID">PLANHEADER_ID</td>
+              <td>''</td>
+            </tr>
+            <tr>
               <td id="CLASS_NAME">CLASS_NAME</td>
               <td>''</td>
             </tr>
@@ -144,12 +155,6 @@
         <div class="styled">
           <h4>public</h4>
           <ul>
-            <li id="all">
-              <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/all.html">all()</a>
-            </li>
-            <li id="byLinkTypeLinkId">
-              <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byLinkTypeLinkId.html">byLinkTypeLinkId()</a>
-            </li>
             <li id="byLinkTypeLinkId3dHeaderId">
               <a title="NextDom\Managers\Plan3dManager" href="../classes/NextDom_Managers_Plan3dManager/byLinkTypeLinkId3dHeaderId.html">byLinkTypeLinkId3dHeaderId()</a>
             </li>
@@ -166,6 +171,19 @@
           <h3>Inherited from <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager.html">NextDom\Managers\Parents\BasePlanManager</a></h3>
           <h4>public</h4>
           <ul>
+            <li id="all">
+              <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/all.html">all()</a>
+            </li>
+            <li id="byLinkTypeLinkId">
+              <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/byLinkTypeLinkId.html">byLinkTypeLinkId()</a>
+            </li>
+            <li id="byLinkTypeLinkIdPlanHeaderId"><a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/byLinkTypeLinkIdPlanHeaderId.html">byLinkTypeLinkIdPlanHeaderId()</a>
+                — Get plan filtered by link type, link id and plan header</li>
+            <li id="byPlanHeaderId"><a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/byPlanHeaderId.html">byPlanHeaderId()</a>
+                — Get by plan header</li>
+            <li id="removeByLinkTypeLinkIdPlanHeaderId">
+              <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/removeByLinkTypeLinkIdPlanHeaderId.html">removeByLinkTypeLinkIdPlanHeaderId()</a>
+            </li>
             <li id="searchByConfiguration">
               <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/searchByConfiguration.html">searchByConfiguration()</a>
             </li>
