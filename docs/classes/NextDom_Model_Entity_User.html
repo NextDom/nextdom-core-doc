@@ -68,7 +68,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/User.php.html#line37">Source</a>
+            <a href="../source/Model/Entity/User.php.html#line38">Source</a>
           </li>
         </ul>
       </nav>
@@ -84,7 +84,6 @@
                     </li><li>protected string <a href="#members">$profils</a> =
                         'admin';
                     </li><li>protected  <a href="#members">$password</a>;
-                    </li><li>protected  <a href="#members">$options</a>;
                     </li><li>protected  <a href="#members">$hash</a>;
                     </li><li>protected  <a href="#members">$rights</a>;
                     </li><li>protected integer <a href="#members">$enable</a> =
@@ -107,8 +106,6 @@
                     </li><li>public boolean <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/is_Connected.html">is_Connected</a>()
                     </li><li>public boolean <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/isConnected.html">isConnected</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/validateTwoFactorCode.html">validateTwoFactorCode</a>()
-                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getOptions.html">getOptions</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setOptions.html">setOptions</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getPassword.html">getPassword</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setPassword.html">setPassword</a>()
                     </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getRights.html">getRights</a>()
@@ -123,6 +120,9 @@
                         </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\OptionsEntity">OptionsEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/getOptions.html">getOptions</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/setOptions.html">setOptions</a>()
                         </li></ul>
 
             }<br/></div>
@@ -132,6 +132,12 @@
           <ul>
             <li>
               <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
+            </li>
+          </ul>
+          <h4>Uses</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity.html">NextDom\Model\Entity\Parents\OptionsEntity</a>
             </li>
           </ul>
         </div>
@@ -207,9 +213,6 @@
             <li id="getLogin">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getLogin.html">getLogin()</a>
             </li>
-            <li id="getOptions">
-              <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getOptions.html">getOptions()</a>
-            </li>
             <li id="getPassword">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getPassword.html">getPassword()</a>
             </li>
@@ -251,9 +254,6 @@
             <li id="setLogin">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setLogin.html">setLogin()</a>
             </li>
-            <li id="setOptions">
-              <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setOptions.html">setOptions()</a>
-            </li>
             <li id="setPassword">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setPassword.html">setPassword()</a>
             </li>
@@ -293,6 +293,19 @@
                 — Set changed state</li>
             <li id="updateChangeState"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState()</a>
                 — Update change state if values are different</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity.html">NextDom\Model\Entity\Parents\OptionsEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getOptions">
+              <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/getOptions.html">getOptions()</a>
+            </li>
+            <li id="setOptions">
+              <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/setOptions.html">setOptions()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
           </ul>
         </div>
       </section>

@@ -68,7 +68,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/View.php.html#line37">Source</a>
+            <a href="../source/Model/Entity/View.php.html#line39">Source</a>
           </li>
         </ul>
       </nav>
@@ -80,8 +80,7 @@
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class View
                 extends <a title="NextDom\Model\Entity\Parents\BaseUiEntity" href="../classes/NextDom_Model_Entity_Parents_BaseUiEntity.html">BaseUiEntity</a>
-            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::VIEW;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected  <a href="#members">$name</a>;
-                    </li><li>protected  <a href="#members">$order</a>;
+            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::VIEW;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected  <a href="#members">$order</a>;
                     </li><li>protected  <a href="#members">$image</a>;
                     </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseUiEntity">BaseUiEntity</span></li><li>protected  <a href="#members">$display</a>;
                         </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
@@ -89,8 +88,6 @@
                         </li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
                         </li></ul><ul class="none"><li>// methods</li><li>public string <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/report.html">report</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/presave.html">presave</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/getName.html">getName</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/setName.html">setName</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/remove.html">remove</a>()
                     </li><li>public array|mixed|null <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/removeviewZone.html">removeviewZone</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/toArray.html">toArray</a>()
@@ -116,6 +113,9 @@
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\ConfigurationEntity">ConfigurationEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState</a>()
                         </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\NameEntity">NameEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName</a>()
                         </li></ul>
 
             }<br/></div>
@@ -125,6 +125,12 @@
           <ul>
             <li>
               <a title="NextDom\Model\Entity\Parents\BaseUiEntity" href="../classes/NextDom_Model_Entity_Parents_BaseUiEntity.html">NextDom\Model\Entity\Parents\BaseUiEntity</a>
+            </li>
+          </ul>
+          <h4>Uses</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a>
             </li>
           </ul>
         </div>
@@ -194,9 +200,6 @@
             <li id="getLinkData">
               <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/getLinkData.html">getLinkData()</a>
             </li>
-            <li id="getName">
-              <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/getName.html">getName()</a>
-            </li>
             <li id="getOrder">
               <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/getOrder.html">getOrder()</a>
             </li>
@@ -220,9 +223,6 @@
             </li>
             <li id="setImage">
               <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/setImage.html">setImage()</a>
-            </li>
-            <li id="setName">
-              <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/setName.html">setName()</a>
             </li>
             <li id="setOrder">
               <a title="NextDom\Model\Entity\View" href="../classes/NextDom_Model_Entity_View/setOrder.html">setOrder()</a>
@@ -282,6 +282,19 @@
             </li>
             <li id="updateChangeState">
               <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getName">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName()</a>
+            </li>
+            <li id="setName">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState()</a>
             </li>
           </ul>
         </div>

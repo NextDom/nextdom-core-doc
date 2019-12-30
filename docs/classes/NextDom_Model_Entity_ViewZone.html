@@ -68,7 +68,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/ViewZone.php.html#line32">Source</a>
+            <a href="../source/Model/Entity/ViewZone.php.html#line35">Source</a>
           </li>
         </ul>
       </nav>
@@ -80,10 +80,7 @@
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class ViewZone
                 extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
-            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::VIEW_ZONE;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected  <a href="#members">$type</a>;
-                    </li><li>protected  <a href="#members">$name</a>;
-                    </li><li>protected  <a href="#members">$position</a>;
-                    </li><li>protected  <a href="#members">$configuration</a>;
+            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::VIEW_ZONE;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected  <a href="#members">$position</a>;
                     </li><li>protected <span title="\NextDom\Model\Entity\View">View</span> <a href="#members">$view_id</a>;
                     </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
                         </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected  <a href="#members">$id</a>;
@@ -92,14 +89,8 @@
                     </li><li>public View|null <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/getView.html">getView</a>()
                     </li><li>public View <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/getView_id.html">getView_id</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/setView_id.html">setView_id</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/getType.html">getType</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/setType.html">setType</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/getName.html">getName</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/setName.html">setName</a>()
                     </li><li>public int <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/getPosition.html">getPosition</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/setPosition.html">setPosition</a>()
-                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/getConfiguration.html">getConfiguration</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/setConfiguration.html">setConfiguration</a>()
                     </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getChanged.html">getChanged</a>()
@@ -108,6 +99,15 @@
                         </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\ConfigurationEntity">ConfigurationEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\NameEntity">NameEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\TypeEntity">TypeEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/getType.html">getType</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/setType.html">setType</a>()
                         </li></ul>
 
             }<br/></div>
@@ -117,6 +117,18 @@
           <ul>
             <li>
               <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
+            </li>
+          </ul>
+          <h4>Uses</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a>
+            </li>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a>
+            </li>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity.html">NextDom\Model\Entity\Parents\TypeEntity</a>
             </li>
           </ul>
         </div>
@@ -177,17 +189,8 @@
         <div class="styled">
           <h4>public</h4>
           <ul>
-            <li id="getConfiguration">
-              <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/getConfiguration.html">getConfiguration()</a>
-            </li>
-            <li id="getName">
-              <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/getName.html">getName()</a>
-            </li>
             <li id="getPosition">
               <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/getPosition.html">getPosition()</a>
-            </li>
-            <li id="getType">
-              <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/getType.html">getType()</a>
             </li>
             <li id="getView">
               <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/getView.html">getView()</a>
@@ -198,17 +201,8 @@
             <li id="getView_id">
               <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/getView_id.html">getView_id()</a>
             </li>
-            <li id="setConfiguration">
-              <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/setConfiguration.html">setConfiguration()</a>
-            </li>
-            <li id="setName">
-              <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/setName.html">setName()</a>
-            </li>
             <li id="setPosition">
               <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/setPosition.html">setPosition()</a>
-            </li>
-            <li id="setType">
-              <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/setType.html">setType()</a>
             </li>
             <li id="setView_id">
               <a title="NextDom\Model\Entity\ViewZone" href="../classes/NextDom_Model_Entity_ViewZone/setView_id.html">setView_id()</a>
@@ -240,6 +234,45 @@
                 — Set changed state</li>
             <li id="updateChangeState"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState()</a>
                 — Update change state if values are different</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getConfiguration">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration()</a>
+            </li>
+            <li id="setConfiguration">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getName">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName()</a>
+            </li>
+            <li id="setName">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity.html">NextDom\Model\Entity\Parents\TypeEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getType">
+              <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/getType.html">getType()</a>
+            </li>
+            <li id="setType">
+              <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/setType.html">setType()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
           </ul>
         </div>
       </section>

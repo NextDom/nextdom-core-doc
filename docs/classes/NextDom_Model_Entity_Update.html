@@ -71,7 +71,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/Update.php.html#line44">Source</a>
+            <a href="../source/Model/Entity/Update.php.html#line46">Source</a>
           </li>
         </ul>
       </nav>
@@ -85,7 +85,6 @@
                 extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
             {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::UPDATE;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected string <a href="#members">$type</a> =
                         'plugin';
-                    </li><li>protected  <a href="#members">$name</a>;
                     </li><li>protected  <a href="#members">$logicalId</a>;
                     </li><li>protected  <a href="#members">$localVersion</a>;
                     </li><li>protected  <a href="#members">$remoteVersion</a>;
@@ -98,8 +97,6 @@
                         </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected  <a href="#members">$id</a>;
                         </li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
                         </li></ul><ul class="none"><li>// methods</li><li>public array <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getInfo.html">getInfo</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getType.html">getType</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setType.html">setType</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getSource.html">getSource</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setSource.html">setSource</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/doUpdate.html">doUpdate</a>()
@@ -116,8 +113,6 @@
                     </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setRemoteVersion.html">setRemoteVersion</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/deleteObjet.html">deleteObjet</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/preSave.html">preSave</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getName.html">getName</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setName.html">setName</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/postSave.html">postSave</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/postRemove.html">postRemove</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getStatus.html">getStatus</a>()
@@ -133,6 +128,12 @@
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\ConfigurationEntity">ConfigurationEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState</a>()
                         </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\NameEntity">NameEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\TypeEntity">TypeEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/getType.html">getType</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/setType.html">setType</a>()
                         </li></ul>
 
             }<br/></div>
@@ -149,6 +150,12 @@
             <li>
               <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a>
             </li>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a>
+            </li>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity.html">NextDom\Model\Entity\Parents\TypeEntity</a>
+            </li>
           </ul>
         </div>
         <h2 id="tasks">Tasks</h2>
@@ -160,7 +167,7 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">497+</td>
+            <td class="nummeric">473+</td>
             <td>: Bizarre, en gros le nom = logicialId</td>
           </tr>
         </table>
@@ -227,6 +234,9 @@
             <li id="type"><strong>$type</strong>
                 —
                 string</li>
+            <li id="type"><strong>$type</strong>
+                —
+                string</li>
           </ul>
         </div>
         <h2 id="methods">Methods</h2>
@@ -249,9 +259,6 @@
             <li id="getLogicalId">
               <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getLogicalId.html">getLogicalId()</a>
             </li>
-            <li id="getName">
-              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getName.html">getName()</a>
-            </li>
             <li id="getRemoteVersion">
               <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getRemoteVersion.html">getRemoteVersion()</a>
             </li>
@@ -260,9 +267,6 @@
             </li>
             <li id="getStatus">
               <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getStatus.html">getStatus()</a>
-            </li>
-            <li id="getType">
-              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getType.html">getType()</a>
             </li>
             <li id="postInstallUpdate"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/postInstallUpdate.html">postInstallUpdate()</a>
                 — Lancer la procédure post installation</li>
@@ -283,9 +287,6 @@
             <li id="setLogicalId">
               <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setLogicalId.html">setLogicalId()</a>
             </li>
-            <li id="setName">
-              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setName.html">setName()</a>
-            </li>
             <li id="setRemoteVersion">
               <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setRemoteVersion.html">setRemoteVersion()</a>
             </li>
@@ -294,9 +295,6 @@
             </li>
             <li id="setStatus">
               <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setStatus.html">setStatus()</a>
-            </li>
-            <li id="setType">
-              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setType.html">setType()</a>
             </li>
           </ul>
           <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a></h3>
@@ -337,6 +335,32 @@
             </li>
             <li id="updateChangeState">
               <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getName">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName()</a>
+            </li>
+            <li id="setName">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity.html">NextDom\Model\Entity\Parents\TypeEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getType">
+              <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/getType.html">getType()</a>
+            </li>
+            <li id="setType">
+              <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/setType.html">setType()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\TypeEntity" href="../traits/NextDom_Model_Entity_Parents_TypeEntity/updateChangeState.html">updateChangeState()</a>
             </li>
           </ul>
         </div>
