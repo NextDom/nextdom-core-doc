@@ -24,6 +24,9 @@
         <li>
           <a href="../classes.html">Classes</a>
         </li>
+        <li>
+          <a href="../traits.html">Traits</a>
+        </li>
         <li class="separator">
           <a href="../source/index.html">Source</a>
         </li>
@@ -68,7 +71,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/Update.php.html#line43">Source</a>
+            <a href="../source/Model/Entity/Update.php.html#line44">Source</a>
           </li>
         </ul>
       </nav>
@@ -89,7 +92,6 @@
                     </li><li>protected string <a href="#members">$source</a> =
                         'market';
                     </li><li>protected  <a href="#members">$status</a>;
-                    </li><li>protected  <a href="#members">$configuration</a>;
                     </li><li>protected boolean <a href="#members">$_changeUpdate</a> =
                         false;
                     </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
@@ -101,8 +103,6 @@
                     </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getSource.html">getSource</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setSource.html">setSource</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/doUpdate.html">doUpdate</a>()
-                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getConfiguration.html">getConfiguration</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setConfiguration.html">setConfiguration</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getLogicalId.html">getLogicalId</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setLogicalId.html">setLogicalId</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/preInstallUpdate.html">preInstallUpdate</a>()
@@ -130,6 +130,9 @@
                         </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\ConfigurationEntity">ConfigurationEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration</a>()
                         </li></ul>
 
             }<br/></div>
@@ -139,6 +142,12 @@
           <ul>
             <li>
               <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
+            </li>
+          </ul>
+          <h4>Uses</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a>
             </li>
           </ul>
         </div>
@@ -151,7 +160,7 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">523+</td>
+            <td class="nummeric">497+</td>
             <td>: Bizarre, en gros le nom = logicialId</td>
           </tr>
         </table>
@@ -230,9 +239,6 @@
                 — Supprime une information de mise à jour</li>
             <li id="doUpdate"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/doUpdate.html">doUpdate()</a>
                 — Start update</li>
-            <li id="getConfiguration">
-              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getConfiguration.html">getConfiguration()</a>
-            </li>
             <li id="getInfo"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getInfo.html">getInfo()</a>
                 — Obtenir les informations de la mise à jour</li>
             <li id="getLastAvailableVersion"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getLastAvailableVersion.html">getLastAvailableVersion()</a>
@@ -271,9 +277,6 @@
                 — Prépare l'objet avant la sauvegarde</li>
             <li id="refresh"><a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/refresh.html">refresh()</a>
                 — Rafraichit les informations à partir de la base de données</li>
-            <li id="setConfiguration">
-              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setConfiguration.html">setConfiguration()</a>
-            </li>
             <li id="setLocalVersion">
               <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setLocalVersion.html">setLocalVersion()</a>
             </li>
@@ -322,6 +325,19 @@
                 — Set changed state</li>
             <li id="updateChangeState"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState()</a>
                 — Update change state if values are different</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getConfiguration">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration()</a>
+            </li>
+            <li id="setConfiguration">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
           </ul>
         </div>
       </section>

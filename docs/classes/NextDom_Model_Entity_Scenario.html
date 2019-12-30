@@ -24,6 +24,9 @@
         <li>
           <a href="../classes.html">Classes</a>
         </li>
+        <li>
+          <a href="../traits.html">Traits</a>
+        </li>
         <li class="separator">
           <a href="../source/index.html">Source</a>
         </li>
@@ -68,7 +71,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/Scenario.php.html#line57">Source</a>
+            <a href="../source/Model/Entity/Scenario.php.html#line58">Source</a>
           </li>
         </ul>
       </nav>
@@ -96,7 +99,6 @@
                         1;
                     </li><li>protected  <a href="#members">$display</a>;
                     </li><li>protected  <a href="#members">$description</a>;
-                    </li><li>protected  <a href="#members">$configuration</a>;
                     </li><li>protected string <a href="#members">$type</a> =
                         'expert';
                     </li><li>protected integer <a href="#members">$order</a> =
@@ -135,8 +137,6 @@
                     </li><li>public string <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getName.html">getName</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setName.html">setName</a>()
                     </li><li>public bool|null <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/persistLog.html">persistLog</a>()
-                    </li><li>public mixed <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getConfiguration.html">getConfiguration</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setConfiguration.html">setConfiguration</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getLog.html">getLog</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setLog.html">setLog</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setCache.html">setCache</a>()
@@ -208,6 +208,9 @@
                         </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\ConfigurationEntity">ConfigurationEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration</a>()
                         </li></ul>
 
             }<br/></div>
@@ -217,6 +220,12 @@
           <ul>
             <li>
               <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
+            </li>
+          </ul>
+          <h4>Uses</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a>
             </li>
           </ul>
         </div>
@@ -229,11 +238,11 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">1457</td>
+            <td class="nummeric">1429</td>
             <td>Pourquoi ce test a-t-il dû être rajouté ?</td>
           </tr>
           <tr>
-            <td class="nummeric">1659</td>
+            <td class="nummeric">1631</td>
             <td>scenario_id, pas de guillemet ouvrant, à vérifier</td>
           </tr>
         </table>
@@ -367,9 +376,6 @@
             </li>
             <li id="getCache"><a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getCache.html">getCache()</a>
                 — Get data from cache</li>
-            <li id="getConfiguration">
-              <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getConfiguration.html">getConfiguration()</a>
-            </li>
             <li id="getData">
               <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getData.html">getData()</a>
             </li>
@@ -504,9 +510,6 @@
             </li>
             <li id="setCache"><a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setCache.html">setCache()</a>
                 — Store data in cache</li>
-            <li id="setConfiguration">
-              <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setConfiguration.html">setConfiguration()</a>
-            </li>
             <li id="setData">
               <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setData.html">setData()</a>
             </li>
@@ -614,6 +617,19 @@
                 — Set changed state</li>
             <li id="updateChangeState"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState()</a>
                 — Update change state if values are different</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getConfiguration">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration()</a>
+            </li>
+            <li id="setConfiguration">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
           </ul>
         </div>
       </section>

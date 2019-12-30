@@ -24,6 +24,9 @@
         <li>
           <a href="../classes.html">Classes</a>
         </li>
+        <li>
+          <a href="../traits.html">Traits</a>
+        </li>
         <li class="separator">
           <a href="../source/index.html">Source</a>
         </li>
@@ -65,7 +68,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/JeeObject.php.html#line43">Source</a>
+            <a href="../source/Model/Entity/JeeObject.php.html#line44">Source</a>
           </li>
         </ul>
       </nav>
@@ -82,7 +85,6 @@
                     </li><li>protected integer <a href="#members">$isVisible</a> =
                         1;
                     </li><li>protected  <a href="#members">$position</a>;
-                    </li><li>protected <span title="NextDom\Model\Entity\string|array">string|array</span> <a href="#members">$configuration</a>;
                     </li><li>protected  <a href="#members">$display</a>;
                     </li><li>protected  <a href="#members">$image</a>;
                     </li><li>protected  <a href="#members">$father_id</a> =
@@ -105,8 +107,6 @@
                     </li><li>public void <a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/checkTreeConsistency.html">checkTreeConsistency</a>()
                     </li><li>public JeeObject <a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/getFather.html">getFather</a>()
                     </li><li>public int <a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/parentNumber.html">parentNumber</a>()
-                    </li><li>public mixed <a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/getConfiguration.html">getConfiguration</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/setConfiguration.html">setConfiguration</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/preRemove.html">preRemove</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/remove.html">remove</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/getName.html">getName</a>()
@@ -136,6 +136,9 @@
                         </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\ConfigurationEntity">ConfigurationEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration</a>()
                         </li></ul>
 
             }<br/></div>
@@ -145,6 +148,12 @@
           <ul>
             <li>
               <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
+            </li>
+          </ul>
+          <h4>Uses</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a>
             </li>
           </ul>
         </div>
@@ -191,7 +200,7 @@
             </li>
             <li id="configuration"><strong>$configuration</strong>
                 —
-                <a title="NextDom\Model\Entity\string|array" href="../classes/NextDom_Model_Entity_string|array.html">NextDom\Model\Entity\string|array</a><br/><span class="indent">Specific configuration</span></li>
+                string</li>
             <li id="display"><strong>$display</strong>
                 —
                 string</li>
@@ -230,8 +239,6 @@
                 — Get direct children</li>
             <li id="getChilds"><a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/getChilds.html">getChilds()</a>
                 — Get tree under this object</li>
-            <li id="getConfiguration"><a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/getConfiguration.html">getConfiguration()</a>
-                — Get configuration information by key</li>
             <li id="getDisplay"><a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/getDisplay.html">getDisplay()</a>
                 — Get display information by key</li>
             <li id="getEqLogic"><a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/getEqLogic.html">getEqLogic()</a>
@@ -279,8 +286,6 @@
                 — Save object in database</li>
             <li id="setCache"><a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/setCache.html">setCache()</a>
                 — Store information of this object in cache</li>
-            <li id="setConfiguration"><a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/setConfiguration.html">setConfiguration()</a>
-                — Set configuration information by key</li>
             <li id="setDisplay"><a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/setDisplay.html">setDisplay()</a>
                 — Set display information by key</li>
             <li id="setFather_id"><a title="NextDom\Model\Entity\JeeObject" href="../classes/NextDom_Model_Entity_JeeObject/setFather_id.html">setFather_id()</a>
@@ -323,6 +328,19 @@
                 — Set changed state</li>
             <li id="updateChangeState"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState()</a>
                 — Update change state if values are different</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getConfiguration">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration()</a>
+            </li>
+            <li id="setConfiguration">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
           </ul>
         </div>
       </section>
