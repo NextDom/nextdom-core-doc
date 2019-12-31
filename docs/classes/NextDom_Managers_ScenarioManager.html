@@ -71,7 +71,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Managers/ScenarioManager.php.html#line52">Source</a>
+            <a href="../source/Managers/ScenarioManager.php.html#line53">Source</a>
           </li>
         </ul>
       </nav>
@@ -82,7 +82,7 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class ScenarioManager
-                extends <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">SimpleManager</a>
+                extends <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a>
             {<br/><ul class="none"><li>// constants</li><li>const DB_CLASS_NAME = 'scenario';</li><li>const CLASS_NAME = Scenario::class;</li><li>const INITIAL_TRANSLATION_FILE = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
                         </li></ul><ul class="none"><li>// methods</li><li>public static Scenario|null <a title="NextDom\Managers\ScenarioManager" href="../classes/NextDom_Managers_ScenarioManager/byName.html">byName</a>()
                     </li><li>public static Scenario <a title="NextDom\Managers\ScenarioManager" href="../classes/NextDom_Managers_ScenarioManager/byString.html">byString</a>()
@@ -106,12 +106,12 @@
                     </li><li>public static void <a title="NextDom\Managers\ScenarioManager" href="../classes/NextDom_Managers_ScenarioManager/getFromMarket.html">getFromMarket</a>()
                     </li><li>public static array <a title="NextDom\Managers\ScenarioManager" href="../classes/NextDom_Managers_ScenarioManager/listMarketObject.html">listMarketObject</a>()
                     </li><li>public static array|null <a title="NextDom\Managers\ScenarioManager" href="../classes/NextDom_Managers_ScenarioManager/timelineDisplay.html">timelineDisplay</a>()
-                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\SimpleManager">SimpleManager</span></li><li>public static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId</a>()
-                        </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll</a>()
-                        </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered</a>()
-                        </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getOneByClauses.html">getOneByClauses</a>()
-                        </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getMultipleByClauses.html">getMultipleByClauses</a>()
-                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static string <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL</a>()
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static string <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\CommonManager">CommonManager</span></li><li>public static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/byId.html">byId</a>()
+                        </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getAll.html">getAll</a>()
+                        </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getAllOrdered.html">getAllOrdered</a>()
+                        </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getOneByClauses.html">getOneByClauses</a>()
+                        </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getMultipleByClauses.html">getMultipleByClauses</a>()
                         </li></ul>
 
             }<br/></div>
@@ -120,7 +120,13 @@
           <h4>Extends</h4>
           <ul>
             <li>
-              <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">NextDom\Managers\Parents\SimpleManager</a>
+              <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">NextDom\Managers\Parents\BaseManager</a>
+            </li>
+          </ul>
+          <h4>Uses</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager.html">NextDom\Managers\Parents\CommonManager</a>
             </li>
           </ul>
         </div>
@@ -133,39 +139,39 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">99+</td>
+            <td class="nummeric">101+</td>
             <td>: Ca fait l'inverse, mais je sais pas quoi</td>
           </tr>
           <tr>
-            <td class="nummeric">223</td>
+            <td class="nummeric">225</td>
             <td>Vérifier, bizarre les guillemets dans le like</td>
           </tr>
           <tr>
-            <td class="nummeric">273+</td>
+            <td class="nummeric">275+</td>
             <td>: Virer les strings</td>
           </tr>
           <tr>
-            <td class="nummeric">593+</td>
+            <td class="nummeric">595+</td>
             <td>:</td>
           </tr>
           <tr>
-            <td class="nummeric">640+</td>
+            <td class="nummeric">642+</td>
             <td>: PATH pointe vers rien</td>
           </tr>
           <tr>
-            <td class="nummeric">660+</td>
+            <td class="nummeric">662+</td>
             <td>:</td>
           </tr>
           <tr>
-            <td class="nummeric">684+</td>
+            <td class="nummeric">686+</td>
             <td>:</td>
           </tr>
           <tr>
-            <td class="nummeric">703+</td>
+            <td class="nummeric">705+</td>
             <td>: Trixxxxxx</td>
           </tr>
           <tr>
-            <td class="nummeric">714+</td>
+            <td class="nummeric">716+</td>
             <td>: Le CSS C'est pour les faibles</td>
           </tr>
         </table>
@@ -265,28 +271,28 @@
             <li id="toHumanReadable"><a title="NextDom\Managers\ScenarioManager" href="../classes/NextDom_Managers_ScenarioManager/toHumanReadable.html">toHumanReadable()</a>
                 — /@TODO: Fatigué d'essayer de comprendre à quoi ça sert Méthode appelée de façon recursive</li>
           </ul>
-          <h3>Inherited from <a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager.html">NextDom\Managers\Parents\SimpleManager</a></h3>
-          <h4>protected</h4>
-          <ul>
-            <li id="getAll"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAll.html">getAll()</a>
-                — Get all objects</li>
-            <li id="getAllOrdered"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getAllOrdered.html">getAllOrdered()</a>
-                — Get all object sorted on column</li>
-            <li id="getMultipleByClauses"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getMultipleByClauses.html">getMultipleByClauses()</a>
-                — Get one multiple filtered with clauses</li>
-            <li id="getOneByClauses"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/getOneByClauses.html">getOneByClauses()</a>
-                — Get one object filtered with clauses</li>
-          </ul>
-          <h4>public</h4>
-          <ul>
-            <li id="byId"><a title="NextDom\Managers\Parents\SimpleManager" href="../classes/NextDom_Managers_Parents_SimpleManager/byId.html">byId()</a>
-                — Get one object by his id</li>
-          </ul>
           <h3>Inherited from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">NextDom\Managers\Parents\BaseManager</a></h3>
           <h4>protected</h4>
           <ul>
             <li id="getBaseSQL"><a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL()</a>
                 — Get base of Select SQL</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager.html">NextDom\Managers\Parents\CommonManager</a></h3>
+          <h4>protected</h4>
+          <ul>
+            <li id="getAll"><a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getAll.html">getAll()</a>
+                — Get all objects</li>
+            <li id="getAllOrdered"><a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getAllOrdered.html">getAllOrdered()</a>
+                — Get all object sorted on column</li>
+            <li id="getMultipleByClauses"><a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getMultipleByClauses.html">getMultipleByClauses()</a>
+                — Get one multiple filtered with clauses</li>
+            <li id="getOneByClauses"><a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getOneByClauses.html">getOneByClauses()</a>
+                — Get one object filtered with clauses</li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="byId"><a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/byId.html">byId()</a>
+                — Get one object by his id</li>
           </ul>
         </div>
       </section>
