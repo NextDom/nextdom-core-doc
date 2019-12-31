@@ -68,7 +68,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/Cron.php.html#line40">Source</a>
+            <a href="../source/Model/Entity/Cron.php.html#line41">Source</a>
           </li>
         </ul>
       </nav>
@@ -80,9 +80,7 @@
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class Cron
                 extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
-            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::CRON;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected integer <a href="#members">$enable</a> =
-                        1;
-                    </li><li>protected string <a href="#members">$class</a> =
+            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::CRON;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected string <a href="#members">$class</a> =
                         '';
                     </li><li>protected  <a href="#members">$function</a>;
                     </li><li>protected string <a href="#members">$schedule</a> =
@@ -143,6 +141,10 @@
                         </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\EnableEntity">EnableEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public int <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/getEnable.html">getEnable</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/setEnable.html">setEnable</a>()
+                        </li><li>public bool <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/isEnabled.html">isEnabled</a>()
                         </li></ul>
 
             }<br/></div>
@@ -152,6 +154,12 @@
           <ul>
             <li>
               <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
+            </li>
+          </ul>
+          <h4>Uses</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity.html">NextDom\Model\Entity\Parents\EnableEntity</a>
             </li>
           </ul>
         </div>
@@ -341,6 +349,21 @@
                 — Set changed state</li>
             <li id="updateChangeState"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState()</a>
                 — Update change state if values are different</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity.html">NextDom\Model\Entity\Parents\EnableEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getEnable">
+              <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/getEnable.html">getEnable()</a>
+            </li>
+            <li id="isEnabled"><a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/isEnabled.html">isEnabled()</a>
+                — Get bool enabled state</li>
+            <li id="setEnable">
+              <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/setEnable.html">setEnable()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
           </ul>
         </div>
       </section>

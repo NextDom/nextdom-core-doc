@@ -68,7 +68,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/User.php.html#line39">Source</a>
+            <a href="../source/Model/Entity/User.php.html#line40">Source</a>
           </li>
         </ul>
       </nav>
@@ -86,8 +86,6 @@
                     </li><li>protected  <a href="#members">$password</a>;
                     </li><li>protected  <a href="#members">$hash</a>;
                     </li><li>protected  <a href="#members">$rights</a>;
-                    </li><li>protected integer <a href="#members">$enable</a> =
-                        1;
                     </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
                         </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
                         </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/preInsert.html">preInsert</a>()
@@ -97,8 +95,6 @@
                     </li><li>public string <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getProfils.html">getProfils</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setProfils.html">setProfils</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/isEnabled.html">isEnabled</a>()
-                    </li><li>public int <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getEnable.html">getEnable</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setEnable.html">setEnable</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/preRemove.html">preRemove</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/remove.html">remove</a>()
                     </li><li>public boolean <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/is_Connected.html">is_Connected</a>()
@@ -118,6 +114,10 @@
                         </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save</a>()
                         </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\EnableEntity">EnableEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public int <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/getEnable.html">getEnable</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/setEnable.html">setEnable</a>()
+                        </li><li>public bool <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/isEnabled.html">isEnabled</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\OptionsEntity">OptionsEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/updateChangeState.html">updateChangeState</a>()
                         </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/getOptions.html">getOptions</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/setOptions.html">setOptions</a>()
@@ -135,6 +135,9 @@
           </ul>
           <h4>Uses</h4>
           <ul>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity.html">NextDom\Model\Entity\Parents\EnableEntity</a>
+            </li>
             <li>
               <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity.html">NextDom\Model\Entity\Parents\OptionsEntity</a>
             </li>
@@ -203,9 +206,6 @@
         <div class="styled">
           <h4>public</h4>
           <ul>
-            <li id="getEnable">
-              <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getEnable.html">getEnable()</a>
-            </li>
             <li id="getHash">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/getHash.html">getHash()</a>
             </li>
@@ -240,9 +240,6 @@
                 — Method called before save in database</li>
             <li id="remove">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/remove.html">remove()</a>
-            </li>
-            <li id="setEnable">
-              <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setEnable.html">setEnable()</a>
             </li>
             <li id="setHash">
               <a title="NextDom\Model\Entity\User" href="../classes/NextDom_Model_Entity_User/setHash.html">setHash()</a>
@@ -289,6 +286,21 @@
                 — Set changed state</li>
             <li id="updateChangeState"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState()</a>
                 — Update change state if values are different</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity.html">NextDom\Model\Entity\Parents\EnableEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getEnable">
+              <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/getEnable.html">getEnable()</a>
+            </li>
+            <li id="isEnabled"><a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/isEnabled.html">isEnabled()</a>
+                — Get bool enabled state</li>
+            <li id="setEnable">
+              <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/setEnable.html">setEnable()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
           </ul>
           <h3>Inherited from <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity.html">NextDom\Model\Entity\Parents\OptionsEntity</a></h3>
           <h4>public</h4>
