@@ -81,6 +81,7 @@
         <div class="synopsis">class CmdManager
                 extends <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a>
             {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = Cmd::class;</li><li>const DB_CLASS_NAME = '`cmd`';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
+                        </li><li>protected static  <a href="#members">$prefixedBaseSQL</a>;
                         </li></ul><ul class="none"><li>// methods</li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/allHistoryCmd.html">allHistoryCmd</a>()
                     </li><li>public static array|mixed <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/cast.html">cast</a>()
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byEqLogicId.html">byEqLogicId</a>()
@@ -114,6 +115,7 @@
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/timelineDisplay.html">timelineDisplay</a>()
                     </li><li>public static void <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/checkAlertCmds.html">checkAlertCmds</a>()
                     </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static string <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL</a>()
+                        </li><li>protected static string <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getPrefixedBaseSQL.html">getPrefixedBaseSQL</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\CastedObjectManager">CastedObjectManager</span></li><li>public abstract static void <a title="NextDom\Managers\Parents\CastedObjectManager" href="../traits/NextDom_Managers_Parents_CastedObjectManager/getBaseSQL.html">getBaseSQL</a>()
                         </li><li>public abstract static void <a title="NextDom\Managers\Parents\CastedObjectManager" href="../traits/NextDom_Managers_Parents_CastedObjectManager/cast.html">cast</a>()
                         </li><li>public static void <a title="NextDom\Managers\Parents\CastedObjectManager" href="../traits/NextDom_Managers_Parents_CastedObjectManager/byId.html">byId</a>()
@@ -175,6 +177,9 @@
           <h4>protected</h4>
           <ul class="members">
             <li id="baseSQL"><strong>$baseSQL</strong>
+                —
+                array</li>
+            <li id="prefixedBaseSQL"><strong>$prefixedBaseSQL</strong>
                 —
                 array</li>
           </ul>
@@ -254,6 +259,8 @@
           <ul>
             <li id="getBaseSQL"><a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL()</a>
                 — Get base of Select SQL</li>
+            <li id="getPrefixedBaseSQL"><a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getPrefixedBaseSQL.html">getPrefixedBaseSQL()</a>
+                — Get prefixed base of Select SQL</li>
           </ul>
           <h3>Inherited from <a title="NextDom\Managers\Parents\CastedObjectManager" href="../traits/NextDom_Managers_Parents_CastedObjectManager.html">NextDom\Managers\Parents\CastedObjectManager</a></h3>
           <h4>public</h4>

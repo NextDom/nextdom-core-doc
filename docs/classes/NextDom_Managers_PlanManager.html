@@ -81,6 +81,7 @@
         <div class="synopsis">class PlanManager
                 extends <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager.html">BasePlanManager</a>
             {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = Plan::class;</li><li>const DB_CLASS_NAME = '`plan`';</li><li>const PLANHEADER_ID = 'planHeader_id';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager.html">BasePlanManager</a></li><li>const <a href="#PLANHEADER_ID">PLANHEADER_ID</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
+                        </li><li>protected static  <a href="#members">$prefixedBaseSQL</a>;
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BasePlanManager">BasePlanManager</span></li><li>public static mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/byPlanHeaderId.html">byPlanHeaderId</a>()
                         </li><li>public static mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/byLinkTypeLinkIdPlanHeaderId.html">byLinkTypeLinkIdPlanHeaderId</a>()
                         </li><li>public static mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/removeByLinkTypeLinkIdPlanHeaderId.html">removeByLinkTypeLinkIdPlanHeaderId</a>()
@@ -89,6 +90,7 @@
                         </li><li>public static array|mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/searchByDisplay.html">searchByDisplay</a>()
                         </li><li>public static array|mixed|null <a title="NextDom\Managers\Parents\BasePlanManager" href="../classes/NextDom_Managers_Parents_BasePlanManager/searchByConfiguration.html">searchByConfiguration</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static string <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL</a>()
+                        </li><li>protected static string <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getPrefixedBaseSQL.html">getPrefixedBaseSQL</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\CommonManager">CommonManager</span></li><li>public static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/byId.html">byId</a>()
                         </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getAll.html">getAll</a>()
                         </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getAllOrdered.html">getAllOrdered</a>()
@@ -150,6 +152,9 @@
             <li id="baseSQL"><strong>$baseSQL</strong>
                 —
                 array</li>
+            <li id="prefixedBaseSQL"><strong>$prefixedBaseSQL</strong>
+                —
+                array</li>
           </ul>
         </div>
         <h2 id="methods">Methods</h2>
@@ -182,6 +187,8 @@
           <ul>
             <li id="getBaseSQL"><a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getBaseSQL.html">getBaseSQL()</a>
                 — Get base of Select SQL</li>
+            <li id="getPrefixedBaseSQL"><a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager/getPrefixedBaseSQL.html">getPrefixedBaseSQL()</a>
+                — Get prefixed base of Select SQL</li>
           </ul>
           <h3>Inherited from <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager.html">NextDom\Managers\Parents\CommonManager</a></h3>
           <h4>protected</h4>
