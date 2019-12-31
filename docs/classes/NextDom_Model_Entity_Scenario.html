@@ -71,7 +71,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/Scenario.php.html#line62">Source</a>
+            <a href="../source/Model/Entity/Scenario.php.html#line64">Source</a>
           </li>
         </ul>
       </nav>
@@ -84,19 +84,14 @@
         <div class="synopsis">class Scenario
                 extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
             {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::SCENARIO;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected static  <a href="#members">$_templateArray</a>;
-                    </li><li>protected  <a href="#members">$name</a>;
                     </li><li>protected string <a href="#members">$group</a> =
                         '';
-                    </li><li>protected integer <a href="#members">$isActive</a> =
-                        1;
                     </li><li>protected  <a href="#members">$mode</a>;
                     </li><li>protected  <a href="#members">$schedule</a>;
                     </li><li>protected  <a href="#members">$scenarioElement</a>;
                     </li><li>protected  <a href="#members">$trigger</a>;
                     </li><li>protected integer <a href="#members">$timeout</a> =
                         0;
-                    </li><li>protected integer <a href="#members">$isVisible</a> =
-                        1;
                     </li><li>protected  <a href="#members">$description</a>;
                     </li><li>protected  <a href="#members">$object_id</a>;
                     </li><li>protected array <a href="#members">$_elements</a> =
@@ -115,19 +110,12 @@
                     </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
                         </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
                         </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/__construct.html">__construct</a>()
-                    </li><li>public mixed <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getIsVisible.html">getIsVisible</a>()
-                    </li><li>public void <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/isVisible.html">isVisible</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setIsVisible.html">setIsVisible</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/testTrigger.html">testTrigger</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getTrigger.html">getTrigger</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setTrigger.html">setTrigger</a>()
                     </li><li>public boolean <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/launch.html">launch</a>()
-                    </li><li>public bool <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getIsActive.html">getIsActive</a>()
-                    </li><li>public bool <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/isActive.html">isActive</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setIsActive.html">setIsActive</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getState.html">getState</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getCache.html">getCache</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getName.html">getName</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setName.html">setName</a>()
                     </li><li>public bool|null <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/persistLog.html">persistLog</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getLog.html">getLog</a>()
@@ -202,6 +190,13 @@
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\DisplayEntity">DisplayEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/updateChangeState.html">updateChangeState</a>()
                         </li><li>public mixed <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/getDisplay.html">getDisplay</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/setDisplay.html">setDisplay</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\IsVisibleEntity">IsVisibleEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public mixed <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/getIsVisible.html">getIsVisible</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/isVisible.html">isVisible</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/setIsVisible.html">setIsVisible</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\NameEntity">NameEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\OrderEntity">OrderEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/updateChangeState.html">updateChangeState</a>()
                         </li><li>public int <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/getOrder.html">getOrder</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/setOrder.html">setOrder</a>()
@@ -229,6 +224,12 @@
               <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity.html">NextDom\Model\Entity\Parents\DisplayEntity</a>
             </li>
             <li>
+              <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity.html">NextDom\Model\Entity\Parents\IsVisibleEntity</a>
+            </li>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a>
+            </li>
+            <li>
               <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity.html">NextDom\Model\Entity\Parents\OrderEntity</a>
             </li>
             <li>
@@ -248,11 +249,11 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">1376</td>
+            <td class="nummeric">1291</td>
             <td>Pourquoi ce test a-t-il dû être rajouté ?</td>
           </tr>
           <tr>
-            <td class="nummeric">1578</td>
+            <td class="nummeric">1493</td>
             <td>scenario_id, pas de guillemet ouvrant, à vérifier</td>
           </tr>
         </table>
@@ -325,9 +326,6 @@
             <li id="id"><strong>$id</strong>
                 —
                 integer</li>
-            <li id="isActive"><strong>$isActive</strong>
-                —
-                boolean</li>
             <li id="isVisible"><strong>$isVisible</strong>
                 —
                 boolean</li>
@@ -406,12 +404,6 @@
             </li>
             <li id="getIcon"><a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getIcon.html">getIcon()</a>
                 — Get scenario icon</li>
-            <li id="getIsActive">
-              <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getIsActive.html">getIsActive()</a>
-            </li>
-            <li id="getIsVisible">
-              <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getIsVisible.html">getIsVisible()</a>
-            </li>
             <li id="getLastLaunch">
               <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getLastLaunch.html">getLastLaunch()</a>
             </li>
@@ -426,9 +418,6 @@
             </li>
             <li id="getMode">
               <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getMode.html">getMode()</a>
-            </li>
-            <li id="getName">
-              <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getName.html">getName()</a>
             </li>
             <li id="getObject">
               <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/getObject.html">getObject()</a>
@@ -472,13 +461,8 @@
             <li id="hasRight">
               <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/hasRight.html">hasRight()</a>
             </li>
-            <li id="isActive"><a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/isActive.html">isActive()</a>
-                — Get active state of the scenario</li>
             <li id="isDue">
               <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/isDue.html">isDue()</a>
-            </li>
-            <li id="isVisible">
-              <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/isVisible.html">isVisible()</a>
             </li>
             <li id="launch"><a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/launch.html">launch()</a>
                 — Lance un scénario</li>
@@ -518,12 +502,6 @@
                 — Set the state of the scenario.</li>
             <li id="setGroup">
               <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setGroup.html">setGroup()</a>
-            </li>
-            <li id="setIsActive">
-              <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setIsActive.html">setIsActive()</a>
-            </li>
-            <li id="setIsVisible">
-              <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setIsVisible.html">setIsVisible()</a>
             </li>
             <li id="setLastLaunch">
               <a title="NextDom\Model\Entity\Scenario" href="../classes/NextDom_Model_Entity_Scenario/setLastLaunch.html">setLastLaunch()</a>
@@ -629,6 +607,35 @@
                 — Set display information by key</li>
             <li id="updateChangeState">
               <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity.html">NextDom\Model\Entity\Parents\IsVisibleEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getIsVisible">
+              <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/getIsVisible.html">getIsVisible()</a>
+            </li>
+            <li id="isVisible">
+              <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/isVisible.html">isVisible()</a>
+            </li>
+            <li id="setIsVisible">
+              <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/setIsVisible.html">setIsVisible()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getName">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName()</a>
+            </li>
+            <li id="setName">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState()</a>
             </li>
           </ul>
           <h3>Inherited from <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity.html">NextDom\Model\Entity\Parents\OrderEntity</a></h3>
