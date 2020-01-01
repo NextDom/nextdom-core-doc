@@ -24,9 +24,6 @@
         <li>
           <a href="../classes.html">Classes</a>
         </li>
-        <li>
-          <a href="../traits.html">Traits</a>
-        </li>
         <li class="separator">
           <a href="../source/index.html">Source</a>
         </li>
@@ -71,7 +68,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/EqLogic.php.html#line78">Source</a>
+            <a href="../source/Model/Entity/EqLogic.php.html#line69">Source</a>
           </li>
         </ul>
       </nav>
@@ -82,8 +79,9 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class EqLogic
-                extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
-            {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = EqLogic::class;</li><li>const DB_CLASS_NAME = '`eqLogic`';</li><li>const TABLE_NAME = NextDomObj::EQLOGIC;</li><li>const UIDDELIMITER = '__';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>private static array <a href="#members">$_templateArray</a> =
+                implements
+                <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">EntityInterface</a>
+            {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = EqLogic::class;</li><li>const DB_CLASS_NAME = '`eqLogic`';</li><li>const UIDDELIMITER = '__';</li></ul><ul class="none"><li>// members</li><li>private static array <a href="#members">$_templateArray</a> =
                         ;
                     </li><li>protected boolean <a href="#members">$_debug</a> =
                         false;
@@ -95,37 +93,50 @@
                         false;
                     </li><li>protected boolean <a href="#members">$_batteryUpdated</a> =
                         false;
+                    </li><li>protected boolean <a href="#members">$_changed</a> =
+                        false;
+                    </li><li>protected  <a href="#members">$id</a>;
+                    </li><li>protected  <a href="#members">$name</a>;
                     </li><li>protected  <a href="#members">$generic_type</a>;
+                    </li><li>protected  <a href="#members">$logicalId</a>;
                     </li><li>protected  <a href="#members">$eqType_name</a>;
+                    </li><li>protected  <a href="#members">$configuration</a>;
+                    </li><li>protected  <a href="#members">$isVisible</a>;
                     </li><li>protected  <a href="#members">$isEnable</a>;
                     </li><li>protected  <a href="#members">$timeout</a>;
                     </li><li>protected  <a href="#members">$category</a>;
+                    </li><li>protected  <a href="#members">$display</a>;
+                    </li><li>protected integer <a href="#members">$order</a> =
+                        9999;
                     </li><li>protected  <a href="#members">$comment</a>;
                     </li><li>protected  <a href="#members">$tags</a>;
                     </li><li>protected  <a href="#members">$eqReal_id</a>;
                     </li><li>protected  <a href="#members">$object_id</a>;
                     </li><li>private array <a href="#members">$_cmds</a> =
                         ;
-                    </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
-                        </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
-                        </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/__construct.html">__construct</a>()
+                    </li></ul><ul class="none"><li>// methods</li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/isVisible.html">isVisible</a>()
                     </li><li>public int <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getIsVisible.html">getIsVisible</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setIsVisible.html">setIsVisible</a>()
                     </li><li>public int <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getOrder.html">getOrder</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setOrder.html">setOrder</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getComment.html">getComment</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setComment.html">setComment</a>()
                     </li><li>public int|null <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqReal_id.html">getEqReal_id</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setEqReal_id.html">setEqReal_id</a>()
                     </li><li>public array|mixed|null <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqReal.html">getEqReal</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCache.html">getCache</a>()
+                    </li><li>public int <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getId.html">getId</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setId.html">setId</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setCache.html">setCache</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/batteryWidget.html">batteryWidget</a>()
+                    </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getConfiguration.html">getConfiguration</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setConfiguration.html">setConfiguration</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqType_name.html">getEqType_name</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setEqType_name.html">setEqType_name</a>()
                     </li><li>public JeeObject|null <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getObject.html">getObject</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setObject.html">setObject</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getStatus.html">getStatus</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getName.html">getName</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setName.html">setName</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getLinkToConfiguration.html">getLinkToConfiguration</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/checkAndUpdateCmd.html">checkAndUpdateCmd</a>()
@@ -135,6 +146,8 @@
                     </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCmd.html">getCmd</a>()
                     </li><li>public EqLogic <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/copy.html">copy</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/save.html">save</a>()
+                    </li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getChanged.html">getChanged</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setChanged.html">setChanged</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/emptyCacheWidget.html">emptyCacheWidget</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getDisplay.html">getDisplay</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setDisplay.html">setDisplay</a>()
@@ -153,6 +166,8 @@
                     </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getPrimaryCategory.html">getPrimaryCategory</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCategory.html">getCategory</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setCategory.html">setCategory</a>()
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getLogicalId.html">getLogicalId</a>()
+                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setLogicalId.html">setLogicalId</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/widgetPossibility.html">widgetPossibility</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getGenericType.html">getGenericType</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setGenericType.html">setGenericType</a>()
@@ -162,6 +177,7 @@
                     </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getMaxCmdAlert.html">getMaxCmdAlert</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getShowOnChild.html">getShowOnChild</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/remove.html">remove</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/refresh.html">refresh</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/displayDebug.html">displayDebug</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getDebug.html">getDebug</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setDebug.html">setDebug</a>()
@@ -178,69 +194,16 @@
                     </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/toArray.html">toArray</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/castFromEqLogic.html">castFromEqLogic</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getAllAttributes.html">getAllAttributes</a>()
-                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
-                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getChanged.html">getChanged</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/setChanged.html">setChanged</a>()
-                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState</a>()
-                        </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName</a>()
-                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save</a>()
-                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove</a>()
-                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\NameEntity">NameEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState</a>()
-                        </li><li>public string <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName</a>()
-                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\LogicalIdEntity">LogicalIdEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\LogicalIdEntity" href="../traits/NextDom_Model_Entity_Parents_LogicalIdEntity/updateChangeState.html">updateChangeState</a>()
-                        </li><li>public string <a title="NextDom\Model\Entity\Parents\LogicalIdEntity" href="../traits/NextDom_Model_Entity_Parents_LogicalIdEntity/getLogicalId.html">getLogicalId</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\LogicalIdEntity" href="../traits/NextDom_Model_Entity_Parents_LogicalIdEntity/setLogicalId.html">setLogicalId</a>()
-                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\IsVisibleEntity">IsVisibleEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/updateChangeState.html">updateChangeState</a>()
-                        </li><li>public mixed <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/getIsVisible.html">getIsVisible</a>()
-                        </li><li>public void <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/isVisible.html">isVisible</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/setIsVisible.html">setIsVisible</a>()
-                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\OrderEntity">OrderEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/updateChangeState.html">updateChangeState</a>()
-                        </li><li>public int <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/getOrder.html">getOrder</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/setOrder.html">setOrder</a>()
-                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\RefreshEntity">RefreshEntity</span></li><li>public void <a title="NextDom\Model\Entity\Parents\RefreshEntity" href="../traits/NextDom_Model_Entity_Parents_RefreshEntity/refresh.html">refresh</a>()
-                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\ConfigurationEntity">ConfigurationEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState</a>()
-                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">basicSetConfiguration</a>()
-                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\DisplayEntity">DisplayEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/updateChangeState.html">updateChangeState</a>()
-                        </li><li>public mixed <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/getDisplay.html">getDisplay</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/setDisplay.html">setDisplay</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/setDisplay.html">basicSetDisplay</a>()
-                        </li></ul>
+                    </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTableName.html">getTableName</a>()
+                    </li></ul>
 
             }<br/></div>
         <h2 id="hierarchy">Hierarchy</h2>
         <div class="styled">
-          <h4>Extends</h4>
+          <h4>Implements</h4>
           <ul>
             <li>
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
-            </li>
-          </ul>
-          <h4>Uses</h4>
-          <ul>
-            <li>
-              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a>
-            </li>
-            <li>
-              <a title="NextDom\Model\Entity\Parents\LogicalIdEntity" href="../traits/NextDom_Model_Entity_Parents_LogicalIdEntity.html">NextDom\Model\Entity\Parents\LogicalIdEntity</a>
-            </li>
-            <li>
-              <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity.html">NextDom\Model\Entity\Parents\IsVisibleEntity</a>
-            </li>
-            <li>
-              <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity.html">NextDom\Model\Entity\Parents\OrderEntity</a>
-            </li>
-            <li>
-              <a title="NextDom\Model\Entity\Parents\RefreshEntity" href="../traits/NextDom_Model_Entity_Parents_RefreshEntity.html">NextDom\Model\Entity\Parents\RefreshEntity</a>
-            </li>
-            <li>
-              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a>
-            </li>
-            <li>
-              <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity.html">NextDom\Model\Entity\Parents\DisplayEntity</a>
+              <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">NextDom\Model\Entity\EntityInterface</a>
             </li>
           </ul>
         </div>
@@ -253,15 +216,15 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">249+</td>
+            <td class="nummeric">291+</td>
             <td>: Unused</td>
           </tr>
           <tr>
-            <td class="nummeric">262+</td>
+            <td class="nummeric">304+</td>
             <td>: Unused</td>
           </tr>
           <tr>
-            <td class="nummeric">1504+</td>
+            <td class="nummeric">1661+</td>
             <td>: ???</td>
           </tr>
         </table>
@@ -283,20 +246,8 @@
               <td>'`eqLogic`'</td>
             </tr>
             <tr>
-              <td id="TABLE_NAME">TABLE_NAME</td>
-              <td>NextDomObj::EQLOGIC</td>
-            </tr>
-            <tr>
               <td id="UIDDELIMITER">UIDDELIMITER</td>
               <td>'__'</td>
-            </tr>
-            <tr>
-              <td id="TABLE_NAME">TABLE_NAME</td>
-              <td>''</td>
-            </tr>
-            <tr>
-              <td id="TABLE_NAME">TABLE_NAME</td>
-              <td>''</td>
             </tr>
           </tbody>
         </table>
@@ -316,9 +267,9 @@
             <li id="_batteryUpdated">
               <strong>$_batteryUpdated</strong>
             </li>
-            <li id="_changed"><strong>$_changed</strong>
-                —
-                <a title="NextDom\Model\Entity\Parents\bool" href="../classes/NextDom_Model_Entity_Parents_bool.html">NextDom\Model\Entity\Parents\bool</a></li>
+            <li id="_changed">
+              <strong>$_changed</strong>
+            </li>
             <li id="_debug">
               <strong>$_debug</strong>
             </li>
@@ -360,7 +311,7 @@
                 int</li>
             <li id="isVisible"><strong>$isVisible</strong>
                 —
-                boolean</li>
+                int</li>
             <li id="logicalId"><strong>$logicalId</strong>
                 —
                 string</li>
@@ -385,9 +336,6 @@
         <div class="styled">
           <h4>public</h4>
           <ul>
-            <li id="__construct">
-              <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/__construct.html">__construct()</a>
-            </li>
             <li id="batteryStatus"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/batteryStatus.html">batteryStatus()</a>
                 — Update battery status</li>
             <li id="batteryWidget"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/batteryWidget.html">batteryWidget()</a>
@@ -414,12 +362,16 @@
                 — Get data in cache linked to the eqLogic</li>
             <li id="getCategory"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCategory.html">getCategory()</a>
                 — Test if the object belongs to a category</li>
+            <li id="getChanged"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getChanged.html">getChanged()</a>
+                — Get changed data state</li>
             <li id="getCmd"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCmd.html">getCmd()</a>
                 — Get one or more commands of the object</li>
             <li id="getCmdByGenericType"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCmdByGenericType.html">getCmdByGenericType()</a>
                 — Get command of the eqLogic by generic type</li>
             <li id="getComment"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getComment.html">getComment()</a>
                 — Get the comment attached to the eqLogic</li>
+            <li id="getConfiguration"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getConfiguration.html">getConfiguration()</a>
+                — Get object specific configuration data</li>
             <li id="getDebug"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getDebug.html">getDebug()</a>
                 — Get debug state</li>
             <li id="getDisplay"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getDisplay.html">getDisplay()</a>
@@ -435,6 +387,8 @@
                 — Get generic type for simple eqLogic</li>
             <li id="getHumanName"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getHumanName.html">getHumanName()</a>
                 — Get HTML code for battery widget</li>
+            <li id="getId"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getId.html">getId()</a>
+                — Get Id</li>
             <li id="getImage"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getImage.html">getImage()</a>
                 — Get linked image</li>
             <li id="getIsEnable"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getIsEnable.html">getIsEnable()</a>
@@ -445,8 +399,12 @@
                 — Get link data for graph representation</li>
             <li id="getLinkToConfiguration"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getLinkToConfiguration.html">getLinkToConfiguration()</a>
                 — Get configuration URL</li>
+            <li id="getLogicalId"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getLogicalId.html">getLogicalId()</a>
+                — Set logicalId (Id used by plugins)</li>
             <li id="getMaxCmdAlert"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getMaxCmdAlert.html">getMaxCmdAlert()</a>
                 — Get max command alter for this eqLogic</li>
+            <li id="getName"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getName.html">getName()</a>
+                — Get EqLogic name</li>
             <li id="getObject"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getObject.html">getObject()</a>
                 — Get attached object</li>
             <li id="getObject_id"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getObject_id.html">getObject_id()</a>
@@ -460,6 +418,8 @@
             </li>
             <li id="getStatus"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getStatus.html">getStatus()</a>
                 — Get status from cache</li>
+            <li id="getTableName"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTableName.html">getTableName()</a>
+                — Get the name of the SQL table where data is stored.</li>
             <li id="getTags"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTags.html">getTags()</a>
                 — Get list of eqLogic tags</li>
             <li id="getTimeout"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getTimeout.html">getTimeout()</a>
@@ -477,10 +437,14 @@
                 — Import eqLogic from a plain text array</li>
             <li id="isEnabled"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/isEnabled.html">isEnabled()</a>
                 — Get eqLogic enable status</li>
+            <li id="isVisible"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/isVisible.html">isVisible()</a>
+                — Get eqLogic visibility</li>
             <li id="postToHtml"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/postToHtml.html">postToHtml()</a>
                 — Store HTML view in cache</li>
             <li id="preToHtml"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/preToHtml.html">preToHtml()</a>
                 — Prepare data for HTML view</li>
+            <li id="refresh"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/refresh.html">refresh()</a>
+                — Refresh data from the database</li>
             <li id="refreshWidget"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/refreshWidget.html">refreshWidget()</a>
                 — Refresh widget if change occurs since la render</li>
             <li id="remove"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/remove.html">remove()</a>
@@ -493,6 +457,8 @@
                 — Store data in cache</li>
             <li id="setCategory"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setCategory.html">setCategory()</a>
                 — Define if the object belongs to a category</li>
+            <li id="setChanged"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setChanged.html">setChanged()</a>
+                — Set changed data state</li>
             <li id="setComment"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setComment.html">setComment()</a>
                 — Set the comment attached to the eqLogic</li>
             <li id="setConfiguration"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setConfiguration.html">setConfiguration()</a>
@@ -508,16 +474,22 @@
                 — Set eqLogic type name (linked plugin)</li>
             <li id="setGenericType"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setGenericType.html">setGenericType()</a>
                 — Set generic type for simple EqLogic</li>
+            <li id="setId"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setId.html">setId()</a>
+                — Change id</li>
             <li id="setIsEnable"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setIsEnable.html">setIsEnable()</a>
                 — Set if the eqLogic is enabled</li>
             <li id="setIsVisible"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setIsVisible.html">setIsVisible()</a>
                 — Set the visibility of the eqLogic</li>
+            <li id="setLogicalId"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setLogicalId.html">setLogicalId()</a>
+                — Get logicalId (Id used by plugins)</li>
             <li id="setName"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setName.html">setName()</a>
                 — Set eqLogic name</li>
             <li id="setObject"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setObject.html">setObject()</a>
                 — Set attached object</li>
             <li id="setObject_id"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setObject_id.html">setObject_id()</a>
                 — Set attached room id</li>
+            <li id="setOrder"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setOrder.html">setOrder()</a>
+                — Set eqLogic order in list</li>
             <li id="setStatus">
               <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setStatus.html">setStatus()</a>
             </li>
@@ -532,128 +504,11 @@
             <li id="widgetPossibility"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/widgetPossibility.html">widgetPossibility()</a>
                 — Get widget specific possibility</li>
           </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="getId">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId()</a>
-            </li>
-            <li id="setId">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId()</a>
-            </li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">NextDom\Model\Entity\Parents\BaseModel</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="getChanged"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getChanged.html">getChanged()</a>
-                — Get changed state</li>
-            <li id="getTableName">
-              <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName()</a>
-            </li>
-            <li id="remove"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove()</a>
-                — Remove the entity from the database</li>
-            <li id="save"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save()</a>
-                — Save the entity in the database</li>
-            <li id="setChanged"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/setChanged.html">setChanged()</a>
-                — Set changed state</li>
-            <li id="updateChangeState"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState()</a>
-                — Update change state if values are different</li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="getName">
-              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName()</a>
-            </li>
-            <li id="setName">
-              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName()</a>
-            </li>
-            <li id="updateChangeState">
-              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState()</a>
-            </li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\LogicalIdEntity" href="../traits/NextDom_Model_Entity_Parents_LogicalIdEntity.html">NextDom\Model\Entity\Parents\LogicalIdEntity</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="getLogicalId">
-              <a title="NextDom\Model\Entity\Parents\LogicalIdEntity" href="../traits/NextDom_Model_Entity_Parents_LogicalIdEntity/getLogicalId.html">getLogicalId()</a>
-            </li>
-            <li id="setLogicalId">
-              <a title="NextDom\Model\Entity\Parents\LogicalIdEntity" href="../traits/NextDom_Model_Entity_Parents_LogicalIdEntity/setLogicalId.html">setLogicalId()</a>
-            </li>
-            <li id="updateChangeState">
-              <a title="NextDom\Model\Entity\Parents\LogicalIdEntity" href="../traits/NextDom_Model_Entity_Parents_LogicalIdEntity/updateChangeState.html">updateChangeState()</a>
-            </li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity.html">NextDom\Model\Entity\Parents\IsVisibleEntity</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="getIsVisible">
-              <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/getIsVisible.html">getIsVisible()</a>
-            </li>
-            <li id="isVisible">
-              <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/isVisible.html">isVisible()</a>
-            </li>
-            <li id="setIsVisible">
-              <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/setIsVisible.html">setIsVisible()</a>
-            </li>
-            <li id="updateChangeState">
-              <a title="NextDom\Model\Entity\Parents\IsVisibleEntity" href="../traits/NextDom_Model_Entity_Parents_IsVisibleEntity/updateChangeState.html">updateChangeState()</a>
-            </li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity.html">NextDom\Model\Entity\Parents\OrderEntity</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="getOrder">
-              <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/getOrder.html">getOrder()</a>
-            </li>
-            <li id="setOrder">
-              <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/setOrder.html">setOrder()</a>
-            </li>
-            <li id="updateChangeState">
-              <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/updateChangeState.html">updateChangeState()</a>
-            </li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\RefreshEntity" href="../traits/NextDom_Model_Entity_Parents_RefreshEntity.html">NextDom\Model\Entity\Parents\RefreshEntity</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="refresh"><a title="NextDom\Model\Entity\Parents\RefreshEntity" href="../traits/NextDom_Model_Entity_Parents_RefreshEntity/refresh.html">refresh()</a>
-                — Rafraichit les informations à partir de la base de données</li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity.html">NextDom\Model\Entity\Parents\ConfigurationEntity</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="basicSetConfiguration">
-              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">basicSetConfiguration()</a>
-            </li>
-            <li id="getConfiguration">
-              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration()</a>
-            </li>
-            <li id="setConfiguration">
-              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration()</a>
-            </li>
-            <li id="updateChangeState">
-              <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState()</a>
-            </li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity.html">NextDom\Model\Entity\Parents\DisplayEntity</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="basicSetDisplay"><a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/setDisplay.html">basicSetDisplay()</a>
-                — Set display information by key</li>
-            <li id="getDisplay"><a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/getDisplay.html">getDisplay()</a>
-                — Get display information by key</li>
-            <li id="setDisplay"><a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/setDisplay.html">setDisplay()</a>
-                — Set display information by key</li>
-            <li id="updateChangeState">
-              <a title="NextDom\Model\Entity\Parents\DisplayEntity" href="../traits/NextDom_Model_Entity_Parents_DisplayEntity/updateChangeState.html">updateChangeState()</a>
-            </li>
-          </ul>
         </div>
       </section>
     </div>
     <footer>
-      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2019 by Arne Blankerts and Contributors</span>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2020 by Arne Blankerts and Contributors</span>
     </footer>
   </body>
 </html>
