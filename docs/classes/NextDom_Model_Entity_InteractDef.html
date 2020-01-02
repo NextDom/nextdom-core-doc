@@ -24,6 +24,9 @@
         <li>
           <a href="../classes.html">Classes</a>
         </li>
+        <li>
+          <a href="../traits.html">Traits</a>
+        </li>
         <li class="separator">
           <a href="../source/index.html">Source</a>
         </li>
@@ -56,13 +59,16 @@
             <a href="#hierarchy">Hierarchy</a>
           </li>
           <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
             <a href="#members">Members</a>
           </li>
           <li>
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/InteractDef.php.html#line36">Source</a>
+            <a href="../source/Model/Entity/InteractDef.php.html#line41">Source</a>
           </li>
         </ul>
       </nav>
@@ -73,27 +79,20 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class InteractDef
-                implements
-                <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">EntityInterface</a>
-            {<br/><ul class="none"><li>// members</li><li>protected  <a href="#members">$name</a>;
-                    </li><li>protected  <a href="#members">$enable</a>;
-                    </li><li>protected  <a href="#members">$query</a>;
+                extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
+            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::INTERACT_DEF;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected  <a href="#members">$query</a>;
                     </li><li>protected  <a href="#members">$reply</a>;
                     </li><li>protected  <a href="#members">$person</a>;
-                    </li><li>protected  <a href="#members">$options</a>;
                     </li><li>protected  <a href="#members">$filtres</a>;
                     </li><li>protected  <a href="#members">$group</a>;
                     </li><li>protected  <a href="#members">$actions</a>;
-                    </li><li>protected  <a href="#members">$id</a>;
-                    </li><li>protected boolean <a href="#members">$_changed</a> =
-                        false;
-                    </li></ul><ul class="none"><li>// methods</li><li>public mixed <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/selectReply.html">selectReply</a>()
+                    </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
+                        </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
+                        </li></ul><ul class="none"><li>// methods</li><li>public mixed <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/selectReply.html">selectReply</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getReply.html">getReply</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setReply.html">setReply</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/preInsert.html">preInsert</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/preSave.html">preSave</a>()
-                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getOptions.html">getOptions</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setOptions.html">setOptions</a>()
                     </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getFiltres.html">getFiltres</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setFiltres.html">setFiltres</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/save.html">save</a>()
@@ -103,45 +102,88 @@
                     </li><li>public array <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/generateQueryVariant.html">generateQueryVariant</a>()
                     </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getActions.html">getActions</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setActions.html">setActions</a>()
-                    </li><li>public int <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getId.html">getId</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setId.html">setId</a>()
-                    </li><li>public int <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getEnable.html">getEnable</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setEnable.html">setEnable</a>()
                     </li><li>public bool <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/checkQuery.html">checkQuery</a>()
-                    </li><li>public void <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/remove.html">remove</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/preRemove.html">preRemove</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/postRemove.html">postRemove</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getLinkToConfiguration.html">getLinkToConfiguration</a>()
                     </li><li>public array|null <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getLinkData.html">getLinkData</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getHumanName.html">getHumanName</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getName.html">getName</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setName.html">setName</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getPerson.html">getPerson</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setPerson.html">setPerson</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getGroup.html">getGroup</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setGroup.html">setGroup</a>()
-                    </li><li>public bool <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getChanged.html">getChanged</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setChanged.html">setChanged</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getTableName.html">getTableName</a>()
-                    </li></ul>
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getChanged.html">getChanged</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/setChanged.html">setChanged</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save</a>()
+                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\EnableEntity">EnableEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public int <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/getEnable.html">getEnable</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/setEnable.html">setEnable</a>()
+                        </li><li>public bool <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/isEnabled.html">isEnabled</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\NameEntity">NameEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\OptionsEntity">OptionsEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/getOptions.html">getOptions</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/setOptions.html">setOptions</a>()
+                        </li></ul>
 
             }<br/></div>
         <h2 id="hierarchy">Hierarchy</h2>
         <div class="styled">
-          <h4>Implements</h4>
+          <h4>Extends</h4>
           <ul>
             <li>
-              <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">NextDom\Model\Entity\EntityInterface</a>
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
+            </li>
+          </ul>
+          <h4>Uses</h4>
+          <ul>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity.html">NextDom\Model\Entity\Parents\EnableEntity</a>
+            </li>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a>
+            </li>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity.html">NextDom\Model\Entity\Parents\OptionsEntity</a>
             </li>
           </ul>
         </div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>NextDomObj::INTERACT_DEF</td>
+            </tr>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>''</td>
+            </tr>
+            <tr>
+              <td id="TABLE_NAME">TABLE_NAME</td>
+              <td>''</td>
+            </tr>
+          </tbody>
+        </table>
         <h2 id="members">Members</h2>
         <div class="styled members">
           <h4>protected</h4>
           <ul class="members">
-            <li id="_changed">
-              <strong>$_changed</strong>
-            </li>
+            <li id="_changed"><strong>$_changed</strong>
+                —
+                <a title="NextDom\Model\Entity\Parents\bool" href="../classes/NextDom_Model_Entity_Parents_bool.html">NextDom\Model\Entity\Parents\bool</a></li>
             <li id="actions"><strong>$actions</strong>
                 —
                 string</li>
@@ -187,12 +229,6 @@
             <li id="getActions">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getActions.html">getActions()</a>
             </li>
-            <li id="getChanged">
-              <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getChanged.html">getChanged()</a>
-            </li>
-            <li id="getEnable">
-              <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getEnable.html">getEnable()</a>
-            </li>
             <li id="getFiltres">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getFiltres.html">getFiltres()</a>
             </li>
@@ -202,20 +238,11 @@
             <li id="getHumanName">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getHumanName.html">getHumanName()</a>
             </li>
-            <li id="getId">
-              <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getId.html">getId()</a>
-            </li>
             <li id="getLinkData">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getLinkData.html">getLinkData()</a>
             </li>
             <li id="getLinkToConfiguration">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getLinkToConfiguration.html">getLinkToConfiguration()</a>
-            </li>
-            <li id="getName">
-              <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getName.html">getName()</a>
-            </li>
-            <li id="getOptions">
-              <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getOptions.html">getOptions()</a>
             </li>
             <li id="getPerson">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getPerson.html">getPerson()</a>
@@ -225,9 +252,6 @@
             </li>
             <li id="getReply">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getReply.html">getReply()</a>
-            </li>
-            <li id="getTableName">
-              <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/getTableName.html">getTableName()</a>
             </li>
             <li id="postRemove">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/postRemove.html">postRemove()</a>
@@ -244,9 +268,6 @@
             <li id="preSave">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/preSave.html">preSave()</a>
             </li>
-            <li id="remove">
-              <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/remove.html">remove()</a>
-            </li>
             <li id="save">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/save.html">save()</a>
             </li>
@@ -256,26 +277,11 @@
             <li id="setActions">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setActions.html">setActions()</a>
             </li>
-            <li id="setChanged">
-              <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setChanged.html">setChanged()</a>
-            </li>
-            <li id="setEnable">
-              <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setEnable.html">setEnable()</a>
-            </li>
             <li id="setFiltres">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setFiltres.html">setFiltres()</a>
             </li>
             <li id="setGroup">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setGroup.html">setGroup()</a>
-            </li>
-            <li id="setId">
-              <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setId.html">setId()</a>
-            </li>
-            <li id="setName">
-              <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setName.html">setName()</a>
-            </li>
-            <li id="setOptions">
-              <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setOptions.html">setOptions()</a>
             </li>
             <li id="setPerson">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setPerson.html">setPerson()</a>
@@ -285,6 +291,74 @@
             </li>
             <li id="setReply">
               <a title="NextDom\Model\Entity\InteractDef" href="../classes/NextDom_Model_Entity_InteractDef/setReply.html">setReply()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getId">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId()</a>
+            </li>
+            <li id="setId">
+              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">NextDom\Model\Entity\Parents\BaseModel</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getChanged"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getChanged.html">getChanged()</a>
+                — Get changed state</li>
+            <li id="getTableName">
+              <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName()</a>
+            </li>
+            <li id="remove"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove()</a>
+                — Remove the entity from the database</li>
+            <li id="save"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save()</a>
+                — Save the entity in the database</li>
+            <li id="setChanged"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/setChanged.html">setChanged()</a>
+                — Set changed state</li>
+            <li id="updateChangeState"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState()</a>
+                — Update change state if values are different</li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity.html">NextDom\Model\Entity\Parents\EnableEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getEnable">
+              <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/getEnable.html">getEnable()</a>
+            </li>
+            <li id="isEnabled"><a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/isEnabled.html">isEnabled()</a>
+                — Get bool enabled state</li>
+            <li id="setEnable">
+              <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/setEnable.html">setEnable()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\EnableEntity" href="../traits/NextDom_Model_Entity_Parents_EnableEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getName">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName()</a>
+            </li>
+            <li id="setName">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity.html">NextDom\Model\Entity\Parents\OptionsEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getOptions">
+              <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/getOptions.html">getOptions()</a>
+            </li>
+            <li id="setOptions">
+              <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/setOptions.html">setOptions()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\OptionsEntity" href="../traits/NextDom_Model_Entity_Parents_OptionsEntity/updateChangeState.html">updateChangeState()</a>
             </li>
           </ul>
         </div>
