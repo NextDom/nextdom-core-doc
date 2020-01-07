@@ -24,9 +24,6 @@
         <li>
           <a href="../classes.html">Classes</a>
         </li>
-        <li>
-          <a href="../traits.html">Traits</a>
-        </li>
         <li class="separator">
           <a href="../source/index.html">Source</a>
         </li>
@@ -62,16 +59,13 @@
             <a href="#tasks">Tasks</a>
           </li>
           <li>
-            <a href="#constants">Constants</a>
-          </li>
-          <li>
             <a href="#members">Members</a>
           </li>
           <li>
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/Plugin.php.html#line45">Source</a>
+            <a href="../source/Model/Entity/Plugin.php.html#line43">Source</a>
           </li>
         </ul>
       </nav>
@@ -82,8 +76,9 @@
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class Plugin
-                extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
-            {<br/><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected  <a href="#members">$id</a>;
+                implements
+                <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">EntityInterface</a>
+            {<br/><ul class="none"><li>// members</li><li>protected  <a href="#members">$id</a>;
                     </li><li>protected string <a href="#members">$name</a> =
                         '';
                     </li><li>protected string <a href="#members">$description</a> =
@@ -123,9 +118,7 @@
                         ;
                     </li><li>protected array <a href="#members">$functionality</a> =
                         ;
-                    </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
-                        </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
-                        </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/initPluginFromData.html">initPluginFromData</a>()
+                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/initPluginFromData.html">initPluginFromData</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getId.html">getId</a>()
                     </li><li>public <span title="Plugin">Plugin</span> <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setId.html">setId</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getPathToConfigurationById.html">getPathToConfigurationById</a>()
@@ -179,23 +172,15 @@
                     </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getDocumentation.html">getDocumentation</a>()
                     </li><li>public <span title="Plugin">Plugin</span> <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setDocumentation.html">setDocumentation</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/getTableName.html">getTableName</a>()
-                    </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
-                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getChanged.html">getChanged</a>()
-                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/setChanged.html">setChanged</a>()
-                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState</a>()
-                        </li><li>public string <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName</a>()
-                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save</a>()
-                        </li><li>public void <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove</a>()
-                        </li></ul>
+                    </li></ul>
 
             }<br/></div>
         <h2 id="hierarchy">Hierarchy</h2>
         <div class="styled">
-          <h4>Extends</h4>
+          <h4>Implements</h4>
           <ul>
             <li>
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a>
+              <a title="NextDom\Model\Entity\EntityInterface" href="../interfaces/NextDom_Model_Entity_EntityInterface.html">NextDom\Model\Entity\EntityInterface</a>
             </li>
           </ul>
         </div>
@@ -208,100 +193,78 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">208+</td>
+            <td class="nummeric">206+</td>
             <td>: Fonction getDisplay</td>
           </tr>
           <tr>
-            <td class="nummeric">224+</td>
+            <td class="nummeric">222+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">234+</td>
+            <td class="nummeric">232+</td>
             <td>: ??</td>
           </tr>
           <tr>
-            <td class="nummeric">246+</td>
+            <td class="nummeric">244+</td>
             <td>: Doit passer en static</td>
           </tr>
           <tr>
-            <td class="nummeric">258+</td>
+            <td class="nummeric">256+</td>
             <td>: Renommer</td>
           </tr>
           <tr>
-            <td class="nummeric">343+</td>
+            <td class="nummeric">341+</td>
             <td>: Corriger la faute</td>
           </tr>
           <tr>
-            <td class="nummeric">471+</td>
+            <td class="nummeric">469+</td>
             <td>Surement le mode de chargement du daemon au démarrage. Sans doute</td>
           </tr>
           <tr>
-            <td class="nummeric">649+</td>
+            <td class="nummeric">647+</td>
             <td>: Amélioration possible, tester si le fichier existe, l'inclure, puis tester si la méthode existe plutot que de lire le contenu du fichier</td>
           </tr>
           <tr>
-            <td class="nummeric">685+</td>
+            <td class="nummeric">683+</td>
             <td>: Lance un truc, peut être un Nokia 3310</td>
           </tr>
           <tr>
-            <td class="nummeric">741+</td>
+            <td class="nummeric">739+</td>
             <td>: Changer le format</td>
           </tr>
           <tr>
-            <td class="nummeric">894+</td>
+            <td class="nummeric">892+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">903+</td>
+            <td class="nummeric">901+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">913+</td>
+            <td class="nummeric">911+</td>
             <td>: ??</td>
           </tr>
           <tr>
-            <td class="nummeric">923+</td>
+            <td class="nummeric">921+</td>
             <td>: ??</td>
           </tr>
           <tr>
-            <td class="nummeric">933+</td>
+            <td class="nummeric">931+</td>
             <td>??</td>
           </tr>
           <tr>
-            <td class="nummeric">943+</td>
+            <td class="nummeric">941+</td>
             <td>??</td>
           </tr>
           <tr>
-            <td class="nummeric">989+</td>
+            <td class="nummeric">987+</td>
             <td>????</td>
           </tr>
-        </table>
-        <h2 id="constants">Constants</h2>
-        <table class="styled">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Value</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td id="TABLE_NAME">TABLE_NAME</td>
-              <td>''</td>
-            </tr>
-            <tr>
-              <td id="TABLE_NAME">TABLE_NAME</td>
-              <td>''</td>
-            </tr>
-          </tbody>
         </table>
         <h2 id="members">Members</h2>
         <div class="styled members">
           <h4>protected</h4>
           <ul class="members">
-            <li id="_changed"><strong>$_changed</strong>
-                —
-                <a title="NextDom\Model\Entity\Parents\bool" href="../classes/NextDom_Model_Entity_Parents_bool.html">NextDom\Model\Entity\Parents\bool</a></li>
             <li id="author">
               <strong>$author</strong>
             </li>
@@ -338,9 +301,6 @@
             <li id="id">
               <strong>$id</strong>
             </li>
-            <li id="id"><strong>$id</strong>
-                —
-                integer</li>
             <li id="include">
               <strong>$include</strong>
             </li>
@@ -503,33 +463,6 @@
             </li>
             <li id="setName"><a title="NextDom\Model\Entity\Plugin" href="../classes/NextDom_Model_Entity_Plugin/setName.html">setName()</a>
                 — Définir le nom</li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="getId">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId()</a>
-            </li>
-            <li id="setId">
-              <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId()</a>
-            </li>
-          </ul>
-          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">NextDom\Model\Entity\Parents\BaseModel</a></h3>
-          <h4>public</h4>
-          <ul>
-            <li id="getChanged"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getChanged.html">getChanged()</a>
-                — Get changed state</li>
-            <li id="getTableName">
-              <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getTableName.html">getTableName()</a>
-            </li>
-            <li id="remove"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/remove.html">remove()</a>
-                — Remove the entity from the database</li>
-            <li id="save"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/save.html">save()</a>
-                — Save the entity in the database</li>
-            <li id="setChanged"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/setChanged.html">setChanged()</a>
-                — Set changed state</li>
-            <li id="updateChangeState"><a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/updateChangeState.html">updateChangeState()</a>
-                — Update change state if values are different</li>
           </ul>
         </div>
       </section>
