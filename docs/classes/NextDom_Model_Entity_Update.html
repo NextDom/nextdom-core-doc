@@ -90,6 +90,10 @@
                     </li><li>protected  <a href="#members">$status</a>;
                     </li><li>protected boolean <a href="#members">$_changeUpdate</a> =
                         false;
+                    </li><li>protected integer <a href="#members">$progressInc</a> =
+                        0;
+                    </li><li>protected integer <a href="#members">$progressStart</a> =
+                        0;
                     </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
                         </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
                         </li></ul><ul class="none"><li>// methods</li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/__construct.html">__construct</a>()
@@ -111,6 +115,7 @@
                     </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/postRemove.html">postRemove</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/getStatus.html">getStatus</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setStatus.html">setStatus</a>()
+                    </li><li>public void <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setProgressParams.html">setProgressParams</a>()
                     </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>public bool <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel/getChanged.html">getChanged</a>()
@@ -172,7 +177,7 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">434+</td>
+            <td class="nummeric">436+</td>
             <td>: Bizarre, en gros le nom = logicialId</td>
           </tr>
         </table>
@@ -224,6 +229,12 @@
             <li id="name"><strong>$name</strong>
                 —
                 string</li>
+            <li id="progressInc">
+              <strong>$progressInc</strong>
+            </li>
+            <li id="progressStart">
+              <strong>$progressStart</strong>
+            </li>
             <li id="remoteVersion"><strong>$remoteVersion</strong>
                 —
                 string</li>
@@ -280,6 +291,9 @@
                 — Prépare l'objet avant la sauvegarde</li>
             <li id="setLocalVersion">
               <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setLocalVersion.html">setLocalVersion()</a>
+            </li>
+            <li id="setProgressParams">
+              <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setProgressParams.html">setProgressParams()</a>
             </li>
             <li id="setRemoteVersion">
               <a title="NextDom\Model\Entity\Update" href="../classes/NextDom_Model_Entity_Update/setRemoteVersion.html">setRemoteVersion()</a>
