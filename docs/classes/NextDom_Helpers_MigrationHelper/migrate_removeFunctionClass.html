@@ -2,7 +2,7 @@
 <!DOCTYPE html SYSTEM "about:legacy-compat">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <title>phpDox - NextDom\Controller\Tools\WidgetController::get</title>
+    <title>phpDox - NextDom\Helpers\MigrationHelper::migrate_removeFunctionClass</title>
     <link rel="stylesheet" type="text/css" href="../../css/style.css" media="screen"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
   </head>
@@ -42,12 +42,12 @@
             <a href="../../classes.html">Classes</a>
           </li>
           <li class="separator">
-            <a href="../../classes.html#NextDom_Controller_Tools">NextDom\Controller\Tools</a>
+            <a href="../../classes.html#NextDom_Helpers">NextDom\Helpers</a>
           </li>
           <li class="separator">
-            <a title="NextDom\Controller\Tools\WidgetController" href="../../classes/NextDom_Controller_Tools_WidgetController.html">WidgetController</a>
+            <a title="NextDom\Helpers\MigrationHelper" href="../../classes/NextDom_Helpers_MigrationHelper.html">MigrationHelper</a>
           </li>
-          <li class="separator">get</li>
+          <li class="separator">migrate_removeFunctionClass</li>
         </ul>
       </div>
       <nav class="box">
@@ -62,41 +62,30 @@
             <a href="#parameter">Parameter</a>
           </li>
           <li>
-            <a href="#return">Return</a>
-          </li>
-          <li>
             <a href="#throws">Throws</a>
           </li>
           <li>
-            <a href="#overrides">Overrides</a>
-          </li>
-          <li>
-            <a href="../../source/Controller/Tools/WidgetController.php.html#line49">Source</a>
+            <a href="../../source/Helpers/MigrationHelper.php.html#line425">Source</a>
           </li>
         </ul>
       </nav>
       <section>
-        <h1><small>NextDom\Controller\Tools\WidgetController::</small>get</h1>
-        <h4>Render widget page</h4>
+        <h1><small>NextDom\Helpers\MigrationHelper::</small>migrate_removeFunctionClass</h1>
+        <h4>Migration removing user.function.class.php (should be done in 0.5.2)</h4>
         <p/>
         <ul/>
         <h2 id="signature">Signature</h2>
         <div class="styled synopsis">
-          <code>public function get(array&amp;
-        $pageData )
+          <code>private function migrate_removeFunctionClass([string
+        $logFile = LogTarget::MIGRATION] )
             </code>
         </div>
         <h2 id="parameterlist">Parameters</h2>
         <dl class="styled">
-          <dt><code>$pageData</code>
+          <dt><code>$logFile</code>
                 —
-                array</dt>
-          <dd>Page data</dd>
-        </dl>
-        <h2 id="return">Returns</h2>
-        <dl class="styled">
-          <dt>string</dt>
-          <dd>Content of widget page</dd>
+                string</dt>
+          <dd>log name file to display information</dd>
         </dl>
         <h2 id="throws">Errors/Exceptions</h2>
         <dl class="styled">
@@ -107,14 +96,6 @@
           </dt>
           <dd/>
         </dl>
-        <h2 id="overrides">Parent Implementation</h2>
-        <ul class="styled">
-          <li>
-            <code>
-              <a title="NextDom\Controller\BaseController" href="../../classes/NextDom_Controller_BaseController/get.html">BaseController</a>
-            </code>
-          </li>
-        </ul>
       </section>
     </div>
     <footer>
