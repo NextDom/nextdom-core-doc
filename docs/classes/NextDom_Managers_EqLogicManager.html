@@ -85,7 +85,8 @@
                 extends <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a>
             {<br/><ul class="none"><li>// constants</li><li>const CLASS_NAME = EqLogic::class;</li><li>const DB_CLASS_NAME = '`eqLogic`';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Managers\Parents\BaseManager" href="../classes/NextDom_Managers_Parents_BaseManager.html">BaseManager</a></li><li>const <a href="#CLASS_NAME">CLASS_NAME</a> = '';</li><li>const <a href="#DB_CLASS_NAME">DB_CLASS_NAME</a> = '``';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Managers\Parents\BaseManager">BaseManager</span></li><li>protected static  <a href="#members">$baseSQL</a>;
                         </li><li>protected static  <a href="#members">$prefixedBaseSQL</a>;
-                        </li></ul><ul class="none"><li>// methods</li><li>public static array <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/cast.html">cast</a>()
+                        </li></ul><ul class="none"><li>// methods</li><li>public static array|mixed <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byEqRealId.html">byEqRealId</a>()
+                    </li><li>public static array <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/cast.html">cast</a>()
                     </li><li>public static array <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byObjectId.html">byObjectId</a>()
                     </li><li>public static array <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byLogicalId.html">byLogicalId</a>()
                     </li><li>public static array <a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byType.html">byType</a>()
@@ -114,7 +115,6 @@
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\CommonManager">CommonManager</span></li><li>public static mixed <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/byId.html">byId</a>()
                         </li><li>public static mixed <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/byId.html">baseById</a>()
                         </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getAll.html">getAll</a>()
-                        </li><li>public static int <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getCount.html">getCount</a>()
                         </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getAllOrdered.html">getAllOrdered</a>()
                         </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getOneByClauses.html">getOneByClauses</a>()
                         </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getMultipleByClauses.html">getMultipleByClauses</a>()
@@ -147,51 +147,51 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">173+</td>
+            <td class="nummeric">189+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">217+</td>
+            <td class="nummeric">233+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">238+</td>
+            <td class="nummeric">254+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">272+</td>
+            <td class="nummeric">288+</td>
             <td>: ??</td>
           </tr>
           <tr>
-            <td class="nummeric">312+</td>
+            <td class="nummeric">328+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">345+</td>
+            <td class="nummeric">361+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">395+</td>
+            <td class="nummeric">411+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">416+</td>
+            <td class="nummeric">432+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">458+</td>
+            <td class="nummeric">474+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">492+</td>
+            <td class="nummeric">508+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">577+</td>
+            <td class="nummeric">593+</td>
             <td>: ???</td>
           </tr>
           <tr>
-            <td class="nummeric">634+</td>
+            <td class="nummeric">650+</td>
             <td>: ???</td>
           </tr>
         </table>
@@ -245,6 +245,8 @@
             </li>
             <li id="byCategory"><a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byCategory.html">byCategory()</a>
                 — Get eqLogics objets by category</li>
+            <li id="byEqRealId"><a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byEqRealId.html">byEqRealId()</a>
+                — Get an EqLogic from his EqRealId No EqRealId usage founds</li>
             <li id="byLogicalId"><a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byLogicalId.html">byLogicalId()</a>
                 — Get all eqLogics filtered by logicalId (defined by plugin</li>
             <li id="byObjectId"><a title="NextDom\Managers\EqLogicManager" href="../classes/NextDom_Managers_EqLogicManager/byObjectId.html">byObjectId()</a>
@@ -338,8 +340,6 @@
                 — Get one object by his id</li>
             <li id="byId"><a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/byId.html">byId()</a>
                 — Get one object by his id</li>
-            <li id="getCount"><a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getCount.html">getCount()</a>
-                — Get count(*).</li>
           </ul>
         </div>
       </section>
