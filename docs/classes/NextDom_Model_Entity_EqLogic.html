@@ -71,14 +71,14 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/EqLogic.php.html#line78">Source</a>
+            <a href="../source/Model/Entity/EqLogic.php.html#line76">Source</a>
           </li>
         </ul>
       </nav>
       <section>
         <h1 id="introduction"><small>NextDom\Model\Entity\</small>EqLogic</h1>
         <h4>Eqlogic</h4>
-        <p>ORM\Table(name="eqLogic", uniqueConstraints={<br/>ORM\UniqueConstraint(name="unique", columns={"name", "object_id"})}, indexes={<br/>ORM\Index(name="eqTypeName", columns={"eqType_name"}),<br/>ORM\Index(name="name", columns={"name"}), @ORM\Index(name="logical_id", columns={"logicalId"}),<br/>ORM\Index(name="generic_type", columns={"generic_type"}),<br/>ORM\Index(name="logica_id_eqTypeName", columns={"logicalId", "eqType_name"}),<br/>ORM\Index(name="object_id", columns={"object_id"}),<br/>ORM\Index(name="timeout", columns={"timeout"}),<br/>ORM\Index(name="eqReal_id", columns={"eqReal_id"}),<br/>ORM\Index(name="tags", columns={"tags"})<br/>})<br/>ORM\Entity</p>
+        <p>ORM\Table(name="eqLogic", uniqueConstraints={<br/>ORM\UniqueConstraint(name="unique", columns={"name", "object_id"})}, indexes={<br/>ORM\Index(name="eqTypeName", columns={"eqType_name"}),<br/>ORM\Index(name="name", columns={"name"}), @ORM\Index(name="logical_id", columns={"logicalId"}),<br/>ORM\Index(name="generic_type", columns={"generic_type"}),<br/>ORM\Index(name="logica_id_eqTypeName", columns={"logicalId", "eqType_name"}),<br/>ORM\Index(name="object_id", columns={"object_id"}),<br/>ORM\Index(name="timeout", columns={"timeout"}),<br/>ORM\Index(name="tags", columns={"tags"})<br/>})<br/>ORM\Entity</p>
         <ul/>
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class EqLogic
@@ -102,7 +102,6 @@
                     </li><li>protected  <a href="#members">$category</a>;
                     </li><li>protected  <a href="#members">$comment</a>;
                     </li><li>protected  <a href="#members">$tags</a>;
-                    </li><li>protected  <a href="#members">$eqReal_id</a>;
                     </li><li>protected  <a href="#members">$object_id</a>;
                     </li><li>private array <a href="#members">$_cmds</a> =
                         ;
@@ -114,9 +113,6 @@
                     </li><li>public int <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getOrder.html">getOrder</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getComment.html">getComment</a>()
                     </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setComment.html">setComment</a>()
-                    </li><li>public int|null <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqReal_id.html">getEqReal_id</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setEqReal_id.html">setEqReal_id</a>()
-                    </li><li>public array|mixed|null <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqReal.html">getEqReal</a>()
                     </li><li>public mixed <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getCache.html">getCache</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setCache.html">setCache</a>()
                     </li><li>public string <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/batteryWidget.html">batteryWidget</a>()
@@ -253,15 +249,7 @@
             </tr>
           </thead>
           <tr>
-            <td class="nummeric">249+</td>
-            <td>: Unused</td>
-          </tr>
-          <tr>
-            <td class="nummeric">262+</td>
-            <td>: Unused</td>
-          </tr>
-          <tr>
-            <td class="nummeric">1503+</td>
+            <td class="nummeric">1458+</td>
             <td>: ???</td>
           </tr>
         </table>
@@ -343,9 +331,6 @@
             <li id="display"><strong>$display</strong>
                 —
                 string</li>
-            <li id="eqReal_id"><strong>$eqReal_id</strong>
-                —
-                integer</li>
             <li id="eqType_name"><strong>$eqType_name</strong>
                 —
                 string</li>
@@ -424,11 +409,6 @@
                 — Get debug state</li>
             <li id="getDisplay"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getDisplay.html">getDisplay()</a>
                 — Get display parameters</li>
-            <li id="getEqReal">
-              <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqReal.html">getEqReal()</a>
-            </li>
-            <li id="getEqReal_id"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqReal_id.html">getEqReal_id()</a>
-                — TODO: Unused</li>
             <li id="getEqType_name"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getEqType_name.html">getEqType_name()</a>
                 — Get eqLogic type name (linked plugin)</li>
             <li id="getGenericType"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/getGenericType.html">getGenericType()</a>
@@ -501,9 +481,6 @@
                 — Set debug state</li>
             <li id="setDisplay"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setDisplay.html">setDisplay()</a>
                 — Set a display parameters</li>
-            <li id="setEqReal_id">
-              <a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setEqReal_id.html">setEqReal_id()</a>
-            </li>
             <li id="setEqType_name"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setEqType_name.html">setEqType_name()</a>
                 — Set eqLogic type name (linked plugin)</li>
             <li id="setGenericType"><a title="NextDom\Model\Entity\EqLogic" href="../classes/NextDom_Model_Entity_EqLogic/setGenericType.html">setGenericType()</a>
