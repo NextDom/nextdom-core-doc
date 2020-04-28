@@ -68,7 +68,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Model/Entity/PlanHeader.php.html#line40">Source</a>
+            <a href="../source/Model/Entity/PlanHeader.php.html#line42">Source</a>
           </li>
         </ul>
       </nav>
@@ -80,17 +80,13 @@
         <h2 id="synopsis">Synopsis</h2>
         <div class="synopsis">class PlanHeader
                 extends <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a>
-            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::PLAN_HEADER;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// members</li><li>protected  <a href="#members">$image</a>;
-                    </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
+            {<br/><ul class="none"><li>// constants</li><li>const TABLE_NAME = NextDomObj::PLAN_HEADER;</li><li>const IMG_DIR_NAME = NextDomObj::PLAN;</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">BaseEntity</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited constants from <a title="NextDom\Model\Entity\Parents\BaseModel" href="../classes/NextDom_Model_Entity_Parents_BaseModel.html">BaseModel</a></li><li>const <a href="#TABLE_NAME">TABLE_NAME</a> = '';</li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>protected  <a href="#members">$id</a>;
                         </li></ul><ul class="none"><li>// Inherited members from <span title="NextDom\Model\Entity\Parents\BaseModel">BaseModel</span></li><li>protected <span title="NextDom\Model\Entity\Parents\bool">bool</span> <a href="#members">$_changed</a>;
                         </li></ul><ul class="none"><li>// methods</li><li>public string <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/report.html">report</a>()
                     </li><li>public PlanHeader <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/copy.html">copy</a>()
                     </li><li>public array <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/getPlan.html">getPlan</a>()
-                    </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/getImage.html">getImage</a>()
-                    </li><li>public $this <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/setImage.html">setImage</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/preSave.html">preSave</a>()
                     </li><li>public void <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/remove.html">remove</a>()
-                    </li><li>public string <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/displayImage.html">displayImage</a>()
                     </li><li>public array|null <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/getLinkData.html">getLinkData</a>()
                     </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\BaseEntity">BaseEntity</span></li><li>public int <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/getId.html">getId</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity/setId.html">setId</a>()
@@ -103,6 +99,12 @@
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\NameEntity">NameEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState</a>()
                         </li><li>public string <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/getName.html">getName</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/setName.html">setName</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\ImageEntity">ImageEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity/getImage.html">getImage</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity/setImage.html">setImage</a>()
+                        </li><li>public array <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity/toArray.html">toArray</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity/getImgLink.html">getImgLink</a>()
+                        </li><li>public string <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity/displayImage.html">displayImage</a>()
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\AccessCodeConfigurationEntity">AccessCodeConfigurationEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\AccessCodeConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_AccessCodeConfigurationEntity/updateChangeState.html">updateChangeState</a>()
                         </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\AccessCodeConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_AccessCodeConfigurationEntity/getConfiguration.html">getConfiguration</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\AccessCodeConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_AccessCodeConfigurationEntity/setConfiguration.html">setConfiguration</a>()
@@ -110,6 +112,9 @@
                         </li><li>public array|bool|mixed|null|string <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/getConfiguration.html">getConfiguration</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">setConfiguration</a>()
                         </li><li>public $this <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/setConfiguration.html">basicSetConfiguration</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Model\Entity\Parents\OrderEntity">OrderEntity</span></li><li>public abstract void <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/updateChangeState.html">updateChangeState</a>()
+                        </li><li>public int <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/getOrder.html">getOrder</a>()
+                        </li><li>public $this <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/setOrder.html">setOrder</a>()
                         </li></ul>
 
             }<br/></div>
@@ -127,7 +132,13 @@
               <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity.html">NextDom\Model\Entity\Parents\NameEntity</a>
             </li>
             <li>
+              <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity.html">NextDom\Model\Entity\Parents\ImageEntity</a>
+            </li>
+            <li>
               <a title="NextDom\Model\Entity\Parents\AccessCodeConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_AccessCodeConfigurationEntity.html">NextDom\Model\Entity\Parents\AccessCodeConfigurationEntity</a>
+            </li>
+            <li>
+              <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity.html">NextDom\Model\Entity\Parents\OrderEntity</a>
             </li>
           </ul>
         </div>
@@ -143,6 +154,10 @@
             <tr>
               <td id="TABLE_NAME">TABLE_NAME</td>
               <td>NextDomObj::PLAN_HEADER</td>
+            </tr>
+            <tr>
+              <td id="IMG_DIR_NAME">IMG_DIR_NAME</td>
+              <td>NextDomObj::PLAN</td>
             </tr>
             <tr>
               <td id="TABLE_NAME">TABLE_NAME</td>
@@ -176,6 +191,9 @@
             <li id="name"><strong>$name</strong>
                 —
                 string</li>
+            <li id="order"><strong>$order</strong>
+                —
+                integer</li>
           </ul>
         </div>
         <h2 id="methods">Methods</h2>
@@ -184,12 +202,6 @@
           <ul>
             <li id="copy">
               <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/copy.html">copy()</a>
-            </li>
-            <li id="displayImage">
-              <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/displayImage.html">displayImage()</a>
-            </li>
-            <li id="getImage">
-              <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/getImage.html">getImage()</a>
             </li>
             <li id="getLinkData">
               <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/getLinkData.html">getLinkData()</a>
@@ -205,9 +217,6 @@
             </li>
             <li id="report">
               <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/report.html">report()</a>
-            </li>
-            <li id="setImage">
-              <a title="NextDom\Model\Entity\PlanHeader" href="../classes/NextDom_Model_Entity_PlanHeader/setImage.html">setImage()</a>
             </li>
           </ul>
           <h3>Inherited from <a title="NextDom\Model\Entity\Parents\BaseEntity" href="../classes/NextDom_Model_Entity_Parents_BaseEntity.html">NextDom\Model\Entity\Parents\BaseEntity</a></h3>
@@ -250,6 +259,27 @@
               <a title="NextDom\Model\Entity\Parents\NameEntity" href="../traits/NextDom_Model_Entity_Parents_NameEntity/updateChangeState.html">updateChangeState()</a>
             </li>
           </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity.html">NextDom\Model\Entity\Parents\ImageEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="displayImage">
+              <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity/displayImage.html">displayImage()</a>
+            </li>
+            <li id="getImage">
+              <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity/getImage.html">getImage()</a>
+            </li>
+            <li id="getImgLink">
+              <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity/getImgLink.html">getImgLink()</a>
+            </li>
+            <li id="setImage">
+              <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity/setImage.html">setImage()</a>
+            </li>
+            <li id="toArray"><a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity/toArray.html">toArray()</a>
+                — Get data of the object in plain text array</li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\ImageEntity" href="../traits/NextDom_Model_Entity_Parents_ImageEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
           <h3>Inherited from <a title="NextDom\Model\Entity\Parents\AccessCodeConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_AccessCodeConfigurationEntity.html">NextDom\Model\Entity\Parents\AccessCodeConfigurationEntity</a></h3>
           <h4>public</h4>
           <ul>
@@ -277,6 +307,19 @@
             </li>
             <li id="updateChangeState">
               <a title="NextDom\Model\Entity\Parents\ConfigurationEntity" href="../traits/NextDom_Model_Entity_Parents_ConfigurationEntity/updateChangeState.html">updateChangeState()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity.html">NextDom\Model\Entity\Parents\OrderEntity</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getOrder">
+              <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/getOrder.html">getOrder()</a>
+            </li>
+            <li id="setOrder">
+              <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/setOrder.html">setOrder()</a>
+            </li>
+            <li id="updateChangeState">
+              <a title="NextDom\Model\Entity\Parents\OrderEntity" href="../traits/NextDom_Model_Entity_Parents_OrderEntity/updateChangeState.html">updateChangeState()</a>
             </li>
           </ul>
         </div>
