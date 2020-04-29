@@ -68,7 +68,7 @@
             <a href="#methods">Methods</a>
           </li>
           <li>
-            <a href="../source/Managers/CmdManager.php.html#line54">Source</a>
+            <a href="../source/Managers/CmdManager.php.html#line56">Source</a>
           </li>
         </ul>
       </nav>
@@ -87,6 +87,7 @@
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byEqLogicId.html">byEqLogicId</a>()
                     </li><li>public static array|mixed <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byLogicalId.html">byLogicalId</a>()
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byGenericType.html">byGenericType</a>()
+                    </li><li>public static void <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/searchDisplay.html">searchDisplay</a>()
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/searchConfiguration.html">searchConfiguration</a>()
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/searchConfigurationEqLogic.html">searchConfigurationEqLogic</a>()
                     </li><li>public static array|mixed <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/searchTemplate.html">searchTemplate</a>()
@@ -107,7 +108,6 @@
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/allSubType.html">allSubType</a>()
                     </li><li>public static array|mixed|null <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/allUnite.html">allUnite</a>()
                     </li><li>public static string <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/convertColor.html">convertColor</a>()
-                    </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/availableWidget.html">availableWidget</a>()
                     </li><li>public static void <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/returnState.html">returnState</a>()
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/deadCmd.html">deadCmd</a>()
                     </li><li>public static array <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/all.html">all</a>()
@@ -122,6 +122,7 @@
                         </li></ul><ul class="none"><li>// Inherited methods from <span title="NextDom\Managers\Parents\CommonManager">CommonManager</span></li><li>public static mixed <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/byId.html">byId</a>()
                         </li><li>public static mixed <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/byId.html">baseById</a>()
                         </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getAll.html">getAll</a>()
+                        </li><li>public static int <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getCount.html">getCount</a>()
                         </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getAllOrdered.html">getAllOrdered</a>()
                         </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getOneByClauses.html">getOneByClauses</a>()
                         </li><li>protected static mixed|null <a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getMultipleByClauses.html">getMultipleByClauses</a>()
@@ -198,8 +199,6 @@
                 — Get all used command types</li>
             <li id="allUnite"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/allUnite.html">allUnite()</a>
                 — Get all used unites</li>
-            <li id="availableWidget"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/availableWidget.html">availableWidget()</a>
-                — Check if widget is available</li>
             <li id="byEqLogicId"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byEqLogicId.html">byEqLogicId()</a>
                 — Get commands attached to eqLogic objects</li>
             <li id="byEqLogicIdAndGenericType"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/byEqLogicIdAndGenericType.html">byEqLogicIdAndGenericType()</a>
@@ -249,6 +248,9 @@
                 — Search in commands configuration</li>
             <li id="searchConfigurationEqLogic"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/searchConfigurationEqLogic.html">searchConfigurationEqLogic()</a>
                 — Search in commands configuration</li>
+            <li id="searchDisplay">
+              <a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/searchDisplay.html">searchDisplay()</a>
+            </li>
             <li id="searchTemplate"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/searchTemplate.html">searchTemplate()</a>
                 — Search by template</li>
             <li id="timelineDisplay"><a title="NextDom\Managers\CmdManager" href="../classes/NextDom_Managers_CmdManager/timelineDisplay.html">timelineDisplay()</a>
@@ -297,6 +299,8 @@
                 — Get one object by his id</li>
             <li id="byId"><a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/byId.html">byId()</a>
                 — Get one object by his id</li>
+            <li id="getCount"><a title="NextDom\Managers\Parents\CommonManager" href="../traits/NextDom_Managers_Parents_CommonManager/getCount.html">getCount()</a>
+                — Get count(*).</li>
           </ul>
         </div>
       </section>
